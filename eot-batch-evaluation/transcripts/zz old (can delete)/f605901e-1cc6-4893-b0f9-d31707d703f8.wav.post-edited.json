@@ -1,0 +1,54 @@
+{
+    "results": [
+        {
+            "timestamp": "00:00:01",
+            "role": "Assistant",
+            "content": "Brookside Cars. Phil speaking. Hi. Yeah. I'm just calling from a dental practice, and we want one of our passion one of our patients to get a taxi home."
+        },
+        {
+            "timestamp": "00:00:03",
+            "role": "Caller",
+            "content": "Hiya. I'm just calling from a dental practice, and we want one of our passion-- one of our patients to get a taxi home. I just wanted to inquire about how much it would be from--"
+        },
+        {
+            "timestamp": "00:00:12",
+            "role": "Assistant",
+            "content": "Unfortunately--"
+        },
+        {
+            "timestamp": "00:00:12",
+            "role": "Caller",
+            "content": "--Richmond to [...]--"
+        },
+        {
+            "timestamp": "00:00:13",
+            "role": "Assistant",
+            "content": "--I don't have anything available until gone free--"
+        },
+        {
+            "timestamp": "00:00:16",
+            "role": "Caller",
+            "content": "No availability."
+        },
+        {
+            "timestamp": "00:00:16",
+            "role": "Assistant",
+            "content": "--at the moment."
+        },
+        {
+            "timestamp": "00:00:17",
+            "role": "Caller",
+            "content": "Okay. Alright. Thank you."
+        },
+        {
+            "timestamp": "00:00:18",
+            "role": "Assistant",
+            "content": "Not at the moment. Sorry."
+        },
+        {
+            "timestamp": "00:00:19",
+            "role": "Caller",
+            "content": "Thank you."
+        }
+    ]
+}

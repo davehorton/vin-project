@@ -1,0 +1,174 @@
+{
+    "results": [
+        {
+            "Content": "Hello, Kenwood.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Hi. It's Lingwood Court.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Yep.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Can I have a cab, please? Um,",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "It's a wait-and-return going to North Finchley,",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Nationwide Bank.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Nationwide or Halifax?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Nationwide.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Right. Hold on. Let me show",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "I've got three there's three people.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Okay. I know. And you want this as soon as possible. Yeah?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Yes, please. Then it's a wait-and-return.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "I know. You",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Okay.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "just told that. One second.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "It's going to Nationwide",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "One second.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Oh boy.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Alright.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Make sure it goes in 12, 798 High Road.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Put that in and",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "round check.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Okay.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Yeah. Okay. Thank you.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Alright.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "How much, how much is that for you, please?",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "I'm just putting it on now. One second. I'll tell you. Charges. Okay.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Uh, it will be 16",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "plus any waiting time. Yeah?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Oh, okay. That's great. Thank you very",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Okay,",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "much.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "bye.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Alright. See ya. Cheers. Bye.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        }
+    ]
+}

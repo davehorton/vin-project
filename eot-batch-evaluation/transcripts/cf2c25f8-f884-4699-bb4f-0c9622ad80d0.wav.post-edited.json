@@ -1,0 +1,54 @@
+{
+    "results": [
+        {
+            "Content": "Good afternoon. Maryline. Diane speaking.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Hello. I'd like to order a taxi, please.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Where are going?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "44 Sussex Road.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "And what's the name?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Joe.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Yep. That's all done.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Alright. Thank you.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Thanks, bye.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Bye.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        }
+    ]
+}

@@ -1,0 +1,2137 @@
+{
+  "metadata": {
+    "transaction_key": "deprecated",
+    "request_id": "ed440ef8-1c47-418d-b7db-723ee344836f",
+    "sha256": "f9e452ab40f96f0cfed862ff35c7f38e7487a016064d34ffb27ed98a58102945",
+    "created": "2025-04-03T14:51:54.509Z",
+    "duration": 46.63994,
+    "channels": 1,
+    "models": [
+      "1abfe86b-e047-4eed-858a-35e5625b41ee"
+    ],
+    "model_info": {
+      "1abfe86b-e047-4eed-858a-35e5625b41ee": {
+        "name": "2-general-nova",
+        "version": "2024-01-06.5664",
+        "arch": "nova-2"
+      }
+    }
+  },
+  "results": {
+    "channels": [
+      {
+        "alternatives": [
+          {
+            "transcript": "Hi, Broncos. Thanks for calling CityCabs. To book a taxi for now, press 1. To prebook a taxi, press 2. For account booking great. If the pickup location is Newtown, Delhi 23 Henderson Row, E H 3. If the drop off location is Newtown Deli forty two Broton Street, E h one, press 1. Other Thanks. I have scheduled your booking. If you'd like to provide additional instructions for your driver, press 1. If you would like to schedule a return booking for later, press 2. Your driver will be on the way shortly to pick you up from Newtown, Delhi. Goodbye, and see you soon.",
+            "confidence": 0.9995585,
+            "words": [
+              {
+                "word": "hi",
+                "start": 0.88,
+                "end": 1.1999999,
+                "confidence": 0.9728521,
+                "speaker": 0,
+                "speaker_confidence": 0.9472575,
+                "punctuated_word": "Hi,"
+              },
+              {
+                "word": "broncos",
+                "start": 1.1999999,
+                "end": 1.6999999,
+                "confidence": 0.99235594,
+                "speaker": 0,
+                "speaker_confidence": 0.9472575,
+                "punctuated_word": "Broncos."
+              },
+              {
+                "word": "thanks",
+                "start": 2.1599998,
+                "end": 2.56,
+                "confidence": 0.99919456,
+                "speaker": 0,
+                "speaker_confidence": 0.9472575,
+                "punctuated_word": "Thanks"
+              },
+              {
+                "word": "for",
+                "start": 2.56,
+                "end": 2.8,
+                "confidence": 0.99996126,
+                "speaker": 0,
+                "speaker_confidence": 0.9472575,
+                "punctuated_word": "for"
+              },
+              {
+                "word": "calling",
+                "start": 2.8,
+                "end": 3.28,
+                "confidence": 0.9999119,
+                "speaker": 0,
+                "speaker_confidence": 0.9472575,
+                "punctuated_word": "calling"
+              },
+              {
+                "word": "citycabs",
+                "start": 3.28,
+                "end": 3.78,
+                "confidence": 0.91393435,
+                "speaker": 0,
+                "speaker_confidence": 0.9472575,
+                "punctuated_word": "CityCabs."
+              },
+              {
+                "word": "to",
+                "start": 4.3199997,
+                "end": 4.56,
+                "confidence": 0.99986756,
+                "speaker": 0,
+                "speaker_confidence": 0.9472575,
+                "punctuated_word": "To"
+              },
+              {
+                "word": "book",
+                "start": 4.56,
+                "end": 4.72,
+                "confidence": 0.9997023,
+                "speaker": 0,
+                "speaker_confidence": 0.9472575,
+                "punctuated_word": "book"
+              },
+              {
+                "word": "a",
+                "start": 4.72,
+                "end": 4.88,
+                "confidence": 0.99982125,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "a"
+              },
+              {
+                "word": "taxi",
+                "start": 4.88,
+                "end": 5.3599997,
+                "confidence": 0.99890745,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "taxi"
+              },
+              {
+                "word": "for",
+                "start": 5.3599997,
+                "end": 5.52,
+                "confidence": 0.99891925,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "for"
+              },
+              {
+                "word": "now",
+                "start": 5.52,
+                "end": 5.92,
+                "confidence": 0.9995155,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "now,"
+              },
+              {
+                "word": "press",
+                "start": 5.92,
+                "end": 6.24,
+                "confidence": 0.9999018,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "press"
+              },
+              {
+                "word": "1",
+                "start": 6.24,
+                "end": 6.74,
+                "confidence": 0.99965405,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "1."
+              },
+              {
+                "word": "to",
+                "start": 6.7999997,
+                "end": 6.96,
+                "confidence": 0.99993336,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "To"
+              },
+              {
+                "word": "prebook",
+                "start": 6.96,
+                "end": 7.44,
+                "confidence": 0.9372059,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "prebook"
+              },
+              {
+                "word": "a",
+                "start": 7.44,
+                "end": 7.52,
+                "confidence": 0.99938667,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "a"
+              },
+              {
+                "word": "taxi",
+                "start": 7.52,
+                "end": 8.02,
+                "confidence": 0.99964106,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "taxi,"
+              },
+              {
+                "word": "press",
+                "start": 8.24,
+                "end": 8.639999,
+                "confidence": 0.9999523,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "press"
+              },
+              {
+                "word": "2",
+                "start": 8.639999,
+                "end": 9.139999,
+                "confidence": 0.9997554,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "2."
+              },
+              {
+                "word": "for",
+                "start": 9.28,
+                "end": 9.5199995,
+                "confidence": 0.9875881,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "For"
+              },
+              {
+                "word": "account",
+                "start": 9.5199995,
+                "end": 9.84,
+                "confidence": 0.956198,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "account"
+              },
+              {
+                "word": "booking",
+                "start": 9.84,
+                "end": 10.34,
+                "confidence": 0.99732614,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "booking"
+              },
+              {
+                "word": "great",
+                "start": 10.96,
+                "end": 11.46,
+                "confidence": 0.9924334,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "great."
+              },
+              {
+                "word": "if",
+                "start": 11.679999,
+                "end": 11.92,
+                "confidence": 0.971307,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "If"
+              },
+              {
+                "word": "the",
+                "start": 11.92,
+                "end": 12,
+                "confidence": 0.99936694,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "the"
+              },
+              {
+                "word": "pickup",
+                "start": 12,
+                "end": 12.4,
+                "confidence": 0.97383296,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "pickup"
+              },
+              {
+                "word": "location",
+                "start": 12.4,
+                "end": 12.9,
+                "confidence": 0.9993315,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "location"
+              },
+              {
+                "word": "is",
+                "start": 12.96,
+                "end": 13.46,
+                "confidence": 0.9997415,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "is"
+              },
+              {
+                "word": "newtown",
+                "start": 13.679999,
+                "end": 14.16,
+                "confidence": 0.78571165,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "Newtown,"
+              },
+              {
+                "word": "delhi",
+                "start": 14.16,
+                "end": 14.66,
+                "confidence": 0.66455144,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "Delhi"
+              },
+              {
+                "word": "23",
+                "start": 14.905,
+                "end": 15.385,
+                "confidence": 0.99695885,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "23"
+              },
+              {
+                "word": "henderson",
+                "start": 15.385,
+                "end": 15.885,
+                "confidence": 0.997439,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "Henderson"
+              },
+              {
+                "word": "row",
+                "start": 15.945,
+                "end": 16.445,
+                "confidence": 0.68378866,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "Row,"
+              },
+              {
+                "word": "e",
+                "start": 16.505,
+                "end": 16.585,
+                "confidence": 0.28976965,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "E"
+              },
+              {
+                "word": "h",
+                "start": 16.585,
+                "end": 16.904999,
+                "confidence": 0.63708746,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "H"
+              },
+              {
+                "word": "3",
+                "start": 16.904999,
+                "end": 17.404999,
+                "confidence": 0.79234374,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "3."
+              },
+              {
+                "word": "if",
+                "start": 19.225,
+                "end": 19.465,
+                "confidence": 0.99561924,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "If"
+              },
+              {
+                "word": "the",
+                "start": 19.465,
+                "end": 19.625,
+                "confidence": 0.9997985,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "the"
+              },
+              {
+                "word": "drop",
+                "start": 19.625,
+                "end": 19.865,
+                "confidence": 0.9998641,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "drop"
+              },
+              {
+                "word": "off",
+                "start": 19.865,
+                "end": 20.105,
+                "confidence": 0.9889232,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "off"
+              },
+              {
+                "word": "location",
+                "start": 20.105,
+                "end": 20.505,
+                "confidence": 0.9996896,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "location"
+              },
+              {
+                "word": "is",
+                "start": 20.505,
+                "end": 21.005,
+                "confidence": 0.9997539,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "is"
+              },
+              {
+                "word": "newtown",
+                "start": 21.225,
+                "end": 21.725,
+                "confidence": 0.9990458,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "Newtown"
+              },
+              {
+                "word": "deli",
+                "start": 21.785,
+                "end": 22.285,
+                "confidence": 0.9942078,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "Deli"
+              },
+              {
+                "word": "forty",
+                "start": 22.505,
+                "end": 22.825,
+                "confidence": 0.85200167,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "forty"
+              },
+              {
+                "word": "two",
+                "start": 22.825,
+                "end": 23.064999,
+                "confidence": 0.9996294,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "two"
+              },
+              {
+                "word": "broton",
+                "start": 23.064999,
+                "end": 23.465,
+                "confidence": 0.9226054,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "Broton"
+              },
+              {
+                "word": "street",
+                "start": 23.465,
+                "end": 23.965,
+                "confidence": 0.9746015,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "Street,"
+              },
+              {
+                "word": "e",
+                "start": 24.105,
+                "end": 24.185,
+                "confidence": 0.96630126,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "E"
+              },
+              {
+                "word": "h",
+                "start": 24.185,
+                "end": 24.265,
+                "confidence": 0.99933773,
+                "speaker": 0,
+                "speaker_confidence": 0.87871325,
+                "punctuated_word": "h"
+              },
+              {
+                "word": "one",
+                "start": 24.265,
+                "end": 24.765,
+                "confidence": 0.9970846,
+                "speaker": 0,
+                "speaker_confidence": 0.87871325,
+                "punctuated_word": "one,"
+              },
+              {
+                "word": "press",
+                "start": 25.224998,
+                "end": 25.625,
+                "confidence": 0.9997477,
+                "speaker": 0,
+                "speaker_confidence": 0.87871325,
+                "punctuated_word": "press"
+              },
+              {
+                "word": "1",
+                "start": 25.625,
+                "end": 26.105,
+                "confidence": 0.99730325,
+                "speaker": 0,
+                "speaker_confidence": 0.87871325,
+                "punctuated_word": "1."
+              },
+              {
+                "word": "other",
+                "start": 26.105,
+                "end": 26.425,
+                "confidence": 0.95482564,
+                "speaker": 0,
+                "speaker_confidence": 0.87871325,
+                "punctuated_word": "Other"
+              },
+              {
+                "word": "thanks",
+                "start": 29.064999,
+                "end": 29.564999,
+                "confidence": 0.8887907,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "Thanks."
+              },
+              {
+                "word": "i",
+                "start": 30.06,
+                "end": 30.22,
+                "confidence": 0.9997502,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "have",
+                "start": 30.22,
+                "end": 30.46,
+                "confidence": 0.9999629,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "have"
+              },
+              {
+                "word": "scheduled",
+                "start": 30.46,
+                "end": 30.86,
+                "confidence": 0.9996501,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "scheduled"
+              },
+              {
+                "word": "your",
+                "start": 30.86,
+                "end": 31.1,
+                "confidence": 0.9997886,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "your"
+              },
+              {
+                "word": "booking",
+                "start": 31.1,
+                "end": 31.6,
+                "confidence": 0.99981457,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "booking."
+              },
+              {
+                "word": "if",
+                "start": 31.66,
+                "end": 31.9,
+                "confidence": 0.9994999,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "If"
+              },
+              {
+                "word": "you'd",
+                "start": 31.9,
+                "end": 32.14,
+                "confidence": 0.9274071,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "you'd"
+              },
+              {
+                "word": "like",
+                "start": 32.14,
+                "end": 32.38,
+                "confidence": 0.9999063,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "like"
+              },
+              {
+                "word": "to",
+                "start": 32.38,
+                "end": 32.46,
+                "confidence": 0.9995585,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "to"
+              },
+              {
+                "word": "provide",
+                "start": 32.46,
+                "end": 32.94,
+                "confidence": 0.9999863,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "provide"
+              },
+              {
+                "word": "additional",
+                "start": 32.94,
+                "end": 33.42,
+                "confidence": 0.9993892,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "additional"
+              },
+              {
+                "word": "instructions",
+                "start": 33.42,
+                "end": 33.9,
+                "confidence": 0.9998,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "instructions"
+              },
+              {
+                "word": "for",
+                "start": 33.9,
+                "end": 34.059998,
+                "confidence": 0.9999155,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "for"
+              },
+              {
+                "word": "your",
+                "start": 34.059998,
+                "end": 34.3,
+                "confidence": 0.99966466,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "your"
+              },
+              {
+                "word": "driver",
+                "start": 34.3,
+                "end": 34.8,
+                "confidence": 0.9997851,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "driver,"
+              },
+              {
+                "word": "press",
+                "start": 34.94,
+                "end": 35.26,
+                "confidence": 0.99990284,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "press"
+              },
+              {
+                "word": "1",
+                "start": 35.26,
+                "end": 35.739998,
+                "confidence": 0.99978644,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "1."
+              },
+              {
+                "word": "if",
+                "start": 35.739998,
+                "end": 35.98,
+                "confidence": 0.99972624,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "If"
+              },
+              {
+                "word": "you",
+                "start": 35.98,
+                "end": 36.059998,
+                "confidence": 0.9999075,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "you"
+              },
+              {
+                "word": "would",
+                "start": 36.059998,
+                "end": 36.3,
+                "confidence": 0.99992716,
+                "speaker": 0,
+                "speaker_confidence": 0.95748013,
+                "punctuated_word": "would"
+              },
+              {
+                "word": "like",
+                "start": 36.3,
+                "end": 36.54,
+                "confidence": 0.99986804,
+                "speaker": 0,
+                "speaker_confidence": 0.95748013,
+                "punctuated_word": "like"
+              },
+              {
+                "word": "to",
+                "start": 36.54,
+                "end": 36.62,
+                "confidence": 0.99951196,
+                "speaker": 0,
+                "speaker_confidence": 0.95748013,
+                "punctuated_word": "to"
+              },
+              {
+                "word": "schedule",
+                "start": 36.62,
+                "end": 37.02,
+                "confidence": 0.99943334,
+                "speaker": 0,
+                "speaker_confidence": 0.95748013,
+                "punctuated_word": "schedule"
+              },
+              {
+                "word": "a",
+                "start": 37.02,
+                "end": 37.18,
+                "confidence": 0.9965945,
+                "speaker": 0,
+                "speaker_confidence": 0.95748013,
+                "punctuated_word": "a"
+              },
+              {
+                "word": "return",
+                "start": 37.18,
+                "end": 37.5,
+                "confidence": 0.9998764,
+                "speaker": 0,
+                "speaker_confidence": 0.95748013,
+                "punctuated_word": "return"
+              },
+              {
+                "word": "booking",
+                "start": 37.5,
+                "end": 37.82,
+                "confidence": 0.9997538,
+                "speaker": 0,
+                "speaker_confidence": 0.95748013,
+                "punctuated_word": "booking"
+              },
+              {
+                "word": "for",
+                "start": 37.82,
+                "end": 38.059998,
+                "confidence": 0.9995833,
+                "speaker": 0,
+                "speaker_confidence": 0.95748013,
+                "punctuated_word": "for"
+              },
+              {
+                "word": "later",
+                "start": 38.059998,
+                "end": 38.559998,
+                "confidence": 0.9998904,
+                "speaker": 0,
+                "speaker_confidence": 0.95748013,
+                "punctuated_word": "later,"
+              },
+              {
+                "word": "press",
+                "start": 38.62,
+                "end": 38.94,
+                "confidence": 0.9998779,
+                "speaker": 0,
+                "speaker_confidence": 0.95748013,
+                "punctuated_word": "press"
+              },
+              {
+                "word": "2",
+                "start": 38.94,
+                "end": 39.44,
+                "confidence": 0.9999149,
+                "speaker": 0,
+                "speaker_confidence": 0.95748013,
+                "punctuated_word": "2."
+              },
+              {
+                "word": "your",
+                "start": 39.5,
+                "end": 39.739998,
+                "confidence": 0.9995271,
+                "speaker": 0,
+                "speaker_confidence": 0.95748013,
+                "punctuated_word": "Your"
+              },
+              {
+                "word": "driver",
+                "start": 39.739998,
+                "end": 40.14,
+                "confidence": 0.9999366,
+                "speaker": 0,
+                "speaker_confidence": 0.95748013,
+                "punctuated_word": "driver"
+              },
+              {
+                "word": "will",
+                "start": 40.14,
+                "end": 40.379997,
+                "confidence": 0.9999013,
+                "speaker": 0,
+                "speaker_confidence": 0.95748013,
+                "punctuated_word": "will"
+              },
+              {
+                "word": "be",
+                "start": 40.379997,
+                "end": 40.54,
+                "confidence": 0.99995553,
+                "speaker": 0,
+                "speaker_confidence": 0.95748013,
+                "punctuated_word": "be"
+              },
+              {
+                "word": "on",
+                "start": 40.54,
+                "end": 40.62,
+                "confidence": 0.9999417,
+                "speaker": 0,
+                "speaker_confidence": 0.95748013,
+                "punctuated_word": "on"
+              },
+              {
+                "word": "the",
+                "start": 40.62,
+                "end": 40.78,
+                "confidence": 0.9997857,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "the"
+              },
+              {
+                "word": "way",
+                "start": 40.78,
+                "end": 40.94,
+                "confidence": 0.9999076,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "way"
+              },
+              {
+                "word": "shortly",
+                "start": 40.94,
+                "end": 41.34,
+                "confidence": 0.9983565,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "shortly"
+              },
+              {
+                "word": "to",
+                "start": 41.34,
+                "end": 41.5,
+                "confidence": 0.99983597,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "to"
+              },
+              {
+                "word": "pick",
+                "start": 41.5,
+                "end": 41.66,
+                "confidence": 0.99974185,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "pick"
+              },
+              {
+                "word": "you",
+                "start": 41.66,
+                "end": 41.82,
+                "confidence": 0.9999099,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "you"
+              },
+              {
+                "word": "up",
+                "start": 41.82,
+                "end": 41.98,
+                "confidence": 0.99994123,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "up"
+              },
+              {
+                "word": "from",
+                "start": 41.98,
+                "end": 42.48,
+                "confidence": 0.99989104,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "from"
+              },
+              {
+                "word": "newtown",
+                "start": 42.7,
+                "end": 43.18,
+                "confidence": 0.8381088,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "Newtown,"
+              },
+              {
+                "word": "delhi",
+                "start": 43.18,
+                "end": 43.68,
+                "confidence": 0.98614144,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "Delhi."
+              },
+              {
+                "word": "goodbye",
+                "start": 43.684875,
+                "end": 44.004875,
+                "confidence": 0.7984719,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "Goodbye,"
+              },
+              {
+                "word": "and",
+                "start": 44.004875,
+                "end": 44.504875,
+                "confidence": 0.9980697,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "and"
+              },
+              {
+                "word": "see",
+                "start": 44.964874,
+                "end": 45.124874,
+                "confidence": 0.9981641,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "see"
+              },
+              {
+                "word": "you",
+                "start": 45.124874,
+                "end": 45.284874,
+                "confidence": 0.99663675,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "you"
+              },
+              {
+                "word": "soon",
+                "start": 45.284874,
+                "end": 45.784874,
+                "confidence": 0.9781034,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "soon."
+              }
+            ],
+            "paragraphs": {
+              "transcript": "\nSpeaker 0: Hi, Broncos. Thanks for calling CityCabs. To book a taxi for now, press 1. To prebook a taxi, press 2. For account booking great.\n\nIf the pickup location is Newtown, Delhi 23 Henderson Row, E H 3. If the drop off location is Newtown Deli forty two Broton Street, E h one, press 1. Other Thanks. I have scheduled your booking. If you'd like to provide additional instructions for your driver, press 1.\n\nIf you would like to schedule a return booking for later, press 2. Your driver will be on the way shortly to pick you up from Newtown, Delhi. Goodbye, and see you soon.",
+              "paragraphs": [
+                {
+                  "sentences": [
+                    {
+                      "text": "Hi, Broncos.",
+                      "start": 0.88,
+                      "end": 1.6999999
+                    },
+                    {
+                      "text": "Thanks for calling CityCabs.",
+                      "start": 2.1599998,
+                      "end": 3.78
+                    },
+                    {
+                      "text": "To book a taxi for now, press 1.",
+                      "start": 4.3199997,
+                      "end": 6.74
+                    },
+                    {
+                      "text": "To prebook a taxi, press 2.",
+                      "start": 6.7999997,
+                      "end": 9.139999
+                    },
+                    {
+                      "text": "For account booking great.",
+                      "start": 9.28,
+                      "end": 11.46
+                    }
+                  ],
+                  "speaker": 0,
+                  "num_words": 24,
+                  "start": 0.88,
+                  "end": 11.46
+                },
+                {
+                  "sentences": [
+                    {
+                      "text": "If the pickup location is Newtown, Delhi 23 Henderson Row, E H 3.",
+                      "start": 11.679999,
+                      "end": 17.404999
+                    },
+                    {
+                      "text": "If the drop off location is Newtown Deli forty two Broton Street, E h one, press 1.",
+                      "start": 19.225,
+                      "end": 26.105
+                    },
+                    {
+                      "text": "Other Thanks.",
+                      "start": 26.105,
+                      "end": 29.564999
+                    },
+                    {
+                      "text": "I have scheduled your booking.",
+                      "start": 30.06,
+                      "end": 31.6
+                    },
+                    {
+                      "text": "If you'd like to provide additional instructions for your driver, press 1.",
+                      "start": 31.66,
+                      "end": 35.739998
+                    }
+                  ],
+                  "speaker": 0,
+                  "num_words": 49,
+                  "start": 11.679999,
+                  "end": 35.739998
+                },
+                {
+                  "sentences": [
+                    {
+                      "text": "If you would like to schedule a return booking for later, press 2.",
+                      "start": 35.739998,
+                      "end": 39.44
+                    },
+                    {
+                      "text": "Your driver will be on the way shortly to pick you up from Newtown, Delhi.",
+                      "start": 39.5,
+                      "end": 43.68
+                    },
+                    {
+                      "text": "Goodbye, and see you soon.",
+                      "start": 43.684875,
+                      "end": 45.784874
+                    }
+                  ],
+                  "speaker": 0,
+                  "num_words": 33,
+                  "start": 35.739998,
+                  "end": 45.784874
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "utterances": [
+      {
+        "start": 0.88,
+        "end": 1.6999999,
+        "confidence": 0.982604,
+        "channel": 0,
+        "transcript": "Hi, Broncos.",
+        "words": [
+          {
+            "word": "hi",
+            "start": 0.88,
+            "end": 1.1999999,
+            "confidence": 0.9728521,
+            "speaker": 0,
+            "speaker_confidence": 0.9472575,
+            "punctuated_word": "Hi,"
+          },
+          {
+            "word": "broncos",
+            "start": 1.1999999,
+            "end": 1.6999999,
+            "confidence": 0.99235594,
+            "speaker": 0,
+            "speaker_confidence": 0.9472575,
+            "punctuated_word": "Broncos."
+          }
+        ],
+        "speaker": 0,
+        "id": "660483af-7f91-4e5f-99d1-3aea1853244e"
+      },
+      {
+        "start": 2.1599998,
+        "end": 3.78,
+        "confidence": 0.9782505,
+        "channel": 0,
+        "transcript": "Thanks for calling CityCabs.",
+        "words": [
+          {
+            "word": "thanks",
+            "start": 2.1599998,
+            "end": 2.56,
+            "confidence": 0.99919456,
+            "speaker": 0,
+            "speaker_confidence": 0.9472575,
+            "punctuated_word": "Thanks"
+          },
+          {
+            "word": "for",
+            "start": 2.56,
+            "end": 2.8,
+            "confidence": 0.99996126,
+            "speaker": 0,
+            "speaker_confidence": 0.9472575,
+            "punctuated_word": "for"
+          },
+          {
+            "word": "calling",
+            "start": 2.8,
+            "end": 3.28,
+            "confidence": 0.9999119,
+            "speaker": 0,
+            "speaker_confidence": 0.9472575,
+            "punctuated_word": "calling"
+          },
+          {
+            "word": "citycabs",
+            "start": 3.28,
+            "end": 3.78,
+            "confidence": 0.91393435,
+            "speaker": 0,
+            "speaker_confidence": 0.9472575,
+            "punctuated_word": "CityCabs."
+          }
+        ],
+        "speaker": 0,
+        "id": "36297517-72a7-4b7c-9c51-2d452e1a5ffd"
+      },
+      {
+        "start": 4.3199997,
+        "end": 10.34,
+        "confidence": 0.9925457,
+        "channel": 0,
+        "transcript": "To book a taxi for now, press 1. To prebook a taxi, press 2. For account booking",
+        "words": [
+          {
+            "word": "to",
+            "start": 4.3199997,
+            "end": 4.56,
+            "confidence": 0.99986756,
+            "speaker": 0,
+            "speaker_confidence": 0.9472575,
+            "punctuated_word": "To"
+          },
+          {
+            "word": "book",
+            "start": 4.56,
+            "end": 4.72,
+            "confidence": 0.9997023,
+            "speaker": 0,
+            "speaker_confidence": 0.9472575,
+            "punctuated_word": "book"
+          },
+          {
+            "word": "a",
+            "start": 4.72,
+            "end": 4.88,
+            "confidence": 0.99982125,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "a"
+          },
+          {
+            "word": "taxi",
+            "start": 4.88,
+            "end": 5.3599997,
+            "confidence": 0.99890745,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "taxi"
+          },
+          {
+            "word": "for",
+            "start": 5.3599997,
+            "end": 5.52,
+            "confidence": 0.99891925,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "for"
+          },
+          {
+            "word": "now",
+            "start": 5.52,
+            "end": 5.92,
+            "confidence": 0.9995155,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "now,"
+          },
+          {
+            "word": "press",
+            "start": 5.92,
+            "end": 6.24,
+            "confidence": 0.9999018,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "press"
+          },
+          {
+            "word": "1",
+            "start": 6.24,
+            "end": 6.74,
+            "confidence": 0.99965405,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "1."
+          },
+          {
+            "word": "to",
+            "start": 6.7999997,
+            "end": 6.96,
+            "confidence": 0.99993336,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "To"
+          },
+          {
+            "word": "prebook",
+            "start": 6.96,
+            "end": 7.44,
+            "confidence": 0.9372059,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "prebook"
+          },
+          {
+            "word": "a",
+            "start": 7.44,
+            "end": 7.52,
+            "confidence": 0.99938667,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "a"
+          },
+          {
+            "word": "taxi",
+            "start": 7.52,
+            "end": 8.02,
+            "confidence": 0.99964106,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "taxi,"
+          },
+          {
+            "word": "press",
+            "start": 8.24,
+            "end": 8.639999,
+            "confidence": 0.9999523,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "press"
+          },
+          {
+            "word": "2",
+            "start": 8.639999,
+            "end": 9.139999,
+            "confidence": 0.9997554,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "2."
+          },
+          {
+            "word": "for",
+            "start": 9.28,
+            "end": 9.5199995,
+            "confidence": 0.9875881,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "For"
+          },
+          {
+            "word": "account",
+            "start": 9.5199995,
+            "end": 9.84,
+            "confidence": 0.956198,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "account"
+          },
+          {
+            "word": "booking",
+            "start": 9.84,
+            "end": 10.34,
+            "confidence": 0.99732614,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "booking"
+          }
+        ],
+        "speaker": 0,
+        "id": "9242ca5c-b9a4-478b-b731-1dd2c03f430b"
+      },
+      {
+        "start": 10.96,
+        "end": 17.404999,
+        "confidence": 0.84169036,
+        "channel": 0,
+        "transcript": "great. If the pickup location is Newtown, Delhi 23 Henderson Row, E H 3.",
+        "words": [
+          {
+            "word": "great",
+            "start": 10.96,
+            "end": 11.46,
+            "confidence": 0.9924334,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "great."
+          },
+          {
+            "word": "if",
+            "start": 11.679999,
+            "end": 11.92,
+            "confidence": 0.971307,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "If"
+          },
+          {
+            "word": "the",
+            "start": 11.92,
+            "end": 12,
+            "confidence": 0.99936694,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "the"
+          },
+          {
+            "word": "pickup",
+            "start": 12,
+            "end": 12.4,
+            "confidence": 0.97383296,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "pickup"
+          },
+          {
+            "word": "location",
+            "start": 12.4,
+            "end": 12.9,
+            "confidence": 0.9993315,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "location"
+          },
+          {
+            "word": "is",
+            "start": 12.96,
+            "end": 13.46,
+            "confidence": 0.9997415,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "is"
+          },
+          {
+            "word": "newtown",
+            "start": 13.679999,
+            "end": 14.16,
+            "confidence": 0.78571165,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "Newtown,"
+          },
+          {
+            "word": "delhi",
+            "start": 14.16,
+            "end": 14.66,
+            "confidence": 0.66455144,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "Delhi"
+          },
+          {
+            "word": "23",
+            "start": 14.905,
+            "end": 15.385,
+            "confidence": 0.99695885,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "23"
+          },
+          {
+            "word": "henderson",
+            "start": 15.385,
+            "end": 15.885,
+            "confidence": 0.997439,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "Henderson"
+          },
+          {
+            "word": "row",
+            "start": 15.945,
+            "end": 16.445,
+            "confidence": 0.68378866,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "Row,"
+          },
+          {
+            "word": "e",
+            "start": 16.505,
+            "end": 16.585,
+            "confidence": 0.28976965,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "E"
+          },
+          {
+            "word": "h",
+            "start": 16.585,
+            "end": 16.904999,
+            "confidence": 0.63708746,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "H"
+          },
+          {
+            "word": "3",
+            "start": 16.904999,
+            "end": 17.404999,
+            "confidence": 0.79234374,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "3."
+          }
+        ],
+        "speaker": 0,
+        "id": "81e99409-11b2-43d6-a38d-79285ac1b639"
+      },
+      {
+        "start": 19.225,
+        "end": 24.765,
+        "confidence": 0.9792309,
+        "channel": 0,
+        "transcript": "If the drop off location is Newtown Deli forty two Broton Street, E h one,",
+        "words": [
+          {
+            "word": "if",
+            "start": 19.225,
+            "end": 19.465,
+            "confidence": 0.99561924,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "If"
+          },
+          {
+            "word": "the",
+            "start": 19.465,
+            "end": 19.625,
+            "confidence": 0.9997985,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "the"
+          },
+          {
+            "word": "drop",
+            "start": 19.625,
+            "end": 19.865,
+            "confidence": 0.9998641,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "drop"
+          },
+          {
+            "word": "off",
+            "start": 19.865,
+            "end": 20.105,
+            "confidence": 0.9889232,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "off"
+          },
+          {
+            "word": "location",
+            "start": 20.105,
+            "end": 20.505,
+            "confidence": 0.9996896,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "location"
+          },
+          {
+            "word": "is",
+            "start": 20.505,
+            "end": 21.005,
+            "confidence": 0.9997539,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "is"
+          },
+          {
+            "word": "newtown",
+            "start": 21.225,
+            "end": 21.725,
+            "confidence": 0.9990458,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "Newtown"
+          },
+          {
+            "word": "deli",
+            "start": 21.785,
+            "end": 22.285,
+            "confidence": 0.9942078,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "Deli"
+          },
+          {
+            "word": "forty",
+            "start": 22.505,
+            "end": 22.825,
+            "confidence": 0.85200167,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "forty"
+          },
+          {
+            "word": "two",
+            "start": 22.825,
+            "end": 23.064999,
+            "confidence": 0.9996294,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "two"
+          },
+          {
+            "word": "broton",
+            "start": 23.064999,
+            "end": 23.465,
+            "confidence": 0.9226054,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "Broton"
+          },
+          {
+            "word": "street",
+            "start": 23.465,
+            "end": 23.965,
+            "confidence": 0.9746015,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "Street,"
+          },
+          {
+            "word": "e",
+            "start": 24.105,
+            "end": 24.185,
+            "confidence": 0.96630126,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "E"
+          },
+          {
+            "word": "h",
+            "start": 24.185,
+            "end": 24.265,
+            "confidence": 0.99933773,
+            "speaker": 0,
+            "speaker_confidence": 0.87871325,
+            "punctuated_word": "h"
+          },
+          {
+            "word": "one",
+            "start": 24.265,
+            "end": 24.765,
+            "confidence": 0.9970846,
+            "speaker": 0,
+            "speaker_confidence": 0.87871325,
+            "punctuated_word": "one,"
+          }
+        ],
+        "speaker": 0,
+        "id": "5ac2d9bd-1e1a-41b8-8aea-10da18ecbb28"
+      },
+      {
+        "start": 25.224998,
+        "end": 26.425,
+        "confidence": 0.9839589,
+        "channel": 0,
+        "transcript": "press 1. Other",
+        "words": [
+          {
+            "word": "press",
+            "start": 25.224998,
+            "end": 25.625,
+            "confidence": 0.9997477,
+            "speaker": 0,
+            "speaker_confidence": 0.87871325,
+            "punctuated_word": "press"
+          },
+          {
+            "word": "1",
+            "start": 25.625,
+            "end": 26.105,
+            "confidence": 0.99730325,
+            "speaker": 0,
+            "speaker_confidence": 0.87871325,
+            "punctuated_word": "1."
+          },
+          {
+            "word": "other",
+            "start": 26.105,
+            "end": 26.425,
+            "confidence": 0.95482564,
+            "speaker": 0,
+            "speaker_confidence": 0.87871325,
+            "punctuated_word": "Other"
+          }
+        ],
+        "speaker": 0,
+        "id": "9ceac170-6263-4cb3-8d4a-1ed07d969365"
+      },
+      {
+        "start": 29.064999,
+        "end": 29.564999,
+        "confidence": 0.8887907,
+        "channel": 0,
+        "transcript": "Thanks.",
+        "words": [
+          {
+            "word": "thanks",
+            "start": 29.064999,
+            "end": 29.564999,
+            "confidence": 0.8887907,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "Thanks."
+          }
+        ],
+        "speaker": 0,
+        "id": "b730abc1-f084-499a-8423-aec7fbfc8cf4"
+      },
+      {
+        "start": 30.06,
+        "end": 44.504875,
+        "confidence": 0.99010336,
+        "channel": 0,
+        "transcript": "I have scheduled your booking. If you'd like to provide additional instructions for your driver, press 1. If you would like to schedule a return booking for later, press 2. Your driver will be on the way shortly to pick you up from Newtown, Delhi. Goodbye, and",
+        "words": [
+          {
+            "word": "i",
+            "start": 30.06,
+            "end": 30.22,
+            "confidence": 0.9997502,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "I"
+          },
+          {
+            "word": "have",
+            "start": 30.22,
+            "end": 30.46,
+            "confidence": 0.9999629,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "have"
+          },
+          {
+            "word": "scheduled",
+            "start": 30.46,
+            "end": 30.86,
+            "confidence": 0.9996501,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "scheduled"
+          },
+          {
+            "word": "your",
+            "start": 30.86,
+            "end": 31.1,
+            "confidence": 0.9997886,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "your"
+          },
+          {
+            "word": "booking",
+            "start": 31.1,
+            "end": 31.6,
+            "confidence": 0.99981457,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "booking."
+          },
+          {
+            "word": "if",
+            "start": 31.66,
+            "end": 31.9,
+            "confidence": 0.9994999,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "If"
+          },
+          {
+            "word": "you'd",
+            "start": 31.9,
+            "end": 32.14,
+            "confidence": 0.9274071,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "you'd"
+          },
+          {
+            "word": "like",
+            "start": 32.14,
+            "end": 32.38,
+            "confidence": 0.9999063,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "like"
+          },
+          {
+            "word": "to",
+            "start": 32.38,
+            "end": 32.46,
+            "confidence": 0.9995585,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "to"
+          },
+          {
+            "word": "provide",
+            "start": 32.46,
+            "end": 32.94,
+            "confidence": 0.9999863,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "provide"
+          },
+          {
+            "word": "additional",
+            "start": 32.94,
+            "end": 33.42,
+            "confidence": 0.9993892,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "additional"
+          },
+          {
+            "word": "instructions",
+            "start": 33.42,
+            "end": 33.9,
+            "confidence": 0.9998,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "instructions"
+          },
+          {
+            "word": "for",
+            "start": 33.9,
+            "end": 34.059998,
+            "confidence": 0.9999155,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "for"
+          },
+          {
+            "word": "your",
+            "start": 34.059998,
+            "end": 34.3,
+            "confidence": 0.99966466,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "your"
+          },
+          {
+            "word": "driver",
+            "start": 34.3,
+            "end": 34.8,
+            "confidence": 0.9997851,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "driver,"
+          },
+          {
+            "word": "press",
+            "start": 34.94,
+            "end": 35.26,
+            "confidence": 0.99990284,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "press"
+          },
+          {
+            "word": "1",
+            "start": 35.26,
+            "end": 35.739998,
+            "confidence": 0.99978644,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "1."
+          },
+          {
+            "word": "if",
+            "start": 35.739998,
+            "end": 35.98,
+            "confidence": 0.99972624,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "If"
+          },
+          {
+            "word": "you",
+            "start": 35.98,
+            "end": 36.059998,
+            "confidence": 0.9999075,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "you"
+          },
+          {
+            "word": "would",
+            "start": 36.059998,
+            "end": 36.3,
+            "confidence": 0.99992716,
+            "speaker": 0,
+            "speaker_confidence": 0.95748013,
+            "punctuated_word": "would"
+          },
+          {
+            "word": "like",
+            "start": 36.3,
+            "end": 36.54,
+            "confidence": 0.99986804,
+            "speaker": 0,
+            "speaker_confidence": 0.95748013,
+            "punctuated_word": "like"
+          },
+          {
+            "word": "to",
+            "start": 36.54,
+            "end": 36.62,
+            "confidence": 0.99951196,
+            "speaker": 0,
+            "speaker_confidence": 0.95748013,
+            "punctuated_word": "to"
+          },
+          {
+            "word": "schedule",
+            "start": 36.62,
+            "end": 37.02,
+            "confidence": 0.99943334,
+            "speaker": 0,
+            "speaker_confidence": 0.95748013,
+            "punctuated_word": "schedule"
+          },
+          {
+            "word": "a",
+            "start": 37.02,
+            "end": 37.18,
+            "confidence": 0.9965945,
+            "speaker": 0,
+            "speaker_confidence": 0.95748013,
+            "punctuated_word": "a"
+          },
+          {
+            "word": "return",
+            "start": 37.18,
+            "end": 37.5,
+            "confidence": 0.9998764,
+            "speaker": 0,
+            "speaker_confidence": 0.95748013,
+            "punctuated_word": "return"
+          },
+          {
+            "word": "booking",
+            "start": 37.5,
+            "end": 37.82,
+            "confidence": 0.9997538,
+            "speaker": 0,
+            "speaker_confidence": 0.95748013,
+            "punctuated_word": "booking"
+          },
+          {
+            "word": "for",
+            "start": 37.82,
+            "end": 38.059998,
+            "confidence": 0.9995833,
+            "speaker": 0,
+            "speaker_confidence": 0.95748013,
+            "punctuated_word": "for"
+          },
+          {
+            "word": "later",
+            "start": 38.059998,
+            "end": 38.559998,
+            "confidence": 0.9998904,
+            "speaker": 0,
+            "speaker_confidence": 0.95748013,
+            "punctuated_word": "later,"
+          },
+          {
+            "word": "press",
+            "start": 38.62,
+            "end": 38.94,
+            "confidence": 0.9998779,
+            "speaker": 0,
+            "speaker_confidence": 0.95748013,
+            "punctuated_word": "press"
+          },
+          {
+            "word": "2",
+            "start": 38.94,
+            "end": 39.44,
+            "confidence": 0.9999149,
+            "speaker": 0,
+            "speaker_confidence": 0.95748013,
+            "punctuated_word": "2."
+          },
+          {
+            "word": "your",
+            "start": 39.5,
+            "end": 39.739998,
+            "confidence": 0.9995271,
+            "speaker": 0,
+            "speaker_confidence": 0.95748013,
+            "punctuated_word": "Your"
+          },
+          {
+            "word": "driver",
+            "start": 39.739998,
+            "end": 40.14,
+            "confidence": 0.9999366,
+            "speaker": 0,
+            "speaker_confidence": 0.95748013,
+            "punctuated_word": "driver"
+          },
+          {
+            "word": "will",
+            "start": 40.14,
+            "end": 40.379997,
+            "confidence": 0.9999013,
+            "speaker": 0,
+            "speaker_confidence": 0.95748013,
+            "punctuated_word": "will"
+          },
+          {
+            "word": "be",
+            "start": 40.379997,
+            "end": 40.54,
+            "confidence": 0.99995553,
+            "speaker": 0,
+            "speaker_confidence": 0.95748013,
+            "punctuated_word": "be"
+          },
+          {
+            "word": "on",
+            "start": 40.54,
+            "end": 40.62,
+            "confidence": 0.9999417,
+            "speaker": 0,
+            "speaker_confidence": 0.95748013,
+            "punctuated_word": "on"
+          },
+          {
+            "word": "the",
+            "start": 40.62,
+            "end": 40.78,
+            "confidence": 0.9997857,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "the"
+          },
+          {
+            "word": "way",
+            "start": 40.78,
+            "end": 40.94,
+            "confidence": 0.9999076,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "way"
+          },
+          {
+            "word": "shortly",
+            "start": 40.94,
+            "end": 41.34,
+            "confidence": 0.9983565,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "shortly"
+          },
+          {
+            "word": "to",
+            "start": 41.34,
+            "end": 41.5,
+            "confidence": 0.99983597,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "to"
+          },
+          {
+            "word": "pick",
+            "start": 41.5,
+            "end": 41.66,
+            "confidence": 0.99974185,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "pick"
+          },
+          {
+            "word": "you",
+            "start": 41.66,
+            "end": 41.82,
+            "confidence": 0.9999099,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "you"
+          },
+          {
+            "word": "up",
+            "start": 41.82,
+            "end": 41.98,
+            "confidence": 0.99994123,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "up"
+          },
+          {
+            "word": "from",
+            "start": 41.98,
+            "end": 42.48,
+            "confidence": 0.99989104,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "from"
+          },
+          {
+            "word": "newtown",
+            "start": 42.7,
+            "end": 43.18,
+            "confidence": 0.8381088,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "Newtown,"
+          },
+          {
+            "word": "delhi",
+            "start": 43.18,
+            "end": 43.68,
+            "confidence": 0.98614144,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "Delhi."
+          },
+          {
+            "word": "goodbye",
+            "start": 43.684875,
+            "end": 44.004875,
+            "confidence": 0.7984719,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "Goodbye,"
+          },
+          {
+            "word": "and",
+            "start": 44.004875,
+            "end": 44.504875,
+            "confidence": 0.9980697,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "and"
+          }
+        ],
+        "speaker": 0,
+        "id": "547aaeb8-c361-48b0-b256-aae9924e051e"
+      },
+      {
+        "start": 44.964874,
+        "end": 45.784874,
+        "confidence": 0.99096805,
+        "channel": 0,
+        "transcript": "see you soon.",
+        "words": [
+          {
+            "word": "see",
+            "start": 44.964874,
+            "end": 45.124874,
+            "confidence": 0.9981641,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "see"
+          },
+          {
+            "word": "you",
+            "start": 45.124874,
+            "end": 45.284874,
+            "confidence": 0.99663675,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "you"
+          },
+          {
+            "word": "soon",
+            "start": 45.284874,
+            "end": 45.784874,
+            "confidence": 0.9781034,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "soon."
+          }
+        ],
+        "speaker": 0,
+        "id": "af496dac-2d25-4a93-aa45-aaeaea3f7ea7"
+      }
+    ]
+  }
+}

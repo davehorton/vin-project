@@ -1,0 +1,54 @@
+{
+    "results": [
+        {
+            "Content": "Hi, Jimmy. Thanks for calling CityCabs.",
+            "EndOfTurn": true,
+            "Role": "Virtual Assistant"
+        },
+        {
+            "Content": "To book a taxi for now, press 1. To prebook a taxi, press 2. For account bookings, press 3. For a specialized vehicle taxi,",
+            "EndOfTurn": false,
+            "Role": "Virtual Assistant"
+        },
+        {
+            "Content": "press 4. To h--",
+            "EndOfTurn": false,
+            "Role": "Virtual Assistant"
+        },
+        {
+            "Content": "Great. Please say the pickup location and area for the taxi. For example, you could say \"10 George Street\" or \"Balmoral Hotel.\"",
+            "EndOfTurn": true,
+            "Role": "Virtual Assistant"
+        },
+        {
+            "Content": "Peril Dental Clinic.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "The ne--",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "If the pickup location is Duttingston Park South, Edinburgh, press 1.",
+            "EndOfTurn": true,
+            "Role": "Virtual Assistant"
+        },
+        {
+            "Content": "If those options were not what you were expecting, please say the full pickup location including property number,",
+            "EndOfTurn": false,
+            "Role": "Virtual Assistant"
+        },
+        {
+            "Content": "street name,",
+            "EndOfTurn": false,
+            "Role": "Virtual Assistant"
+        },
+        {
+            "Content": "and area.",
+            "EndOfTurn": true,
+            "Role": "Virtual Assistant"
+        }
+    ]
+}

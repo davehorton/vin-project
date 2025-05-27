@@ -1,0 +1,59 @@
+{
+    "results": [
+        {
+            "timestamp": "00:00:10",
+            "role": "Assistant",
+            "content": "Hello. Go Green."
+        },
+        {
+            "timestamp": "00:00:12",
+            "role": "Caller",
+            "content": "Hiya. Good morning. I am just calling as I've booked taxi on the app, but I see that it still says allocating driver. I'm just wanting to check if everything was alright."
+        },
+        {
+            "timestamp": "00:00:22",
+            "role": "Assistant",
+            "content": "Let me just have a look. I can see a driver has received it. Sorry. Our system takes a little bit of time just to upgrade."
+        },
+        {
+            "timestamp": "00:00:35",
+            "role": "Caller",
+            "content": "No problem."
+        },
+        {
+            "timestamp": "00:00:37",
+            "role": "Assistant",
+            "content": "Ah, okay. Let's just have a look. Unfortunately, it looks like that driver didn't take it. So let's go and see what's happening. Sorry. The system's now reallocating somebody. Alright. Can I give you a callback in just one second just to let the system sort itself out?"
+        },
+        {
+            "timestamp": "00:01:07",
+            "role": "Caller",
+            "content": "Yeah. Of course. Thank you."
+        },
+        {
+            "timestamp": "00:01:08",
+            "role": "Assistant",
+            "content": "And then I can give you a proper ETA."
+        },
+        {
+            "timestamp": "00:01:11",
+            "role": "Caller",
+            "content": "That would be perfect. Thank you so much."
+        },
+        {
+            "timestamp": "00:01:13",
+            "role": "Assistant",
+            "content": "Alright. Thank you. Bye now."
+        },
+        {
+            "timestamp": "00:01:14",
+            "role": "Caller",
+            "content": "Okay. Bye."
+        },
+        {
+            "timestamp": "00:01:15",
+            "role": "Assistant",
+            "content": "Bye."
+        }
+    ]
+}

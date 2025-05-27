@@ -1,0 +1,44 @@
+{
+    "results": [
+        {
+            "Content": "Hello 711.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Hello. Can have a taxi from 174 Northwell Road, please?",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Uh, 174.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Yeah. Where to, please?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Um, Asda in Sibland, please.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Ten minutes. Thank you.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Thank, thank you. Bye.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Bye.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        }
+    ]
+}

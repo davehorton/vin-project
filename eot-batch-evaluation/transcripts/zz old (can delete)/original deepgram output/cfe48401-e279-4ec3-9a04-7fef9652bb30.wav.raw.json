@@ -1,0 +1,316 @@
+{
+  "metadata": {
+    "transaction_key": "deprecated",
+    "request_id": "7ec0046c-23dc-4f83-9079-c79cc1c0966b",
+    "sha256": "4df9c1d7686a0e6eab13a9e4201d3b31ca14042c9c04d9a47320a2e73c183f92",
+    "created": "2025-04-03T14:56:43.120Z",
+    "duration": 7.9999375,
+    "channels": 1,
+    "models": [
+      "1abfe86b-e047-4eed-858a-35e5625b41ee"
+    ],
+    "model_info": {
+      "1abfe86b-e047-4eed-858a-35e5625b41ee": {
+        "name": "2-general-nova",
+        "version": "2024-01-06.5664",
+        "arch": "nova-2"
+      }
+    }
+  },
+  "results": {
+    "channels": [
+      {
+        "alternatives": [
+          {
+            "transcript": "Hello? Hi. Yeah. I'm also I can't see you. I'm also",
+            "confidence": 0.9926015,
+            "words": [
+              {
+                "word": "hello",
+                "start": 0.24,
+                "end": 0.74,
+                "confidence": 0.9926015,
+                "speaker": 0,
+                "speaker_confidence": 0.51707816,
+                "punctuated_word": "Hello?"
+              },
+              {
+                "word": "hi",
+                "start": 1.68,
+                "end": 2.1799998,
+                "confidence": 0.9955256,
+                "speaker": 0,
+                "speaker_confidence": 0.4150176,
+                "punctuated_word": "Hi."
+              },
+              {
+                "word": "yeah",
+                "start": 2.72,
+                "end": 3.1999998,
+                "confidence": 0.7370317,
+                "speaker": 0,
+                "speaker_confidence": 0.5751666,
+                "punctuated_word": "Yeah."
+              },
+              {
+                "word": "i'm",
+                "start": 3.1999998,
+                "end": 3.36,
+                "confidence": 0.9123002,
+                "speaker": 0,
+                "speaker_confidence": 0.5751666,
+                "punctuated_word": "I'm"
+              },
+              {
+                "word": "also",
+                "start": 3.36,
+                "end": 3.6799998,
+                "confidence": 0.7602671,
+                "speaker": 0,
+                "speaker_confidence": 0.5751666,
+                "punctuated_word": "also"
+              },
+              {
+                "word": "i",
+                "start": 4.64,
+                "end": 4.88,
+                "confidence": 0.98949385,
+                "speaker": 0,
+                "speaker_confidence": 0.5751666,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "can't",
+                "start": 4.88,
+                "end": 5.2,
+                "confidence": 0.9992221,
+                "speaker": 0,
+                "speaker_confidence": 0.6088966,
+                "punctuated_word": "can't"
+              },
+              {
+                "word": "see",
+                "start": 5.2,
+                "end": 5.44,
+                "confidence": 0.5881936,
+                "speaker": 0,
+                "speaker_confidence": 0.6088966,
+                "punctuated_word": "see"
+              },
+              {
+                "word": "you",
+                "start": 5.44,
+                "end": 5.68,
+                "confidence": 0.9962987,
+                "speaker": 0,
+                "speaker_confidence": 0.6088966,
+                "punctuated_word": "you."
+              },
+              {
+                "word": "i'm",
+                "start": 5.68,
+                "end": 6,
+                "confidence": 0.9966595,
+                "speaker": 0,
+                "speaker_confidence": 0.6088966,
+                "punctuated_word": "I'm"
+              },
+              {
+                "word": "also",
+                "start": 6,
+                "end": 6.5,
+                "confidence": 0.9967353,
+                "speaker": 0,
+                "speaker_confidence": 0.6088966,
+                "punctuated_word": "also"
+              }
+            ],
+            "paragraphs": {
+              "transcript": "\nSpeaker 0: Hello? Hi. Yeah. I'm also I can't see you. I'm also",
+              "paragraphs": [
+                {
+                  "sentences": [
+                    {
+                      "text": "Hello?",
+                      "start": 0.24,
+                      "end": 0.74
+                    },
+                    {
+                      "text": "Hi.",
+                      "start": 1.68,
+                      "end": 2.1799998
+                    },
+                    {
+                      "text": "Yeah.",
+                      "start": 2.72,
+                      "end": 3.1999998
+                    },
+                    {
+                      "text": "I'm also I can't see you.",
+                      "start": 3.1999998,
+                      "end": 5.68
+                    },
+                    {
+                      "text": "I'm also",
+                      "start": 5.68,
+                      "end": 6.5
+                    }
+                  ],
+                  "speaker": 0,
+                  "num_words": 11,
+                  "start": 0.24,
+                  "end": 6.5
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "utterances": [
+      {
+        "start": 0.24,
+        "end": 0.74,
+        "confidence": 0.9926015,
+        "channel": 0,
+        "transcript": "Hello?",
+        "words": [
+          {
+            "word": "hello",
+            "start": 0.24,
+            "end": 0.74,
+            "confidence": 0.9926015,
+            "speaker": 0,
+            "speaker_confidence": 0.51707816,
+            "punctuated_word": "Hello?"
+          }
+        ],
+        "speaker": 0,
+        "id": "d8b0cff7-ed65-402d-83fb-4071a5a516a3"
+      },
+      {
+        "start": 1.68,
+        "end": 2.1799998,
+        "confidence": 0.9955256,
+        "channel": 0,
+        "transcript": "Hi.",
+        "words": [
+          {
+            "word": "hi",
+            "start": 1.68,
+            "end": 2.1799998,
+            "confidence": 0.9955256,
+            "speaker": 0,
+            "speaker_confidence": 0.4150176,
+            "punctuated_word": "Hi."
+          }
+        ],
+        "speaker": 0,
+        "id": "5ce955da-ddb7-40dc-a6c3-247433141693"
+      },
+      {
+        "start": 2.72,
+        "end": 3.6799998,
+        "confidence": 0.8031997,
+        "channel": 0,
+        "transcript": "Yeah. I'm also",
+        "words": [
+          {
+            "word": "yeah",
+            "start": 2.72,
+            "end": 3.1999998,
+            "confidence": 0.7370317,
+            "speaker": 0,
+            "speaker_confidence": 0.5751666,
+            "punctuated_word": "Yeah."
+          },
+          {
+            "word": "i'm",
+            "start": 3.1999998,
+            "end": 3.36,
+            "confidence": 0.9123002,
+            "speaker": 0,
+            "speaker_confidence": 0.5751666,
+            "punctuated_word": "I'm"
+          },
+          {
+            "word": "also",
+            "start": 3.36,
+            "end": 3.6799998,
+            "confidence": 0.7602671,
+            "speaker": 0,
+            "speaker_confidence": 0.5751666,
+            "punctuated_word": "also"
+          }
+        ],
+        "speaker": 0,
+        "id": "717da3f8-1557-4992-9fb3-ea1aea1a9d86"
+      },
+      {
+        "start": 4.64,
+        "end": 6.5,
+        "confidence": 0.9277672,
+        "channel": 0,
+        "transcript": "I can't see you. I'm also",
+        "words": [
+          {
+            "word": "i",
+            "start": 4.64,
+            "end": 4.88,
+            "confidence": 0.98949385,
+            "speaker": 0,
+            "speaker_confidence": 0.5751666,
+            "punctuated_word": "I"
+          },
+          {
+            "word": "can't",
+            "start": 4.88,
+            "end": 5.2,
+            "confidence": 0.9992221,
+            "speaker": 0,
+            "speaker_confidence": 0.6088966,
+            "punctuated_word": "can't"
+          },
+          {
+            "word": "see",
+            "start": 5.2,
+            "end": 5.44,
+            "confidence": 0.5881936,
+            "speaker": 0,
+            "speaker_confidence": 0.6088966,
+            "punctuated_word": "see"
+          },
+          {
+            "word": "you",
+            "start": 5.44,
+            "end": 5.68,
+            "confidence": 0.9962987,
+            "speaker": 0,
+            "speaker_confidence": 0.6088966,
+            "punctuated_word": "you."
+          },
+          {
+            "word": "i'm",
+            "start": 5.68,
+            "end": 6,
+            "confidence": 0.9966595,
+            "speaker": 0,
+            "speaker_confidence": 0.6088966,
+            "punctuated_word": "I'm"
+          },
+          {
+            "word": "also",
+            "start": 6,
+            "end": 6.5,
+            "confidence": 0.9967353,
+            "speaker": 0,
+            "speaker_confidence": 0.6088966,
+            "punctuated_word": "also"
+          }
+        ],
+        "speaker": 0,
+        "id": "ebd009d3-8121-4ce7-adbd-b2a2d8abbb45"
+      }
+    ]
+  }
+}

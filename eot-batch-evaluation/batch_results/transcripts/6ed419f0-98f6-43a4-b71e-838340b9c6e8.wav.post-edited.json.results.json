@@ -1,0 +1,275 @@
+{
+  "file_path": "transcripts/6ed419f0-98f6-43a4-b71e-838340b9c6e8.wav.post-edited.json",
+  "file_name": "6ed419f0-98f6-43a4-b71e-838340b9c6e8.wav.post-edited.json",
+  "utterance_analysis": [
+    {
+      "index": 0,
+      "content": "Welcome to Cary Worldwide Chauffeured Services.",
+      "role": "Virtual Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.0009066547499969602,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 1,
+      "content": "To help us direct your call, please choose one of the following opti--",
+      "role": "Virtual Assistant",
+      "ground_truth": 0,
+      "predicted_probability": 0.003546026535332203,
+      "predicted_label": 0,
+      "is_correct": true
+    },
+    {
+      "index": 2,
+      "content": "Hey.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.006314238999038935,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 3,
+      "content": "Hello?",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.019769370555877686,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 4,
+      "content": "[...].",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.003999261651188135,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 5,
+      "content": "[...]. Sorry I missed your call.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.006964579690247774,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 6,
+      "content": "I was in the shower.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.007537957280874252,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 7,
+      "content": " One second. Let me see.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.006363070569932461,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 8,
+      "content": "One sec.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.005709084216505289,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 9,
+      "content": "And maybe, Shanta, he's not here right now. He'll call you back later.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.038471564650535583,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 10,
+      "content": "Okay. No problem. Thank",
+      "role": "Caller",
+      "ground_truth": 0,
+      "predicted_probability": 0.2877061665058136,
+      "predicted_label": 0,
+      "is_correct": true
+    },
+    {
+      "index": 11,
+      "content": "Okay.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.008606592193245888,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 12,
+      "content": "you.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.007549545262008905,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 13,
+      "content": "You're welcome. Bye.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.04848898574709892,
+      "predicted_label": 0,
+      "is_correct": false
+    }
+  ],
+  "f1_scores": {
+    "0.1": 0.0,
+    "0.2": 0.0,
+    "0.3": 0.0,
+    "0.4": 0.0,
+    "0.5": 0.0,
+    "0.6": 0.0,
+    "0.7": 0.0,
+    "0.8": 0.0,
+    "0.9": 0.0
+  },
+  "optimal_threshold": 0.5,
+  "roc": {
+    "fpr": [
+      0.0,
+      0.5,
+      0.5,
+      1.0,
+      1.0
+    ],
+    "tpr": [
+      0.0,
+      0.0,
+      0.9166666666666666,
+      0.9166666666666666,
+      1.0
+    ],
+    "thresholds": [
+      Infinity,
+      0.2877061665058136,
+      0.003999261651188135,
+      0.003546026535332203,
+      0.0009066547499969602
+    ],
+    "auc": 0.4583333333333333
+  },
+  "pr": {
+    "precision": [
+      0.8571428571428571,
+      0.8461538461538461,
+      0.9166666666666666,
+      0.9090909090909091,
+      0.9,
+      0.8888888888888888,
+      0.875,
+      0.8571428571428571,
+      0.8333333333333334,
+      0.8,
+      0.75,
+      0.6666666666666666,
+      0.5,
+      0.0,
+      1.0
+    ],
+    "recall": [
+      1.0,
+      0.9166666666666666,
+      0.9166666666666666,
+      0.8333333333333334,
+      0.75,
+      0.6666666666666666,
+      0.5833333333333334,
+      0.5,
+      0.4166666666666667,
+      0.3333333333333333,
+      0.25,
+      0.16666666666666666,
+      0.08333333333333333,
+      0.0,
+      0.0
+    ],
+    "thresholds": [
+      0.0009066547499969602,
+      0.003546026535332203,
+      0.003999261651188135,
+      0.005709084216505289,
+      0.006314238999038935,
+      0.006363070569932461,
+      0.006964579690247774,
+      0.007537957280874252,
+      0.007549545262008905,
+      0.008606592193245888,
+      0.019769370555877686,
+      0.038471564650535583,
+      0.04848898574709892,
+      0.2877061665058136
+    ]
+  },
+  "confusion_matrix": [
+    [
+      2,
+      0
+    ],
+    [
+      12,
+      0
+    ]
+  ],
+  "metrics": {
+    "accuracy": 0.14285714285714285,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "total_utterances": 14,
+    "eot_ratio": 0.8571428571428571
+  },
+  "latency": {
+    "mean": 0.3746251549039568,
+    "median": 0.39362990856170654,
+    "min": 0.1044924259185791,
+    "max": 0.6280958652496338,
+    "p95": 0.6185013890266419
+  },
+  "role_analysis": {
+    "Virtual Assistant": {
+      "count": 2,
+      "accuracy": 0.5,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "eot_ratio": 0.5
+    },
+    "Assistant": {
+      "count": 7,
+      "accuracy": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "eot_ratio": 1.0
+    },
+    "Caller": {
+      "count": 5,
+      "accuracy": 0.2,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "eot_ratio": 0.8
+    }
+  },
+  "error_summary": {
+    "false_positives": 0,
+    "false_negatives": 12
+  }
+}

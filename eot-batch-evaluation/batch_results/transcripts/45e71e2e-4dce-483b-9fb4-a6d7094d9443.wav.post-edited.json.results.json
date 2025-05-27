@@ -1,0 +1,114 @@
+{
+  "file_path": "transcripts/45e71e2e-4dce-483b-9fb4-a6d7094d9443.wav.post-edited.json",
+  "file_name": "45e71e2e-4dce-483b-9fb4-a6d7094d9443.wav.post-edited.json",
+  "utterance_analysis": [
+    {
+      "index": 0,
+      "content": "Hello, boss?",
+      "role": "Caller 1",
+      "ground_truth": 1,
+      "predicted_probability": 0.001011093845590949,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 1,
+      "content": "Zach, go to North Middlesex, bro. Pick From Middlesex.",
+      "role": "Caller 2",
+      "ground_truth": 1,
+      "predicted_probability": 0.011339555494487286,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 2,
+      "content": "No problem, brother.",
+      "role": "Caller 1",
+      "ground_truth": 1,
+      "predicted_probability": 0.030572988092899323,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 3,
+      "content": "Bye.",
+      "role": "Caller 2",
+      "ground_truth": 1,
+      "predicted_probability": 0.014351706951856613,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 4,
+      "content": "Alright.",
+      "role": "Caller 1",
+      "ground_truth": 1,
+      "predicted_probability": 0.012538183480501175,
+      "predicted_label": 0,
+      "is_correct": false
+    }
+  ],
+  "f1_scores": {
+    "0.1": 0.0,
+    "0.2": 0.0,
+    "0.3": 0.0,
+    "0.4": 0.0,
+    "0.5": 0.0,
+    "0.6": 0.0,
+    "0.7": 0.0,
+    "0.8": 0.0,
+    "0.9": 0.0
+  },
+  "optimal_threshold": 0.5,
+  "roc": {
+    "auc": 0.5
+  },
+  "pr": {},
+  "confusion_matrix": [
+    [
+      0,
+      0
+    ],
+    [
+      5,
+      0
+    ]
+  ],
+  "metrics": {
+    "accuracy": 0.0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "total_utterances": 5,
+    "eot_ratio": 1.0
+  },
+  "latency": {
+    "mean": 0.21471281051635743,
+    "median": 0.2586820125579834,
+    "min": 0.0859522819519043,
+    "max": 0.2673053741455078,
+    "p95": 0.2657330513000488
+  },
+  "role_analysis": {
+    "Caller 2": {
+      "count": 2,
+      "accuracy": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "eot_ratio": 1.0
+    },
+    "Caller 1": {
+      "count": 3,
+      "accuracy": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "eot_ratio": 1.0
+    }
+  },
+  "error_summary": {
+    "false_positives": 0,
+    "false_negatives": 5
+  }
+}

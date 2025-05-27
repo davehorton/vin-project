@@ -1,0 +1,209 @@
+{
+    "results": [
+        {
+            "Content": "G.M. Cars.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Hello?",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Hello, sir. Hi.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "I, is it, there's a, a taxi service?",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Sorry?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "I mean, is it, we can call you to, to get a taxi?",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Yeah. Yeah. It's a taxi service in Guildford.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Okay. Is there any WhatsApp number that we can call?",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "This is the number. This is the number. The number you call now, this is the number for taxi. Yeah?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Okay. Yeah. I, I, I want to check. Do, do we deposit first or, after finish the trip, we pay the, the, the charge.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Sorry?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "I mean, should we pay first? Or",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "If it is local, you can pay to the driver. Yeah?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "To the driver. I see. I see.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Yeah. Okay. Yeah.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Uh, can we check how much is it cost roughly?",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Where from?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "From . . . from Sainsbury to, uh, St. Peter.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Where in Sainsbury? Which Sainsbury? The Burpham one?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Pardon?",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Which Sainsbury? Which Sainsbury?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Oh, the, the one you see you for. Burpham. Burpham.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Burpham. Okay. And where you are going to?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Pardon?",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Where you are going to?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "To St. Peter. Secondary school. St. Peter Catholic School.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "St. Peter Catholic School. Where is that? One second. And this is also Burpham. Okay. That's 12 pound.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "12 pound. Right?",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Yeah. Yeah.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Is this, school one is same price or different price?",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "This is the same price. Okay. Regular price.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Pardon?",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Same",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Same price.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "price. Same price. Yeah.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Okay. Okay. Alright. We confirm later. Thank you.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Huh?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "We will confirm later and call you back.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Okay. Okay. Okay. Okay.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Thank you. Bye bye.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Thank you. Bye bye.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        }
+    ]
+}

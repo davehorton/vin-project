@@ -1,0 +1,514 @@
+{
+    "results": [
+        {
+            "Content": "Welcome to Falcon Taxis Twenty F--",
+            "EndOfTurn": false,
+            "Role": "Virtual Assistant"
+        },
+        {
+            "Content": "Falcon Taxis.",
+            "EndOfTurn": true,
+            "Role": "Dispatch 1"
+        },
+        {
+            "Content": "Hi",
+            "EndOfTurn": false,
+            "Role": "Driver"
+        },
+        {
+            "Content": "Yeah.",
+            "EndOfTurn": true,
+            "Role": "Dispatch 1"
+        },
+        {
+            "Content": "Uh, the customer, he already with online, uh, so I mean by the card, bank card,",
+            "EndOfTurn": false,
+            "Role": "Driver"
+        },
+        {
+            "Content": "Okay.",
+            "EndOfTurn": true,
+            "Role": "Dispatch 1"
+        },
+        {
+            "Content": "but the transaction is got to getting through because of no signal. Can you see history he's got paid or not?",
+            "EndOfTurn": true,
+            "Role": "Driver"
+        },
+        {
+            "Content": "Mm, just,",
+            "EndOfTurn": false,
+            "Role": "Dispatch 1"
+        },
+        {
+            "Content": "He paid already because I, I seen that he paid and the job coming back again.",
+            "EndOfTurn": true,
+            "Role": "Driver"
+        },
+        {
+            "Content": "Just a moment.",
+            "EndOfTurn": true,
+            "Role": "Dispatch 1"
+        },
+        {
+            "Content": "I'm just checking it. Yeah? Just a moment,",
+            "EndOfTurn": false,
+            "Role": "Dispatch 1"
+        },
+        {
+            "Content": "Yeah.",
+            "EndOfTurn": true,
+            "Role": "Driver"
+        },
+        {
+            "Content": "please.",
+            "EndOfTurn": true,
+            "Role": "Dispatch 1"
+        },
+        {
+            "Content": "Hello?",
+            "EndOfTurn": true,
+            "Role": "Dispatch 1"
+        },
+        {
+            "Content": "Yeah.",
+            "EndOfTurn": true,
+            "Role": "Driver"
+        },
+        {
+            "Content": "Yeah. Do you got your personal card reader?",
+            "EndOfTurn": true,
+            "Role": "Dispatch 1"
+        },
+        {
+            "Content": "Yes.",
+            "EndOfTurn": true,
+            "Role": "Driver"
+        },
+        {
+            "Content": "Okay.",
+            "EndOfTurn": true,
+            "Role": "Dispatch 1"
+        },
+        {
+            "Content": "Just give me a moment.",
+            "EndOfTurn": true,
+            "Role": "Dispatch 1"
+        },
+        {
+            "Content": "Just a quick moment.",
+            "EndOfTurn": true,
+            "Role": "Dispatch 1"
+        },
+        {
+            "Content": "One second.",
+            "EndOfTurn": true,
+            "Role": "Dispatch 1"
+        },
+        {
+            "Content": "If you're heading to or from the airport, rest assured, we've got everything covered for a seamless journey. With our advanced flight tracker, we automatically stay updated on any changes to your flight schedule. So whether you land early or a bit later than expected,",
+            "EndOfTurn": false,
+            "Role": "Virtual Assistant"
+        },
+        {
+            "Content": "Falcon Taxis 24/7 will be there waiting for you. Think taxi. Think Falcon.",
+            "EndOfTurn": true,
+            "Role": "Virtual Assistant"
+        },
+        {
+            "Content": "0-1-2-9-6-2-4-7-2-4-7.",
+            "EndOfTurn": true,
+            "Role": "Virtual Assistant"
+        },
+        {
+            "Content": "From a luxury business saloon to 16 seat people carriers,",
+            "EndOfTurn": false,
+            "Role": "Virtual Assistant"
+        },
+        {
+            "Content": "we've got you covered. Need wheelchair accessible options? We have e class and s class Mercedes available for you. Think taxi. Think Falcon.",
+            "EndOfTurn": true,
+            "Role": "Virtual Assistant"
+        },
+        {
+            "Content": "0-1-2-9-6-2-4-7-2-4-7.",
+            "EndOfTurn": true,
+            "Role": "Virtual Assistant"
+        },
+        {
+            "Content": "Did you know that you can book your next ride with us in just a few taps? Download our app on Google Play or the App Store and book directly anytime.",
+            "EndOfTurn": true,
+            "Role": "Virtual Assistant"
+        },
+        {
+            "Content": "You can also book via WhatsApp to save time and skip the wait for an operator. And right now, you can enjoy a 10% discount on all WhatsApp bookings.",
+            "EndOfTurn": true,
+            "Role": "Virtual Assistant"
+        },
+        {
+            "Content": "If you're heading to or from the airport,",
+            "EndOfTurn": false,
+            "Role": "Virtual Assistant"
+        },
+        {
+            "Content": "rest assured we've got everything covered for a seamless journey.",
+            "EndOfTurn": true,
+            "Role": "Virtual Assistant"
+        },
+        {
+            "Content": "Hello.",
+            "EndOfTurn": true,
+            "Role": "Dispatch 1"
+        },
+        {
+            "Content": "Yeah, hello?",
+            "EndOfTurn": true,
+            "Role": "Driver"
+        },
+        {
+            "Content": "Yeah. Did the customer pay in front of you?",
+            "EndOfTurn": true,
+            "Role": "Dispatch 1"
+        },
+        {
+            "Content": "Sorry?",
+            "EndOfTurn": true,
+            "Role": "Driver"
+        },
+        {
+            "Content": "Did she pay it in front of you?",
+            "EndOfTurn": true,
+            "Role": "Dispatch 1"
+        },
+        {
+            "Content": "Yes.",
+            "EndOfTurn": true,
+            "Role": "Driver"
+        },
+        {
+            "Content": "Okay. And",
+            "EndOfTurn": false,
+            "Role": "Dispatch 1"
+        },
+        {
+            "Content": "because I don't know for what some reason, it's not coming up in the system.",
+            "EndOfTurn": true,
+            "Role": "Dispatch 1"
+        },
+        {
+            "Content": "And my dispatch is busy right now. I'm trying calling her",
+            "EndOfTurn": false,
+            "Role": "Dispatch 1"
+        },
+        {
+            "Content": "to get into this. So",
+            "EndOfTurn": false,
+            "Role": "Dispatch 1"
+        },
+        {
+            "Content": "Oh.",
+            "EndOfTurn": true,
+            "Role": "Driver"
+        },
+        {
+            "Content": "it is taking a while, but",
+            "EndOfTurn": false,
+            "Role": "Dispatch 1"
+        },
+        {
+            "Content": "I don't know how long will she take. So,",
+            "EndOfTurn": false,
+            "Role": "Dispatch 1"
+        },
+        {
+            "Content": "how long will you take to declare this job?",
+            "EndOfTurn": true,
+            "Role": "Dispatch 1"
+        },
+        {
+            "Content": "Just for uh two, three minutes minutes now. Two, three minutes.",
+            "EndOfTurn": true,
+            "Role": "Driver"
+        },
+        {
+            "Content": "Two, three minutes? O--",
+            "EndOfTurn": false,
+            "Role": "Dispatch 1"
+        },
+        {
+            "Content": "Yeah.",
+            "EndOfTurn": true,
+            "Role": "Driver"
+        },
+        {
+            "Content": "--kay.",
+            "EndOfTurn": true,
+            "Role": "Dispatch 1"
+        },
+        {
+            "Content": "I'm just trying calling her again and again.",
+            "EndOfTurn": true,
+            "Role": "Dispatch 1"
+        },
+        {
+            "Content": "You just be on the line. Yeah?",
+            "EndOfTurn": true,
+            "Role": "Dispatch 1"
+        },
+        {
+            "Content": "Yeah. That's the boy paid,",
+            "EndOfTurn": false,
+            "Role": "Driver"
+        },
+        {
+            "Content": "uh,",
+            "EndOfTurn": false,
+            "Role": "Driver"
+        },
+        {
+            "Content": "I'm sorry. You were saying something?",
+            "EndOfTurn": true,
+            "Role": "Dispatch 1"
+        },
+        {
+            "Content": "That's the boy, the school boy paid,",
+            "EndOfTurn": false,
+            "Role": "Driver"
+        },
+        {
+            "Content": "by the,",
+            "EndOfTurn": false,
+            "Role": "Driver"
+        },
+        {
+            "Content": "Yes. As we've done, my school is a firefroze meat, Halton. Yeah. No problem. I",
+            "EndOfTurn": false,
+            "Role": "Dispatch 1"
+        },
+        {
+            "Content": "Yeah.",
+            "EndOfTurn": true,
+            "Role": "Driver"
+        },
+        {
+            "Content": "got this one here.",
+            "EndOfTurn": true,
+            "Role": "Dispatch 1"
+        },
+        {
+            "Content": "I'm looking in the system.",
+            "EndOfTurn": true,
+            "Role": "Dispatch 1"
+        },
+        {
+            "Content": "Yeah, I'm not getting any",
+            "EndOfTurn": false,
+            "Role": "Driver"
+        },
+        {
+            "Content": "On WhatsApp in time and skip the wait for an operator. And right now, you can enjoy our 10% discount on all WhatsApp bookings.",
+            "EndOfTurn": true,
+            "Role": "Virtual Assistant"
+        },
+        {
+            "Content": "If you're heading to or from the airport,",
+            "EndOfTurn": false,
+            "Role": "Virtual Assistant"
+        },
+        {
+            "Content": "rest assured, we've got everything covered for a seamless journey. With our advanced flight tracker, we automatically stay updated on any changes to your flight schedule. So whether you land early or a bit later than expected,",
+            "EndOfTurn": false,
+            "Role": "Virtual Assistant"
+        },
+        {
+            "Content": "Falcon taxes 24/7 will be there waiting for you. Think taxi. Think Falcon.",
+            "EndOfTurn": true,
+            "Role": "Virtual Assistant"
+        },
+        {
+            "Content": "0-1-2-9-6-2-4-7-2-4-7.",
+            "EndOfTurn": true,
+            "Role": "Virtual Assistant"
+        },
+        {
+            "Content": "From luxury business saloon to 16 seat people carriers, we've got you covered. Need wheelchair accessible options? We have e class and s class Mercedes available for you. Think taxi. Think Falcon.",
+            "EndOfTurn": true,
+            "Role": "Virtual Assistant"
+        },
+        {
+            "Content": "0-1-2-9-6-2-4-7-2-4-7.",
+            "EndOfTurn": true,
+            "Role": "Virtual Assistant"
+        },
+        {
+            "Content": "Did you know that you can book your next ride with us in just a few taps? Download our app on Google Play or the App Store and book directly",
+            "EndOfTurn": false,
+            "Role": "Virtual Assistant"
+        },
+        {
+            "Content": "anytime. You can also book via WhatsApp to save time and skip the wait for an operator. And right now, you can enjoy our 10% discount",
+            "EndOfTurn": false,
+            "Role": "Virtual Assistant"
+        },
+        {
+            "Content": "Hello, Taxis.",
+            "EndOfTurn": true,
+            "Role": "Dispatch 2"
+        },
+        {
+            "Content": "Yes, hi.",
+            "EndOfTurn": true,
+            "Role": "Driver"
+        },
+        {
+            "Content": "Sorry, um, the operator just put you through to me. Can I help?",
+            "EndOfTurn": true,
+            "Role": "Dispatch 2"
+        },
+        {
+            "Content": "Yep. Uh,",
+            "EndOfTurn": false,
+            "Role": "Driver"
+        },
+        {
+            "Content": "the boy, he paid, on, uh, in front of me.",
+            "EndOfTurn": true,
+            "Role": "Driver"
+        },
+        {
+            "Content": "And uh,",
+            "EndOfTurn": false,
+            "Role": "Driver"
+        },
+        {
+            "Content": "still the job didn't complete it. I don't know why.",
+            "EndOfTurn": true,
+            "Role": "Driver"
+        },
+        {
+            "Content": "He paid you cash?",
+            "EndOfTurn": true,
+            "Role": "Dispatch 2"
+        },
+        {
+            "Content": "Uh, no. By the payment.",
+            "EndOfTurn": true,
+            "Role": "Driver"
+        },
+        {
+            "Content": "Uh, by the card.",
+            "EndOfTurn": true,
+            "Role": "Driver"
+        },
+        {
+            "Content": "Why did you pay you by card? It's on account.",
+            "EndOfTurn": true,
+            "Role": "Dispatch 2"
+        },
+        {
+            "Content": "It's not the card. It's a cash table.",
+            "EndOfTurn": true,
+            "Role": "Driver"
+        },
+        {
+            "Content": "What driver are you? Sorry.",
+            "EndOfTurn": true,
+            "Role": "Dispatch 2"
+        },
+        {
+            "Content": "7-6-5.",
+            "EndOfTurn": true,
+            "Role": "Driver"
+        },
+        {
+            "Content": "7-6-5?",
+            "EndOfTurn": true,
+            "Role": "Dispatch 2"
+        },
+        {
+            "Content": "Yes.",
+            "EndOfTurn": true,
+            "Role": "Driver"
+        },
+        {
+            "Content": "Oh, sorry. I thought I got the wrong driver there. Just give me one second.",
+            "EndOfTurn": true,
+            "Role": "Dispatch 2"
+        },
+        {
+            "Content": "Boy's grammar school. So he's already paid you on the SumUp",
+            "EndOfTurn": false,
+            "Role": "Dispatch 2"
+        },
+        {
+            "Content": "Yeah, he's paid.",
+            "EndOfTurn": true,
+            "Role": "Driver"
+        },
+        {
+            "Content": "machine?",
+            "EndOfTurn": true,
+            "Role": "Dispatch 2"
+        },
+        {
+            "Content": "Um, it doesn't look like it's gone through.",
+            "EndOfTurn": true,
+            "Role": "Dispatch 2"
+        },
+        {
+            "Content": "It is gone through, because I recieved the, uh,",
+            "EndOfTurn": false,
+            "Role": "Driver"
+        },
+        {
+            "Content": "the pings.",
+            "EndOfTurn": true,
+            "Role": "Driver"
+        },
+        {
+            "Content": "Okay. Shall I complete it",
+            "EndOfTurn": false,
+            "Role": "Dispatch 2"
+        },
+        {
+            "Content": "Sorry, excuse me.",
+            "EndOfTurn": true,
+            "Role": "Driver"
+        },
+        {
+            "Content": "then?",
+            "EndOfTurn": true,
+            "Role": "Dispatch 2"
+        },
+        {
+            "Content": "Sorry?",
+            "EndOfTurn": true,
+            "Role": "Driver"
+        },
+        {
+            "Content": "Shall I complete it?",
+            "EndOfTurn": true,
+            "Role": "Dispatch 2"
+        },
+        {
+            "Content": "Shall I complete the job for you?",
+            "EndOfTurn": true,
+            "Role": "Dispatch 2"
+        },
+        {
+            "Content": "I will complete the job for you then. Yeah?",
+            "EndOfTurn": true,
+            "Role": "Dispatch 2"
+        },
+        {
+            "Content": "Okay.",
+            "EndOfTurn": true,
+            "Role": "Driver"
+        },
+        {
+            "Content": "Okay.",
+            "EndOfTurn": true,
+            "Role": "Dispatch 2"
+        }
+    ]
+}

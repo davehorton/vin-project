@@ -1,0 +1,259 @@
+{
+    "results": [
+        {
+            "Content": "Welcome to Keith Michaels Insurance Brokers. We are a general insurance intermediary",
+            "EndOfTurn": false,
+            "Role": "Virtual Assistant 1"
+        },
+        {
+            "Content": "authorized and regulated by the Financial Conduct Authority.",
+            "EndOfTurn": true,
+            "Role": "Virtual Assistant 1"
+        },
+        {
+            "Content": "Our office hours are 9AM to 5PM,",
+            "EndOfTurn": false,
+            "Role": "Virtual Assistant 1"
+        },
+        {
+            "Content": "Monday to Friday,",
+            "EndOfTurn": false,
+            "Role": "Virtual Assistant 1"
+        },
+        {
+            "Content": "excluding bank holidays.",
+            "EndOfTurn": true,
+            "Role": "Virtual Assistant 1"
+        },
+        {
+            "Content": "For new quotations, renewals, and policy adjustments, press 1. For administration and accounts, including direct debits, press 2.",
+            "EndOfTurn": true,
+            "Role": "Virtual Assistant 1"
+        },
+        {
+            "Content": "With thirty five years ex--",
+            "EndOfTurn": false,
+            "Role": "Virtual Assistant 2"
+        },
+        {
+            "Content": "Keith Michaels. Good afternoon.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Hello. Good afternoon. Um",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "I was just on your website. It appears to be that you cover the, the situation I'm, I'm, I'm interested in. So let me just describe my situation, and you can let know, please, if you're able to quote a policy. So I have a UK, I, I have a address in The UK right now. I have a UK registered car and an insurance",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "policy here. I'm moving my car to Portugal as part of a change of residency.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "My plan is ultimately to remetriculate the car in Portugal, but I'd like to be able to drive it for a period of time while the process, uh, unfolds. It could take several months, I think, as you may know. My understanding is that your web, from your website, you seem to say that you can cover a UK registered car in Europe for one hundred eighty days, provided that you have a",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "European address. So I'm wondering, is this a case where I could get an insurance policy",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "with your company?",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Um, I'm just trying to think on that. So effectively, you're exporting the vehicle?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Effectively, yes.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Yeah.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "In a",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Okay.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "personal capacity.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Yeah. Oh, yeah. Yeah. Yeah. Um,",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "We haven't got a scheme for that at moment. Things change. I think your your best bet on that,",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "which will cover it all potentially, is a company called Stuart Collins. They might be better off for you.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Okay.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "So",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "because it's going abroad, we do it the other way. We primarily have cars here that, you know, people outside the UK come and use, and the vehicle remains here.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "So",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "our schemes are slightly different. Um",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Oh, I see,",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "You know.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "I understand.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Yeah?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Okay. That's what you mean by the European",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Yeah. Yeah.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "So, you know, um",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "they should be able to help you. Um",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Yeah. They because they've got",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "different schemes than us. So, hopefully, that fit for you.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Do you know what I mean, maybe I'm maybe, I'm approaching this incorrectly, but maybe do you think it would sound like I should when from what you're saying, it sounds like I should be looking at Portuguese providers and not you",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Yeah. Once once you get there,",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "yes.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Basically, what you need, if you are taking that vehicle with you, you need a sort of a European,",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "UK cover,",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "European cover for a quite a probably long period of time because paperwork can take a long time out there. And then, ultimately, there is a period where you're gonna switch it, i.e., potentially keep",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Yeah.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "it, register it locally. Yeah. That sort of all in one, um",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "have a chat with Stuart Collins. They might be to do the whole",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Okay, okay, okay. I thank you. This is okay. Thank you for that. Alright. Appreciate",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Not a problem. Cheers.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Bye.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Bye.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        }
+    ]
+}

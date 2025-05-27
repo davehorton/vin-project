@@ -1,0 +1,54 @@
+{
+    "results": [
+        {
+            "Content": "Good morning, taxis.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Hello. Can I book a taxi for ten past two, please?",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Ten past two, from?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "9 Broomside.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Going to?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Club 300,",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Okay. We'll see you at ten past two.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Okay. Thank you. Bye bye.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Thanks. Bye.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Bye.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        }
+    ]
+}

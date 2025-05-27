@@ -1,0 +1,69 @@
+{
+    "results": [
+        {
+            "Content": "Emess Cars. How can I help you?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Speedy Cars?",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Yes. It is. How I help you?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Yes. I'd like to order a speedy car.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "From where to where?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "27 Road Street Avenue.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Where is it gonna go?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Loke Kirkwalk.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Okay. That's gonna be",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "as soon as possible.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Yeah. Soon as possible. Thank you.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Okay.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Bye.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        }
+    ]
+}

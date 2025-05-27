@@ -1,0 +1,99 @@
+{
+    "results": [
+        {
+            "Content": "All calls are recorded for training and quality purposes.",
+            "EndOfTurn": true,
+            "Role": "Virtual Assistant 1"
+        },
+        {
+            "Content": "I'm afraid all the opera--",
+            "EndOfTurn": false,
+            "Role": "Virtual Assistant 2"
+        },
+        {
+            "Content": "Good morning. Club Tree Correspond speaking. How can I help you today?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Oh, good morning. Could I book a taxi, please, for tomorrow",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "at 10:45?",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "10:45 for tomorrow morning. Where from?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Um, um, from Windsor Avenue. Yeah?",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "And going to?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Going to",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Robin Hood Lane Clinic.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Okay. So 10:45 for tomorrow morning from 53 Windsor Avenue going to Robin Hood Lane",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Lovely.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Um",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Yeah. That's fine.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Okay?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Thank you very much, dear.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Thank you. Bye-b",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Bye-bye.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Bye.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        }
+    ]
+}

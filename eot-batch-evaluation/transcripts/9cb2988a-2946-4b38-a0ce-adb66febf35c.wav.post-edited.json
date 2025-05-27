@@ -1,0 +1,139 @@
+{
+    "results": [
+        {
+            "Content": "Hello, Cars. Who am I speaking?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Hello. I'm",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "at Jubilee Gym",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "outside,",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "and I'd like to go back to Arbury Court.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "I, sorry. Where exactly is the pick-up from?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Pardon?",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Where exactly the pick-up is from?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Well, I'm coming from Jubilee Gym outside at the main entrance.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Oh, off of Jubilee. Yeah?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Yeah. It's on Vinick Road.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Uh, sorry.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "From the main entrance of the of Jubilee. Yeah?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "You turn off, and then you come to Jubilee Gym.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Alright. So can you tell me your name?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "So my name is Marion.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "How soon can they get there, please?",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "I, so I'm supposed to be going to, uh",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "I'll be calling. So I'll book in three, five minutes. Okay? Five, ten minutes.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "How long? Sorry. I can't",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Five",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "hear you.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Five to ten minutes.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Five to ten minutes. O--",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Yes.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "--kay. Thank you now.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Bye. Bye.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        }
+    ]
+}

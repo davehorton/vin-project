@@ -1,0 +1,89 @@
+{
+    "results": [
+        {
+            "Content": "You are at queue position",
+            "EndOfTurn": false,
+            "Role": "Virtual Assistant"
+        },
+        {
+            "Content": "one",
+            "EndOfTurn": false,
+            "Role": "Virtual Assistant"
+        },
+        {
+            "Content": "in the queue.",
+            "EndOfTurn": true,
+            "Role": "Virtual Assistant"
+        },
+        {
+            "Content": "Airbus cars. Good afternoon.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Yeah. Hi. Can I have a yellow car?",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Within ten to fifteen minutes, ma'am.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Um",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "can it come quicker?",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Within, ma'am. Within.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "What?",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Within fifteen minutes, ma'am.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Okay. 43 Leweston Place. Please try urgent.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "G--",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Going to?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "To Timberwharf, Saw Mill Way.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Okay. See as soon as possible. Yeah? Thank you.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Yeah. Thank you.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        }
+    ]
+}

@@ -1,0 +1,255 @@
+{
+  "metadata": {
+    "transaction_key": "deprecated",
+    "request_id": "e14d5a7c-aa38-436f-a4e0-bbab8dd45774",
+    "sha256": "f845fa8b1ca83c3f3927107eee836cfa1b08eb53ba5012975569df9fd3bd2748",
+    "created": "2025-04-03T14:58:03.473Z",
+    "duration": 8.539938,
+    "channels": 1,
+    "models": [
+      "1abfe86b-e047-4eed-858a-35e5625b41ee"
+    ],
+    "model_info": {
+      "1abfe86b-e047-4eed-858a-35e5625b41ee": {
+        "name": "2-general-nova",
+        "version": "2024-01-06.5664",
+        "arch": "nova-2"
+      }
+    }
+  },
+  "results": {
+    "channels": [
+      {
+        "alternatives": [
+          {
+            "transcript": "Hello. This call is from bank security department. We have",
+            "confidence": 0.9988667,
+            "words": [
+              {
+                "word": "hello",
+                "start": 4.48,
+                "end": 4.98,
+                "confidence": 0.902792,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "Hello."
+              },
+              {
+                "word": "this",
+                "start": 5.2799997,
+                "end": 5.6,
+                "confidence": 0.9988667,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "This"
+              },
+              {
+                "word": "call",
+                "start": 5.6,
+                "end": 5.8399997,
+                "confidence": 0.9996189,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "call"
+              },
+              {
+                "word": "is",
+                "start": 5.8399997,
+                "end": 6,
+                "confidence": 0.9997937,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "is"
+              },
+              {
+                "word": "from",
+                "start": 6,
+                "end": 6.24,
+                "confidence": 0.9999156,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "from"
+              },
+              {
+                "word": "bank",
+                "start": 6.24,
+                "end": 6.56,
+                "confidence": 0.9549149,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "bank"
+              },
+              {
+                "word": "security",
+                "start": 6.56,
+                "end": 7.06,
+                "confidence": 0.98774487,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "security"
+              },
+              {
+                "word": "department",
+                "start": 7.12,
+                "end": 7.62,
+                "confidence": 0.9990706,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "department."
+              },
+              {
+                "word": "we",
+                "start": 7.9199996,
+                "end": 8.16,
+                "confidence": 0.98747337,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "We"
+              },
+              {
+                "word": "have",
+                "start": 8.16,
+                "end": 8.539938,
+                "confidence": 0.96683216,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "have"
+              }
+            ],
+            "paragraphs": {
+              "transcript": "\nSpeaker 0: Hello. This call is from bank security department. We have",
+              "paragraphs": [
+                {
+                  "sentences": [
+                    {
+                      "text": "Hello.",
+                      "start": 4.48,
+                      "end": 4.98
+                    },
+                    {
+                      "text": "This call is from bank security department.",
+                      "start": 5.2799997,
+                      "end": 7.62
+                    },
+                    {
+                      "text": "We have",
+                      "start": 7.9199996,
+                      "end": 8.539938
+                    }
+                  ],
+                  "speaker": 0,
+                  "num_words": 10,
+                  "start": 4.48,
+                  "end": 8.539938
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "utterances": [
+      {
+        "start": 4.48,
+        "end": 8.539938,
+        "confidence": 0.9797023,
+        "channel": 0,
+        "transcript": "Hello. This call is from bank security department. We have",
+        "words": [
+          {
+            "word": "hello",
+            "start": 4.48,
+            "end": 4.98,
+            "confidence": 0.902792,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "Hello."
+          },
+          {
+            "word": "this",
+            "start": 5.2799997,
+            "end": 5.6,
+            "confidence": 0.9988667,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "This"
+          },
+          {
+            "word": "call",
+            "start": 5.6,
+            "end": 5.8399997,
+            "confidence": 0.9996189,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "call"
+          },
+          {
+            "word": "is",
+            "start": 5.8399997,
+            "end": 6,
+            "confidence": 0.9997937,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "is"
+          },
+          {
+            "word": "from",
+            "start": 6,
+            "end": 6.24,
+            "confidence": 0.9999156,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "from"
+          },
+          {
+            "word": "bank",
+            "start": 6.24,
+            "end": 6.56,
+            "confidence": 0.9549149,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "bank"
+          },
+          {
+            "word": "security",
+            "start": 6.56,
+            "end": 7.06,
+            "confidence": 0.98774487,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "security"
+          },
+          {
+            "word": "department",
+            "start": 7.12,
+            "end": 7.62,
+            "confidence": 0.9990706,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "department."
+          },
+          {
+            "word": "we",
+            "start": 7.9199996,
+            "end": 8.16,
+            "confidence": 0.98747337,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "We"
+          },
+          {
+            "word": "have",
+            "start": 8.16,
+            "end": 8.539938,
+            "confidence": 0.96683216,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "have"
+          }
+        ],
+        "speaker": 0,
+        "id": "32967fbb-a4b7-4b83-a12a-ff418faf9dea"
+      }
+    ]
+  }
+}

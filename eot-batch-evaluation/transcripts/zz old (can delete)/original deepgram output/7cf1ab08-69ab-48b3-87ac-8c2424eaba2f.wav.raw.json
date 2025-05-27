@@ -1,0 +1,1164 @@
+{
+  "metadata": {
+    "transaction_key": "deprecated",
+    "request_id": "a8440e14-1e98-40b7-8812-0bcd2ca21027",
+    "sha256": "efac3595293f542c595d8f716e1a32b18c342dc33dcebf2b5f3c28e61a7b4791",
+    "created": "2025-04-03T14:54:20.013Z",
+    "duration": 26.799938,
+    "channels": 1,
+    "models": [
+      "1abfe86b-e047-4eed-858a-35e5625b41ee"
+    ],
+    "model_info": {
+      "1abfe86b-e047-4eed-858a-35e5625b41ee": {
+        "name": "2-general-nova",
+        "version": "2024-01-06.5664",
+        "arch": "nova-2"
+      }
+    }
+  },
+  "results": {
+    "channels": [
+      {
+        "alternatives": [
+          {
+            "transcript": "You are at queue position. Hello, miss Cars? Hi. Please can I have a car from eleven clock house? Yes. Going to, please. To 94 Craven Park Road. 90 4 Craven Park Road. What time? As soon as possible, please. Yep. On his way now. Thank you. Thank you.",
+            "confidence": 0.99572957,
+            "words": [
+              {
+                "word": "you",
+                "start": 0.88,
+                "end": 1.12,
+                "confidence": 0.5490708,
+                "speaker": 0,
+                "speaker_confidence": 0.43211603,
+                "punctuated_word": "You"
+              },
+              {
+                "word": "are",
+                "start": 1.12,
+                "end": 1.36,
+                "confidence": 0.99973744,
+                "speaker": 0,
+                "speaker_confidence": 0.43211603,
+                "punctuated_word": "are"
+              },
+              {
+                "word": "at",
+                "start": 1.36,
+                "end": 1.68,
+                "confidence": 0.9992872,
+                "speaker": 0,
+                "speaker_confidence": 0.43211603,
+                "punctuated_word": "at"
+              },
+              {
+                "word": "queue",
+                "start": 1.68,
+                "end": 2,
+                "confidence": 0.99372935,
+                "speaker": 0,
+                "speaker_confidence": 0.43211603,
+                "punctuated_word": "queue"
+              },
+              {
+                "word": "position",
+                "start": 2,
+                "end": 2.5,
+                "confidence": 0.9932778,
+                "speaker": 0,
+                "speaker_confidence": 0.43211603,
+                "punctuated_word": "position."
+              },
+              {
+                "word": "hello",
+                "start": 3.52,
+                "end": 3.84,
+                "confidence": 0.9714921,
+                "speaker": 1,
+                "speaker_confidence": 0.6172825,
+                "punctuated_word": "Hello,"
+              },
+              {
+                "word": "miss",
+                "start": 3.84,
+                "end": 4.16,
+                "confidence": 0.9749706,
+                "speaker": 1,
+                "speaker_confidence": 0.6172825,
+                "punctuated_word": "miss"
+              },
+              {
+                "word": "cars",
+                "start": 4.16,
+                "end": 4.66,
+                "confidence": 0.675781,
+                "speaker": 1,
+                "speaker_confidence": 0.6172825,
+                "punctuated_word": "Cars?"
+              },
+              {
+                "word": "hi",
+                "start": 5.2,
+                "end": 5.52,
+                "confidence": 0.8129233,
+                "speaker": 0,
+                "speaker_confidence": 0.5806479,
+                "punctuated_word": "Hi."
+              },
+              {
+                "word": "please",
+                "start": 5.52,
+                "end": 5.7599998,
+                "confidence": 0.9831202,
+                "speaker": 0,
+                "speaker_confidence": 0.5806479,
+                "punctuated_word": "Please"
+              },
+              {
+                "word": "can",
+                "start": 5.7599998,
+                "end": 5.92,
+                "confidence": 0.6198692,
+                "speaker": 0,
+                "speaker_confidence": 0.5806479,
+                "punctuated_word": "can"
+              },
+              {
+                "word": "i",
+                "start": 5.92,
+                "end": 6,
+                "confidence": 0.9956737,
+                "speaker": 0,
+                "speaker_confidence": 0.5806479,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "have",
+                "start": 6,
+                "end": 6.16,
+                "confidence": 0.99988556,
+                "speaker": 0,
+                "speaker_confidence": 0.5806479,
+                "punctuated_word": "have"
+              },
+              {
+                "word": "a",
+                "start": 6.16,
+                "end": 6.24,
+                "confidence": 0.9904075,
+                "speaker": 0,
+                "speaker_confidence": 0.69415003,
+                "punctuated_word": "a"
+              },
+              {
+                "word": "car",
+                "start": 6.24,
+                "end": 6.48,
+                "confidence": 0.979357,
+                "speaker": 0,
+                "speaker_confidence": 0.69415003,
+                "punctuated_word": "car"
+              },
+              {
+                "word": "from",
+                "start": 6.48,
+                "end": 6.72,
+                "confidence": 0.99723226,
+                "speaker": 0,
+                "speaker_confidence": 0.69415003,
+                "punctuated_word": "from"
+              },
+              {
+                "word": "eleven",
+                "start": 6.72,
+                "end": 7.12,
+                "confidence": 0.9892702,
+                "speaker": 0,
+                "speaker_confidence": 0.69415003,
+                "punctuated_word": "eleven"
+              },
+              {
+                "word": "clock",
+                "start": 7.12,
+                "end": 7.44,
+                "confidence": 0.55542445,
+                "speaker": 0,
+                "speaker_confidence": 0.69415003,
+                "punctuated_word": "clock"
+              },
+              {
+                "word": "house",
+                "start": 7.44,
+                "end": 7.94,
+                "confidence": 0.9466187,
+                "speaker": 0,
+                "speaker_confidence": 0.69415003,
+                "punctuated_word": "house?"
+              },
+              {
+                "word": "yes",
+                "start": 8.8,
+                "end": 9.2,
+                "confidence": 0.9985978,
+                "speaker": 1,
+                "speaker_confidence": 0.72485495,
+                "punctuated_word": "Yes."
+              },
+              {
+                "word": "going",
+                "start": 9.2,
+                "end": 9.44,
+                "confidence": 0.9955336,
+                "speaker": 1,
+                "speaker_confidence": 0.72485495,
+                "punctuated_word": "Going"
+              },
+              {
+                "word": "to",
+                "start": 9.44,
+                "end": 9.599999,
+                "confidence": 0.96477425,
+                "speaker": 1,
+                "speaker_confidence": 0.72485495,
+                "punctuated_word": "to,"
+              },
+              {
+                "word": "please",
+                "start": 9.599999,
+                "end": 10.099999,
+                "confidence": 0.9383043,
+                "speaker": 1,
+                "speaker_confidence": 0.72485495,
+                "punctuated_word": "please."
+              },
+              {
+                "word": "to",
+                "start": 10.559999,
+                "end": 10.8,
+                "confidence": 0.9766749,
+                "speaker": 0,
+                "speaker_confidence": 0.70718306,
+                "punctuated_word": "To"
+              },
+              {
+                "word": "94",
+                "start": 10.8,
+                "end": 11.759999,
+                "confidence": 0.9984602,
+                "speaker": 0,
+                "speaker_confidence": 0.70718306,
+                "punctuated_word": "94"
+              },
+              {
+                "word": "craven",
+                "start": 11.759999,
+                "end": 12.259999,
+                "confidence": 0.9984735,
+                "speaker": 0,
+                "speaker_confidence": 0.70718306,
+                "punctuated_word": "Craven"
+              },
+              {
+                "word": "park",
+                "start": 12.48,
+                "end": 12.96,
+                "confidence": 0.99162465,
+                "speaker": 0,
+                "speaker_confidence": 0.70718306,
+                "punctuated_word": "Park"
+              },
+              {
+                "word": "road",
+                "start": 12.96,
+                "end": 13.46,
+                "confidence": 0.99602854,
+                "speaker": 0,
+                "speaker_confidence": 0.70718306,
+                "punctuated_word": "Road."
+              },
+              {
+                "word": "90",
+                "start": 16.665,
+                "end": 17.145,
+                "confidence": 0.99785876,
+                "speaker": 1,
+                "speaker_confidence": 0.7786283,
+                "punctuated_word": "90"
+              },
+              {
+                "word": "4",
+                "start": 17.145,
+                "end": 17.385,
+                "confidence": 0.998691,
+                "speaker": 1,
+                "speaker_confidence": 0.7786283,
+                "punctuated_word": "4"
+              },
+              {
+                "word": "craven",
+                "start": 17.385,
+                "end": 17.885,
+                "confidence": 0.9992193,
+                "speaker": 1,
+                "speaker_confidence": 0.7786283,
+                "punctuated_word": "Craven"
+              },
+              {
+                "word": "park",
+                "start": 18.025,
+                "end": 18.265,
+                "confidence": 0.99716896,
+                "speaker": 1,
+                "speaker_confidence": 0.7786283,
+                "punctuated_word": "Park"
+              },
+              {
+                "word": "road",
+                "start": 18.265,
+                "end": 18.745,
+                "confidence": 0.99748874,
+                "speaker": 1,
+                "speaker_confidence": 0.7786283,
+                "punctuated_word": "Road."
+              },
+              {
+                "word": "what",
+                "start": 18.745,
+                "end": 18.985,
+                "confidence": 0.99868244,
+                "speaker": 1,
+                "speaker_confidence": 0.7786283,
+                "punctuated_word": "What"
+              },
+              {
+                "word": "time",
+                "start": 18.985,
+                "end": 19.485,
+                "confidence": 0.9998939,
+                "speaker": 1,
+                "speaker_confidence": 0.7786283,
+                "punctuated_word": "time?"
+              },
+              {
+                "word": "as",
+                "start": 20.745,
+                "end": 20.985,
+                "confidence": 0.99539727,
+                "speaker": 0,
+                "speaker_confidence": 0.6445011,
+                "punctuated_word": "As"
+              },
+              {
+                "word": "soon",
+                "start": 20.985,
+                "end": 21.225,
+                "confidence": 0.99993134,
+                "speaker": 0,
+                "speaker_confidence": 0.6445011,
+                "punctuated_word": "soon"
+              },
+              {
+                "word": "as",
+                "start": 21.225,
+                "end": 21.385,
+                "confidence": 0.9989231,
+                "speaker": 0,
+                "speaker_confidence": 0.6445011,
+                "punctuated_word": "as"
+              },
+              {
+                "word": "possible",
+                "start": 21.385,
+                "end": 21.865,
+                "confidence": 0.99689174,
+                "speaker": 0,
+                "speaker_confidence": 0.6445011,
+                "punctuated_word": "possible,"
+              },
+              {
+                "word": "please",
+                "start": 21.865,
+                "end": 22.365,
+                "confidence": 0.99201035,
+                "speaker": 0,
+                "speaker_confidence": 0.6445011,
+                "punctuated_word": "please."
+              },
+              {
+                "word": "yep",
+                "start": 23.465,
+                "end": 23.865,
+                "confidence": 0.99945647,
+                "speaker": 1,
+                "speaker_confidence": 0.72018903,
+                "punctuated_word": "Yep."
+              },
+              {
+                "word": "on",
+                "start": 23.865,
+                "end": 24.105,
+                "confidence": 0.8763809,
+                "speaker": 1,
+                "speaker_confidence": 0.72018903,
+                "punctuated_word": "On"
+              },
+              {
+                "word": "his",
+                "start": 24.105,
+                "end": 24.425,
+                "confidence": 0.31287867,
+                "speaker": 1,
+                "speaker_confidence": 0.7434758,
+                "punctuated_word": "his"
+              },
+              {
+                "word": "way",
+                "start": 24.425,
+                "end": 24.665,
+                "confidence": 0.99513996,
+                "speaker": 1,
+                "speaker_confidence": 0.7434758,
+                "punctuated_word": "way"
+              },
+              {
+                "word": "now",
+                "start": 24.665,
+                "end": 24.904999,
+                "confidence": 0.9987657,
+                "speaker": 1,
+                "speaker_confidence": 0.7434758,
+                "punctuated_word": "now."
+              },
+              {
+                "word": "thank",
+                "start": 24.904999,
+                "end": 25.145,
+                "confidence": 0.99974877,
+                "speaker": 1,
+                "speaker_confidence": 0.7434758,
+                "punctuated_word": "Thank"
+              },
+              {
+                "word": "you",
+                "start": 25.145,
+                "end": 25.645,
+                "confidence": 0.9996518,
+                "speaker": 1,
+                "speaker_confidence": 0.7434758,
+                "punctuated_word": "you."
+              },
+              {
+                "word": "thank",
+                "start": 25.705,
+                "end": 26.025,
+                "confidence": 0.99969184,
+                "speaker": 0,
+                "speaker_confidence": 0.67883146,
+                "punctuated_word": "Thank"
+              },
+              {
+                "word": "you",
+                "start": 26.025,
+                "end": 26.525,
+                "confidence": 0.9979856,
+                "speaker": 0,
+                "speaker_confidence": 0.67883146,
+                "punctuated_word": "you."
+              }
+            ],
+            "paragraphs": {
+              "transcript": "\nSpeaker 0: You are at queue position.\n\nSpeaker 1: Hello, miss Cars?\n\nSpeaker 0: Hi. Please can I have a car from eleven clock house?\n\nSpeaker 1: Yes. Going to, please.\n\nSpeaker 0: To 94 Craven Park Road.\n\nSpeaker 1: 90 4 Craven Park Road. What time?\n\nSpeaker 0: As soon as possible, please.\n\nSpeaker 1: Yep. On his way now. Thank you.\n\nSpeaker 0: Thank you.",
+              "paragraphs": [
+                {
+                  "sentences": [
+                    {
+                      "text": "You are at queue position.",
+                      "start": 0.88,
+                      "end": 2.5
+                    }
+                  ],
+                  "speaker": 0,
+                  "num_words": 5,
+                  "start": 0.88,
+                  "end": 2.5
+                },
+                {
+                  "sentences": [
+                    {
+                      "text": "Hello, miss Cars?",
+                      "start": 3.52,
+                      "end": 4.66
+                    }
+                  ],
+                  "speaker": 1,
+                  "num_words": 3,
+                  "start": 3.52,
+                  "end": 4.66
+                },
+                {
+                  "sentences": [
+                    {
+                      "text": "Hi.",
+                      "start": 5.2,
+                      "end": 5.52
+                    },
+                    {
+                      "text": "Please can I have a car from eleven clock house?",
+                      "start": 5.52,
+                      "end": 7.94
+                    }
+                  ],
+                  "speaker": 0,
+                  "num_words": 11,
+                  "start": 5.2,
+                  "end": 7.94
+                },
+                {
+                  "sentences": [
+                    {
+                      "text": "Yes.",
+                      "start": 8.8,
+                      "end": 9.2
+                    },
+                    {
+                      "text": "Going to, please.",
+                      "start": 9.2,
+                      "end": 10.099999
+                    }
+                  ],
+                  "speaker": 1,
+                  "num_words": 4,
+                  "start": 8.8,
+                  "end": 10.099999
+                },
+                {
+                  "sentences": [
+                    {
+                      "text": "To 94 Craven Park Road.",
+                      "start": 10.559999,
+                      "end": 13.46
+                    }
+                  ],
+                  "speaker": 0,
+                  "num_words": 5,
+                  "start": 10.559999,
+                  "end": 13.46
+                },
+                {
+                  "sentences": [
+                    {
+                      "text": "90 4 Craven Park Road.",
+                      "start": 16.665,
+                      "end": 18.745
+                    },
+                    {
+                      "text": "What time?",
+                      "start": 18.745,
+                      "end": 19.485
+                    }
+                  ],
+                  "speaker": 1,
+                  "num_words": 7,
+                  "start": 16.665,
+                  "end": 19.485
+                },
+                {
+                  "sentences": [
+                    {
+                      "text": "As soon as possible, please.",
+                      "start": 20.745,
+                      "end": 22.365
+                    }
+                  ],
+                  "speaker": 0,
+                  "num_words": 5,
+                  "start": 20.745,
+                  "end": 22.365
+                },
+                {
+                  "sentences": [
+                    {
+                      "text": "Yep.",
+                      "start": 23.465,
+                      "end": 23.865
+                    },
+                    {
+                      "text": "On his way now.",
+                      "start": 23.865,
+                      "end": 24.904999
+                    },
+                    {
+                      "text": "Thank you.",
+                      "start": 24.904999,
+                      "end": 25.645
+                    }
+                  ],
+                  "speaker": 1,
+                  "num_words": 7,
+                  "start": 23.465,
+                  "end": 25.645
+                },
+                {
+                  "sentences": [
+                    {
+                      "text": "Thank you.",
+                      "start": 25.705,
+                      "end": 26.525
+                    }
+                  ],
+                  "speaker": 0,
+                  "num_words": 2,
+                  "start": 25.705,
+                  "end": 26.525
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "utterances": [
+      {
+        "start": 0.88,
+        "end": 2.5,
+        "confidence": 0.90702057,
+        "channel": 0,
+        "transcript": "You are at queue position.",
+        "words": [
+          {
+            "word": "you",
+            "start": 0.88,
+            "end": 1.12,
+            "confidence": 0.5490708,
+            "speaker": 0,
+            "speaker_confidence": 0.43211603,
+            "punctuated_word": "You"
+          },
+          {
+            "word": "are",
+            "start": 1.12,
+            "end": 1.36,
+            "confidence": 0.99973744,
+            "speaker": 0,
+            "speaker_confidence": 0.43211603,
+            "punctuated_word": "are"
+          },
+          {
+            "word": "at",
+            "start": 1.36,
+            "end": 1.68,
+            "confidence": 0.9992872,
+            "speaker": 0,
+            "speaker_confidence": 0.43211603,
+            "punctuated_word": "at"
+          },
+          {
+            "word": "queue",
+            "start": 1.68,
+            "end": 2,
+            "confidence": 0.99372935,
+            "speaker": 0,
+            "speaker_confidence": 0.43211603,
+            "punctuated_word": "queue"
+          },
+          {
+            "word": "position",
+            "start": 2,
+            "end": 2.5,
+            "confidence": 0.9932778,
+            "speaker": 0,
+            "speaker_confidence": 0.43211603,
+            "punctuated_word": "position."
+          }
+        ],
+        "speaker": 0,
+        "id": "29f0e97c-e998-4932-8cbe-e339f2019f71"
+      },
+      {
+        "start": 3.52,
+        "end": 4.66,
+        "confidence": 0.8740812,
+        "channel": 0,
+        "transcript": "Hello, miss Cars?",
+        "words": [
+          {
+            "word": "hello",
+            "start": 3.52,
+            "end": 3.84,
+            "confidence": 0.9714921,
+            "speaker": 1,
+            "speaker_confidence": 0.6172825,
+            "punctuated_word": "Hello,"
+          },
+          {
+            "word": "miss",
+            "start": 3.84,
+            "end": 4.16,
+            "confidence": 0.9749706,
+            "speaker": 1,
+            "speaker_confidence": 0.6172825,
+            "punctuated_word": "miss"
+          },
+          {
+            "word": "cars",
+            "start": 4.16,
+            "end": 4.66,
+            "confidence": 0.675781,
+            "speaker": 1,
+            "speaker_confidence": 0.6172825,
+            "punctuated_word": "Cars?"
+          }
+        ],
+        "speaker": 1,
+        "id": "1bd7c229-6ae9-4f14-97eb-19dee82525b9"
+      },
+      {
+        "start": 5.2,
+        "end": 7.94,
+        "confidence": 0.897253,
+        "channel": 0,
+        "transcript": "Hi. Please can I have a car from eleven clock house?",
+        "words": [
+          {
+            "word": "hi",
+            "start": 5.2,
+            "end": 5.52,
+            "confidence": 0.8129233,
+            "speaker": 0,
+            "speaker_confidence": 0.5806479,
+            "punctuated_word": "Hi."
+          },
+          {
+            "word": "please",
+            "start": 5.52,
+            "end": 5.7599998,
+            "confidence": 0.9831202,
+            "speaker": 0,
+            "speaker_confidence": 0.5806479,
+            "punctuated_word": "Please"
+          },
+          {
+            "word": "can",
+            "start": 5.7599998,
+            "end": 5.92,
+            "confidence": 0.6198692,
+            "speaker": 0,
+            "speaker_confidence": 0.5806479,
+            "punctuated_word": "can"
+          },
+          {
+            "word": "i",
+            "start": 5.92,
+            "end": 6,
+            "confidence": 0.9956737,
+            "speaker": 0,
+            "speaker_confidence": 0.5806479,
+            "punctuated_word": "I"
+          },
+          {
+            "word": "have",
+            "start": 6,
+            "end": 6.16,
+            "confidence": 0.99988556,
+            "speaker": 0,
+            "speaker_confidence": 0.5806479,
+            "punctuated_word": "have"
+          },
+          {
+            "word": "a",
+            "start": 6.16,
+            "end": 6.24,
+            "confidence": 0.9904075,
+            "speaker": 0,
+            "speaker_confidence": 0.69415003,
+            "punctuated_word": "a"
+          },
+          {
+            "word": "car",
+            "start": 6.24,
+            "end": 6.48,
+            "confidence": 0.979357,
+            "speaker": 0,
+            "speaker_confidence": 0.69415003,
+            "punctuated_word": "car"
+          },
+          {
+            "word": "from",
+            "start": 6.48,
+            "end": 6.72,
+            "confidence": 0.99723226,
+            "speaker": 0,
+            "speaker_confidence": 0.69415003,
+            "punctuated_word": "from"
+          },
+          {
+            "word": "eleven",
+            "start": 6.72,
+            "end": 7.12,
+            "confidence": 0.9892702,
+            "speaker": 0,
+            "speaker_confidence": 0.69415003,
+            "punctuated_word": "eleven"
+          },
+          {
+            "word": "clock",
+            "start": 7.12,
+            "end": 7.44,
+            "confidence": 0.55542445,
+            "speaker": 0,
+            "speaker_confidence": 0.69415003,
+            "punctuated_word": "clock"
+          },
+          {
+            "word": "house",
+            "start": 7.44,
+            "end": 7.94,
+            "confidence": 0.9466187,
+            "speaker": 0,
+            "speaker_confidence": 0.69415003,
+            "punctuated_word": "house?"
+          }
+        ],
+        "speaker": 0,
+        "id": "d24d2cda-43a4-4641-84bb-4d71a7289999"
+      },
+      {
+        "start": 8.8,
+        "end": 10.099999,
+        "confidence": 0.97430253,
+        "channel": 0,
+        "transcript": "Yes. Going to, please.",
+        "words": [
+          {
+            "word": "yes",
+            "start": 8.8,
+            "end": 9.2,
+            "confidence": 0.9985978,
+            "speaker": 1,
+            "speaker_confidence": 0.72485495,
+            "punctuated_word": "Yes."
+          },
+          {
+            "word": "going",
+            "start": 9.2,
+            "end": 9.44,
+            "confidence": 0.9955336,
+            "speaker": 1,
+            "speaker_confidence": 0.72485495,
+            "punctuated_word": "Going"
+          },
+          {
+            "word": "to",
+            "start": 9.44,
+            "end": 9.599999,
+            "confidence": 0.96477425,
+            "speaker": 1,
+            "speaker_confidence": 0.72485495,
+            "punctuated_word": "to,"
+          },
+          {
+            "word": "please",
+            "start": 9.599999,
+            "end": 10.099999,
+            "confidence": 0.9383043,
+            "speaker": 1,
+            "speaker_confidence": 0.72485495,
+            "punctuated_word": "please."
+          }
+        ],
+        "speaker": 1,
+        "id": "1ef0c255-ef1c-4291-9109-128d5bed22ce"
+      },
+      {
+        "start": 10.559999,
+        "end": 11.759999,
+        "confidence": 0.98756754,
+        "channel": 0,
+        "transcript": "To 94",
+        "words": [
+          {
+            "word": "to",
+            "start": 10.559999,
+            "end": 10.8,
+            "confidence": 0.9766749,
+            "speaker": 0,
+            "speaker_confidence": 0.70718306,
+            "punctuated_word": "To"
+          },
+          {
+            "word": "94",
+            "start": 10.8,
+            "end": 11.759999,
+            "confidence": 0.9984602,
+            "speaker": 0,
+            "speaker_confidence": 0.70718306,
+            "punctuated_word": "94"
+          }
+        ],
+        "speaker": 0,
+        "id": "1af85be1-471d-442e-a4e9-c8413cba1846"
+      },
+      {
+        "start": 11.759999,
+        "end": 13.46,
+        "confidence": 0.99537563,
+        "channel": 0,
+        "transcript": "Craven Park Road.",
+        "words": [
+          {
+            "word": "craven",
+            "start": 11.759999,
+            "end": 12.259999,
+            "confidence": 0.9984735,
+            "speaker": 0,
+            "speaker_confidence": 0.70718306,
+            "punctuated_word": "Craven"
+          },
+          {
+            "word": "park",
+            "start": 12.48,
+            "end": 12.96,
+            "confidence": 0.99162465,
+            "speaker": 0,
+            "speaker_confidence": 0.70718306,
+            "punctuated_word": "Park"
+          },
+          {
+            "word": "road",
+            "start": 12.96,
+            "end": 13.46,
+            "confidence": 0.99602854,
+            "speaker": 0,
+            "speaker_confidence": 0.70718306,
+            "punctuated_word": "Road."
+          }
+        ],
+        "speaker": 0,
+        "id": "70946784-a84c-4e19-a0f4-74b1e0e10509"
+      },
+      {
+        "start": 16.665,
+        "end": 19.485,
+        "confidence": 0.998429,
+        "channel": 0,
+        "transcript": "90 4 Craven Park Road. What time?",
+        "words": [
+          {
+            "word": "90",
+            "start": 16.665,
+            "end": 17.145,
+            "confidence": 0.99785876,
+            "speaker": 1,
+            "speaker_confidence": 0.7786283,
+            "punctuated_word": "90"
+          },
+          {
+            "word": "4",
+            "start": 17.145,
+            "end": 17.385,
+            "confidence": 0.998691,
+            "speaker": 1,
+            "speaker_confidence": 0.7786283,
+            "punctuated_word": "4"
+          },
+          {
+            "word": "craven",
+            "start": 17.385,
+            "end": 17.885,
+            "confidence": 0.9992193,
+            "speaker": 1,
+            "speaker_confidence": 0.7786283,
+            "punctuated_word": "Craven"
+          },
+          {
+            "word": "park",
+            "start": 18.025,
+            "end": 18.265,
+            "confidence": 0.99716896,
+            "speaker": 1,
+            "speaker_confidence": 0.7786283,
+            "punctuated_word": "Park"
+          },
+          {
+            "word": "road",
+            "start": 18.265,
+            "end": 18.745,
+            "confidence": 0.99748874,
+            "speaker": 1,
+            "speaker_confidence": 0.7786283,
+            "punctuated_word": "Road."
+          },
+          {
+            "word": "what",
+            "start": 18.745,
+            "end": 18.985,
+            "confidence": 0.99868244,
+            "speaker": 1,
+            "speaker_confidence": 0.7786283,
+            "punctuated_word": "What"
+          },
+          {
+            "word": "time",
+            "start": 18.985,
+            "end": 19.485,
+            "confidence": 0.9998939,
+            "speaker": 1,
+            "speaker_confidence": 0.7786283,
+            "punctuated_word": "time?"
+          }
+        ],
+        "speaker": 1,
+        "id": "607ad3b0-7131-4e9e-b17c-ba5f32922750"
+      },
+      {
+        "start": 20.745,
+        "end": 22.365,
+        "confidence": 0.9966308,
+        "channel": 0,
+        "transcript": "As soon as possible, please.",
+        "words": [
+          {
+            "word": "as",
+            "start": 20.745,
+            "end": 20.985,
+            "confidence": 0.99539727,
+            "speaker": 0,
+            "speaker_confidence": 0.6445011,
+            "punctuated_word": "As"
+          },
+          {
+            "word": "soon",
+            "start": 20.985,
+            "end": 21.225,
+            "confidence": 0.99993134,
+            "speaker": 0,
+            "speaker_confidence": 0.6445011,
+            "punctuated_word": "soon"
+          },
+          {
+            "word": "as",
+            "start": 21.225,
+            "end": 21.385,
+            "confidence": 0.9989231,
+            "speaker": 0,
+            "speaker_confidence": 0.6445011,
+            "punctuated_word": "as"
+          },
+          {
+            "word": "possible",
+            "start": 21.385,
+            "end": 21.865,
+            "confidence": 0.99689174,
+            "speaker": 0,
+            "speaker_confidence": 0.6445011,
+            "punctuated_word": "possible,"
+          },
+          {
+            "word": "please",
+            "start": 21.865,
+            "end": 22.365,
+            "confidence": 0.99201035,
+            "speaker": 0,
+            "speaker_confidence": 0.6445011,
+            "punctuated_word": "please."
+          }
+        ],
+        "speaker": 0,
+        "id": "6918156d-7458-4cb6-bb78-9ede72307e47"
+      },
+      {
+        "start": 23.465,
+        "end": 26.525,
+        "confidence": 0.90885556,
+        "channel": 0,
+        "transcript": "Yep. On his way now. Thank you. Thank you.",
+        "words": [
+          {
+            "word": "yep",
+            "start": 23.465,
+            "end": 23.865,
+            "confidence": 0.99945647,
+            "speaker": 1,
+            "speaker_confidence": 0.72018903,
+            "punctuated_word": "Yep."
+          },
+          {
+            "word": "on",
+            "start": 23.865,
+            "end": 24.105,
+            "confidence": 0.8763809,
+            "speaker": 1,
+            "speaker_confidence": 0.72018903,
+            "punctuated_word": "On"
+          },
+          {
+            "word": "his",
+            "start": 24.105,
+            "end": 24.425,
+            "confidence": 0.31287867,
+            "speaker": 1,
+            "speaker_confidence": 0.7434758,
+            "punctuated_word": "his"
+          },
+          {
+            "word": "way",
+            "start": 24.425,
+            "end": 24.665,
+            "confidence": 0.99513996,
+            "speaker": 1,
+            "speaker_confidence": 0.7434758,
+            "punctuated_word": "way"
+          },
+          {
+            "word": "now",
+            "start": 24.665,
+            "end": 24.904999,
+            "confidence": 0.9987657,
+            "speaker": 1,
+            "speaker_confidence": 0.7434758,
+            "punctuated_word": "now."
+          },
+          {
+            "word": "thank",
+            "start": 24.904999,
+            "end": 25.145,
+            "confidence": 0.99974877,
+            "speaker": 1,
+            "speaker_confidence": 0.7434758,
+            "punctuated_word": "Thank"
+          },
+          {
+            "word": "you",
+            "start": 25.145,
+            "end": 25.645,
+            "confidence": 0.9996518,
+            "speaker": 1,
+            "speaker_confidence": 0.7434758,
+            "punctuated_word": "you."
+          },
+          {
+            "word": "thank",
+            "start": 25.705,
+            "end": 26.025,
+            "confidence": 0.99969184,
+            "speaker": 0,
+            "speaker_confidence": 0.67883146,
+            "punctuated_word": "Thank"
+          },
+          {
+            "word": "you",
+            "start": 26.025,
+            "end": 26.525,
+            "confidence": 0.9979856,
+            "speaker": 0,
+            "speaker_confidence": 0.67883146,
+            "punctuated_word": "you."
+          }
+        ],
+        "speaker": 1,
+        "id": "cfc7dd0e-8f7c-42c2-b7ed-967e55240883"
+      }
+    ]
+  }
+}

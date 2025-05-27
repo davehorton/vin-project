@@ -1,0 +1,104 @@
+{
+    "results": [
+        {
+            "Content": "Hi, Mark.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Sorry. Good. Try now.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Yes. Alright. Okay. One minute. Right. Wait a minute. Oh, shite. Oh, that's wrong. Oh, \"you're approved to sign in.\" \"Failed by PIN.\" Alright. Start again.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Yeah, you're putting in the wrong",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "I know.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "PIN.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "L-I-N-C?",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Yep.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "No. No. It's not working, Mark.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Uh, what number are you putting in?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "3203.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "No. Try 313203.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Okay. I should work somewhere over there. Maybe I'm a lunatic. What do you think?",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "No, no comment.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "I am a lunatic, am I now? You can say it now, Mark. Right. I'll catch you later. Thanks very much.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Alright. No bother,",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "See-ya.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Linda.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Bye.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Bye.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        }
+    ]
+}

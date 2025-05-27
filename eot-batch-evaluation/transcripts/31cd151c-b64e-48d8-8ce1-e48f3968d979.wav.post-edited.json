@@ -1,0 +1,59 @@
+{
+    "results": [
+        {
+            "Content": "City Taxis.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "How are you? May please get a taxi in",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "fifteen",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "minutes from, please?",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Where are you going?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "I'm going to, um",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "David Buchanan Building.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Okay. No problem.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Thank you.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Thanks.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Bye.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        }
+    ]
+}

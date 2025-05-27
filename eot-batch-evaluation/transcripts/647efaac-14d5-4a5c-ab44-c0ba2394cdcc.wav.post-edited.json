@@ -1,0 +1,164 @@
+{
+    "results": [
+        {
+            "Content": "Afternoon. Taxi.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Hi. Um. Would you be able to, would I be able to get a taxi to pick me up at Kirkaldy Station to take me to Lundin Links?",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "The railway station?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Uh-huh. Sorry. The railway station. Apologies.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "And whereabout in Lundin Links are you going?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Uh, Victoria Road.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "8 Victoria Road.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "I'll have our driver in Kirkaldy in about",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "twenty, twenty five minutes?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Well, I'll be there, I won't be there till, I'm phoning just in case you might book up. I'll hope that the train gets in at,",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "at one, four, 01:36",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "into Kirkaldy.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Right. So I'll book it in for 01:40. Is that okay?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "01:40. And what what side of the station will her, will it, should I wait?",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "What side are getting off at?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "I'm coming in from Edinburgh.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "So is it the ticket office side? I don't mind. It doesn't matter to me. What's easiest?",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Em, the driver will just get you at the Edinburgh side.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "At the Edinburgh side. Okay. Thank you. So that's",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "And",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "01:36.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "And my name.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Yeah.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Do you want my name?",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Yeah. What's your name?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Jane. Just Jane.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Jane. No bother. That's you booked in.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "01:36, thank you so much. Alright.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Thanks.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Thanks.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Bye.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Bye.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        }
+    ]
+}

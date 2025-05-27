@@ -1,0 +1,64 @@
+{
+    "results": [
+        {
+            "Content": "B Cars. How may help?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Oh, hello there. Could I have a taxi",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "for Cathy",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "at 5 Waverly Road",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "to go to St. Paul's Church, Alexby Road?",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Sure, that's fine. About 10 minutes.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Sorry?",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "10 minutes, ma'am. 10 minutes.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Okay. As long as it's not longer than that, that's great.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Alright. Thank you.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Thank you.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Bye.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        }
+    ]
+}

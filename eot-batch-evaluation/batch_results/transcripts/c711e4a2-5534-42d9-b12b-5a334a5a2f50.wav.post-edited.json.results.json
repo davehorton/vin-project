@@ -1,0 +1,109 @@
+{
+  "file_path": "transcripts/c711e4a2-5534-42d9-b12b-5a334a5a2f50.wav.post-edited.json",
+  "file_name": "c711e4a2-5534-42d9-b12b-5a334a5a2f50.wav.post-edited.json",
+  "utterance_analysis": [
+    {
+      "index": 0,
+      "content": "voicemail",
+      "role": "Virtual Assistant",
+      "ground_truth": 0,
+      "predicted_probability": 0.0028835146222263575,
+      "predicted_label": 0,
+      "is_correct": true
+    },
+    {
+      "index": 1,
+      "content": "to the tone.",
+      "role": "Virtual Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.0019309737253934145,
+      "predicted_label": 0,
+      "is_correct": false
+    }
+  ],
+  "f1_scores": {
+    "0.1": 0.0,
+    "0.2": 0.0,
+    "0.3": 0.0,
+    "0.4": 0.0,
+    "0.5": 0.0,
+    "0.6": 0.0,
+    "0.7": 0.0,
+    "0.8": 0.0,
+    "0.9": 0.0
+  },
+  "optimal_threshold": 0.5,
+  "roc": {
+    "fpr": [
+      0.0,
+      1.0,
+      1.0
+    ],
+    "tpr": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "thresholds": [
+      Infinity,
+      0.0028835146222263575,
+      0.0019309737253934145
+    ],
+    "auc": 0.0
+  },
+  "pr": {
+    "precision": [
+      0.5,
+      0.0,
+      1.0
+    ],
+    "recall": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "thresholds": [
+      0.0019309737253934145,
+      0.0028835146222263575
+    ]
+  },
+  "confusion_matrix": [
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      0
+    ]
+  ],
+  "metrics": {
+    "accuracy": 0.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "total_utterances": 2,
+    "eot_ratio": 0.5
+  },
+  "latency": {
+    "mean": 0.11368834972381592,
+    "median": 0.11368834972381592,
+    "min": 0.10161066055297852,
+    "max": 0.12576603889465332,
+    "p95": 0.12455826997756958
+  },
+  "role_analysis": {
+    "Virtual Assistant": {
+      "count": 2,
+      "accuracy": 0.5,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "eot_ratio": 0.5
+    }
+  },
+  "error_summary": {
+    "false_positives": 0,
+    "false_negatives": 1
+  }
+}

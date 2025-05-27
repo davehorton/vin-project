@@ -1,0 +1,34 @@
+{
+    "results": [
+        {
+            "timestamp": "00:00:01",
+            "role": "Assistant",
+            "content": "Streamline."
+        },
+        {
+            "timestamp": "00:00:02",
+            "role": "Caller",
+            "content": "Oh, hi. I've got a taxi booked for ten past four today. And I haven't received the link, the text message that I normally get sent."
+        },
+        {
+            "timestamp": "00:00:10",
+            "role": "Assistant",
+            "content": "Okay. I'll-- I'll send it over to you. It's not a problem."
+        },
+        {
+            "timestamp": "00:00:13",
+            "role": "Caller",
+            "content": "Lovely. Thank you."
+        },
+        {
+            "timestamp": "00:00:14",
+            "role": "Assistant",
+            "content": "Thanks. Bye bye."
+        },
+        {
+            "timestamp": "00:00:15",
+            "role": "Caller",
+            "content": "Thanks. Bye bye."
+        }
+    ]
+}

@@ -1,0 +1,74 @@
+{
+    "results": [
+        {
+            "Content": "Central Taxis. Lindsay speaking.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Hello. I would like a taxi at Peoples Ford in Sighthill.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "And where are you going to?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "To 56 Learmonth Court.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Learmonth Court. Right. No bother. I'll send the driver around just now. You'll get a ring as he's approaching Peoples Ford for you. Okay?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Great. Yeah. Thank you. I'm, I'm at, I'm at the main entrance of the building.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "At just at the main entrance.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Yeah,",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "No bother.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "yeah.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Okay. Thank you.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Thank you.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Bye.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Bye.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        }
+    ]
+}

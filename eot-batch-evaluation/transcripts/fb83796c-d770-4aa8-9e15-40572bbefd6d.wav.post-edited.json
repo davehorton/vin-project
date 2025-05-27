@@ -1,0 +1,34 @@
+{
+    "results": [
+        {
+            "Content": "0",
+            "EndOfTurn": false,
+            "Role": "Virtual Assistant"
+        },
+        {
+            "Content": "747254",
+            "EndOfTurn": false,
+            "Role": "Virtual Assistant"
+        },
+        {
+            "Content": "0",
+            "EndOfTurn": false,
+            "Role": "Virtual Assistant"
+        },
+        {
+            "Content": "554",
+            "EndOfTurn": false,
+            "Role": "Virtual Assistant"
+        },
+        {
+            "Content": "can't take your call right now. Just leave your message after the tone.",
+            "EndOfTurn": true,
+            "Role": "Virtual Assistant"
+        },
+        {
+            "Content": "When you're done, press hash or just hang up.",
+            "EndOfTurn": true,
+            "Role": "Virtual Assistant"
+        }
+    ]
+}

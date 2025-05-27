@@ -1,0 +1,59 @@
+{
+    "results": [
+        {
+            "Content": "You are at queue",
+            "EndOfTurn": false,
+            "Role": "Virtual Assistant"
+        },
+        {
+            "Content": "Emess Car.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "D--, do you have a speedy car available now?",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "From?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "21 Valtry.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Going to?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Going to Stamford Hill.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "A yellow car?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Yeah.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "We'll get to you shortly. Yeah. Thank you.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Thank you.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        }
+    ]
+}

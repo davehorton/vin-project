@@ -1,0 +1,256 @@
+{
+  "file_path": "transcripts/206357de-349e-49fe-b42a-717dd923a6cc.wav.post-edited.json",
+  "file_name": "206357de-349e-49fe-b42a-717dd923a6cc.wav.post-edited.json",
+  "utterance_analysis": [
+    {
+      "index": 0,
+      "content": "I'm afraid all the operators are busy at the moment, but please hold and you will be transferred when somebody becomes available.",
+      "role": "Virtual Assistant 1",
+      "ground_truth": 1,
+      "predicted_probability": 0.0010697203688323498,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 1,
+      "content": "Booking and dispatch system allows us to handle your booking swiftly and efficiently,",
+      "role": "Virtual Assistant 2",
+      "ground_truth": 0,
+      "predicted_probability": 0.240011528134346,
+      "predicted_label": 0,
+      "is_correct": true
+    },
+    {
+      "index": 2,
+      "content": "ensuring a smooth experience from the moment you call to the",
+      "role": "Virtual Assistant 2",
+      "ground_truth": 0,
+      "predicted_probability": 0.04382811114192009,
+      "predicted_label": 0,
+      "is_correct": true
+    },
+    {
+      "index": 3,
+      "content": "Streamline.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.001087603042833507,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 4,
+      "content": "Hi. Yeah. Can I get a taxi from 39 Fulshore Crescent? Um,",
+      "role": "Caller",
+      "ground_truth": 0,
+      "predicted_probability": 0.16329550743103027,
+      "predicted_label": 0,
+      "is_correct": true
+    },
+    {
+      "index": 5,
+      "content": "going to Quigley, but going to the school first, to the territory school.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.01588285341858864,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 6,
+      "content": "Alright. Sure. About",
+      "role": "Assistant",
+      "ground_truth": 0,
+      "predicted_probability": 0.08872515708208084,
+      "predicted_label": 0,
+      "is_correct": true
+    },
+    {
+      "index": 7,
+      "content": "Thanks.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.004297975450754166,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 8,
+      "content": "about a few minutes.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.011403445154428482,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 9,
+      "content": "Cheers.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.009154453873634338,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 10,
+      "content": "Bye.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.019474714994430542,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 11,
+      "content": "Bye then.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.018939608708024025,
+      "predicted_label": 0,
+      "is_correct": false
+    }
+  ],
+  "f1_scores": {
+    "0.1": 0.0,
+    "0.2": 0.0,
+    "0.3": 0.0,
+    "0.4": 0.0,
+    "0.5": 0.0,
+    "0.6": 0.0,
+    "0.7": 0.0,
+    "0.8": 0.0,
+    "0.9": 0.0
+  },
+  "optimal_threshold": 0.5,
+  "roc": {
+    "fpr": [
+      0.0,
+      0.25,
+      1.0,
+      1.0
+    ],
+    "tpr": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "thresholds": [
+      Infinity,
+      0.240011528134346,
+      0.04382811114192009,
+      0.0010697203688323498
+    ],
+    "auc": 0.0
+  },
+  "pr": {
+    "precision": [
+      0.6666666666666666,
+      0.6363636363636364,
+      0.6,
+      0.5555555555555556,
+      0.5,
+      0.42857142857142855,
+      0.3333333333333333,
+      0.2,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "recall": [
+      1.0,
+      0.875,
+      0.75,
+      0.625,
+      0.5,
+      0.375,
+      0.25,
+      0.125,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "thresholds": [
+      0.0010697203688323498,
+      0.001087603042833507,
+      0.004297975450754166,
+      0.009154453873634338,
+      0.011403445154428482,
+      0.01588285341858864,
+      0.018939608708024025,
+      0.019474714994430542,
+      0.04382811114192009,
+      0.08872515708208084,
+      0.16329550743103027,
+      0.240011528134346
+    ]
+  },
+  "confusion_matrix": [
+    [
+      4,
+      0
+    ],
+    [
+      8,
+      0
+    ]
+  ],
+  "metrics": {
+    "accuracy": 0.3333333333333333,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "total_utterances": 12,
+    "eot_ratio": 0.6666666666666666
+  },
+  "latency": {
+    "mean": 0.5418981313705444,
+    "median": 0.46563613414764404,
+    "min": 0.15251922607421875,
+    "max": 1.4423928260803223,
+    "p95": 1.3265363931655882
+  },
+  "role_analysis": {
+    "Virtual Assistant 1": {
+      "count": 1,
+      "accuracy": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "eot_ratio": 1.0
+    },
+    "Virtual Assistant 2": {
+      "count": 2,
+      "accuracy": 1.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "eot_ratio": 0.0
+    },
+    "Assistant": {
+      "count": 5,
+      "accuracy": 0.2,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "eot_ratio": 0.8
+    },
+    "Caller": {
+      "count": 4,
+      "accuracy": 0.25,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "eot_ratio": 0.75
+    }
+  },
+  "error_summary": {
+    "false_positives": 0,
+    "false_negatives": 8
+  }
+}

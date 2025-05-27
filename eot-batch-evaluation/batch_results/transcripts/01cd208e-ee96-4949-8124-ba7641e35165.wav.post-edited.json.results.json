@@ -1,0 +1,1266 @@
+{
+  "file_path": "transcripts/01cd208e-ee96-4949-8124-ba7641e35165.wav.post-edited.json",
+  "file_name": "01cd208e-ee96-4949-8124-ba7641e35165.wav.post-edited.json",
+  "utterance_analysis": [
+    {
+      "index": 0,
+      "content": "Hello. 711.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.0011580047430470586,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 1,
+      "content": "Hello. Hi. Can I speak to your supervisor?",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.006846380420029163,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 2,
+      "content": "Right. The supervisor just left. He should be here up to 10:00 in the morning, but today, he left a bit late. He'd be back in the office tomorrow morning.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.012409723363816738,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 3,
+      "content": "Manager?",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.010846007615327835,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 4,
+      "content": "He is the supervisor manager.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.006061801686882973,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 5,
+      "content": "Oh, okay. So, basic--, who can I speak to? Because, we, I made a booking this morning, but the taxi driver was being very rude to my daughter.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.045248501002788544,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 6,
+      "content": "Being rude? Where would, where were they picked-up from? Nobody should",
+      "role": "Assistant",
+      "ground_truth": 0,
+      "predicted_probability": 0.6712567210197449,
+      "predicted_label": 1,
+      "is_correct": false
+    },
+    {
+      "index": 7,
+      "content": "24 Park Lawn.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.01717349886894226,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 8,
+      "content": "be rude.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.012263145297765732,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 9,
+      "content": "24 Park Lawn,",
+      "role": "Caller",
+      "ground_truth": 0,
+      "predicted_probability": 0.30552738904953003,
+      "predicted_label": 0,
+      "is_correct": true
+    },
+    {
+      "index": 10,
+      "content": "Yeah.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.012905758805572987,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 11,
+      "content": "and then he kept ringing my number as well. When I give them my daughter's number as well. I rang this morning and asked specifically.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.01555208582431078,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 12,
+      "content": "Right. I see. Yeah. 08:50 this morning. And you said",
+      "role": "Assistant",
+      "ground_truth": 0,
+      "predicted_probability": 0.42641007900238037,
+      "predicted_label": 0,
+      "is_correct": true
+    },
+    {
+      "index": 13,
+      "content": "Yeah.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.010847236961126328,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 14,
+      "content": "the driver",
+      "role": "Assistant",
+      "ground_truth": 0,
+      "predicted_probability": 0.5576401352882385,
+      "predicted_label": 1,
+      "is_correct": false
+    },
+    {
+      "index": 15,
+      "content": "The dri--",
+      "role": "Caller",
+      "ground_truth": 0,
+      "predicted_probability": 0.09753567725419998,
+      "predicted_label": 0,
+      "is_correct": true
+    },
+    {
+      "index": 16,
+      "content": "was being rude?",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.03757864236831665,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 17,
+      "content": "the dri--",
+      "role": "Caller",
+      "ground_truth": 0,
+      "predicted_probability": 0.0656266063451767,
+      "predicted_label": 0,
+      "is_correct": true
+    },
+    {
+      "index": 18,
+      "content": "Yeah, the driver was being rude to my daughter. Yeah. Because he said that she was five minutes late, but he actually rang my number.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.03605109825730324,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 19,
+      "content": "Mhmm.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.008868943899869919,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 20,
+      "content": "And I was at work, so I couldn't answer it. So when I did get to it, obviously, that, that, that few minutes had gone by. And I, and I've said specifically to call my daughter's number, because she was gonna go in, and she was still in the taxi.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.03786219656467438,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 21,
+      "content": "Right. He's in the office tomorrow morning. I apologize. Nobody should be rude to anybody. Um",
+      "role": "Assistant",
+      "ground_truth": 0,
+      "predicted_probability": 0.03739826753735542,
+      "predicted_label": 0,
+      "is_correct": true
+    },
+    {
+      "index": 22,
+      "content": "Yeah. I know. That's what I thought.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.03119746968150139,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 23,
+      "content": "If you, um, it shouldn't happen. I don't know why they, but I'll,",
+      "role": "Assistant",
+      "ground_truth": 0,
+      "predicted_probability": 0.03119746968150139,
+      "predicted_label": 0,
+      "is_correct": true
+    },
+    {
+      "index": 24,
+      "content": "Cause",
+      "role": "Caller",
+      "ground_truth": 0,
+      "predicted_probability": 0.03119746968150139,
+      "predicted_label": 0,
+      "is_correct": true
+    },
+    {
+      "index": 25,
+      "content": "if you wanna speak to the manager, uh",
+      "role": "Assistant",
+      "ground_truth": 0,
+      "predicted_probability": 0.03119746968150139,
+      "predicted_label": 0,
+      "is_correct": true
+    },
+    {
+      "index": 26,
+      "content": "No. It's fine. I don't want it, I don't want it happening again, because I don't see why, my daughter's g--, going to work, and she doesn't want,",
+      "role": "Caller",
+      "ground_truth": 0,
+      "predicted_probability": 0.03119746968150139,
+      "predicted_label": 0,
+      "is_correct": true
+    },
+    {
+      "index": 27,
+      "content": "No, no. That's fine. That's fine. Of course. I wouldn't like anybody to be like that to my kids or even myself.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.03119746968150139,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 28,
+      "content": "Yeah. So, you know, on my, on my system, I asked specifically this morning that can they make sure they ring 0773 655362. Can, can you just put it on the system? That's the number you need to ring.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.03119746968150139,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 29,
+      "content": "Okay. Next time you book a taxi, just make sure that the person puts it on there, please, because",
+      "role": "Assistant",
+      "ground_truth": 0,
+      "predicted_probability": 0.03119746968150139,
+      "predicted_label": 0,
+      "is_correct": true
+    },
+    {
+      "index": 30,
+      "content": "No, I did. No. No, I did. I asked specifically",
+      "role": "Caller",
+      "ground_truth": 0,
+      "predicted_probability": 0.03119746968150139,
+      "predicted_label": 0,
+      "is_correct": true
+    },
+    {
+      "index": 31,
+      "content": "It wasn't,",
+      "role": "Assistant",
+      "ground_truth": 0,
+      "predicted_probability": 0.03119746968150139,
+      "predicted_label": 0,
+      "is_correct": true
+    },
+    {
+      "index": 32,
+      "content": "before this.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.03119746968150139,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 33,
+      "content": "it wasn't done this morning. I'm sorry. But next time",
+      "role": "Assistant",
+      "ground_truth": 0,
+      "predicted_probability": 0.03119746968150139,
+      "predicted_label": 0,
+      "is_correct": true
+    },
+    {
+      "index": 34,
+      "content": "Guys.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.03119746968150139,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 35,
+      "content": "you do book it",
+      "role": "Assistant",
+      "ground_truth": 0,
+      "predicted_probability": 0.03119746968150139,
+      "predicted_label": 0,
+      "is_correct": true
+    },
+    {
+      "index": 36,
+      "content": "When I rang, I asked him specifically.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.03119746968150139,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 37,
+      "content": "Right.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.03119746968150139,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 38,
+      "content": "I asked. I asked before as well, and it never happened.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.03119746968150139,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 39,
+      "content": "Alright. Tomorrow morning or whenever you next met, make sure, make sure, say \"make sure you",
+      "role": "Assistant",
+      "ground_truth": 0,
+      "predicted_probability": 0.03119746968150139,
+      "predicted_label": 0,
+      "is_correct": true
+    },
+    {
+      "index": 40,
+      "content": "Right,",
+      "role": "Caller",
+      "ground_truth": 0,
+      "predicted_probability": 0.03119746968150139,
+      "predicted_label": 0,
+      "is_correct": true
+    },
+    {
+      "index": 41,
+      "content": "put it.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.03119746968150139,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 42,
+      "content": "you know what? Can you do me a favor? I will speak to you only then. Sorry, what's your name?",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.03119746968150139,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 43,
+      "content": "I don't be here in the morning because I'll start work at 10:00.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.03119746968150139,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 44,
+      "content": "What if I make the booking now?",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.03119746968150139,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 45,
+      "content": "I could make a booking for you now.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.03119746968150139,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 46,
+      "content": "Yeah?",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.03119746968150139,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 47,
+      "content": "What time tomorrow",
+      "role": "Assistant",
+      "ground_truth": 0,
+      "predicted_probability": 0.03119746968150139,
+      "predicted_label": 0,
+      "is_correct": true
+    },
+    {
+      "index": 48,
+      "content": "Okay.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.03119746968150139,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 49,
+      "content": "morning?",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.03119746968150139,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 50,
+      "content": "Same time, 08:50, and we don't want the same taxi driver",
+      "role": "Caller",
+      "ground_truth": 0,
+      "predicted_probability": 0.03119746968150139,
+      "predicted_label": 0,
+      "is_correct": true
+    },
+    {
+      "index": 51,
+      "content": "Yeah, I put that.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.03119746968150139,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 52,
+      "content": "because he was rude.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.03119746968150139,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 53,
+      "content": "24 Park Lawn to Montrose Avenue?",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.03119746968150139,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 54,
+      "content": "Yeah.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.03119746968150139,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 55,
+      "content": "That's 8",
+      "role": "Caller",
+      "ground_truth": 0,
+      "predicted_probability": 0.03119746968150139,
+      "predicted_label": 0,
+      "is_correct": true
+    },
+    {
+      "index": 56,
+      "content": "Yeah.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.03119746968150139,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 57,
+      "content": "4? What number do they call, please?",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.03119746968150139,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 58,
+      "content": "Um, 0773.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.03119746968150139,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 59,
+      "content": "0, double-7, 3.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.03119746968150139,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 60,
+      "content": "6, 5, 5, 5. 3, 6, 2.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.03119746968150139,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 61,
+      "content": "6, 5, 5, 5",
+      "role": "Assistant",
+      "ground_truth": 0,
+      "predicted_probability": 0.03119746968150139,
+      "predicted_label": 0,
+      "is_correct": true
+    },
+    {
+      "index": 62,
+      "content": "Hold on. Hang on. Let me just make sure one minute.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.03119746968150139,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 63,
+      "content": "Yeah, go on.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.03119746968150139,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 64,
+      "content": "Give me a second.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.03119746968150139,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 65,
+      "content": "Go on.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.03119746968150139,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 66,
+      "content": "Hello. Can you hear me?",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.03119746968150139,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 67,
+      "content": "Yes.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.03119746968150139,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 68,
+      "content": "Yeah. It's 0, 7, 7, 3.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.03119746968150139,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 69,
+      "content": "0, 7, 7, 3.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.03119746968150139,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 70,
+      "content": "6, 5, 5, 5.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.03119746968150139,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 71,
+      "content": "6, 5, 5, 5.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.03119746968150139,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 72,
+      "content": "3, 6, 2.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.03119746968150139,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 73,
+      "content": "3, 6, 2, and I've wrote on the, do, and do not send 1-0. Do not send D-1-0. And I've got a name of Indie.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.03119746968150139,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 74,
+      "content": "Yeah. But, um",
+      "role": "Caller",
+      "ground_truth": 0,
+      "predicted_probability": 0.03119746968150139,
+      "predicted_label": 0,
+      "is_correct": true
+    },
+    {
+      "index": 75,
+      "content": "Yeah, but",
+      "role": "Assistant",
+      "ground_truth": 0,
+      "predicted_probability": 0.03119746968150139,
+      "predicted_label": 0,
+      "is_correct": true
+    },
+    {
+      "index": 76,
+      "content": "it depends on that number because I'll, I'll,",
+      "role": "Caller",
+      "ground_truth": 0,
+      "predicted_probability": 0.03119746968150139,
+      "predicted_label": 0,
+      "is_correct": true
+    },
+    {
+      "index": 77,
+      "content": "That's fine. I've taken your number off anyway. So the only number we have now is for, the, the number you've just given me now.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.03119746968150139,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 78,
+      "content": "Yeah?",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.03119746968150139,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 79,
+      "content": "And I've",
+      "role": "Assistant",
+      "ground_truth": 0,
+      "predicted_probability": 0.03119746968150139,
+      "predicted_label": 0,
+      "is_correct": true
+    },
+    {
+      "index": 80,
+      "content": "Even though",
+      "role": "Caller",
+      "ground_truth": 0,
+      "predicted_probability": 0.03119746968150139,
+      "predicted_label": 0,
+      "is_correct": true
+    },
+    {
+      "index": 81,
+      "content": "booked it for 8.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.03119746968150139,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 82,
+      "content": "I'm ringing from my number?",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.03119746968150139,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 83,
+      "content": "Yeah. Yeah. I've taken you. I've deleted your number, and I've put that one in.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.03119746968150139,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 84,
+      "content": "0773 6555362.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.03119746968150139,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 85,
+      "content": "3,",
+      "role": "Assistant",
+      "ground_truth": 0,
+      "predicted_probability": 0.03119746968150139,
+      "predicted_label": 0,
+      "is_correct": true
+    },
+    {
+      "index": 86,
+      "content": "Okay. That's",
+      "role": "Caller",
+      "ground_truth": 0,
+      "predicted_probability": 0.03119746968150139,
+      "predicted_label": 0,
+      "is_correct": true
+    },
+    {
+      "index": 87,
+      "content": "6, 2.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.03119746968150139,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 88,
+      "content": "Okay. And that's booked for tomorrow morning, 08:50.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.03119746968150139,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 89,
+      "content": "Yeah. Can you do it for the rest of the week, actually, 08:50?",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.03119746968150139,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 90,
+      "content": "08:50, Tuesday.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.03119746968150139,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 91,
+      "content": "Yeah. But not that driver, please.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.03119746968150139,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 92,
+      "content": "Yeah. Of course. Yeah.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.03119746968150139,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 93,
+      "content": "And if I can make sure it's the third building, because sometimes they wait at the gate. I don't know why.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.03119746968150139,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 94,
+      "content": "Today is the fifth. What, Monday to Friday?",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.03119746968150139,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 95,
+      "content": "This week. Yeah.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.03119746968150139,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 96,
+      "content": "So up to Friday. Yeah?",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.03119746968150139,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 97,
+      "content": "Yeah. And let's see how things go.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.03119746968150139,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 98,
+      "content": "08:50 on the 6th and 08:50 on the 7th. I've done it up to Friday now. Yeah?",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.03119746968150139,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 99,
+      "content": "Yeah. And 08:50, like, ten to",
+      "role": "Caller",
+      "ground_truth": 0,
+      "predicted_probability": 0.03119746968150139,
+      "predicted_label": 0,
+      "is_correct": true
+    },
+    {
+      "index": 100,
+      "content": "08:50",
+      "role": "Assistant",
+      "ground_truth": 0,
+      "predicted_probability": 0.03119746968150139,
+      "predicted_label": 0,
+      "is_correct": true
+    },
+    {
+      "index": 101,
+      "content": "nine.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.03119746968150139,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 102,
+      "content": "to nine.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.03119746968150139,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 103,
+      "content": "But make sure to come to the building, the third building, not at the gate. Sometimes",
+      "role": "Caller",
+      "ground_truth": 0,
+      "predicted_probability": 0.03119746968150139,
+      "predicted_label": 0,
+      "is_correct": true
+    },
+    {
+      "index": 104,
+      "content": "24 Park Lawn",
+      "role": "Assistant",
+      "ground_truth": 0,
+      "predicted_probability": 0.03119746968150139,
+      "predicted_label": 0,
+      "is_correct": true
+    },
+    {
+      "index": 105,
+      "content": "they wait there",
+      "role": "Caller",
+      "ground_truth": 0,
+      "predicted_probability": 0.03119746968150139,
+      "predicted_label": 0,
+      "is_correct": true
+    },
+    {
+      "index": 106,
+      "content": "I've got it. What should I write now?",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.03119746968150139,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 107,
+      "content": "Third Building. It's a third building. Come through the gate.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.03119746968150139,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 108,
+      "content": "Third Building. Okay. Thank you.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.03119746968150139,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 109,
+      "content": "Yeah? Alright.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.03119746968150139,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 110,
+      "content": "Thank you.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.03119746968150139,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 111,
+      "content": "So what's your name?",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.03119746968150139,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 112,
+      "content": "Isra.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.03119746968150139,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 113,
+      "content": "What's your name?",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.03119746968150139,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 114,
+      "content": "Isra.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.03119746968150139,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 115,
+      "content": "Isrod?",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.03119746968150139,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 116,
+      "content": "Yep.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.03119746968150139,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 117,
+      "content": "Okay. Alright. Thank you.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.03119746968150139,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 118,
+      "content": "Third building.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.03119746968150139,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 119,
+      "content": "Okay. Thank you. Bye.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.03119746968150139,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 120,
+      "content": "Thank you.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.03119746968150139,
+      "predicted_label": 0,
+      "is_correct": false
+    }
+  ],
+  "f1_scores": {
+    "0.1": 0.0,
+    "0.2": 0.0,
+    "0.3": 0.0,
+    "0.4": 0.0,
+    "0.5": 0.0,
+    "0.6": 0.0,
+    "0.7": 0.0,
+    "0.8": 0.0,
+    "0.9": 0.0
+  },
+  "optimal_threshold": 0.5,
+  "roc": {
+    "fpr": [
+      0.0,
+      0.029411764705882353,
+      0.17647058823529413,
+      0.17647058823529413,
+      0.20588235294117646,
+      0.20588235294117646,
+      1.0,
+      1.0
+    ],
+    "tpr": [
+      0.0,
+      0.0,
+      0.0,
+      0.034482758620689655,
+      0.034482758620689655,
+      0.04597701149425287,
+      0.8735632183908046,
+      1.0
+    ],
+    "thresholds": [
+      Infinity,
+      0.6712567210197449,
+      0.0656266063451767,
+      0.03757864236831665,
+      0.03739826753735542,
+      0.03605109825730324,
+      0.03119746968150139,
+      0.0011580047430470586
+    ],
+    "auc": 0.36612576064908725
+  },
+  "pr": {
+    "precision": [
+      0.71900826446281,
+      0.7166666666666667,
+      0.7142857142857143,
+      0.711864406779661,
+      0.7094017094017094,
+      0.7068965517241379,
+      0.7043478260869566,
+      0.7017543859649122,
+      0.6991150442477876,
+      0.6964285714285714,
+      0.6936936936936937,
+      0.6909090909090909,
+      0.36363636363636365,
+      0.3,
+      0.3333333333333333,
+      0.25,
+      0.14285714285714285,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "recall": [
+      1.0,
+      0.9885057471264368,
+      0.9770114942528736,
+      0.9655172413793104,
+      0.9540229885057471,
+      0.9425287356321839,
+      0.9310344827586207,
+      0.9195402298850575,
+      0.9080459770114943,
+      0.896551724137931,
+      0.8850574712643678,
+      0.8735632183908046,
+      0.04597701149425287,
+      0.034482758620689655,
+      0.034482758620689655,
+      0.022988505747126436,
+      0.011494252873563218,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "thresholds": [
+      0.0011580047430470586,
+      0.006061801686882973,
+      0.006846380420029163,
+      0.008868943899869919,
+      0.010846007615327835,
+      0.010847236961126328,
+      0.012263145297765732,
+      0.012409723363816738,
+      0.012905758805572987,
+      0.01555208582431078,
+      0.01717349886894226,
+      0.03119746968150139,
+      0.03605109825730324,
+      0.03739826753735542,
+      0.03757864236831665,
+      0.03786219656467438,
+      0.045248501002788544,
+      0.0656266063451767,
+      0.09753567725419998,
+      0.30552738904953003,
+      0.42641007900238037,
+      0.5576401352882385,
+      0.6712567210197449
+    ]
+  },
+  "confusion_matrix": [
+    [
+      32,
+      2
+    ],
+    [
+      87,
+      0
+    ]
+  ],
+  "metrics": {
+    "accuracy": 0.2644628099173554,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "total_utterances": 121,
+    "eot_ratio": 0.71900826446281
+  },
+  "latency": {
+    "mean": 1.5957908098362694,
+    "median": 1.7626445293426514,
+    "min": 0.09420657157897949,
+    "max": 2.175671100616455,
+    "p95": 1.874131679534912
+  },
+  "role_analysis": {
+    "Assistant": {
+      "count": 60,
+      "accuracy": 0.26666666666666666,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "eot_ratio": 0.7
+    },
+    "Caller": {
+      "count": 61,
+      "accuracy": 0.26229508196721313,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "eot_ratio": 0.7377049180327869
+    }
+  },
+  "error_summary": {
+    "false_positives": 2,
+    "false_negatives": 87
+  }
+}

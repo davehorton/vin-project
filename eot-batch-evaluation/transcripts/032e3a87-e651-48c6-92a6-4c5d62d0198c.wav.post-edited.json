@@ -1,0 +1,279 @@
+{
+    "results": [
+        {
+            "Content": "Speedway. Can I help you?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Yeah. Can I have a",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "taxi on account, please,",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "at Arden University",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "outside the Chest Clinic, not UCB?",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Just, just a",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "And",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "second.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Um",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "139",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Just a second, please.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Alright.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Okay. Just a moment.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Alright, so it's Arden University one five six grade Charles Street by the Chest Clinic.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Yeah.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Right. Okay. Did you have the account number there?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "4439.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "4439.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Yeah.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Okay. And the authorization, please?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Bria.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Okay. Right. And um,",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Okay. Just a second. Where about you going to?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "24 Chiswick.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Alright. Just a moment. Hold on.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Right,",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "just a moment, please.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Okay.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Right. Because this account only recognizes drops to B31JB,",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "which wouldn't be the postcode for the, the Great Charles Street",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Do know what? Let me let let me go outside UCB College",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "somewhere else.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Sorry. I was just saying I'm, I'm gonna have to modify an address. So are okay to hold a second, or I can book it through",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Yes.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "to Great Charles Street?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Yes, yes, please.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Thank you.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Thank you.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Sorry to keep you there.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Pardon?",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Sorry to keep you. If we're gonna be with back with you in a second. Just a moment.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "It's okay. That's alright.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Yeah.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Yeah.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Okay,",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Yeah?",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "right, I've got a text now. Sorry, by the way, though. Right. And uh,",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "That's okay.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "did you do it now or or later on?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Now, please.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Okay. I'll get on the way to you now. It's on the way now.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Alright.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Thanks very much.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Alright. Thank you very much. Bye.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Bye. Thanks. Bye bye.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        }
+    ]
+}

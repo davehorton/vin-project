@@ -1,0 +1,44 @@
+{
+    "results": [
+        {
+            "Content": "Central Stokes. This is Ellie speaking. How can I help?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Hi there. I would like to book a taxi for 03:30, going from Orwellard at 17 Oakwell Place to 22 Corby Park Close at the name of Tam.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Not a problem at all. I'll go ahead and get that booked in just now for you for three, half past three.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Okay. Lovely. Thank you for your ass--",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Thank you.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "--istance.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Bye.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Bye.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        }
+    ]
+}

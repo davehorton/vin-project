@@ -1,0 +1,898 @@
+{
+  "metadata": {
+    "transaction_key": "deprecated",
+    "request_id": "fb1c3a41-c2ab-4593-af73-f6567f8c328c",
+    "sha256": "1005c5b19c96c5d7841f2fd7c362540e5d8a6c8359991d54a2eb37dcb7cb7d3d",
+    "created": "2025-04-03T14:56:35.963Z",
+    "duration": 20.179937,
+    "channels": 1,
+    "models": [
+      "1abfe86b-e047-4eed-858a-35e5625b41ee"
+    ],
+    "model_info": {
+      "1abfe86b-e047-4eed-858a-35e5625b41ee": {
+        "name": "2-general-nova",
+        "version": "2024-01-06.5664",
+        "arch": "nova-2"
+      }
+    }
+  },
+  "results": {
+    "channels": [
+      {
+        "alternatives": [
+          {
+            "transcript": "Good afternoon. Maryline. Diane speaking. Hello. I'd like to order a taxi, please. Where are you going? 44 Sussex Road. And what's the name? Joe. Yep. That's all done. Alright. Thank you. Bye bye. Bye.",
+            "confidence": 0.9969885,
+            "words": [
+              {
+                "word": "good",
+                "start": 1.4399999,
+                "end": 1.68,
+                "confidence": 0.99916315,
+                "speaker": 0,
+                "speaker_confidence": 0.8581817,
+                "punctuated_word": "Good"
+              },
+              {
+                "word": "afternoon",
+                "start": 1.68,
+                "end": 2.1599998,
+                "confidence": 0.9954091,
+                "speaker": 0,
+                "speaker_confidence": 0.8581817,
+                "punctuated_word": "afternoon."
+              },
+              {
+                "word": "maryline",
+                "start": 2.1599998,
+                "end": 2.6399999,
+                "confidence": 0.62983257,
+                "speaker": 0,
+                "speaker_confidence": 0.8581817,
+                "punctuated_word": "Maryline."
+              },
+              {
+                "word": "diane",
+                "start": 2.6399999,
+                "end": 2.96,
+                "confidence": 0.94840294,
+                "speaker": 0,
+                "speaker_confidence": 0.8581817,
+                "punctuated_word": "Diane"
+              },
+              {
+                "word": "speaking",
+                "start": 2.96,
+                "end": 3.46,
+                "confidence": 0.9964618,
+                "speaker": 0,
+                "speaker_confidence": 0.8581817,
+                "punctuated_word": "speaking."
+              },
+              {
+                "word": "hello",
+                "start": 3.9199998,
+                "end": 4.24,
+                "confidence": 0.99877965,
+                "speaker": 1,
+                "speaker_confidence": 0.6686836,
+                "punctuated_word": "Hello."
+              },
+              {
+                "word": "i'd",
+                "start": 4.24,
+                "end": 4.48,
+                "confidence": 0.9988214,
+                "speaker": 1,
+                "speaker_confidence": 0.6686836,
+                "punctuated_word": "I'd"
+              },
+              {
+                "word": "like",
+                "start": 4.48,
+                "end": 4.72,
+                "confidence": 0.99928206,
+                "speaker": 1,
+                "speaker_confidence": 0.6686836,
+                "punctuated_word": "like"
+              },
+              {
+                "word": "to",
+                "start": 4.72,
+                "end": 4.7999997,
+                "confidence": 0.9979449,
+                "speaker": 1,
+                "speaker_confidence": 0.6686836,
+                "punctuated_word": "to"
+              },
+              {
+                "word": "order",
+                "start": 4.7999997,
+                "end": 5.12,
+                "confidence": 0.9999486,
+                "speaker": 1,
+                "speaker_confidence": 0.6686836,
+                "punctuated_word": "order"
+              },
+              {
+                "word": "a",
+                "start": 5.12,
+                "end": 5.2,
+                "confidence": 0.9994191,
+                "speaker": 1,
+                "speaker_confidence": 0.6686836,
+                "punctuated_word": "a"
+              },
+              {
+                "word": "taxi",
+                "start": 5.2,
+                "end": 5.68,
+                "confidence": 0.9979801,
+                "speaker": 1,
+                "speaker_confidence": 0.6686836,
+                "punctuated_word": "taxi,"
+              },
+              {
+                "word": "please",
+                "start": 5.68,
+                "end": 6.18,
+                "confidence": 0.9698088,
+                "speaker": 1,
+                "speaker_confidence": 0.6686836,
+                "punctuated_word": "please."
+              },
+              {
+                "word": "where",
+                "start": 6.72,
+                "end": 7.04,
+                "confidence": 0.99471515,
+                "speaker": 0,
+                "speaker_confidence": 0.8041793,
+                "punctuated_word": "Where"
+              },
+              {
+                "word": "are",
+                "start": 7.04,
+                "end": 7.12,
+                "confidence": 0.6798779,
+                "speaker": 0,
+                "speaker_confidence": 0.8041793,
+                "punctuated_word": "are"
+              },
+              {
+                "word": "you",
+                "start": 7.12,
+                "end": 7.2,
+                "confidence": 0.9994765,
+                "speaker": 0,
+                "speaker_confidence": 0.8041793,
+                "punctuated_word": "you"
+              },
+              {
+                "word": "going",
+                "start": 7.2,
+                "end": 7.7,
+                "confidence": 0.9996455,
+                "speaker": 0,
+                "speaker_confidence": 0.8041793,
+                "punctuated_word": "going?"
+              },
+              {
+                "word": "44",
+                "start": 8.24,
+                "end": 8.88,
+                "confidence": 0.99812233,
+                "speaker": 1,
+                "speaker_confidence": 0.6707736,
+                "punctuated_word": "44"
+              },
+              {
+                "word": "sussex",
+                "start": 8.88,
+                "end": 9.36,
+                "confidence": 0.98589385,
+                "speaker": 1,
+                "speaker_confidence": 0.6707736,
+                "punctuated_word": "Sussex"
+              },
+              {
+                "word": "road",
+                "start": 9.36,
+                "end": 9.86,
+                "confidence": 0.9986013,
+                "speaker": 1,
+                "speaker_confidence": 0.6707736,
+                "punctuated_word": "Road."
+              },
+              {
+                "word": "and",
+                "start": 10.694937,
+                "end": 10.774937,
+                "confidence": 0.9158017,
+                "speaker": 0,
+                "speaker_confidence": 0.63528347,
+                "punctuated_word": "And"
+              },
+              {
+                "word": "what's",
+                "start": 10.774937,
+                "end": 11.014937,
+                "confidence": 0.99579024,
+                "speaker": 0,
+                "speaker_confidence": 0.63528347,
+                "punctuated_word": "what's"
+              },
+              {
+                "word": "the",
+                "start": 11.014937,
+                "end": 11.254937,
+                "confidence": 0.51350206,
+                "speaker": 0,
+                "speaker_confidence": 0.63528347,
+                "punctuated_word": "the"
+              },
+              {
+                "word": "name",
+                "start": 11.254937,
+                "end": 11.754937,
+                "confidence": 0.99946,
+                "speaker": 0,
+                "speaker_confidence": 0.63528347,
+                "punctuated_word": "name?"
+              },
+              {
+                "word": "joe",
+                "start": 12.454937,
+                "end": 12.954937,
+                "confidence": 0.9560063,
+                "speaker": 0,
+                "speaker_confidence": 0.63528347,
+                "punctuated_word": "Joe."
+              },
+              {
+                "word": "yep",
+                "start": 13.814938,
+                "end": 14.134937,
+                "confidence": 0.9806938,
+                "speaker": 0,
+                "speaker_confidence": 0.6982507,
+                "punctuated_word": "Yep."
+              },
+              {
+                "word": "that's",
+                "start": 14.134937,
+                "end": 14.374937,
+                "confidence": 0.9976686,
+                "speaker": 0,
+                "speaker_confidence": 0.6982507,
+                "punctuated_word": "That's"
+              },
+              {
+                "word": "all",
+                "start": 14.374937,
+                "end": 14.614937,
+                "confidence": 0.99972063,
+                "speaker": 0,
+                "speaker_confidence": 0.6982507,
+                "punctuated_word": "all"
+              },
+              {
+                "word": "done",
+                "start": 14.614937,
+                "end": 15.114937,
+                "confidence": 0.9979135,
+                "speaker": 0,
+                "speaker_confidence": 0.6982507,
+                "punctuated_word": "done."
+              },
+              {
+                "word": "alright",
+                "start": 15.574937,
+                "end": 15.814938,
+                "confidence": 0.9714226,
+                "speaker": 1,
+                "speaker_confidence": 0.7276843,
+                "punctuated_word": "Alright."
+              },
+              {
+                "word": "thank",
+                "start": 15.814938,
+                "end": 16.134937,
+                "confidence": 0.9953176,
+                "speaker": 1,
+                "speaker_confidence": 0.7276843,
+                "punctuated_word": "Thank"
+              },
+              {
+                "word": "you",
+                "start": 16.134937,
+                "end": 16.634937,
+                "confidence": 0.9998878,
+                "speaker": 1,
+                "speaker_confidence": 0.7276843,
+                "punctuated_word": "you."
+              },
+              {
+                "word": "bye",
+                "start": 16.774937,
+                "end": 17.174936,
+                "confidence": 0.7790452,
+                "speaker": 0,
+                "speaker_confidence": 0.7484591,
+                "punctuated_word": "Bye"
+              },
+              {
+                "word": "bye",
+                "start": 17.174936,
+                "end": 17.674936,
+                "confidence": 0.87785345,
+                "speaker": 0,
+                "speaker_confidence": 0.7484591,
+                "punctuated_word": "bye."
+              },
+              {
+                "word": "bye",
+                "start": 17.894938,
+                "end": 18.394938,
+                "confidence": 0.9905033,
+                "speaker": 1,
+                "speaker_confidence": 0.58173704,
+                "punctuated_word": "Bye."
+              }
+            ],
+            "paragraphs": {
+              "transcript": "\nSpeaker 0: Good afternoon. Maryline. Diane speaking.\n\nSpeaker 1: Hello. I'd like to order a taxi, please.\n\nSpeaker 0: Where are you going?\n\nSpeaker 1: 44 Sussex Road.\n\nSpeaker 0: And what's the name? Joe. Yep. That's all done.\n\nSpeaker 1: Alright. Thank you.\n\nSpeaker 0: Bye bye.\n\nSpeaker 1: Bye.",
+              "paragraphs": [
+                {
+                  "sentences": [
+                    {
+                      "text": "Good afternoon.",
+                      "start": 1.4399999,
+                      "end": 2.1599998
+                    },
+                    {
+                      "text": "Maryline.",
+                      "start": 2.1599998,
+                      "end": 2.6399999
+                    },
+                    {
+                      "text": "Diane speaking.",
+                      "start": 2.6399999,
+                      "end": 3.46
+                    }
+                  ],
+                  "speaker": 0,
+                  "num_words": 5,
+                  "start": 1.4399999,
+                  "end": 3.46
+                },
+                {
+                  "sentences": [
+                    {
+                      "text": "Hello.",
+                      "start": 3.9199998,
+                      "end": 4.24
+                    },
+                    {
+                      "text": "I'd like to order a taxi, please.",
+                      "start": 4.24,
+                      "end": 6.18
+                    }
+                  ],
+                  "speaker": 1,
+                  "num_words": 8,
+                  "start": 3.9199998,
+                  "end": 6.18
+                },
+                {
+                  "sentences": [
+                    {
+                      "text": "Where are you going?",
+                      "start": 6.72,
+                      "end": 7.7
+                    }
+                  ],
+                  "speaker": 0,
+                  "num_words": 4,
+                  "start": 6.72,
+                  "end": 7.7
+                },
+                {
+                  "sentences": [
+                    {
+                      "text": "44 Sussex Road.",
+                      "start": 8.24,
+                      "end": 9.86
+                    }
+                  ],
+                  "speaker": 1,
+                  "num_words": 3,
+                  "start": 8.24,
+                  "end": 9.86
+                },
+                {
+                  "sentences": [
+                    {
+                      "text": "And what's the name?",
+                      "start": 10.694937,
+                      "end": 11.754937
+                    },
+                    {
+                      "text": "Joe.",
+                      "start": 12.454937,
+                      "end": 12.954937
+                    },
+                    {
+                      "text": "Yep.",
+                      "start": 13.814938,
+                      "end": 14.134937
+                    },
+                    {
+                      "text": "That's all done.",
+                      "start": 14.134937,
+                      "end": 15.114937
+                    }
+                  ],
+                  "speaker": 0,
+                  "num_words": 9,
+                  "start": 10.694937,
+                  "end": 15.114937
+                },
+                {
+                  "sentences": [
+                    {
+                      "text": "Alright.",
+                      "start": 15.574937,
+                      "end": 15.814938
+                    },
+                    {
+                      "text": "Thank you.",
+                      "start": 15.814938,
+                      "end": 16.634937
+                    }
+                  ],
+                  "speaker": 1,
+                  "num_words": 3,
+                  "start": 15.574937,
+                  "end": 16.634937
+                },
+                {
+                  "sentences": [
+                    {
+                      "text": "Bye bye.",
+                      "start": 16.774937,
+                      "end": 17.674936
+                    }
+                  ],
+                  "speaker": 0,
+                  "num_words": 2,
+                  "start": 16.774937,
+                  "end": 17.674936
+                },
+                {
+                  "sentences": [
+                    {
+                      "text": "Bye.",
+                      "start": 17.894938,
+                      "end": 18.394938
+                    }
+                  ],
+                  "speaker": 1,
+                  "num_words": 1,
+                  "start": 17.894938,
+                  "end": 18.394938
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "utterances": [
+      {
+        "start": 1.4399999,
+        "end": 3.46,
+        "confidence": 0.9138538,
+        "channel": 0,
+        "transcript": "Good afternoon. Maryline. Diane speaking.",
+        "words": [
+          {
+            "word": "good",
+            "start": 1.4399999,
+            "end": 1.68,
+            "confidence": 0.99916315,
+            "speaker": 0,
+            "speaker_confidence": 0.8581817,
+            "punctuated_word": "Good"
+          },
+          {
+            "word": "afternoon",
+            "start": 1.68,
+            "end": 2.1599998,
+            "confidence": 0.9954091,
+            "speaker": 0,
+            "speaker_confidence": 0.8581817,
+            "punctuated_word": "afternoon."
+          },
+          {
+            "word": "maryline",
+            "start": 2.1599998,
+            "end": 2.6399999,
+            "confidence": 0.62983257,
+            "speaker": 0,
+            "speaker_confidence": 0.8581817,
+            "punctuated_word": "Maryline."
+          },
+          {
+            "word": "diane",
+            "start": 2.6399999,
+            "end": 2.96,
+            "confidence": 0.94840294,
+            "speaker": 0,
+            "speaker_confidence": 0.8581817,
+            "punctuated_word": "Diane"
+          },
+          {
+            "word": "speaking",
+            "start": 2.96,
+            "end": 3.46,
+            "confidence": 0.9964618,
+            "speaker": 0,
+            "speaker_confidence": 0.8581817,
+            "punctuated_word": "speaking."
+          }
+        ],
+        "speaker": 0,
+        "id": "beae8d36-b18e-4090-9625-c03f5a91e607"
+      },
+      {
+        "start": 3.9199998,
+        "end": 6.18,
+        "confidence": 0.9952481,
+        "channel": 0,
+        "transcript": "Hello. I'd like to order a taxi, please.",
+        "words": [
+          {
+            "word": "hello",
+            "start": 3.9199998,
+            "end": 4.24,
+            "confidence": 0.99877965,
+            "speaker": 1,
+            "speaker_confidence": 0.6686836,
+            "punctuated_word": "Hello."
+          },
+          {
+            "word": "i'd",
+            "start": 4.24,
+            "end": 4.48,
+            "confidence": 0.9988214,
+            "speaker": 1,
+            "speaker_confidence": 0.6686836,
+            "punctuated_word": "I'd"
+          },
+          {
+            "word": "like",
+            "start": 4.48,
+            "end": 4.72,
+            "confidence": 0.99928206,
+            "speaker": 1,
+            "speaker_confidence": 0.6686836,
+            "punctuated_word": "like"
+          },
+          {
+            "word": "to",
+            "start": 4.72,
+            "end": 4.7999997,
+            "confidence": 0.9979449,
+            "speaker": 1,
+            "speaker_confidence": 0.6686836,
+            "punctuated_word": "to"
+          },
+          {
+            "word": "order",
+            "start": 4.7999997,
+            "end": 5.12,
+            "confidence": 0.9999486,
+            "speaker": 1,
+            "speaker_confidence": 0.6686836,
+            "punctuated_word": "order"
+          },
+          {
+            "word": "a",
+            "start": 5.12,
+            "end": 5.2,
+            "confidence": 0.9994191,
+            "speaker": 1,
+            "speaker_confidence": 0.6686836,
+            "punctuated_word": "a"
+          },
+          {
+            "word": "taxi",
+            "start": 5.2,
+            "end": 5.68,
+            "confidence": 0.9979801,
+            "speaker": 1,
+            "speaker_confidence": 0.6686836,
+            "punctuated_word": "taxi,"
+          },
+          {
+            "word": "please",
+            "start": 5.68,
+            "end": 6.18,
+            "confidence": 0.9698088,
+            "speaker": 1,
+            "speaker_confidence": 0.6686836,
+            "punctuated_word": "please."
+          }
+        ],
+        "speaker": 1,
+        "id": "e976dd13-1764-472b-8db0-1a304d5b5c05"
+      },
+      {
+        "start": 6.72,
+        "end": 7.7,
+        "confidence": 0.9184287,
+        "channel": 0,
+        "transcript": "Where are you going?",
+        "words": [
+          {
+            "word": "where",
+            "start": 6.72,
+            "end": 7.04,
+            "confidence": 0.99471515,
+            "speaker": 0,
+            "speaker_confidence": 0.8041793,
+            "punctuated_word": "Where"
+          },
+          {
+            "word": "are",
+            "start": 7.04,
+            "end": 7.12,
+            "confidence": 0.6798779,
+            "speaker": 0,
+            "speaker_confidence": 0.8041793,
+            "punctuated_word": "are"
+          },
+          {
+            "word": "you",
+            "start": 7.12,
+            "end": 7.2,
+            "confidence": 0.9994765,
+            "speaker": 0,
+            "speaker_confidence": 0.8041793,
+            "punctuated_word": "you"
+          },
+          {
+            "word": "going",
+            "start": 7.2,
+            "end": 7.7,
+            "confidence": 0.9996455,
+            "speaker": 0,
+            "speaker_confidence": 0.8041793,
+            "punctuated_word": "going?"
+          }
+        ],
+        "speaker": 0,
+        "id": "2e99c716-57fe-4c06-9d2c-5d0a11d44506"
+      },
+      {
+        "start": 8.24,
+        "end": 9.86,
+        "confidence": 0.9942058,
+        "channel": 0,
+        "transcript": "44 Sussex Road.",
+        "words": [
+          {
+            "word": "44",
+            "start": 8.24,
+            "end": 8.88,
+            "confidence": 0.99812233,
+            "speaker": 1,
+            "speaker_confidence": 0.6707736,
+            "punctuated_word": "44"
+          },
+          {
+            "word": "sussex",
+            "start": 8.88,
+            "end": 9.36,
+            "confidence": 0.98589385,
+            "speaker": 1,
+            "speaker_confidence": 0.6707736,
+            "punctuated_word": "Sussex"
+          },
+          {
+            "word": "road",
+            "start": 9.36,
+            "end": 9.86,
+            "confidence": 0.9986013,
+            "speaker": 1,
+            "speaker_confidence": 0.6707736,
+            "punctuated_word": "Road."
+          }
+        ],
+        "speaker": 1,
+        "id": "d40cbb98-1d24-40dc-be79-aafaf6613117"
+      },
+      {
+        "start": 10.694937,
+        "end": 11.754937,
+        "confidence": 0.8561385,
+        "channel": 0,
+        "transcript": "And what's the name?",
+        "words": [
+          {
+            "word": "and",
+            "start": 10.694937,
+            "end": 10.774937,
+            "confidence": 0.9158017,
+            "speaker": 0,
+            "speaker_confidence": 0.63528347,
+            "punctuated_word": "And"
+          },
+          {
+            "word": "what's",
+            "start": 10.774937,
+            "end": 11.014937,
+            "confidence": 0.99579024,
+            "speaker": 0,
+            "speaker_confidence": 0.63528347,
+            "punctuated_word": "what's"
+          },
+          {
+            "word": "the",
+            "start": 11.014937,
+            "end": 11.254937,
+            "confidence": 0.51350206,
+            "speaker": 0,
+            "speaker_confidence": 0.63528347,
+            "punctuated_word": "the"
+          },
+          {
+            "word": "name",
+            "start": 11.254937,
+            "end": 11.754937,
+            "confidence": 0.99946,
+            "speaker": 0,
+            "speaker_confidence": 0.63528347,
+            "punctuated_word": "name?"
+          }
+        ],
+        "speaker": 0,
+        "id": "c070aaef-ee19-4fdb-ade5-bb1e8f27fcb1"
+      },
+      {
+        "start": 12.454937,
+        "end": 12.954937,
+        "confidence": 0.9560063,
+        "channel": 0,
+        "transcript": "Joe.",
+        "words": [
+          {
+            "word": "joe",
+            "start": 12.454937,
+            "end": 12.954937,
+            "confidence": 0.9560063,
+            "speaker": 0,
+            "speaker_confidence": 0.63528347,
+            "punctuated_word": "Joe."
+          }
+        ],
+        "speaker": 0,
+        "id": "4e203613-5368-4a31-a983-6e3820305054"
+      },
+      {
+        "start": 13.814938,
+        "end": 15.114937,
+        "confidence": 0.9939991,
+        "channel": 0,
+        "transcript": "Yep. That's all done.",
+        "words": [
+          {
+            "word": "yep",
+            "start": 13.814938,
+            "end": 14.134937,
+            "confidence": 0.9806938,
+            "speaker": 0,
+            "speaker_confidence": 0.6982507,
+            "punctuated_word": "Yep."
+          },
+          {
+            "word": "that's",
+            "start": 14.134937,
+            "end": 14.374937,
+            "confidence": 0.9976686,
+            "speaker": 0,
+            "speaker_confidence": 0.6982507,
+            "punctuated_word": "That's"
+          },
+          {
+            "word": "all",
+            "start": 14.374937,
+            "end": 14.614937,
+            "confidence": 0.99972063,
+            "speaker": 0,
+            "speaker_confidence": 0.6982507,
+            "punctuated_word": "all"
+          },
+          {
+            "word": "done",
+            "start": 14.614937,
+            "end": 15.114937,
+            "confidence": 0.9979135,
+            "speaker": 0,
+            "speaker_confidence": 0.6982507,
+            "punctuated_word": "done."
+          }
+        ],
+        "speaker": 0,
+        "id": "28aeaa57-f17b-4a98-ad53-4b3a4e7be7ae"
+      },
+      {
+        "start": 15.574937,
+        "end": 18.394938,
+        "confidence": 0.9356716,
+        "channel": 0,
+        "transcript": "Alright. Thank you. Bye bye. Bye.",
+        "words": [
+          {
+            "word": "alright",
+            "start": 15.574937,
+            "end": 15.814938,
+            "confidence": 0.9714226,
+            "speaker": 1,
+            "speaker_confidence": 0.7276843,
+            "punctuated_word": "Alright."
+          },
+          {
+            "word": "thank",
+            "start": 15.814938,
+            "end": 16.134937,
+            "confidence": 0.9953176,
+            "speaker": 1,
+            "speaker_confidence": 0.7276843,
+            "punctuated_word": "Thank"
+          },
+          {
+            "word": "you",
+            "start": 16.134937,
+            "end": 16.634937,
+            "confidence": 0.9998878,
+            "speaker": 1,
+            "speaker_confidence": 0.7276843,
+            "punctuated_word": "you."
+          },
+          {
+            "word": "bye",
+            "start": 16.774937,
+            "end": 17.174936,
+            "confidence": 0.7790452,
+            "speaker": 0,
+            "speaker_confidence": 0.7484591,
+            "punctuated_word": "Bye"
+          },
+          {
+            "word": "bye",
+            "start": 17.174936,
+            "end": 17.674936,
+            "confidence": 0.87785345,
+            "speaker": 0,
+            "speaker_confidence": 0.7484591,
+            "punctuated_word": "bye."
+          },
+          {
+            "word": "bye",
+            "start": 17.894938,
+            "end": 18.394938,
+            "confidence": 0.9905033,
+            "speaker": 1,
+            "speaker_confidence": 0.58173704,
+            "punctuated_word": "Bye."
+          }
+        ],
+        "speaker": 1,
+        "id": "40c8d219-dad8-40bf-ad72-e0780b1f4fd7"
+      }
+    ]
+  }
+}

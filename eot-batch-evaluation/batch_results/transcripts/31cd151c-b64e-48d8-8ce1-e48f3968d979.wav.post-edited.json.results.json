@@ -1,0 +1,234 @@
+{
+  "file_path": "transcripts/31cd151c-b64e-48d8-8ce1-e48f3968d979.wav.post-edited.json",
+  "file_name": "31cd151c-b64e-48d8-8ce1-e48f3968d979.wav.post-edited.json",
+  "utterance_analysis": [
+    {
+      "index": 0,
+      "content": "City Taxis.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.0007084992830641568,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 1,
+      "content": "How are you? May please get a taxi in",
+      "role": "Caller",
+      "ground_truth": 0,
+      "predicted_probability": 0.23908649384975433,
+      "predicted_label": 0,
+      "is_correct": true
+    },
+    {
+      "index": 2,
+      "content": "fifteen",
+      "role": "Caller",
+      "ground_truth": 0,
+      "predicted_probability": 0.15966634452342987,
+      "predicted_label": 0,
+      "is_correct": true
+    },
+    {
+      "index": 3,
+      "content": "minutes from, please?",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.012893305160105228,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 4,
+      "content": "Where are you going?",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.012701503932476044,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 5,
+      "content": "I'm going to, um",
+      "role": "Caller",
+      "ground_truth": 0,
+      "predicted_probability": 0.023411549627780914,
+      "predicted_label": 0,
+      "is_correct": true
+    },
+    {
+      "index": 6,
+      "content": "David Buchanan Building.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.024197395890951157,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 7,
+      "content": "Okay. No problem.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.0063974917866289616,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 8,
+      "content": "Thank you.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.004404708743095398,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 9,
+      "content": "Thanks.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.004681533668190241,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 10,
+      "content": "Bye.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.018569141626358032,
+      "predicted_label": 0,
+      "is_correct": false
+    }
+  ],
+  "f1_scores": {
+    "0.1": 0.0,
+    "0.2": 0.0,
+    "0.3": 0.0,
+    "0.4": 0.0,
+    "0.5": 0.0,
+    "0.6": 0.0,
+    "0.7": 0.0,
+    "0.8": 0.0,
+    "0.9": 0.0
+  },
+  "optimal_threshold": 0.5,
+  "roc": {
+    "fpr": [
+      0.0,
+      0.3333333333333333,
+      0.6666666666666666,
+      0.6666666666666666,
+      1.0,
+      1.0
+    ],
+    "tpr": [
+      0.0,
+      0.0,
+      0.0,
+      0.125,
+      0.125,
+      1.0
+    ],
+    "thresholds": [
+      Infinity,
+      0.23908649384975433,
+      0.15966634452342987,
+      0.024197395890951157,
+      0.023411549627780914,
+      0.0007084992830641568
+    ],
+    "auc": 0.04166666666666667
+  },
+  "pr": {
+    "precision": [
+      0.7272727272727273,
+      0.7,
+      0.6666666666666666,
+      0.625,
+      0.5714285714285714,
+      0.5,
+      0.4,
+      0.25,
+      0.3333333333333333,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "recall": [
+      1.0,
+      0.875,
+      0.75,
+      0.625,
+      0.5,
+      0.375,
+      0.25,
+      0.125,
+      0.125,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "thresholds": [
+      0.0007084992830641568,
+      0.004404708743095398,
+      0.004681533668190241,
+      0.0063974917866289616,
+      0.012701503932476044,
+      0.012893305160105228,
+      0.018569141626358032,
+      0.023411549627780914,
+      0.024197395890951157,
+      0.15966634452342987,
+      0.23908649384975433
+    ]
+  },
+  "confusion_matrix": [
+    [
+      3,
+      0
+    ],
+    [
+      8,
+      0
+    ]
+  ],
+  "metrics": {
+    "accuracy": 0.2727272727272727,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "total_utterances": 11,
+    "eot_ratio": 0.7272727272727273
+  },
+  "latency": {
+    "mean": 0.25054415789517487,
+    "median": 0.25388288497924805,
+    "min": 0.08697080612182617,
+    "max": 0.41899800300598145,
+    "p95": 0.3964270353317261
+  },
+  "role_analysis": {
+    "Assistant": {
+      "count": 4,
+      "accuracy": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "eot_ratio": 1.0
+    },
+    "Caller": {
+      "count": 7,
+      "accuracy": 0.42857142857142855,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "eot_ratio": 0.5714285714285714
+    }
+  },
+  "error_summary": {
+    "false_positives": 0,
+    "false_negatives": 8
+  }
+}

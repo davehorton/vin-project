@@ -1,0 +1,34 @@
+{
+    "results": [
+        {
+            "Content": "Hello?",
+            "EndOfTurn": true,
+            "Role": "Passenger"
+        },
+        {
+            "Content": "Hello. Your taxi.",
+            "EndOfTurn": true,
+            "Role": "Driver"
+        },
+        {
+            "Content": "Coming.",
+            "EndOfTurn": true,
+            "Role": "Passenger"
+        },
+        {
+            "Content": "Thank y--",
+            "EndOfTurn": false,
+            "Role": "Driver"
+        },
+        {
+            "Content": "Thank you.",
+            "EndOfTurn": true,
+            "Role": "Passenger"
+        },
+        {
+            "Content": "--ou.",
+            "EndOfTurn": true,
+            "Role": "Driver"
+        }
+    ]
+}

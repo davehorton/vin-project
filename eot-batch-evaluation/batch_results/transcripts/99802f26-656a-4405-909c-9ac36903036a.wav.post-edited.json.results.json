@@ -1,0 +1,240 @@
+{
+  "file_path": "transcripts/99802f26-656a-4405-909c-9ac36903036a.wav.post-edited.json",
+  "file_name": "99802f26-656a-4405-909c-9ac36903036a.wav.post-edited.json",
+  "utterance_analysis": [
+    {
+      "index": 0,
+      "content": "Hello, Emess.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.0012406128225848079,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 1,
+      "content": "Yeah. How much is a car from Tottenham Health?",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.02483472414314747,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 2,
+      "content": "Tottenham Health Shopping?",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.01652638614177704,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 3,
+      "content": "Yes.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.005253286566585302,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 4,
+      "content": "Going where?",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.05793435499072075,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 5,
+      "content": "I just want to know what the price is to, um,",
+      "role": "Caller",
+      "ground_truth": 0,
+      "predicted_probability": 0.1813143938779831,
+      "predicted_label": 0,
+      "is_correct": true
+    },
+    {
+      "index": 6,
+      "content": "Yeah.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.004583091475069523,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 7,
+      "content": "Palehart Road.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.011255093850195408,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 8,
+      "content": "Going to where? Don't",
+      "role": "Assistant",
+      "ground_truth": 0,
+      "predicted_probability": 0.4758092761039734,
+      "predicted_label": 0,
+      "is_correct": true
+    },
+    {
+      "index": 9,
+      "content": "Palehart Road.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.009138088673353195,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 10,
+      "content": "8.50",
+      "role": "Assistant",
+      "ground_truth": 0,
+      "predicted_probability": 0.13057976961135864,
+      "predicted_label": 0,
+      "is_correct": true
+    },
+    {
+      "index": 11,
+      "content": "Yeah. Okay. Thanks. Goodbye.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.020963093265891075,
+      "predicted_label": 0,
+      "is_correct": false
+    }
+  ],
+  "f1_scores": {
+    "0.1": 0.0,
+    "0.2": 0.0,
+    "0.3": 0.0,
+    "0.4": 0.0,
+    "0.5": 0.0,
+    "0.6": 0.0,
+    "0.7": 0.0,
+    "0.8": 0.0,
+    "0.9": 0.0
+  },
+  "optimal_threshold": 0.5,
+  "roc": {
+    "fpr": [
+      0.0,
+      0.3333333333333333,
+      1.0,
+      1.0
+    ],
+    "tpr": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "thresholds": [
+      Infinity,
+      0.4758092761039734,
+      0.13057976961135864,
+      0.0012406128225848079
+    ],
+    "auc": 0.0
+  },
+  "pr": {
+    "precision": [
+      0.75,
+      0.7272727272727273,
+      0.7,
+      0.6666666666666666,
+      0.625,
+      0.5714285714285714,
+      0.5,
+      0.4,
+      0.25,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "recall": [
+      1.0,
+      0.8888888888888888,
+      0.7777777777777778,
+      0.6666666666666666,
+      0.5555555555555556,
+      0.4444444444444444,
+      0.3333333333333333,
+      0.2222222222222222,
+      0.1111111111111111,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "thresholds": [
+      0.0012406128225848079,
+      0.004583091475069523,
+      0.005253286566585302,
+      0.009138088673353195,
+      0.011255093850195408,
+      0.01652638614177704,
+      0.020963093265891075,
+      0.02483472414314747,
+      0.05793435499072075,
+      0.13057976961135864,
+      0.1813143938779831,
+      0.4758092761039734
+    ]
+  },
+  "confusion_matrix": [
+    [
+      3,
+      0
+    ],
+    [
+      9,
+      0
+    ]
+  ],
+  "metrics": {
+    "accuracy": 0.25,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "total_utterances": 12,
+    "eot_ratio": 0.75
+  },
+  "latency": {
+    "mean": 0.30446602900822956,
+    "median": 0.3010929822921753,
+    "min": 0.07637691497802734,
+    "max": 0.5953235626220703,
+    "p95": 0.5372379899024963
+  },
+  "role_analysis": {
+    "Assistant": {
+      "count": 6,
+      "accuracy": 0.3333333333333333,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "eot_ratio": 0.6666666666666666
+    },
+    "Caller": {
+      "count": 6,
+      "accuracy": 0.16666666666666666,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "eot_ratio": 0.8333333333333334
+    }
+  },
+  "error_summary": {
+    "false_positives": 0,
+    "false_negatives": 9
+  }
+}

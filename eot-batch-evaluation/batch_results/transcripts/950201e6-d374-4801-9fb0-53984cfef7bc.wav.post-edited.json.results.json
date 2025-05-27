@@ -1,0 +1,105 @@
+{
+  "file_path": "transcripts/950201e6-d374-4801-9fb0-53984cfef7bc.wav.post-edited.json",
+  "file_name": "950201e6-d374-4801-9fb0-53984cfef7bc.wav.post-edited.json",
+  "utterance_analysis": [
+    {
+      "index": 0,
+      "content": "Afternoon. A&B Taxis. How may help?",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.0011053186608478427,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 1,
+      "content": "Hi. Can you tell the taxi for 3284 to please hold just a minute?",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.01877494528889656,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 2,
+      "content": "Bear with me. Yeah. Sure.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.0032029084395617247,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 3,
+      "content": "Right. Thank you. Bye.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.010578092187643051,
+      "predicted_label": 0,
+      "is_correct": false
+    }
+  ],
+  "f1_scores": {
+    "0.1": 0.0,
+    "0.2": 0.0,
+    "0.3": 0.0,
+    "0.4": 0.0,
+    "0.5": 0.0,
+    "0.6": 0.0,
+    "0.7": 0.0,
+    "0.8": 0.0,
+    "0.9": 0.0
+  },
+  "optimal_threshold": 0.5,
+  "roc": {
+    "auc": 0.5
+  },
+  "pr": {},
+  "confusion_matrix": [
+    [
+      0,
+      0
+    ],
+    [
+      4,
+      0
+    ]
+  ],
+  "metrics": {
+    "accuracy": 0.0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "total_utterances": 4,
+    "eot_ratio": 1.0
+  },
+  "latency": {
+    "mean": 0.2344021201133728,
+    "median": 0.23334825038909912,
+    "min": 0.10117864608764648,
+    "max": 0.3697333335876465,
+    "p95": 0.35871399641036983
+  },
+  "role_analysis": {
+    "Assistant": {
+      "count": 2,
+      "accuracy": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "eot_ratio": 1.0
+    },
+    "Caller": {
+      "count": 2,
+      "accuracy": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "eot_ratio": 1.0
+    }
+  },
+  "error_summary": {
+    "false_positives": 0,
+    "false_negatives": 4
+  }
+}

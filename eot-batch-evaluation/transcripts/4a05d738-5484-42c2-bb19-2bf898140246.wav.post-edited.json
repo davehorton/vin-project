@@ -1,0 +1,94 @@
+{
+    "results": [
+        {
+            "Content": "Hello. Go Green.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Hiya. Good morning. I am just calling as I've booked taxi on the app, but I see that it still says allocating driver. I'm just wanting to check if everything was alright.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Let me just have a look. I can see a driver has received it. Sorry. Our system takes a little bit of time just to",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "No problem.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "upgrade.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Ah, okay. Let's just have a look. Unfortunately, it looks like that driver didn't take it. So let's go and see what's happening. Sorry. The system's now reallocating somebody.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Alright.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Can I give you a callback in just one second just to let the system sort itself out?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Yeah. Of course. Thank",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "And",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "you.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "then I can give you a proper ETA.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "That would be perfect. Thank you so much.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Alright. Thank you.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Okay.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Bye now.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Bye.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Bye.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        }
+    ]
+}

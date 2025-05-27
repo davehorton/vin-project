@@ -1,0 +1,49 @@
+{
+  "results": [
+    {
+      "timestamp": "00:00:00",
+      "role": "Speaker 0",
+      "content": "You are at q"
+    },
+    {
+      "timestamp": "00:00:03",
+      "role": "Speaker 1",
+      "content": "MS. Carr."
+    },
+    {
+      "timestamp": "00:00:04",
+      "role": "Speaker 0",
+      "content": "Do I have speak to Carl available now? From? Thank you on Valtry."
+    },
+    {
+      "timestamp": "00:00:10",
+      "role": "Speaker 1",
+      "content": "Green 2."
+    },
+    {
+      "timestamp": "00:00:10",
+      "role": "Speaker 0",
+      "content": "Understood until."
+    },
+    {
+      "timestamp": "00:00:14",
+      "role": "Speaker 1",
+      "content": "A yellow car?"
+    },
+    {
+      "timestamp": "00:00:16",
+      "role": "Speaker 0",
+      "content": "Yeah."
+    },
+    {
+      "timestamp": "00:00:17",
+      "role": "Speaker 1",
+      "content": "We'll get to you shortly. Yeah. Thank you."
+    },
+    {
+      "timestamp": "00:00:19",
+      "role": "Speaker 0",
+      "content": "Thank you."
+    }
+  ]
+}

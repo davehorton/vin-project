@@ -1,0 +1,9 @@
+{
+    "results": [
+        {
+            "timestamp": "00:00:00",
+            "role": "Assistant",
+            "content": "Hi, Jimmy. Thanks for calling City Cabs. To book a taxi for now, press 1. To prebook a taxi, press 2. For account bookings, press 3. For a specialized vehicle taxi, press 4. To hold for an operator, press 5. To repeat this menu, press star."
+        }
+    ]
+}

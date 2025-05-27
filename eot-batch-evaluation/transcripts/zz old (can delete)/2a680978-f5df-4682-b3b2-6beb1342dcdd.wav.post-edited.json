@@ -1,0 +1,199 @@
+{
+    "results": [
+        {
+            "timestamp": "00:00:00",
+            "role": "Assistant",
+            "content": "G.M. Cars."
+        },
+        {
+            "timestamp": "00:00:02",
+            "role": "Caller",
+            "content": "Hello?"
+        },
+        {
+            "timestamp": "00:00:02",
+            "role": "Assistant",
+            "content": "Hello, sir. Hi."
+        },
+        {
+            "timestamp": "00:00:04",
+            "role": "Caller",
+            "content": "I-- is it-- there's a-- a taxi service?"
+        },
+        {
+            "timestamp": "00:00:08",
+            "role": "Assistant",
+            "content": "Sorry?"
+        },
+        {
+            "timestamp": "00:00:09",
+            "role": "Caller",
+            "content": "I mean-- is it-- we can call you to-- to get a taxi?"
+        },
+        {
+            "timestamp": "00:00:13",
+            "role": "Assistant",
+            "content": "Yeah. Yeah. It's a taxi service in Guildford."
+        },
+        {
+            "timestamp": "00:00:16",
+            "role": "Caller",
+            "content": "Okay. Is there any WhatsApp number that we can call?"
+        },
+        {
+            "timestamp": "00:00:20",
+            "role": "Assistant",
+            "content": "This is the number. This is the number. The number you call now, this is the number for taxi. Yeah?"
+        },
+        {
+            "timestamp": "00:00:26",
+            "role": "Caller",
+            "content": "Okay. Yeah. I-- I-- I want to check. Do-- do we deposit first or, after finish the trip, we pay the-- the-- the charge."
+        },
+        {
+            "timestamp": "00:00:35",
+            "role": "Assistant",
+            "content": "Sorry?"
+        },
+        {
+            "timestamp": "00:00:36",
+            "role": "Caller",
+            "content": "I mean, should we pay first? Or should we--"
+        },
+        {
+            "timestamp": "00:00:39",
+            "role": "Assistant",
+            "content": "If it is local, you can pay to the driver. Yeah?"
+        },
+        {
+            "timestamp": "00:00:45",
+            "role": "Caller",
+            "content": "To the driver. I see. I see."
+        },
+        {
+            "timestamp": "00:00:47",
+            "role": "Assistant",
+            "content": "Yeah. Okay. Yeah."
+        },
+        {
+            "timestamp": "00:00:49",
+            "role": "Caller",
+            "content": "Can we check how much is it cost roughly?"
+        },
+        {
+            "timestamp": "00:00:52",
+            "role": "Assistant",
+            "content": "Where from?"
+        },
+        {
+            "timestamp": "00:00:54",
+            "role": "Caller",
+            "content": "From-- from Sainsbury to, St. Peter."
+        },
+        {
+            "timestamp": "00:01:02",
+            "role": "Assistant",
+            "content": "Where in Sainsbury? Which Sainsbury? The Burpham one?"
+        },
+        {
+            "timestamp": "00:01:06",
+            "role": "Caller",
+            "content": "Pardon?"
+        },
+        {
+            "timestamp": "00:01:07",
+            "role": "Assistant",
+            "content": "Which Sainsbury? Which Sainsbury?"
+        },
+        {
+            "timestamp": "00:01:09",
+            "role": "Caller",
+            "content": "Oh, the, the one you see you for. Burpham. Burpham."
+        },
+        {
+            "timestamp": "00:01:13",
+            "role": "Assistant",
+            "content": "Burpham. Okay. And where you are going to?"
+        },
+        {
+            "timestamp": "00:01:16",
+            "role": "Caller",
+            "content": "Pardon?"
+        },
+        {
+            "timestamp": "00:01:16",
+            "role": "Assistant",
+            "content": "Where you are going to?"
+        },
+        {
+            "timestamp": "00:01:19",
+            "role": "Caller",
+            "content": "To St. Peter. Secondary school. St. Peter Catholic School."
+        },
+        {
+            "timestamp": "00:01:25",
+            "role": "Assistant",
+            "content": "St. Peter Catholic School. Where is that? One second. And this is also Burpham. Okay. That's 12 pound."
+        },
+        {
+            "timestamp": "00:01:39",
+            "role": "Caller",
+            "content": "12 pound. Right?"
+        },
+        {
+            "timestamp": "00:01:40",
+            "role": "Assistant",
+            "content": "Yeah. Yeah."
+        },
+        {
+            "timestamp": "00:01:42",
+            "role": "Caller",
+            "content": "Is this-- School one is same price or different price?"
+        },
+        {
+            "timestamp": "00:01:46",
+            "role": "Assistant",
+            "content": "This is the same price. Okay. Regular price."
+        },
+        {
+            "timestamp": "00:01:49",
+            "role": "Caller",
+            "content": "Pardon?"
+        },
+        {
+            "timestamp": "00:01:50",
+            "role": "Assistant",
+            "content": "Same price. Same price. Yeah."
+        },
+        {
+            "timestamp": "00:01:52",
+            "role": "Caller",
+            "content": "Okay. Okay. Alright. We confirm later. Thank you."
+        },
+        {
+            "timestamp": "00:01:56",
+            "role": "Assistant",
+            "content": "Huh?"
+        },
+        {
+            "timestamp": "00:01:57",
+            "role": "Caller",
+            "content": "We will confirm later and call you back."
+        },
+        {
+            "timestamp": "00:01:59",
+            "role": "Assistant",
+            "content": "Okay. Okay. Okay. Okay."
+        },
+        {
+            "timestamp": "00:02:00",
+            "role": "Caller",
+            "content": "Thank you. Bye bye. Thank you. Bye bye."
+        },
+        {
+            "timestamp": "00:02:01",
+            "role": "Assistant",
+            "content": "Thank you. Bye bye."
+        }
+    ]
+}

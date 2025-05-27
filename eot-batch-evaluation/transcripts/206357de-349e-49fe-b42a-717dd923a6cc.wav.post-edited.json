@@ -1,0 +1,64 @@
+{
+    "results": [
+        {
+            "Content": "I'm afraid all the operators are busy at the moment, but please hold and you will be transferred when somebody becomes available.",
+            "EndOfTurn": true,
+            "Role": "Virtual Assistant 1"
+        },
+        {
+            "Content": "Booking and dispatch system allows us to handle your booking swiftly and efficiently,",
+            "EndOfTurn": false,
+            "Role": "Virtual Assistant 2"
+        },
+        {
+            "Content": "ensuring a smooth experience from the moment you call to the",
+            "EndOfTurn": false,
+            "Role": "Virtual Assistant 2"
+        },
+        {
+            "Content": "Streamline.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Hi. Yeah. Can I get a taxi from 39 Fulshore Crescent? Um,",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "going to Quigley, but going to the school first, to the territory school.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Alright. Sure. About",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Thanks.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "about a few minutes.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Cheers.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Bye.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Bye then.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        }
+    ]
+}

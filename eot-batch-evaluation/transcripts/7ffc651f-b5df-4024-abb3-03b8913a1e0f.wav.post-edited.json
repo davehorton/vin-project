@@ -1,0 +1,139 @@
+{
+    "results": [
+        {
+            "Content": "Hello, Roadrunners.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Hello, Roadrunners.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Yeah. Can I get a car, please?",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Where from?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "I'm just standing at the, uh",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "train station, uh",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "West Croydon.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Yeah.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "And where are you off to?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "I'm going to, uh",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Factory Lane.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Factory Lane,",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "RIght I'm there.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "yeah,",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "RIght I'm there.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "what name is it?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Uh, 36-2,",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "I Think, 24. Is It Royal",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "No, your name sir?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Alex. Alex.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Alex.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Yeah. Yeah.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Okay. I'll get one on the way to you. C--",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Okay.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "--ouple of minutes. Okay?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Alright. Cheers.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Thanks. Bye bye.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        }
+    ]
+}

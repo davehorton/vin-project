@@ -1,0 +1,29 @@
+{
+    "results": [
+        {
+            "Content": "Hello?",
+            "EndOfTurn": true,
+            "Role": "Caller 1"
+        },
+        {
+            "Content": "Hi.",
+            "EndOfTurn": true,
+            "Role": "Caller 2"
+        },
+        {
+            "Content": "Y--",
+            "EndOfTurn": false,
+            "Role": "Caller 1"
+        },
+        {
+            "Content": "I'm outside.",
+            "EndOfTurn": true,
+            "Role": "Caller 2"
+        },
+        {
+            "Content": "I can't see you. I'm also, oh.",
+            "EndOfTurn": true,
+            "Role": "Caller 1"
+        }
+    ]
+}

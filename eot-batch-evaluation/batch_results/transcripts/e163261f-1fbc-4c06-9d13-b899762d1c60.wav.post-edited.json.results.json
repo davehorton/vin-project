@@ -1,0 +1,194 @@
+{
+  "file_path": "transcripts/e163261f-1fbc-4c06-9d13-b899762d1c60.wav.post-edited.json",
+  "file_name": "e163261f-1fbc-4c06-9d13-b899762d1c60.wav.post-edited.json",
+  "utterance_analysis": [
+    {
+      "index": 0,
+      "content": "All calls are recorded for training and quality purposes.",
+      "role": "Virtual Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.00024326975108124316,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 1,
+      "content": "Hello, cars. How can I help?",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.04100508615374565,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 2,
+      "content": "Um, hello. I'd like a car from Hurston in Stamford Hill to N16, please.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.02821323275566101,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 3,
+      "content": "What's the full post code, please?",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.08964455127716064,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 4,
+      "content": "Oh, sorry. N16 5BJ.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.017310181632637978,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 5,
+      "content": "5BJ?",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.020221879705786705,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 6,
+      "content": "Yes.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.010634098201990128,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 7,
+      "content": "Okay. And your name is?",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.08316852152347565,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 8,
+      "content": "Jennifer.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.11019542068243027,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 9,
+      "content": "Okay. They're on their way to you, Jennifer.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.044527795165777206,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 10,
+      "content": "Thank you.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.03504478186368942,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 11,
+      "content": "Oh, you're welcome.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.031425945460796356,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 12,
+      "content": "Bye-bye.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.05283275246620178,
+      "predicted_label": 0,
+      "is_correct": false
+    }
+  ],
+  "f1_scores": {
+    "0.1": 0.0,
+    "0.2": 0.0,
+    "0.3": 0.0,
+    "0.4": 0.0,
+    "0.5": 0.0,
+    "0.6": 0.0,
+    "0.7": 0.0,
+    "0.8": 0.0,
+    "0.9": 0.0
+  },
+  "optimal_threshold": 0.5,
+  "roc": {
+    "auc": 0.5
+  },
+  "pr": {},
+  "confusion_matrix": [
+    [
+      0,
+      0
+    ],
+    [
+      13,
+      0
+    ]
+  ],
+  "metrics": {
+    "accuracy": 0.0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "total_utterances": 13,
+    "eot_ratio": 1.0
+  },
+  "latency": {
+    "mean": 0.4027237525353065,
+    "median": 0.4118807315826416,
+    "min": 0.11123228073120117,
+    "max": 0.696420431137085,
+    "p95": 0.6256298542022704
+  },
+  "role_analysis": {
+    "Virtual Assistant": {
+      "count": 1,
+      "accuracy": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "eot_ratio": 1.0
+    },
+    "Assistant": {
+      "count": 7,
+      "accuracy": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "eot_ratio": 1.0
+    },
+    "Caller": {
+      "count": 5,
+      "accuracy": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "eot_ratio": 1.0
+    }
+  },
+  "error_summary": {
+    "false_positives": 0,
+    "false_negatives": 13
+  }
+}

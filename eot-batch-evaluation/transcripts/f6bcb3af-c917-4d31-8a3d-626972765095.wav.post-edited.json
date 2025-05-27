@@ -1,0 +1,99 @@
+{
+    "results": [
+        {
+            "Content": "Hello. Hampton Cars.",
+            "EndOfTurn": true,
+            "Role": "Dispatch"
+        },
+        {
+            "Content": "Hello there. It's RC58 here again.",
+            "EndOfTurn": true,
+            "Role": "Driver"
+        },
+        {
+            "Content": "Hi.",
+            "EndOfTurn": true,
+            "Role": "Dispatch"
+        },
+        {
+            "Content": "Yeah, hi there. I've done the whole length of, you know, Upper Richmond Road West. And",
+            "EndOfTurn": false,
+            "Role": "Driver"
+        },
+        {
+            "Content": "Yes.",
+            "EndOfTurn": true,
+            "Role": "Dispatch"
+        },
+        {
+            "Content": "I've I've actually been to 416,",
+            "EndOfTurn": false,
+            "Role": "Driver"
+        },
+        {
+            "Content": "and, unfortunately, it wasn't a coffee shop at all.",
+            "EndOfTurn": true,
+            "Role": "Driver"
+        },
+        {
+            "Content": "Oh, did you ring the customer?",
+            "EndOfTurn": true,
+            "Role": "Dispatch"
+        },
+        {
+            "Content": "I rang, but it wouldn't, you know, it wasn't picked up.",
+            "EndOfTurn": true,
+            "Role": "Driver"
+        },
+        {
+            "Content": "Oh.",
+            "EndOfTurn": true,
+            "Role": "Dispatch"
+        },
+        {
+            "Content": "I'll try. If not, I'll have cancel it if there's no answer.",
+            "EndOfTurn": true,
+            "Role": "Dispatch"
+        },
+        {
+            "Content": "Okay. I",
+            "EndOfTurn": false,
+            "Role": "Driver"
+        },
+        {
+            "Content": "Alright.",
+            "EndOfTurn": true,
+            "Role": "Dispatch"
+        },
+        {
+            "Content": "think that'd be the right",
+            "EndOfTurn": false,
+            "Role": "Driver"
+        },
+        {
+            "Content": "Stay with me, okay?",
+            "EndOfTurn": true,
+            "Role": "Dispatch"
+        },
+        {
+            "Content": "thing to do.",
+            "EndOfTurn": true,
+            "Role": "Driver"
+        },
+        {
+            "Content": "Alright. I'll do that. Bye.",
+            "EndOfTurn": true,
+            "Role": "Driver"
+        },
+        {
+            "Content": "One sec.",
+            "EndOfTurn": true,
+            "Role": "Dispatch"
+        },
+        {
+            "Content": "Thank you. Bye.",
+            "EndOfTurn": true,
+            "Role": "Driver"
+        }
+    ]
+}

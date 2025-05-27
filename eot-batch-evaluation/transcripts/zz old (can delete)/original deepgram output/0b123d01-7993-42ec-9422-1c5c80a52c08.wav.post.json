@@ -1,0 +1,39 @@
+{
+  "results": [
+    {
+      "timestamp": "00:00:11",
+      "role": "Speaker 0",
+      "content": "Airbus cars. How can I help you?"
+    },
+    {
+      "timestamp": "00:00:14",
+      "role": "Speaker 1",
+      "content": "Speedy cars?"
+    },
+    {
+      "timestamp": "00:00:15",
+      "role": "Speaker 0",
+      "content": "Yes. It is. How can I help you?"
+    },
+    {
+      "timestamp": "00:00:17",
+      "role": "Speaker 1",
+      "content": "Yes. We'd like to order a speedy car. From where to where? 27 Road Street Avenue. Where is it gonna go?"
+    },
+    {
+      "timestamp": "00:00:26",
+      "role": "Speaker 1",
+      "content": "Local, Kirkwalk."
+    },
+    {
+      "timestamp": "00:00:29",
+      "role": "Speaker 0",
+      "content": "Okay. That's gonna be soon as possible."
+    },
+    {
+      "timestamp": "00:00:32",
+      "role": "Speaker 1",
+      "content": "Yeah. Soon as possible. Thank you. Okay. Bye."
+    }
+  ]
+}

@@ -1,0 +1,649 @@
+{
+  "file_path": "transcripts/28c2001c-e682-4fa9-b0e0-c7e8b0a265f3.wav.post-edited.json",
+  "file_name": "28c2001c-e682-4fa9-b0e0-c7e8b0a265f3.wav.post-edited.json",
+  "utterance_analysis": [
+    {
+      "index": 0,
+      "content": "Welcome to Keith Michaels Insurance Brokers. We are a general insurance intermediary",
+      "role": "Virtual Assistant 1",
+      "ground_truth": 0,
+      "predicted_probability": 0.07650627195835114,
+      "predicted_label": 0,
+      "is_correct": true
+    },
+    {
+      "index": 1,
+      "content": "authorized and regulated by the Financial Conduct Authority.",
+      "role": "Virtual Assistant 1",
+      "ground_truth": 1,
+      "predicted_probability": 0.006531295366585255,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 2,
+      "content": "Our office hours are 9AM to 5PM,",
+      "role": "Virtual Assistant 1",
+      "ground_truth": 0,
+      "predicted_probability": 0.046119727194309235,
+      "predicted_label": 0,
+      "is_correct": true
+    },
+    {
+      "index": 3,
+      "content": "Monday to Friday,",
+      "role": "Virtual Assistant 1",
+      "ground_truth": 0,
+      "predicted_probability": 0.010135816410183907,
+      "predicted_label": 0,
+      "is_correct": true
+    },
+    {
+      "index": 4,
+      "content": "excluding bank holidays.",
+      "role": "Virtual Assistant 1",
+      "ground_truth": 1,
+      "predicted_probability": 0.0058938004076480865,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 5,
+      "content": "For new quotations, renewals, and policy adjustments, press 1. For administration and accounts, including direct debits, press 2.",
+      "role": "Virtual Assistant 1",
+      "ground_truth": 1,
+      "predicted_probability": 0.0013733112718909979,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 6,
+      "content": "With thirty five years ex--",
+      "role": "Virtual Assistant 2",
+      "ground_truth": 0,
+      "predicted_probability": 0.027547499164938927,
+      "predicted_label": 0,
+      "is_correct": true
+    },
+    {
+      "index": 7,
+      "content": "Keith Michaels. Good afternoon.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.0071922484785318375,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 8,
+      "content": "Hello. Good afternoon. Um",
+      "role": "Caller",
+      "ground_truth": 0,
+      "predicted_probability": 0.08209940046072006,
+      "predicted_label": 0,
+      "is_correct": true
+    },
+    {
+      "index": 9,
+      "content": "I was just on your website. It appears to be that you cover the, the situation I'm, I'm, I'm interested in. So let me just describe my situation, and you can let know, please, if you're able to quote a policy. So I have a UK, I, I have a address in The UK right now. I have a UK registered car and an insurance",
+      "role": "Caller",
+      "ground_truth": 0,
+      "predicted_probability": 0.1933969259262085,
+      "predicted_label": 0,
+      "is_correct": true
+    },
+    {
+      "index": 10,
+      "content": "policy here. I'm moving my car to Portugal as part of a change of residency.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.007258444093167782,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 11,
+      "content": "My plan is ultimately to remetriculate the car in Portugal, but I'd like to be able to drive it for a period of time while the process, uh, unfolds. It could take several months, I think, as you may know. My understanding is that your web, from your website, you seem to say that you can cover a UK registered car in Europe for one hundred eighty days, provided that you have a",
+      "role": "Caller",
+      "ground_truth": 0,
+      "predicted_probability": 0.4303361773490906,
+      "predicted_label": 0,
+      "is_correct": true
+    },
+    {
+      "index": 12,
+      "content": "European address. So I'm wondering, is this a case where I could get an insurance policy",
+      "role": "Caller",
+      "ground_truth": 0,
+      "predicted_probability": 0.23032939434051514,
+      "predicted_label": 0,
+      "is_correct": true
+    },
+    {
+      "index": 13,
+      "content": "with your company?",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.014426378533244133,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 14,
+      "content": "Um, I'm just trying to think on that. So effectively, you're exporting the vehicle?",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.03042166866362095,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 15,
+      "content": "Effectively, yes.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.012533962726593018,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 16,
+      "content": "Yeah.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.005032019689679146,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 17,
+      "content": "In a",
+      "role": "Caller",
+      "ground_truth": 0,
+      "predicted_probability": 0.6092028617858887,
+      "predicted_label": 1,
+      "is_correct": false
+    },
+    {
+      "index": 18,
+      "content": "Okay.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.004894947167485952,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 19,
+      "content": "personal capacity.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.004557264503091574,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 20,
+      "content": "Yeah. Oh, yeah. Yeah. Yeah. Um,",
+      "role": "Assistant",
+      "ground_truth": 0,
+      "predicted_probability": 0.004557264503091574,
+      "predicted_label": 0,
+      "is_correct": true
+    },
+    {
+      "index": 21,
+      "content": "We haven't got a scheme for that at moment. Things change. I think your your best bet on that,",
+      "role": "Assistant",
+      "ground_truth": 0,
+      "predicted_probability": 0.004557264503091574,
+      "predicted_label": 0,
+      "is_correct": true
+    },
+    {
+      "index": 22,
+      "content": "which will cover it all potentially, is a company called Stuart Collins. They might be better off for you.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.004557264503091574,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 23,
+      "content": "Okay.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.004557264503091574,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 24,
+      "content": "So",
+      "role": "Assistant",
+      "ground_truth": 0,
+      "predicted_probability": 0.004557264503091574,
+      "predicted_label": 0,
+      "is_correct": true
+    },
+    {
+      "index": 25,
+      "content": "because it's going abroad, we do it the other way. We primarily have cars here that, you know, people outside the UK come and use, and the vehicle remains here.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.004557264503091574,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 26,
+      "content": "So",
+      "role": "Assistant",
+      "ground_truth": 0,
+      "predicted_probability": 0.004557264503091574,
+      "predicted_label": 0,
+      "is_correct": true
+    },
+    {
+      "index": 27,
+      "content": "our schemes are slightly different. Um",
+      "role": "Assistant",
+      "ground_truth": 0,
+      "predicted_probability": 0.004557264503091574,
+      "predicted_label": 0,
+      "is_correct": true
+    },
+    {
+      "index": 28,
+      "content": "Oh, I see,",
+      "role": "Caller",
+      "ground_truth": 0,
+      "predicted_probability": 0.004557264503091574,
+      "predicted_label": 0,
+      "is_correct": true
+    },
+    {
+      "index": 29,
+      "content": "You know.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.004557264503091574,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 30,
+      "content": "I understand.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.004557264503091574,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 31,
+      "content": "Yeah?",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.004557264503091574,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 32,
+      "content": "Okay. That's what you mean by the European",
+      "role": "Caller",
+      "ground_truth": 0,
+      "predicted_probability": 0.004557264503091574,
+      "predicted_label": 0,
+      "is_correct": true
+    },
+    {
+      "index": 33,
+      "content": "Yeah. Yeah.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.004557264503091574,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 34,
+      "content": "So, you know, um",
+      "role": "Assistant",
+      "ground_truth": 0,
+      "predicted_probability": 0.004557264503091574,
+      "predicted_label": 0,
+      "is_correct": true
+    },
+    {
+      "index": 35,
+      "content": "they should be able to help you. Um",
+      "role": "Assistant",
+      "ground_truth": 0,
+      "predicted_probability": 0.004557264503091574,
+      "predicted_label": 0,
+      "is_correct": true
+    },
+    {
+      "index": 36,
+      "content": "Yeah. They because they've got",
+      "role": "Assistant",
+      "ground_truth": 0,
+      "predicted_probability": 0.004557264503091574,
+      "predicted_label": 0,
+      "is_correct": true
+    },
+    {
+      "index": 37,
+      "content": "different schemes than us. So, hopefully, that fit for you.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.004557264503091574,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 38,
+      "content": "Do you know what I mean, maybe I'm maybe, I'm approaching this incorrectly, but maybe do you think it would sound like I should when from what you're saying, it sounds like I should be looking at Portuguese providers and not you",
+      "role": "Caller",
+      "ground_truth": 0,
+      "predicted_probability": 0.004557264503091574,
+      "predicted_label": 0,
+      "is_correct": true
+    },
+    {
+      "index": 39,
+      "content": "Yeah. Once once you get there,",
+      "role": "Assistant",
+      "ground_truth": 0,
+      "predicted_probability": 0.004557264503091574,
+      "predicted_label": 0,
+      "is_correct": true
+    },
+    {
+      "index": 40,
+      "content": "yes.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.004557264503091574,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 41,
+      "content": "Basically, what you need, if you are taking that vehicle with you, you need a sort of a European,",
+      "role": "Assistant",
+      "ground_truth": 0,
+      "predicted_probability": 0.004557264503091574,
+      "predicted_label": 0,
+      "is_correct": true
+    },
+    {
+      "index": 42,
+      "content": "UK cover,",
+      "role": "Assistant",
+      "ground_truth": 0,
+      "predicted_probability": 0.004557264503091574,
+      "predicted_label": 0,
+      "is_correct": true
+    },
+    {
+      "index": 43,
+      "content": "European cover for a quite a probably long period of time because paperwork can take a long time out there. And then, ultimately, there is a period where you're gonna switch it, i.e., potentially keep",
+      "role": "Assistant",
+      "ground_truth": 0,
+      "predicted_probability": 0.004557264503091574,
+      "predicted_label": 0,
+      "is_correct": true
+    },
+    {
+      "index": 44,
+      "content": "Yeah.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.004557264503091574,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 45,
+      "content": "it, register it locally. Yeah. That sort of all in one, um",
+      "role": "Assistant",
+      "ground_truth": 0,
+      "predicted_probability": 0.004557264503091574,
+      "predicted_label": 0,
+      "is_correct": true
+    },
+    {
+      "index": 46,
+      "content": "have a chat with Stuart Collins. They might be to do the whole",
+      "role": "Assistant",
+      "ground_truth": 0,
+      "predicted_probability": 0.004557264503091574,
+      "predicted_label": 0,
+      "is_correct": true
+    },
+    {
+      "index": 47,
+      "content": "Okay, okay, okay. I thank you. This is okay. Thank you for that. Alright. Appreciate",
+      "role": "Caller",
+      "ground_truth": 0,
+      "predicted_probability": 0.004557264503091574,
+      "predicted_label": 0,
+      "is_correct": true
+    },
+    {
+      "index": 48,
+      "content": "Not a problem. Cheers.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.004557264503091574,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 49,
+      "content": "Bye.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.004557264503091574,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 50,
+      "content": "Bye.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.004557264503091574,
+      "predicted_label": 0,
+      "is_correct": false
+    }
+  ],
+  "f1_scores": {
+    "0.1": 0.0,
+    "0.2": 0.0,
+    "0.3": 0.0,
+    "0.4": 0.0,
+    "0.5": 0.0,
+    "0.6": 0.0,
+    "0.7": 0.0,
+    "0.8": 0.0,
+    "0.9": 0.0
+  },
+  "optimal_threshold": 0.5,
+  "roc": {
+    "fpr": [
+      0.0,
+      0.037037037037037035,
+      0.25925925925925924,
+      0.25925925925925924,
+      0.2962962962962963,
+      0.2962962962962963,
+      0.3333333333333333,
+      0.3333333333333333,
+      1.0,
+      1.0
+    ],
+    "tpr": [
+      0.0,
+      0.0,
+      0.0,
+      0.041666666666666664,
+      0.041666666666666664,
+      0.125,
+      0.125,
+      0.375,
+      0.9583333333333334,
+      1.0
+    ],
+    "thresholds": [
+      Infinity,
+      0.6092028617858887,
+      0.046119727194309235,
+      0.03042166866362095,
+      0.027547499164938927,
+      0.012533962726593018,
+      0.010135816410183907,
+      0.004894947167485952,
+      0.004557264503091574,
+      0.0013733112718909979
+    ],
+    "auc": 0.4506172839506174
+  },
+  "pr": {
+    "precision": [
+      0.47058823529411764,
+      0.46,
+      0.5,
+      0.47058823529411764,
+      0.4375,
+      0.4,
+      0.35714285714285715,
+      0.3076923076923077,
+      0.25,
+      0.2727272727272727,
+      0.2,
+      0.1111111111111111,
+      0.125,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "recall": [
+      1.0,
+      0.9583333333333334,
+      0.375,
+      0.3333333333333333,
+      0.2916666666666667,
+      0.25,
+      0.20833333333333334,
+      0.16666666666666666,
+      0.125,
+      0.125,
+      0.08333333333333333,
+      0.041666666666666664,
+      0.041666666666666664,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "thresholds": [
+      0.0013733112718909979,
+      0.004557264503091574,
+      0.004894947167485952,
+      0.005032019689679146,
+      0.0058938004076480865,
+      0.006531295366585255,
+      0.0071922484785318375,
+      0.007258444093167782,
+      0.010135816410183907,
+      0.012533962726593018,
+      0.014426378533244133,
+      0.027547499164938927,
+      0.03042166866362095,
+      0.046119727194309235,
+      0.07650627195835114,
+      0.08209940046072006,
+      0.1933969259262085,
+      0.23032939434051514,
+      0.4303361773490906,
+      0.6092028617858887
+    ]
+  },
+  "confusion_matrix": [
+    [
+      26,
+      1
+    ],
+    [
+      24,
+      0
+    ]
+  ],
+  "metrics": {
+    "accuracy": 0.5098039215686274,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "total_utterances": 51,
+    "eot_ratio": 0.47058823529411764
+  },
+  "latency": {
+    "mean": 1.4372920382256602,
+    "median": 1.7223608493804932,
+    "min": 0.13911199569702148,
+    "max": 1.8723814487457275,
+    "p95": 1.842529535293579
+  },
+  "role_analysis": {
+    "Virtual Assistant 1": {
+      "count": 6,
+      "accuracy": 0.5,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "eot_ratio": 0.5
+    },
+    "Virtual Assistant 2": {
+      "count": 1,
+      "accuracy": 1.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "eot_ratio": 0.0
+    },
+    "Assistant": {
+      "count": 27,
+      "accuracy": 0.5185185185185185,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "eot_ratio": 0.48148148148148145
+    },
+    "Caller": {
+      "count": 17,
+      "accuracy": 0.47058823529411764,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "eot_ratio": 0.47058823529411764
+    }
+  },
+  "error_summary": {
+    "false_positives": 1,
+    "false_negatives": 24
+  }
+}

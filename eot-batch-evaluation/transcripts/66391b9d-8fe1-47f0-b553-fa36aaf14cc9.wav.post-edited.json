@@ -1,0 +1,39 @@
+{
+    "results": [
+        {
+            "Content": "Car service.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Oh, hello. Could I have a cab from Riley House Surgery, please? To go to 103 Addison Road?",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Yep. So we're picking up from Riley House Surgery, and you're",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "That's right.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "going back to Addison Road for Mrs. Stock, yeah?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Yeah. Yeah. Yeah. Thank you.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "That's okay. He's on the way. Bye.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        }
+    ]
+}

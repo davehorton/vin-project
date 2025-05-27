@@ -1,0 +1,511 @@
+{
+  "metadata": {
+    "transaction_key": "deprecated",
+    "request_id": "b7368770-546b-45f0-bb3e-44f6e4ba44e7",
+    "sha256": "a605730fa4bf11d7450e7d0f4ec74a50ac8549d5536d3f3d39780daf2ead4669",
+    "created": "2025-04-03T14:57:58.048Z",
+    "duration": 24.679937,
+    "channels": 1,
+    "models": [
+      "1abfe86b-e047-4eed-858a-35e5625b41ee"
+    ],
+    "model_info": {
+      "1abfe86b-e047-4eed-858a-35e5625b41ee": {
+        "name": "2-general-nova",
+        "version": "2024-01-06.5664",
+        "arch": "nova-2"
+      }
+    }
+  },
+  "results": {
+    "channels": [
+      {
+        "alternatives": [
+          {
+            "transcript": "07472540554 can't take your call right now. Just leave your message after the tone. When you're done, press hash or just hang up.",
+            "confidence": 0.9996785,
+            "words": [
+              {
+                "word": "07472540554",
+                "start": 1.92,
+                "end": 10.42,
+                "confidence": 0.99689925,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "07472540554"
+              },
+              {
+                "word": "can't",
+                "start": 10.719999,
+                "end": 11.04,
+                "confidence": 0.97000396,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "can't"
+              },
+              {
+                "word": "take",
+                "start": 11.04,
+                "end": 11.28,
+                "confidence": 0.9997651,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "take"
+              },
+              {
+                "word": "your",
+                "start": 11.28,
+                "end": 11.5199995,
+                "confidence": 0.9996785,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "your"
+              },
+              {
+                "word": "call",
+                "start": 11.5199995,
+                "end": 11.759999,
+                "confidence": 0.9998777,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "call"
+              },
+              {
+                "word": "right",
+                "start": 11.759999,
+                "end": 12,
+                "confidence": 0.999853,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "right"
+              },
+              {
+                "word": "now",
+                "start": 12,
+                "end": 12.495,
+                "confidence": 0.9987131,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "now."
+              },
+              {
+                "word": "just",
+                "start": 12.575,
+                "end": 12.8949995,
+                "confidence": 0.99968493,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "Just"
+              },
+              {
+                "word": "leave",
+                "start": 12.8949995,
+                "end": 12.974999,
+                "confidence": 0.9998975,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "leave"
+              },
+              {
+                "word": "your",
+                "start": 12.974999,
+                "end": 13.215,
+                "confidence": 0.9972301,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "your"
+              },
+              {
+                "word": "message",
+                "start": 13.215,
+                "end": 13.535,
+                "confidence": 0.9999589,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "message"
+              },
+              {
+                "word": "after",
+                "start": 13.535,
+                "end": 13.855,
+                "confidence": 0.99818665,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "after"
+              },
+              {
+                "word": "the",
+                "start": 13.855,
+                "end": 13.934999,
+                "confidence": 0.9998913,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "the"
+              },
+              {
+                "word": "tone",
+                "start": 13.934999,
+                "end": 14.434999,
+                "confidence": 0.99965906,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "tone."
+              },
+              {
+                "word": "when",
+                "start": 14.8949995,
+                "end": 15.135,
+                "confidence": 0.9997831,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "When"
+              },
+              {
+                "word": "you're",
+                "start": 15.135,
+                "end": 15.295,
+                "confidence": 0.999146,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "you're"
+              },
+              {
+                "word": "done",
+                "start": 15.295,
+                "end": 15.615,
+                "confidence": 0.9969625,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "done,"
+              },
+              {
+                "word": "press",
+                "start": 15.615,
+                "end": 15.934999,
+                "confidence": 0.99993,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "press"
+              },
+              {
+                "word": "hash",
+                "start": 15.934999,
+                "end": 16.414999,
+                "confidence": 0.9997249,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "hash"
+              },
+              {
+                "word": "or",
+                "start": 16.414999,
+                "end": 16.654999,
+                "confidence": 0.75859123,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "or"
+              },
+              {
+                "word": "just",
+                "start": 16.654999,
+                "end": 16.814999,
+                "confidence": 0.9999064,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "just"
+              },
+              {
+                "word": "hang",
+                "start": 16.814999,
+                "end": 17.055,
+                "confidence": 0.9998863,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "hang"
+              },
+              {
+                "word": "up",
+                "start": 17.055,
+                "end": 17.555,
+                "confidence": 0.999274,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "up."
+              }
+            ],
+            "paragraphs": {
+              "transcript": "\nSpeaker 0: 07472540554 can't take your call right now. Just leave your message after the tone. When you're done, press hash or just hang up.",
+              "paragraphs": [
+                {
+                  "sentences": [
+                    {
+                      "text": "07472540554 can't take your call right now.",
+                      "start": 1.92,
+                      "end": 12.495
+                    },
+                    {
+                      "text": "Just leave your message after the tone.",
+                      "start": 12.575,
+                      "end": 14.434999
+                    },
+                    {
+                      "text": "When you're done, press hash or just hang up.",
+                      "start": 14.8949995,
+                      "end": 17.555
+                    }
+                  ],
+                  "speaker": 0,
+                  "num_words": 23,
+                  "start": 1.92,
+                  "end": 17.555
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "utterances": [
+      {
+        "start": 1.92,
+        "end": 10.42,
+        "confidence": 0.99689925,
+        "channel": 0,
+        "transcript": "07472540554",
+        "words": [
+          {
+            "word": "07472540554",
+            "start": 1.92,
+            "end": 10.42,
+            "confidence": 0.99689925,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "07472540554"
+          }
+        ],
+        "speaker": 0,
+        "id": "6f5a1570-2728-42f2-b8ad-060f49c2713e"
+      },
+      {
+        "start": 10.719999,
+        "end": 14.434999,
+        "confidence": 0.99710774,
+        "channel": 0,
+        "transcript": "can't take your call right now. Just leave your message after the tone.",
+        "words": [
+          {
+            "word": "can't",
+            "start": 10.719999,
+            "end": 11.04,
+            "confidence": 0.97000396,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "can't"
+          },
+          {
+            "word": "take",
+            "start": 11.04,
+            "end": 11.28,
+            "confidence": 0.9997651,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "take"
+          },
+          {
+            "word": "your",
+            "start": 11.28,
+            "end": 11.5199995,
+            "confidence": 0.9996785,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "your"
+          },
+          {
+            "word": "call",
+            "start": 11.5199995,
+            "end": 11.759999,
+            "confidence": 0.9998777,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "call"
+          },
+          {
+            "word": "right",
+            "start": 11.759999,
+            "end": 12,
+            "confidence": 0.999853,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "right"
+          },
+          {
+            "word": "now",
+            "start": 12,
+            "end": 12.495,
+            "confidence": 0.9987131,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "now."
+          },
+          {
+            "word": "just",
+            "start": 12.575,
+            "end": 12.8949995,
+            "confidence": 0.99968493,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "Just"
+          },
+          {
+            "word": "leave",
+            "start": 12.8949995,
+            "end": 12.974999,
+            "confidence": 0.9998975,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "leave"
+          },
+          {
+            "word": "your",
+            "start": 12.974999,
+            "end": 13.215,
+            "confidence": 0.9972301,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "your"
+          },
+          {
+            "word": "message",
+            "start": 13.215,
+            "end": 13.535,
+            "confidence": 0.9999589,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "message"
+          },
+          {
+            "word": "after",
+            "start": 13.535,
+            "end": 13.855,
+            "confidence": 0.99818665,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "after"
+          },
+          {
+            "word": "the",
+            "start": 13.855,
+            "end": 13.934999,
+            "confidence": 0.9998913,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "the"
+          },
+          {
+            "word": "tone",
+            "start": 13.934999,
+            "end": 14.434999,
+            "confidence": 0.99965906,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "tone."
+          }
+        ],
+        "speaker": 0,
+        "id": "7e4e2cc9-7753-4f01-bde4-9c65e3e8c2e8"
+      },
+      {
+        "start": 14.8949995,
+        "end": 17.555,
+        "confidence": 0.9725783,
+        "channel": 0,
+        "transcript": "When you're done, press hash or just hang up.",
+        "words": [
+          {
+            "word": "when",
+            "start": 14.8949995,
+            "end": 15.135,
+            "confidence": 0.9997831,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "When"
+          },
+          {
+            "word": "you're",
+            "start": 15.135,
+            "end": 15.295,
+            "confidence": 0.999146,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "you're"
+          },
+          {
+            "word": "done",
+            "start": 15.295,
+            "end": 15.615,
+            "confidence": 0.9969625,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "done,"
+          },
+          {
+            "word": "press",
+            "start": 15.615,
+            "end": 15.934999,
+            "confidence": 0.99993,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "press"
+          },
+          {
+            "word": "hash",
+            "start": 15.934999,
+            "end": 16.414999,
+            "confidence": 0.9997249,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "hash"
+          },
+          {
+            "word": "or",
+            "start": 16.414999,
+            "end": 16.654999,
+            "confidence": 0.75859123,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "or"
+          },
+          {
+            "word": "just",
+            "start": 16.654999,
+            "end": 16.814999,
+            "confidence": 0.9999064,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "just"
+          },
+          {
+            "word": "hang",
+            "start": 16.814999,
+            "end": 17.055,
+            "confidence": 0.9998863,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "hang"
+          },
+          {
+            "word": "up",
+            "start": 17.055,
+            "end": 17.555,
+            "confidence": 0.999274,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "up."
+          }
+        ],
+        "speaker": 0,
+        "id": "7928710c-9cf6-4f4a-93ee-7f68209b22df"
+      }
+    ]
+  }
+}

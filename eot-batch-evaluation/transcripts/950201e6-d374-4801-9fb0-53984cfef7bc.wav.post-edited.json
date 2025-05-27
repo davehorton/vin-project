@@ -1,0 +1,24 @@
+{
+    "results": [
+        {
+            "Content": "Afternoon. A&B Taxis. How may help?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Hi. Can you tell the taxi for 3284 to please hold just a minute?",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Bear with me. Yeah. Sure.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Right. Thank you. Bye.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        }
+    ]
+}

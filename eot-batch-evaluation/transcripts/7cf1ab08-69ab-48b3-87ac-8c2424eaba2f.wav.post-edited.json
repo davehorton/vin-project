@@ -1,0 +1,59 @@
+{
+    "results": [
+        {
+            "Content": "You are at queue position",
+            "EndOfTurn": false,
+            "Role": "Virtual Assistant"
+        },
+        {
+            "Content": "Hello, Emess Cars?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Hi, please. Can I have a car from 11 Clockhouse?",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Yes. Going to, please.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "To 94",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Craven Park Road.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "94 Craven Park Road. What time?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Um,",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "as soon as possible, please.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Yep. On this way now. Thank you.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Thank you.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        }
+    ]
+}

@@ -1,0 +1,163 @@
+{
+  "file_path": "transcripts/fb83796c-d770-4aa8-9e15-40572bbefd6d.wav.post-edited.json",
+  "file_name": "fb83796c-d770-4aa8-9e15-40572bbefd6d.wav.post-edited.json",
+  "utterance_analysis": [
+    {
+      "index": 0,
+      "content": "0",
+      "role": "Virtual Assistant",
+      "ground_truth": 0,
+      "predicted_probability": 0.0008811761508695781,
+      "predicted_label": 0,
+      "is_correct": true
+    },
+    {
+      "index": 1,
+      "content": "747254",
+      "role": "Virtual Assistant",
+      "ground_truth": 0,
+      "predicted_probability": 0.010865987278521061,
+      "predicted_label": 0,
+      "is_correct": true
+    },
+    {
+      "index": 2,
+      "content": "0",
+      "role": "Virtual Assistant",
+      "ground_truth": 0,
+      "predicted_probability": 0.01747402362525463,
+      "predicted_label": 0,
+      "is_correct": true
+    },
+    {
+      "index": 3,
+      "content": "554",
+      "role": "Virtual Assistant",
+      "ground_truth": 0,
+      "predicted_probability": 0.028175147250294685,
+      "predicted_label": 0,
+      "is_correct": true
+    },
+    {
+      "index": 4,
+      "content": "can't take your call right now. Just leave your message after the tone.",
+      "role": "Virtual Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.002912097843363881,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 5,
+      "content": "When you're done, press hash or just hang up.",
+      "role": "Virtual Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.006569438148289919,
+      "predicted_label": 0,
+      "is_correct": false
+    }
+  ],
+  "f1_scores": {
+    "0.1": 0.0,
+    "0.2": 0.0,
+    "0.3": 0.0,
+    "0.4": 0.0,
+    "0.5": 0.0,
+    "0.6": 0.0,
+    "0.7": 0.0,
+    "0.8": 0.0,
+    "0.9": 0.0
+  },
+  "optimal_threshold": 0.5,
+  "roc": {
+    "fpr": [
+      0.0,
+      0.25,
+      0.75,
+      0.75,
+      1.0
+    ],
+    "tpr": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      1.0
+    ],
+    "thresholds": [
+      Infinity,
+      0.028175147250294685,
+      0.010865987278521061,
+      0.002912097843363881,
+      0.0008811761508695781
+    ],
+    "auc": 0.25
+  },
+  "pr": {
+    "precision": [
+      0.3333333333333333,
+      0.4,
+      0.25,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "recall": [
+      1.0,
+      1.0,
+      0.5,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "thresholds": [
+      0.0008811761508695781,
+      0.002912097843363881,
+      0.006569438148289919,
+      0.010865987278521061,
+      0.01747402362525463,
+      0.028175147250294685
+    ]
+  },
+  "confusion_matrix": [
+    [
+      4,
+      0
+    ],
+    [
+      2,
+      0
+    ]
+  ],
+  "metrics": {
+    "accuracy": 0.6666666666666666,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "total_utterances": 6,
+    "eot_ratio": 0.3333333333333333
+  },
+  "latency": {
+    "mean": 0.1589938004811605,
+    "median": 0.14229297637939453,
+    "min": 0.06504583358764648,
+    "max": 0.27361416816711426,
+    "p95": 0.26130032539367676
+  },
+  "role_analysis": {
+    "Virtual Assistant": {
+      "count": 6,
+      "accuracy": 0.6666666666666666,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "eot_ratio": 0.3333333333333333
+    }
+  },
+  "error_summary": {
+    "false_positives": 0,
+    "false_negatives": 2
+  }
+}

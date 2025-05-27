@@ -1,0 +1,231 @@
+{
+  "file_path": "transcripts/5eb6a252-084e-4215-8efc-2bca14fc3eb2.wav.post-edited.json",
+  "file_name": "5eb6a252-084e-4215-8efc-2bca14fc3eb2.wav.post-edited.json",
+  "utterance_analysis": [
+    {
+      "index": 0,
+      "content": "Imagine Cars.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.0021930139046162367,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 1,
+      "content": "Could I have a taxi, please? I'm 72 Nixon Avenue.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.005034811329096556,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 2,
+      "content": "Okay. Just bear with me.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.005667126737535,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 3,
+      "content": "Nixon",
+      "role": "Assistant",
+      "ground_truth": 0,
+      "predicted_probability": 0.005030945874750614,
+      "predicted_label": 0,
+      "is_correct": true
+    },
+    {
+      "index": 4,
+      "content": "Avenue.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.005143909249454737,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 5,
+      "content": "72 going to?",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.02831396274268627,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 6,
+      "content": "Uh, Madison Court Road, Number 4.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.012817665934562683,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 7,
+      "content": "Okay.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.003371952334418893,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 8,
+      "content": "It'd five to ten minutes.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.00993078202009201,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 9,
+      "content": "Okay. Thank you.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.005215702578425407,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 10,
+      "content": "Bye.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.014736906625330448,
+      "predicted_label": 0,
+      "is_correct": false
+    }
+  ],
+  "f1_scores": {
+    "0.1": 0.0,
+    "0.2": 0.0,
+    "0.3": 0.0,
+    "0.4": 0.0,
+    "0.5": 0.0,
+    "0.6": 0.0,
+    "0.7": 0.0,
+    "0.8": 0.0,
+    "0.9": 0.0
+  },
+  "optimal_threshold": 0.5,
+  "roc": {
+    "fpr": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      1.0
+    ],
+    "tpr": [
+      0.0,
+      0.1,
+      0.8,
+      0.8,
+      1.0
+    ],
+    "thresholds": [
+      Infinity,
+      0.02831396274268627,
+      0.005034811329096556,
+      0.005030945874750614,
+      0.0021930139046162367
+    ],
+    "auc": 0.8
+  },
+  "pr": {
+    "precision": [
+      0.9090909090909091,
+      0.9,
+      0.8888888888888888,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "recall": [
+      1.0,
+      0.9,
+      0.8,
+      0.8,
+      0.7,
+      0.6,
+      0.5,
+      0.4,
+      0.3,
+      0.2,
+      0.1,
+      0.0
+    ],
+    "thresholds": [
+      0.0021930139046162367,
+      0.003371952334418893,
+      0.005030945874750614,
+      0.005034811329096556,
+      0.005143909249454737,
+      0.005215702578425407,
+      0.005667126737535,
+      0.00993078202009201,
+      0.012817665934562683,
+      0.014736906625330448,
+      0.02831396274268627
+    ]
+  },
+  "confusion_matrix": [
+    [
+      1,
+      0
+    ],
+    [
+      10,
+      0
+    ]
+  ],
+  "metrics": {
+    "accuracy": 0.09090909090909091,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "total_utterances": 11,
+    "eot_ratio": 0.9090909090909091
+  },
+  "latency": {
+    "mean": 0.2809022339907559,
+    "median": 0.27647829055786133,
+    "min": 0.11110305786132812,
+    "max": 0.4497239589691162,
+    "p95": 0.43937134742736816
+  },
+  "role_analysis": {
+    "Assistant": {
+      "count": 8,
+      "accuracy": 0.125,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "eot_ratio": 0.875
+    },
+    "Caller": {
+      "count": 3,
+      "accuracy": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "eot_ratio": 1.0
+    }
+  },
+  "error_summary": {
+    "false_positives": 0,
+    "false_negatives": 10
+  }
+}

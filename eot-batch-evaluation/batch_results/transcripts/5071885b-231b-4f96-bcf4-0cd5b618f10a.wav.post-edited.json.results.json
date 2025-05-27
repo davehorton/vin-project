@@ -1,0 +1,306 @@
+{
+  "file_path": "transcripts/5071885b-231b-4f96-bcf4-0cd5b618f10a.wav.post-edited.json",
+  "file_name": "5071885b-231b-4f96-bcf4-0cd5b618f10a.wav.post-edited.json",
+  "utterance_analysis": [
+    {
+      "index": 0,
+      "content": "Good afternoon. Abba Cars, speaking.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.0044187577441334724,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 1,
+      "content": "Yes. Good afternoon. Could have a taxi, please, for straight away?",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.025533542037010193,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 2,
+      "content": "Sure. Where from, please?",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.03339865058660507,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 3,
+      "content": "From Number 12",
+      "role": "Caller",
+      "ground_truth": 0,
+      "predicted_probability": 0.022234464064240456,
+      "predicted_label": 0,
+      "is_correct": true
+    },
+    {
+      "index": 4,
+      "content": "Park Avenue in Lachford.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.012720353901386261,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 5,
+      "content": "Number 12 Park Avenue in Lachford. Where are you going to, please?",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.050327178090810776,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 6,
+      "content": "Yeah. Going to the White Hart Pub on Shanky Street.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.012838190421462059,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 7,
+      "content": "Going to the White Hart, Shanky Street.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.0028013240080326796,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 8,
+      "content": "What's the name, please?",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.05250115320086479,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 9,
+      "content": "Yeah. The name is Smith.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.04204879328608513,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 10,
+      "content": "Smith. This is all booked in for you for now.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.008663587272167206,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 11,
+      "content": "12 Park Avenue in five, ten minutes, please.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.016470685601234436,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 12,
+      "content": "Okay. Thank you. Thank you, thank",
+      "role": "Caller",
+      "ground_truth": 0,
+      "predicted_probability": 0.6772145628929138,
+      "predicted_label": 1,
+      "is_correct": false
+    },
+    {
+      "index": 13,
+      "content": "Have",
+      "role": "Assistant",
+      "ground_truth": 0,
+      "predicted_probability": 0.13840354979038239,
+      "predicted_label": 0,
+      "is_correct": true
+    },
+    {
+      "index": 14,
+      "content": "you.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.00741415424272418,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 15,
+      "content": "a good day. Bye bye.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.01853436790406704,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 16,
+      "content": "Bye.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.011449077166616917,
+      "predicted_label": 0,
+      "is_correct": false
+    }
+  ],
+  "f1_scores": {
+    "0.1": 0.0,
+    "0.2": 0.0,
+    "0.3": 0.0,
+    "0.4": 0.0,
+    "0.5": 0.0,
+    "0.6": 0.0,
+    "0.7": 0.0,
+    "0.8": 0.0,
+    "0.9": 0.0
+  },
+  "optimal_threshold": 0.5,
+  "roc": {
+    "fpr": [
+      0.0,
+      0.3333333333333333,
+      0.6666666666666666,
+      0.6666666666666666,
+      1.0,
+      1.0
+    ],
+    "tpr": [
+      0.0,
+      0.0,
+      0.0,
+      0.35714285714285715,
+      0.35714285714285715,
+      1.0
+    ],
+    "thresholds": [
+      Infinity,
+      0.6772145628929138,
+      0.13840354979038239,
+      0.025533542037010193,
+      0.022234464064240456,
+      0.0028013240080326796
+    ],
+    "auc": 0.11904761904761907
+  },
+  "pr": {
+    "precision": [
+      0.8235294117647058,
+      0.8125,
+      0.8,
+      0.7857142857142857,
+      0.7692307692307693,
+      0.75,
+      0.7272727272727273,
+      0.7,
+      0.6666666666666666,
+      0.625,
+      0.7142857142857143,
+      0.6666666666666666,
+      0.6,
+      0.5,
+      0.3333333333333333,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "recall": [
+      1.0,
+      0.9285714285714286,
+      0.8571428571428571,
+      0.7857142857142857,
+      0.7142857142857143,
+      0.6428571428571429,
+      0.5714285714285714,
+      0.5,
+      0.42857142857142855,
+      0.35714285714285715,
+      0.35714285714285715,
+      0.2857142857142857,
+      0.21428571428571427,
+      0.14285714285714285,
+      0.07142857142857142,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "thresholds": [
+      0.0028013240080326796,
+      0.0044187577441334724,
+      0.00741415424272418,
+      0.008663587272167206,
+      0.011449077166616917,
+      0.012720353901386261,
+      0.012838190421462059,
+      0.016470685601234436,
+      0.01853436790406704,
+      0.022234464064240456,
+      0.025533542037010193,
+      0.03339865058660507,
+      0.04204879328608513,
+      0.050327178090810776,
+      0.05250115320086479,
+      0.13840354979038239,
+      0.6772145628929138
+    ]
+  },
+  "confusion_matrix": [
+    [
+      2,
+      1
+    ],
+    [
+      14,
+      0
+    ]
+  ],
+  "metrics": {
+    "accuracy": 0.11764705882352941,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "total_utterances": 17,
+    "eot_ratio": 0.8235294117647058
+  },
+  "latency": {
+    "mean": 0.5038205455331242,
+    "median": 0.4857923984527588,
+    "min": 0.08726263046264648,
+    "max": 0.9720871448516846,
+    "p95": 0.8457222461700439
+  },
+  "role_analysis": {
+    "Assistant": {
+      "count": 9,
+      "accuracy": 0.1111111111111111,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "eot_ratio": 0.8888888888888888
+    },
+    "Caller": {
+      "count": 8,
+      "accuracy": 0.125,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "eot_ratio": 0.75
+    }
+  },
+  "error_summary": {
+    "false_positives": 1,
+    "false_negatives": 14
+  }
+}

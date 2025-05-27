@@ -1,0 +1,119 @@
+{
+  "results": [
+    {
+      "timestamp": "00:00:01",
+      "role": "Speaker 0",
+      "content": "Freddie speaking."
+    },
+    {
+      "timestamp": "00:00:02",
+      "role": "Speaker 1",
+      "content": "Yeah. Hi. I'm calling from Alfa Cars. You booked the cab with us, sir, from Yateley Yes. G U 46 to Terminal 4."
+    },
+    {
+      "timestamp": "00:00:10",
+      "role": "Speaker 0",
+      "content": "Yeah."
+    },
+    {
+      "timestamp": "00:00:11",
+      "role": "Speaker 1",
+      "content": "How many passengers in luggage in total?"
+    },
+    {
+      "timestamp": "00:00:14",
+      "role": "Speaker 0",
+      "content": "One passenger, and three bags."
+    },
+    {
+      "timestamp": "00:00:18",
+      "role": "Speaker 1",
+      "content": "Three check-in bag or two check-in one hand luggage?"
+    },
+    {
+      "timestamp": "00:00:23",
+      "role": "Speaker 0",
+      "content": "Two check-in one hand luggage, I think."
+    },
+    {
+      "timestamp": "00:00:28",
+      "role": "Speaker 1",
+      "content": "I just wanted to know because, will the normal car"
+    },
+    {
+      "timestamp": "00:00:31",
+      "role": "Speaker 0",
+      "content": "be the vehicle? Is fine. Yeah. Yeah."
+    },
+    {
+      "timestamp": "00:00:34",
+      "role": "Speaker 1",
+      "content": "Okay. Also wanted to know, sir, what is the name of the passenger? Is it, TA?"
+    },
+    {
+      "timestamp": "00:00:39",
+      "role": "Speaker 0",
+      "content": "TA. That's right. Yeah. Okay."
+    },
+    {
+      "timestamp": "00:00:45",
+      "role": "Speaker 1",
+      "content": "So we must enter the number of the passenger in the booking, sir."
+    },
+    {
+      "timestamp": "00:00:52",
+      "role": "Speaker 0",
+      "content": "Yes."
+    },
+    {
+      "timestamp": "00:00:52",
+      "role": "Speaker 1",
+      "content": "Just bear with me. We have the price, which is updated in the booking. Yeah. And you have already paid for it, sir."
+    },
+    {
+      "timestamp": "00:01:04",
+      "role": "Speaker 0",
+      "content": "Yeah."
+    },
+    {
+      "timestamp": "00:01:05",
+      "role": "Speaker 1",
+      "content": "The travel gonna be there at 04:45PM."
+    },
+    {
+      "timestamp": "00:01:09",
+      "role": "Speaker 0",
+      "content": "Correct."
+    },
+    {
+      "timestamp": "00:01:11",
+      "role": "Speaker 1",
+      "content": "All done for you. Great. Thanks so much."
+    },
+    {
+      "timestamp": "00:01:13",
+      "role": "Speaker 0",
+      "content": "You have his number. Right? You have his his phone number? Yes. I wrote it in."
+    },
+    {
+      "timestamp": "00:01:17",
+      "role": "Speaker 1",
+      "content": "7710 Yeah. 46 Yeah. 031 Correct. 0131."
+    },
+    {
+      "timestamp": "00:01:24",
+      "role": "Speaker 0",
+      "content": "Correct. 460131. Yeah."
+    },
+    {
+      "timestamp": "00:01:27",
+      "role": "Speaker 1",
+      "content": "Got it. Thanks so much, sir."
+    },
+    {
+      "timestamp": "00:01:29",
+      "role": "Speaker 0",
+      "content": "Thanks a lot. Bye."
+    }
+  ]
+}

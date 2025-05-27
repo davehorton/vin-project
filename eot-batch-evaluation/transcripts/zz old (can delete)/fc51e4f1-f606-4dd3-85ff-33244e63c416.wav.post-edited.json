@@ -1,0 +1,189 @@
+{
+    "results": [
+        {
+            "timestamp": "00:00:01",
+            "role": "Receiver",
+            "content": "Freddie speaking."
+        },
+        {
+            "timestamp": "00:00:02",
+            "role": "Assistant",
+            "content": "Yeah. Hi. I'm calling from Alpha Cars. You booked the cab with us, sir, from Yateley--"
+        },
+        {
+            "timestamp": "00:00:07",
+            "role": "Receiver",
+            "content": "Yes."
+        },
+        {
+            "timestamp": "00:00:08",
+            "role": "Assistant",
+            "content": "--GU46 to Terminal 4."
+        },
+        {
+            "timestamp": "00:00:10",
+            "role": "Receiver",
+            "content": "Yeah."
+        },
+        {
+            "timestamp": "00:00:11",
+            "role": "Assistant",
+            "content": "How many passengers and luggage in total?"
+        },
+        {
+            "timestamp": "00:00:14",
+            "role": "Receiver",
+            "content": "One passenger, and three bags."
+        },
+        {
+            "timestamp": "00:00:18",
+            "role": "Assistant",
+            "content": "Three check-in bag or two check-in, one hand luggage?"
+        },
+        {
+            "timestamp": "00:00:23",
+            "role": "Receiver",
+            "content": "Two check-in, one hand luggage, I think."
+        },
+        {
+            "timestamp": "00:00:28",
+            "role": "Assistant",
+            "content": "I just wanted to know because, will the normal car be the vehicle?"
+        },
+        {
+            "timestamp": "00:00:31",
+            "role": "Receiver",
+            "content": "Yeah. Normal car is fine. Yeah."
+        },
+        {
+            "timestamp": "00:00:34",
+            "role": "Assistant",
+            "content": "Okay. Also wanted to know, sir, what is the name of the passenger? Is it, TA?"
+        },
+        {
+            "timestamp": "00:00:39",
+            "role": "Receiver",
+            "content": "TA. That's right. Yeah."
+        },
+        {
+            "timestamp": "00:00:42",
+            "role": "Assistant",
+            "content": "Okay. So we must enter the number of the passenger in the booking, sir."
+        },
+        {
+            "timestamp": "00:00:52",
+            "role": "Receiver",
+            "content": "Yes."
+        },
+        {
+            "timestamp": "00:00:52",
+            "role": "Assistant",
+            "content": "Just bear with me. We have the price, which is updated in the booking."
+        },
+        {
+            "timestamp": "00:01:00",
+            "role": "Receiver",
+            "content": "Yeah."
+        },
+        {
+            "timestamp": "00:01:02",
+            "role": "Assistant",
+            "content": "And you have already paid for it, sir."
+        },
+        {
+            "timestamp": "00:01:04",
+            "role": "Receiver",
+            "content": "Yeah."
+        },
+        {
+            "timestamp": "00:01:05",
+            "role": "Assistant",
+            "content": "The travel gonna be there at 04:45PM."
+        },
+        {
+            "timestamp": "00:01:09",
+            "role": "Receiver",
+            "content": "Correct. Correct."
+        },
+        {
+            "timestamp": "00:01:11",
+            "role": "Assistant",
+            "content": "All done for you."
+        },
+        {
+            "timestamp": "00:01:12",
+            "role": "Receiver",
+            "content": "Great."
+        },
+        {
+            "timestamp": "00:01:13",
+            "role": "Assistant",
+            "content": "Thanks so much."
+        },
+        {
+            "timestamp": "00:01:13",
+            "role": "Receiver",
+            "content": "You have his number. Right? You have his his phone number?"
+        },
+        {
+            "timestamp": "00:01:17",
+            "role": "Assistant",
+            "content": "Yes."
+        },
+        {
+            "timestamp": "00:01:17",
+            "role": "Receiver",
+            "content": "I wrote it--"
+        },
+        {
+            "timestamp": "00:01:17",
+            "role": "Assistant",
+            "content": "077 10--"
+        },
+        {
+            "timestamp": "00:01:19",
+            "role": "Receiver",
+            "content": "Yeah."
+        },
+        {
+            "timestamp": "00:01:20",
+            "role": "Assistant",
+            "content": "--46--"
+        },
+        {
+            "timestamp": "00:01:21",
+            "role": "Receiver",
+            "content": "Yeah."
+        },
+        {
+            "timestamp": "00:01:21",
+            "role": "Assistant",
+            "content": "--031--"
+        },
+        {
+            "timestamp": "00:01:22",
+            "role": "Receiver",
+            "content": "Correct."
+        },
+        {
+            "timestamp": "00:01:22",
+            "role": "Assistant",
+            "content": "--0131?"
+        },
+        {
+            "timestamp": "00:01:24",
+            "role": "Receiver",
+            "content": "Correct. 460131. Yeah."
+        },
+        {
+            "timestamp": "00:01:27",
+            "role": "Assistant",
+            "content": "Got it. Thanks so much, sir."
+        },
+        {
+            "timestamp": "00:01:29",
+            "role": "Receiver",
+            "content": "Thanks a lot. Bye."
+        }
+    ]
+}

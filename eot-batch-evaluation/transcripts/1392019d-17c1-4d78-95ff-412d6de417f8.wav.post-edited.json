@@ -1,0 +1,59 @@
+{
+    "results": [
+        {
+            "Content": "Streamline.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Oh, hi. I've got a taxi booked for ten past four today.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Um.",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "I haven't received the, um",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "link, the text message that I normally get sent.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Okay. I'll, I'll send it over to you. Not",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Lovely,",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "a problem.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "thank you.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Thanks. Bye-bye.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Thanks. Bye-bye.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        }
+    ]
+}

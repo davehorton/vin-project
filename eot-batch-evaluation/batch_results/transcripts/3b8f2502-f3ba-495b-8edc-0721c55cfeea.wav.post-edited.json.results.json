@@ -1,0 +1,65 @@
+{
+  "file_path": "transcripts/3b8f2502-f3ba-495b-8edc-0721c55cfeea.wav.post-edited.json",
+  "file_name": "3b8f2502-f3ba-495b-8edc-0721c55cfeea.wav.post-edited.json",
+  "utterance_analysis": [
+    {
+      "index": 0,
+      "content": "can't take your call right now. Just leave your m--",
+      "role": "Assistant",
+      "ground_truth": 0,
+      "predicted_probability": 0.021415075287222862,
+      "predicted_label": 0,
+      "is_correct": true
+    }
+  ],
+  "f1_scores": {
+    "0.1": 0.0,
+    "0.2": 0.0,
+    "0.3": 0.0,
+    "0.4": 0.0,
+    "0.5": 0.0,
+    "0.6": 0.0,
+    "0.7": 0.0,
+    "0.8": 0.0,
+    "0.9": 0.0
+  },
+  "optimal_threshold": 0.5,
+  "roc": {
+    "auc": 0.5
+  },
+  "pr": {},
+  "confusion_matrix": [
+    [
+      1
+    ]
+  ],
+  "metrics": {
+    "accuracy": 1.0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "total_utterances": 1,
+    "eot_ratio": 0.0
+  },
+  "latency": {
+    "mean": 0.10867023468017578,
+    "median": 0.10867023468017578,
+    "min": 0.10867023468017578,
+    "max": 0.10867023468017578,
+    "p95": 0.10867023468017578
+  },
+  "role_analysis": {
+    "Assistant": {
+      "count": 1,
+      "accuracy": 1.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "eot_ratio": 0.0
+    }
+  },
+  "error_summary": {
+    "false_positives": 0,
+    "false_negatives": 0
+  }
+}

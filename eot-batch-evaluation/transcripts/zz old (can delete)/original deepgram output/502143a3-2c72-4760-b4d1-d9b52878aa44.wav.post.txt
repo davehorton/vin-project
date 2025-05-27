@@ -1,0 +1,4 @@
+00:00:00 Speaker 0: Hi, Jimmy. Thanks for calling CityCabs. To book a taxi for now, press 1. To prebook a taxi, press 2. For account bookings, press 3.
+
+00:00:11 Speaker 0: For a specialized vehicle taxi, press 4. To hold for an operator, press 5. To repeat this menu, press
+

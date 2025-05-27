@@ -1,0 +1,69 @@
+{
+    "results": [
+        {
+            "Content": "All calls are recorded for training and quality purposes.",
+            "EndOfTurn": true,
+            "Role": "Virtual Assistant"
+        },
+        {
+            "Content": "Hello, cars. How can I help?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Um, hello. I'd like a car from Hurston in Stamford Hill to N16, please.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "What's the full post code, please?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Oh, sorry. N16 5BJ.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "5BJ?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Yes.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Okay. And your name is?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Jennifer.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Okay. They're on their way to you, Jennifer.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Thank you.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Oh, you're welcome.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Bye-bye.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        }
+    ]
+}

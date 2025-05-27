@@ -1,0 +1,156 @@
+{
+  "file_path": "transcripts/cfe48401-e279-4ec3-9a04-7fef9652bb30.wav.post-edited.json",
+  "file_name": "cfe48401-e279-4ec3-9a04-7fef9652bb30.wav.post-edited.json",
+  "utterance_analysis": [
+    {
+      "index": 0,
+      "content": "Hello?",
+      "role": "Caller 1",
+      "ground_truth": 1,
+      "predicted_probability": 0.0006717286887578666,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 1,
+      "content": "Hi.",
+      "role": "Caller 2",
+      "ground_truth": 1,
+      "predicted_probability": 0.005804785992950201,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 2,
+      "content": "Y--",
+      "role": "Caller 1",
+      "ground_truth": 0,
+      "predicted_probability": 0.006752392742782831,
+      "predicted_label": 0,
+      "is_correct": true
+    },
+    {
+      "index": 3,
+      "content": "I'm outside.",
+      "role": "Caller 2",
+      "ground_truth": 1,
+      "predicted_probability": 0.0040496522560715675,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 4,
+      "content": "I can't see you. I'm also, oh.",
+      "role": "Caller 1",
+      "ground_truth": 1,
+      "predicted_probability": 0.014380011707544327,
+      "predicted_label": 0,
+      "is_correct": false
+    }
+  ],
+  "f1_scores": {
+    "0.1": 0.0,
+    "0.2": 0.0,
+    "0.3": 0.0,
+    "0.4": 0.0,
+    "0.5": 0.0,
+    "0.6": 0.0,
+    "0.7": 0.0,
+    "0.8": 0.0,
+    "0.9": 0.0
+  },
+  "optimal_threshold": 0.5,
+  "roc": {
+    "fpr": [
+      0.0,
+      0.0,
+      1.0,
+      1.0
+    ],
+    "tpr": [
+      0.0,
+      0.25,
+      0.25,
+      1.0
+    ],
+    "thresholds": [
+      Infinity,
+      0.014380011707544327,
+      0.006752392742782831,
+      0.0006717286887578666
+    ],
+    "auc": 0.25
+  },
+  "pr": {
+    "precision": [
+      0.8,
+      0.75,
+      0.6666666666666666,
+      0.5,
+      1.0,
+      1.0
+    ],
+    "recall": [
+      1.0,
+      0.75,
+      0.5,
+      0.25,
+      0.25,
+      0.0
+    ],
+    "thresholds": [
+      0.0006717286887578666,
+      0.0040496522560715675,
+      0.005804785992950201,
+      0.006752392742782831,
+      0.014380011707544327
+    ]
+  },
+  "confusion_matrix": [
+    [
+      1,
+      0
+    ],
+    [
+      4,
+      0
+    ]
+  ],
+  "metrics": {
+    "accuracy": 0.2,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "total_utterances": 5,
+    "eot_ratio": 0.8
+  },
+  "latency": {
+    "mean": 0.1855782985687256,
+    "median": 0.19066929817199707,
+    "min": 0.08798694610595703,
+    "max": 0.255612850189209,
+    "p95": 0.2535567760467529
+  },
+  "role_analysis": {
+    "Caller 2": {
+      "count": 2,
+      "accuracy": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "eot_ratio": 1.0
+    },
+    "Caller 1": {
+      "count": 3,
+      "accuracy": 0.3333333333333333,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "eot_ratio": 0.6666666666666666
+    }
+  },
+  "error_summary": {
+    "false_positives": 0,
+    "false_negatives": 4
+  }
+}

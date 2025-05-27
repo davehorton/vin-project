@@ -1,0 +1,24 @@
+{
+    "results": [
+        {
+            "Content": "[...].",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Hello.",
+            "EndOfTurn": true,
+            "Role": "Virtual Assistant"
+        },
+        {
+            "Content": "This call is from bank security department.",
+            "EndOfTurn": true,
+            "Role": "Virtual Assistant"
+        },
+        {
+            "Content": "We have a",
+            "EndOfTurn": false,
+            "Role": "Virtual Assistant"
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+00:00:01 Speaker 0: Good afternoon. Maryline. Diane speaking.
+
+00:00:03 Speaker 1: Hello. I'd like to order a taxi, please.
+
+00:00:06 Speaker 0: Where are you going?
+
+00:00:08 Speaker 1: 44 Sussex Road.
+
+00:00:10 Speaker 0: And what's the name? Joe. Yep. That's all done.
+
+00:00:15 Speaker 1: Alright. Thank you.
+
+00:00:16 Speaker 0: Bye bye.
+
+00:00:17 Speaker 1: Bye.
+

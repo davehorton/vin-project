@@ -1,0 +1,119 @@
+{
+  "results": [
+    {
+      "timestamp": "00:00:03",
+      "role": "Speaker 0",
+      "content": "Good afternoon, Joseph. Thank you for calling A and B taxis. We've upgraded to a priority voice assistant. Listen carefully, and please ensure you speak loud and clear. The best way to book is by using our app."
+    },
+    {
+      "timestamp": "00:00:15",
+      "role": "Speaker 0",
+      "content": "I see you're waiting for us to pick you up from Gatwick Airport R H 60 N P Hawley. Your driver has arrived. Please go meet them outside. Would you like to speak with your driver?"
+    },
+    {
+      "timestamp": "00:00:27",
+      "role": "Speaker 1",
+      "content": "Yes."
+    },
+    {
+      "timestamp": "00:00:30",
+      "role": "Speaker 0",
+      "content": "I'll connect you to your driver now."
+    },
+    {
+      "timestamp": "00:00:39",
+      "role": "Speaker 2",
+      "content": "Oh, it's cold. Hello? Hello? I'm with you, Trevor. Hello."
+    },
+    {
+      "timestamp": "00:00:46",
+      "role": "Speaker 2",
+      "content": "How are you?"
+    },
+    {
+      "timestamp": "00:00:48",
+      "role": "Speaker 1",
+      "content": "I'm alright. How are you? I'm good, sir. I am by I am by the car park. I don't know how to move."
+    },
+    {
+      "timestamp": "00:00:56",
+      "role": "Speaker 2",
+      "content": "Where are you?"
+    },
+    {
+      "timestamp": "00:00:59",
+      "role": "Speaker 1",
+      "content": "Car Park 6."
+    },
+    {
+      "timestamp": "00:01:03",
+      "role": "Speaker 2",
+      "content": "So I'm in Car Park 55."
+    },
+    {
+      "timestamp": "00:01:09",
+      "role": "Speaker 1",
+      "content": "Let's"
+    },
+    {
+      "timestamp": "00:01:10",
+      "role": "Speaker 2",
+      "content": "Wait for me over there. Just a second."
+    },
+    {
+      "timestamp": "00:01:13",
+      "role": "Speaker 1",
+      "content": "Alright. You'll find me just outside."
+    },
+    {
+      "timestamp": "00:01:19",
+      "role": "Speaker 2",
+      "content": "I'm just at the crossing. Can you see me? I'm coming inside the Car Park 6. Just in Oh, yeah."
+    },
+    {
+      "timestamp": "00:01:26",
+      "role": "Speaker 1",
+      "content": "I can see you. I'm more not the other end where we are too."
+    },
+    {
+      "timestamp": "00:01:32",
+      "role": "Speaker 2",
+      "content": "Okay. But you still have to come to Car Park 56 inside because I can pick you up on that. It's across the"
+    },
+    {
+      "timestamp": "00:01:38",
+      "role": "Speaker 1",
+      "content": "Alright. For"
+    },
+    {
+      "timestamp": "00:01:38",
+      "role": "Speaker 2",
+      "content": "your right"
+    },
+    {
+      "timestamp": "00:01:41",
+      "role": "Speaker 1",
+      "content": "I know. I can see the car going, so let me just cross the road."
+    },
+    {
+      "timestamp": "00:01:45",
+      "role": "Speaker 2",
+      "content": "Yeah. Alright. Just that I'm not allowed to pick you up from the road. I have to get inside the car park."
+    },
+    {
+      "timestamp": "00:01:53",
+      "role": "Speaker 1",
+      "content": "Okay. I'm coming inside there."
+    },
+    {
+      "timestamp": "00:01:56",
+      "role": "Speaker 2",
+      "content": "Yeah. I'm trying to to park, very close to where you come inside. Yeah? Okay. I'm not right."
+    },
+    {
+      "timestamp": "00:02:04",
+      "role": "Speaker 1",
+      "content": "Yes."
+    }
+  ]
+}

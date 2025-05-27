@@ -1,0 +1,195 @@
+{
+  "file_path": "transcripts/1e335a44-a654-4a86-ab81-40c940461761.wav.post-edited.json",
+  "file_name": "1e335a44-a654-4a86-ab81-40c940461761.wav.post-edited.json",
+  "utterance_analysis": [
+    {
+      "index": 0,
+      "content": "Central Stokes. This is Ellie speaking. How can I help?",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.00482042133808136,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 1,
+      "content": "Hi there. I would like to book a taxi for 03:30, going from Orwellard at 17 Oakwell Place to 22 Corby Park Close at the name of Tam.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.00716799171641469,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 2,
+      "content": "Not a problem at all. I'll go ahead and get that booked in just now for you for three, half past three.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.014619494788348675,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 3,
+      "content": "Okay. Lovely. Thank you for your ass--",
+      "role": "Caller",
+      "ground_truth": 0,
+      "predicted_probability": 0.010356460697948933,
+      "predicted_label": 0,
+      "is_correct": true
+    },
+    {
+      "index": 4,
+      "content": "Thank you.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.0038281369488686323,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 5,
+      "content": "--istance.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.003707963041961193,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 6,
+      "content": "Bye.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.016129270195961,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 7,
+      "content": "Bye.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.0105401910841465,
+      "predicted_label": 0,
+      "is_correct": false
+    }
+  ],
+  "f1_scores": {
+    "0.1": 0.0,
+    "0.2": 0.0,
+    "0.3": 0.0,
+    "0.4": 0.0,
+    "0.5": 0.0,
+    "0.6": 0.0,
+    "0.7": 0.0,
+    "0.8": 0.0,
+    "0.9": 0.0
+  },
+  "optimal_threshold": 0.5,
+  "roc": {
+    "fpr": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      1.0
+    ],
+    "tpr": [
+      0.0,
+      0.14285714285714285,
+      0.42857142857142855,
+      0.42857142857142855,
+      1.0
+    ],
+    "thresholds": [
+      Infinity,
+      0.016129270195961,
+      0.0105401910841465,
+      0.010356460697948933,
+      0.003707963041961193
+    ],
+    "auc": 0.42857142857142855
+  },
+  "pr": {
+    "precision": [
+      0.875,
+      0.8571428571428571,
+      0.8333333333333334,
+      0.8,
+      0.75,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "recall": [
+      1.0,
+      0.8571428571428571,
+      0.7142857142857143,
+      0.5714285714285714,
+      0.42857142857142855,
+      0.42857142857142855,
+      0.2857142857142857,
+      0.14285714285714285,
+      0.0
+    ],
+    "thresholds": [
+      0.003707963041961193,
+      0.0038281369488686323,
+      0.00482042133808136,
+      0.00716799171641469,
+      0.010356460697948933,
+      0.0105401910841465,
+      0.014619494788348675,
+      0.016129270195961
+    ]
+  },
+  "confusion_matrix": [
+    [
+      1,
+      0
+    ],
+    [
+      7,
+      0
+    ]
+  ],
+  "metrics": {
+    "accuracy": 0.125,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "total_utterances": 8,
+    "eot_ratio": 0.875
+  },
+  "latency": {
+    "mean": 0.36530056595802307,
+    "median": 0.40475165843963623,
+    "min": 0.11204791069030762,
+    "max": 0.5040669441223145,
+    "p95": 0.4910638928413391
+  },
+  "role_analysis": {
+    "Assistant": {
+      "count": 4,
+      "accuracy": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "eot_ratio": 1.0
+    },
+    "Caller": {
+      "count": 4,
+      "accuracy": 0.25,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "eot_ratio": 0.75
+    }
+  },
+  "error_summary": {
+    "false_positives": 0,
+    "false_negatives": 7
+  }
+}

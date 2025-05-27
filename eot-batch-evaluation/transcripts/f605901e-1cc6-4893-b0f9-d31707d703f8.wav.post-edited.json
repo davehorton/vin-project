@@ -1,0 +1,59 @@
+{
+    "results": [
+        {
+            "Content": "Northside Car. Phil speaking.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Hiya. I'm just calling from a dental practice, and we want one of our passion, uh, one of our patients to get a taxi home. I just wanted to inquire about how much it would be from",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Un--",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Richmond to Croydon?",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Unfortunately, I don't have anything available until gone free.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "No",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "At the moment.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "availability.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Okay. Alright. Thank you.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "No problem. I'm sorry.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Thank you. B--",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        }
+    ]
+}

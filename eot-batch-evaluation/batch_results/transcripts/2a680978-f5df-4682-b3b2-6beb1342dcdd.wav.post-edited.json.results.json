@@ -1,0 +1,549 @@
+{
+  "file_path": "transcripts/2a680978-f5df-4682-b3b2-6beb1342dcdd.wav.post-edited.json",
+  "file_name": "2a680978-f5df-4682-b3b2-6beb1342dcdd.wav.post-edited.json",
+  "utterance_analysis": [
+    {
+      "index": 0,
+      "content": "G.M. Cars.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.002239801222458482,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 1,
+      "content": "Hello?",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.020347479730844498,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 2,
+      "content": "Hello, sir. Hi.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.009586398489773273,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 3,
+      "content": "I, is it, there's a, a taxi service?",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.02443500980734825,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 4,
+      "content": "Sorry?",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.011899453587830067,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 5,
+      "content": "I mean, is it, we can call you to, to get a taxi?",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.05532572418451309,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 6,
+      "content": "Yeah. Yeah. It's a taxi service in Guildford.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.028208082541823387,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 7,
+      "content": "Okay. Is there any WhatsApp number that we can call?",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.11507338285446167,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 8,
+      "content": "This is the number. This is the number. The number you call now, this is the number for taxi. Yeah?",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.060544874519109726,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 9,
+      "content": "Okay. Yeah. I, I, I want to check. Do, do we deposit first or, after finish the trip, we pay the, the, the charge.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.01955447532236576,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 10,
+      "content": "Sorry?",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.02287108823657036,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 11,
+      "content": "I mean, should we pay first? Or",
+      "role": "Caller",
+      "ground_truth": 0,
+      "predicted_probability": 0.4906165599822998,
+      "predicted_label": 0,
+      "is_correct": true
+    },
+    {
+      "index": 12,
+      "content": "If it is local, you can pay to the driver. Yeah?",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.05099564418196678,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 13,
+      "content": "To the driver. I see. I see.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.007847709581255913,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 14,
+      "content": "Yeah. Okay. Yeah.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.008204507641494274,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 15,
+      "content": "Uh, can we check how much is it cost roughly?",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.04510914906859398,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 16,
+      "content": "Where from?",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.031009696424007416,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 17,
+      "content": "From . . . from Sainsbury to, uh, St. Peter.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.05694492161273956,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 18,
+      "content": "Where in Sainsbury? Which Sainsbury? The Burpham one?",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.12408880144357681,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 19,
+      "content": "Pardon?",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.05843058601021767,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 20,
+      "content": "Which Sainsbury? Which Sainsbury?",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.060197796672582626,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 21,
+      "content": "Oh, the, the one you see you for. Burpham. Burpham.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.037813737988471985,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 22,
+      "content": "Burpham. Okay. And where you are going to?",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.04237934201955795,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 23,
+      "content": "Pardon?",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.03800124302506447,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 24,
+      "content": "Where you are going to?",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.03520212322473526,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 25,
+      "content": "To St. Peter. Secondary school. St. Peter Catholic School.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.026413574814796448,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 26,
+      "content": "St. Peter Catholic School. Where is that? One second. And this is also Burpham. Okay. That's 12 pound.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.017564404755830765,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 27,
+      "content": "12 pound. Right?",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.017564404755830765,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 28,
+      "content": "Yeah. Yeah.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.017564404755830765,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 29,
+      "content": "Is this, school one is same price or different price?",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.017564404755830765,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 30,
+      "content": "This is the same price. Okay. Regular price.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.017564404755830765,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 31,
+      "content": "Pardon?",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.017564404755830765,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 32,
+      "content": "Same",
+      "role": "Assistant",
+      "ground_truth": 0,
+      "predicted_probability": 0.017564404755830765,
+      "predicted_label": 0,
+      "is_correct": true
+    },
+    {
+      "index": 33,
+      "content": "Same price.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.017564404755830765,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 34,
+      "content": "price. Same price. Yeah.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.017564404755830765,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 35,
+      "content": "Okay. Okay. Alright. We confirm later. Thank you.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.017564404755830765,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 36,
+      "content": "Huh?",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.017564404755830765,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 37,
+      "content": "We will confirm later and call you back.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.017564404755830765,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 38,
+      "content": "Okay. Okay. Okay. Okay.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.017564404755830765,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 39,
+      "content": "Thank you. Bye bye.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.017564404755830765,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 40,
+      "content": "Thank you. Bye bye.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.017564404755830765,
+      "predicted_label": 0,
+      "is_correct": false
+    }
+  ],
+  "f1_scores": {
+    "0.1": 0.09523809523809523,
+    "0.2": 0.0,
+    "0.3": 0.0,
+    "0.4": 0.0,
+    "0.5": 0.0,
+    "0.6": 0.0,
+    "0.7": 0.0,
+    "0.8": 0.0,
+    "0.9": 0.0
+  },
+  "optimal_threshold": 0.1,
+  "roc": {
+    "fpr": [
+      0.0,
+      0.5,
+      0.5,
+      1.0,
+      1.0
+    ],
+    "tpr": [
+      0.0,
+      0.0,
+      0.5128205128205128,
+      0.8717948717948718,
+      1.0
+    ],
+    "thresholds": [
+      Infinity,
+      0.4906165599822998,
+      0.01955447532236576,
+      0.017564404755830765,
+      0.002239801222458482
+    ],
+    "auc": 0.34615384615384615
+  },
+  "pr": {
+    "precision": [
+      0.9512195121951219,
+      0.95,
+      0.9487179487179487,
+      0.9473684210526315,
+      0.9459459459459459,
+      0.9444444444444444,
+      0.9523809523809523,
+      0.95,
+      0.9473684210526315,
+      0.9444444444444444,
+      0.9411764705882353,
+      0.9375,
+      0.9333333333333333,
+      0.9285714285714286,
+      0.9230769230769231,
+      0.9166666666666666,
+      0.9090909090909091,
+      0.9,
+      0.8888888888888888,
+      0.875,
+      0.8571428571428571,
+      0.8333333333333334,
+      0.8,
+      0.75,
+      0.6666666666666666,
+      0.5,
+      0.0,
+      1.0
+    ],
+    "recall": [
+      1.0,
+      0.9743589743589743,
+      0.9487179487179487,
+      0.9230769230769231,
+      0.8974358974358975,
+      0.8717948717948718,
+      0.5128205128205128,
+      0.48717948717948717,
+      0.46153846153846156,
+      0.4358974358974359,
+      0.41025641025641024,
+      0.38461538461538464,
+      0.358974358974359,
+      0.3333333333333333,
+      0.3076923076923077,
+      0.28205128205128205,
+      0.2564102564102564,
+      0.23076923076923078,
+      0.20512820512820512,
+      0.1794871794871795,
+      0.15384615384615385,
+      0.1282051282051282,
+      0.10256410256410256,
+      0.07692307692307693,
+      0.05128205128205128,
+      0.02564102564102564,
+      0.0,
+      0.0
+    ],
+    "thresholds": [
+      0.002239801222458482,
+      0.007847709581255913,
+      0.008204507641494274,
+      0.009586398489773273,
+      0.011899453587830067,
+      0.017564404755830765,
+      0.01955447532236576,
+      0.020347479730844498,
+      0.02287108823657036,
+      0.02443500980734825,
+      0.026413574814796448,
+      0.028208082541823387,
+      0.031009696424007416,
+      0.03520212322473526,
+      0.037813737988471985,
+      0.03800124302506447,
+      0.04237934201955795,
+      0.04510914906859398,
+      0.05099564418196678,
+      0.05532572418451309,
+      0.05694492161273956,
+      0.05843058601021767,
+      0.060197796672582626,
+      0.060544874519109726,
+      0.11507338285446167,
+      0.12408880144357681,
+      0.4906165599822998
+    ]
+  },
+  "confusion_matrix": [
+    [
+      1,
+      1
+    ],
+    [
+      37,
+      2
+    ]
+  ],
+  "metrics": {
+    "accuracy": 0.07317073170731707,
+    "precision": 0.6666666666666666,
+    "recall": 0.05128205128205128,
+    "f1": 0.09523809523809523,
+    "total_utterances": 41,
+    "eot_ratio": 0.9512195121951219
+  },
+  "latency": {
+    "mean": 1.1599053696888248,
+    "median": 1.2752892971038818,
+    "min": 0.08542180061340332,
+    "max": 1.8299503326416016,
+    "p95": 1.7934610843658447
+  },
+  "role_analysis": {
+    "Assistant": {
+      "count": 21,
+      "accuracy": 0.09523809523809523,
+      "precision": 1.0,
+      "recall": 0.05,
+      "f1": 0.09523809523809523,
+      "eot_ratio": 0.9523809523809523
+    },
+    "Caller": {
+      "count": 20,
+      "accuracy": 0.05,
+      "precision": 0.5,
+      "recall": 0.05263157894736842,
+      "f1": 0.09523809523809523,
+      "eot_ratio": 0.95
+    }
+  },
+  "error_summary": {
+    "false_positives": 1,
+    "false_negatives": 37
+  }
+}

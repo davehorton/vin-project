@@ -1,0 +1,64 @@
+{
+    "results": [
+        {
+            "timestamp": "00:00:11",
+            "role": "Assistant",
+            "content": "Airbus cars. How can I help you?"
+        },
+        {
+            "timestamp": "00:00:14",
+            "role": "Caller",
+            "content": "Speedy cars?"
+        },
+        {
+            "timestamp": "00:00:15",
+            "role": "Assistant",
+            "content": "Yes. It is. How can I help you?"
+        },
+        {
+            "timestamp": "00:00:17",
+            "role": "Caller",
+            "content": "Yes. We'd like to order a speedy car."
+        },
+        {
+            "timestamp": "00:00:20",
+            "role": "Assistant",
+            "content": "From where to where?"
+        },
+        {
+            "timestamp": "00:00:22",
+            "role": "Caller",
+            "content": "27 Rose Tree Avenue."
+        },
+        {
+            "timestamp": "00:00:25",
+            "role": "Assistant",
+            "content": "Where is it gonna go?"
+        },
+        {
+            "timestamp": "00:00:26",
+            "role": "Caller",
+            "content": "Local, Kirkwalk."
+        },
+        {
+            "timestamp": "00:00:29",
+            "role": "Assistant",
+            "content": "Okay. That's gonna be soon as possible."
+        },
+        {
+            "timestamp": "00:00:32",
+            "role": "Caller",
+            "content": "Yeah. Soon as possible. Thank you."
+        },
+        {
+            "timestamp": "00:00:32",
+            "role": "Assistant",
+            "content": "Okay."
+        },
+        {
+            "timestamp": "00:00:32",
+            "role": "Caller",
+            "content": "Bye."
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+  "results": [
+    {
+      "timestamp": "00:00:00",
+      "role": "Speaker 0",
+      "content": "Central Stokes. This is Ellie speaking. How can I help? Hi there. I would like to book a taxi for 03:30 going from, Orwellard at 17 Oakwell Place to 22 Corby Park Close at the name of Tam."
+    },
+    {
+      "timestamp": "00:00:17",
+      "role": "Speaker 0",
+      "content": "Not a problem at all. I'll go ahead and get that booked in just now for you for three half past three. Okay. Lovely. Thank you for your assistance."
+    },
+    {
+      "timestamp": "00:00:24",
+      "role": "Speaker 0",
+      "content": "Thank you. Bye. Bye."
+    }
+  ]
+}

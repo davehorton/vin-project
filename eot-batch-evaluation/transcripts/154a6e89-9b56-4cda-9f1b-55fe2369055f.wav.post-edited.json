@@ -1,0 +1,89 @@
+{
+    "results": [
+        {
+            "Content": "Taxis. This is Ken speaking.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Oh, hey there. I wondered whether I can order a cab for, uh,",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "1, uh,",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "1:30.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Yeah.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "1:30.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Picking up from 14 Coast Gardens, going to Western General?",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Let me, um,",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Ferguson, then?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Yeah.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "For Johansen?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Yeah.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "And I'll just pay it on my card, if that's okay?",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Yeah, yeah, yeah. That's fine. We'll be bringing approach time close to 1:30 as we can to Coast Gardens, okay?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Thank you.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Bye-bye.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Okay. Take care.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        }
+    ]
+}

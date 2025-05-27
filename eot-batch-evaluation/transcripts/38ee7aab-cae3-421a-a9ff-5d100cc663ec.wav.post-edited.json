@@ -1,0 +1,69 @@
+{
+    "results": [
+        {
+            "Content": "You are at queue position",
+            "EndOfTurn": false,
+            "Role": "Virtual Assistant"
+        },
+        {
+            "Content": "one",
+            "EndOfTurn": false,
+            "Role": "Virtual Assistant"
+        },
+        {
+            "Content": "in the queue.",
+            "EndOfTurn": true,
+            "Role": "Virtual Assistant"
+        },
+        {
+            "Content": "Can I get car now?",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Emess Cars. How I help you?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Can I get a car now from 19 Graysburg, please?",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "From 19 Graysburg going local?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Yes.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "It's coming in about seven, eight minutes.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Twenty minutes? No",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Seven, eight minutes, I said.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Seven, eight minutes? No. That's fine. Thank you.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Alright. Canceled.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        }
+    ]
+}

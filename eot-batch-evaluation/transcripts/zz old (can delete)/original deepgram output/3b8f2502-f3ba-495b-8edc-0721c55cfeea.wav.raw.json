@@ -1,0 +1,232 @@
+{
+  "metadata": {
+    "transaction_key": "deprecated",
+    "request_id": "f307a442-1942-4b14-96bc-722a1d417298",
+    "sha256": "f02d37b40365fc2decec4c093bc3f73375a5029e1d3e182dbba824bab6537075",
+    "created": "2025-04-03T14:52:38.913Z",
+    "duration": 4.9599376,
+    "channels": 1,
+    "models": [
+      "1abfe86b-e047-4eed-858a-35e5625b41ee"
+    ],
+    "model_info": {
+      "1abfe86b-e047-4eed-858a-35e5625b41ee": {
+        "name": "2-general-nova",
+        "version": "2024-01-06.5664",
+        "arch": "nova-2"
+      }
+    }
+  },
+  "results": {
+    "channels": [
+      {
+        "alternatives": [
+          {
+            "transcript": "Can't take your call right now. Just leave your",
+            "confidence": 0.99496365,
+            "words": [
+              {
+                "word": "can't",
+                "start": 2.48,
+                "end": 2.8,
+                "confidence": 0.85897446,
+                "speaker": 0,
+                "speaker_confidence": 0.6972741,
+                "punctuated_word": "Can't"
+              },
+              {
+                "word": "take",
+                "start": 2.8,
+                "end": 3.04,
+                "confidence": 0.99883,
+                "speaker": 0,
+                "speaker_confidence": 0.6972741,
+                "punctuated_word": "take"
+              },
+              {
+                "word": "your",
+                "start": 3.04,
+                "end": 3.1999998,
+                "confidence": 0.99948174,
+                "speaker": 0,
+                "speaker_confidence": 0.6972741,
+                "punctuated_word": "your"
+              },
+              {
+                "word": "call",
+                "start": 3.1999998,
+                "end": 3.4399998,
+                "confidence": 0.99968576,
+                "speaker": 0,
+                "speaker_confidence": 0.6972741,
+                "punctuated_word": "call"
+              },
+              {
+                "word": "right",
+                "start": 3.4399998,
+                "end": 3.6,
+                "confidence": 0.99961346,
+                "speaker": 0,
+                "speaker_confidence": 0.6972741,
+                "punctuated_word": "right"
+              },
+              {
+                "word": "now",
+                "start": 3.6,
+                "end": 4.1,
+                "confidence": 0.99068266,
+                "speaker": 0,
+                "speaker_confidence": 0.7241528,
+                "punctuated_word": "now."
+              },
+              {
+                "word": "just",
+                "start": 4.24,
+                "end": 4.4,
+                "confidence": 0.9939488,
+                "speaker": 0,
+                "speaker_confidence": 0.7315419,
+                "punctuated_word": "Just"
+              },
+              {
+                "word": "leave",
+                "start": 4.4,
+                "end": 4.56,
+                "confidence": 0.99496365,
+                "speaker": 0,
+                "speaker_confidence": 0.7315419,
+                "punctuated_word": "leave"
+              },
+              {
+                "word": "your",
+                "start": 4.56,
+                "end": 4.9599376,
+                "confidence": 0.8103671,
+                "speaker": 0,
+                "speaker_confidence": 0.7315419,
+                "punctuated_word": "your"
+              }
+            ],
+            "paragraphs": {
+              "transcript": "\nSpeaker 0: Can't take your call right now. Just leave your",
+              "paragraphs": [
+                {
+                  "sentences": [
+                    {
+                      "text": "Can't take your call right now.",
+                      "start": 2.48,
+                      "end": 4.1
+                    },
+                    {
+                      "text": "Just leave your",
+                      "start": 4.24,
+                      "end": 4.9599376
+                    }
+                  ],
+                  "speaker": 0,
+                  "num_words": 9,
+                  "start": 2.48,
+                  "end": 4.9599376
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "utterances": [
+      {
+        "start": 2.48,
+        "end": 4.9599376,
+        "confidence": 0.96072745,
+        "channel": 0,
+        "transcript": "Can't take your call right now. Just leave your",
+        "words": [
+          {
+            "word": "can't",
+            "start": 2.48,
+            "end": 2.8,
+            "confidence": 0.85897446,
+            "speaker": 0,
+            "speaker_confidence": 0.6972741,
+            "punctuated_word": "Can't"
+          },
+          {
+            "word": "take",
+            "start": 2.8,
+            "end": 3.04,
+            "confidence": 0.99883,
+            "speaker": 0,
+            "speaker_confidence": 0.6972741,
+            "punctuated_word": "take"
+          },
+          {
+            "word": "your",
+            "start": 3.04,
+            "end": 3.1999998,
+            "confidence": 0.99948174,
+            "speaker": 0,
+            "speaker_confidence": 0.6972741,
+            "punctuated_word": "your"
+          },
+          {
+            "word": "call",
+            "start": 3.1999998,
+            "end": 3.4399998,
+            "confidence": 0.99968576,
+            "speaker": 0,
+            "speaker_confidence": 0.6972741,
+            "punctuated_word": "call"
+          },
+          {
+            "word": "right",
+            "start": 3.4399998,
+            "end": 3.6,
+            "confidence": 0.99961346,
+            "speaker": 0,
+            "speaker_confidence": 0.6972741,
+            "punctuated_word": "right"
+          },
+          {
+            "word": "now",
+            "start": 3.6,
+            "end": 4.1,
+            "confidence": 0.99068266,
+            "speaker": 0,
+            "speaker_confidence": 0.7241528,
+            "punctuated_word": "now."
+          },
+          {
+            "word": "just",
+            "start": 4.24,
+            "end": 4.4,
+            "confidence": 0.9939488,
+            "speaker": 0,
+            "speaker_confidence": 0.7315419,
+            "punctuated_word": "Just"
+          },
+          {
+            "word": "leave",
+            "start": 4.4,
+            "end": 4.56,
+            "confidence": 0.99496365,
+            "speaker": 0,
+            "speaker_confidence": 0.7315419,
+            "punctuated_word": "leave"
+          },
+          {
+            "word": "your",
+            "start": 4.56,
+            "end": 4.9599376,
+            "confidence": 0.8103671,
+            "speaker": 0,
+            "speaker_confidence": 0.7315419,
+            "punctuated_word": "your"
+          }
+        ],
+        "speaker": 0,
+        "id": "f5fd9102-1cf9-43e4-b0b6-4dee18e984db"
+      }
+    ]
+  }
+}

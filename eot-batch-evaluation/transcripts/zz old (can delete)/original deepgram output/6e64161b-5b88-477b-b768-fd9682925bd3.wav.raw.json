@@ -1,0 +1,119 @@
+{
+  "metadata": {
+    "transaction_key": "deprecated",
+    "request_id": "5ace5cd4-2e19-4022-b87b-414b05dfc896",
+    "sha256": "87069cf61983ce26def6e0561ad204a3d9f8b4d874b848d45225158038866056",
+    "created": "2025-04-03T14:54:15.045Z",
+    "duration": 347.97995,
+    "channels": 1,
+    "models": [
+      "1abfe86b-e047-4eed-858a-35e5625b41ee"
+    ],
+    "model_info": {
+      "1abfe86b-e047-4eed-858a-35e5625b41ee": {
+        "name": "2-general-nova",
+        "version": "2024-01-06.5664",
+        "arch": "nova-2"
+      }
+    }
+  },
+  "results": {
+    "channels": [
+      {
+        "alternatives": [
+          {
+            "transcript": "All calls are",
+            "confidence": 0.9962057,
+            "words": [
+              {
+                "word": "all",
+                "start": 0.79999995,
+                "end": 1.04,
+                "confidence": 0.9962057,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "All"
+              },
+              {
+                "word": "calls",
+                "start": 1.04,
+                "end": 1.52,
+                "confidence": 0.99950826,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "calls"
+              },
+              {
+                "word": "are",
+                "start": 1.52,
+                "end": 2.02,
+                "confidence": 0.9891667,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "are"
+              }
+            ],
+            "paragraphs": {
+              "transcript": "\nSpeaker 0: All calls are",
+              "paragraphs": [
+                {
+                  "sentences": [
+                    {
+                      "text": "All calls are",
+                      "start": 0.79999995,
+                      "end": 2.02
+                    }
+                  ],
+                  "speaker": 0,
+                  "num_words": 3,
+                  "start": 0.79999995,
+                  "end": 2.02
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "utterances": [
+      {
+        "start": 0.79999995,
+        "end": 2.02,
+        "confidence": 0.99496025,
+        "channel": 0,
+        "transcript": "All calls are",
+        "words": [
+          {
+            "word": "all",
+            "start": 0.79999995,
+            "end": 1.04,
+            "confidence": 0.9962057,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "All"
+          },
+          {
+            "word": "calls",
+            "start": 1.04,
+            "end": 1.52,
+            "confidence": 0.99950826,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "calls"
+          },
+          {
+            "word": "are",
+            "start": 1.52,
+            "end": 2.02,
+            "confidence": 0.9891667,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "are"
+          }
+        ],
+        "speaker": 0,
+        "id": "fd1fa512-9f79-42ff-ab52-1853f1dcdbc1"
+      }
+    ]
+  }
+}

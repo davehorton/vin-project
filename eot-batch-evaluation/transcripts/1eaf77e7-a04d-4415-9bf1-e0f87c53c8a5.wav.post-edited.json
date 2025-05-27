@@ -1,0 +1,119 @@
+{
+    "results": [
+        {
+            "Content": "Thank you for calling Greyhound Cars. Why not download our priority booking app? All cars are now fitted with contactless chip and pin devices.",
+            "EndOfTurn": true,
+            "Role": "Virtual Assistant"
+        },
+        {
+            "Content": "[...].",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Oh, sorry to bother you. I need your help. You see, I just bought a new phone, eh?",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Yeah.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "And this morning, I had to transfer to my old one because, there was a location issue, since, uh, weekend. But I'm not in the, where I bought the phone from, and they've already reset it. So can I log off from this phone now so that I can",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Try the other one again?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Yes. Yes, please. Please.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "[...] will be left.",
+            "EndOfTurn": true,
+            "Role": "Unknown Speaker"
+        },
+        {
+            "Content": "Oh.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Hang on, hang on a sec. Sorry.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Thank you.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Hey.",
+            "EndOfTurn": true,
+            "Role": "Unknown Speaker"
+        },
+        {
+            "Content": "Let me just do that for you.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Hey. What?",
+            "EndOfTurn": true,
+            "Role": "Unknown Speaker"
+        },
+        {
+            "Content": "Thank you.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Hello?",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Yeah. I'm just doing it now for you, sir.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Oh, okay. Okay.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Okay. That's done. Try again.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Thank you. Let me try",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Okay.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "again.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Alright. Thanks. Right. Bye.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        }
+    ]
+}

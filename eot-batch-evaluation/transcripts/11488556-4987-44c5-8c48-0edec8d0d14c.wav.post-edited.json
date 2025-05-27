@@ -1,0 +1,49 @@
+{
+    "results": [
+        {
+            "Content": "Abba Cars.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Hello, love. Can I have a taxi to Tesco, please? Going to Higham Avenue, Dallam. For Jo",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Tesco's a big one. Five minutes. Thank you.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "From Tesco at Subway to Jarvis Close, right?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Yeah.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "5 minutes. Thank you.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Thank you. Bye.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Bye.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Bye.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        }
+    ]
+}

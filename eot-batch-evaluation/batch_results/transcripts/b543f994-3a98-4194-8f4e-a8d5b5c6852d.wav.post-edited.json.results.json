@@ -1,0 +1,228 @@
+{
+  "file_path": "transcripts/b543f994-3a98-4194-8f4e-a8d5b5c6852d.wav.post-edited.json",
+  "file_name": "b543f994-3a98-4194-8f4e-a8d5b5c6852d.wav.post-edited.json",
+  "utterance_analysis": [
+    {
+      "index": 0,
+      "content": "Dreamline TeleCabs. Lisa speaking.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.0018578183371573687,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 1,
+      "content": "Hi. It's Mrs. Williams. We've got a taxi booked for 12:30. Is it",
+      "role": "Caller",
+      "ground_truth": 0,
+      "predicted_probability": 0.3958107531070709,
+      "predicted_label": 0,
+      "is_correct": true
+    },
+    {
+      "index": 2,
+      "content": "nearly here?",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.04786479100584984,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 3,
+      "content": "'Kay. So the driver is six minutes away.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.008769682608544827,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 4,
+      "content": "We've gotta be at Morley for 1 o'clock.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.014613616280257702,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 5,
+      "content": "Alright",
+      "role": "Assistant",
+      "ground_truth": 0,
+      "predicted_probability": 0.3702409267425537,
+      "predicted_label": 0,
+      "is_correct": true
+    },
+    {
+      "index": 6,
+      "content": "You",
+      "role": "Caller",
+      "ground_truth": 0,
+      "predicted_probability": 0.11059609800577164,
+      "predicted_label": 0,
+      "is_correct": true
+    },
+    {
+      "index": 7,
+      "content": "Okay. So it's only twenty five past, so he'll only be about a minute or two late.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.022316783666610718,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 8,
+      "content": "Okay. Thank you.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.010475530289113522,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 9,
+      "content": "Thanks a lot. Bye.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.026211541146039963,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 10,
+      "content": "Bye.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.017613224685192108,
+      "predicted_label": 0,
+      "is_correct": false
+    }
+  ],
+  "f1_scores": {
+    "0.1": 0.0,
+    "0.2": 0.0,
+    "0.3": 0.0,
+    "0.4": 0.0,
+    "0.5": 0.0,
+    "0.6": 0.0,
+    "0.7": 0.0,
+    "0.8": 0.0,
+    "0.9": 0.0
+  },
+  "optimal_threshold": 0.5,
+  "roc": {
+    "fpr": [
+      0.0,
+      0.3333333333333333,
+      1.0,
+      1.0
+    ],
+    "tpr": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "thresholds": [
+      Infinity,
+      0.3958107531070709,
+      0.11059609800577164,
+      0.0018578183371573687
+    ],
+    "auc": 0.0
+  },
+  "pr": {
+    "precision": [
+      0.7272727272727273,
+      0.7,
+      0.6666666666666666,
+      0.625,
+      0.5714285714285714,
+      0.5,
+      0.4,
+      0.25,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "recall": [
+      1.0,
+      0.875,
+      0.75,
+      0.625,
+      0.5,
+      0.375,
+      0.25,
+      0.125,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "thresholds": [
+      0.0018578183371573687,
+      0.008769682608544827,
+      0.010475530289113522,
+      0.014613616280257702,
+      0.017613224685192108,
+      0.022316783666610718,
+      0.026211541146039963,
+      0.04786479100584984,
+      0.11059609800577164,
+      0.3702409267425537,
+      0.3958107531070709
+    ]
+  },
+  "confusion_matrix": [
+    [
+      3,
+      0
+    ],
+    [
+      8,
+      0
+    ]
+  ],
+  "metrics": {
+    "accuracy": 0.2727272727272727,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "total_utterances": 11,
+    "eot_ratio": 0.7272727272727273
+  },
+  "latency": {
+    "mean": 0.3472484458576549,
+    "median": 0.35045695304870605,
+    "min": 0.0954287052154541,
+    "max": 0.5518248081207275,
+    "p95": 0.5406417846679688
+  },
+  "role_analysis": {
+    "Assistant": {
+      "count": 5,
+      "accuracy": 0.2,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "eot_ratio": 0.8
+    },
+    "Caller": {
+      "count": 6,
+      "accuracy": 0.3333333333333333,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "eot_ratio": 0.6666666666666666
+    }
+  },
+  "error_summary": {
+    "false_positives": 0,
+    "false_negatives": 8
+  }
+}

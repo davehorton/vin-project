@@ -1,0 +1,39 @@
+{
+    "results": [
+        {
+            "timestamp": "00:00:00",
+            "role": "Assistant",
+            "content": "Hello, 7 11."
+        },
+        {
+            "timestamp": "00:00:01",
+            "role": "Caller",
+            "content": "Hello. Can I have a taxi from 174 North Fire Road, please?"
+        },
+        {
+            "timestamp": "00:00:04",
+            "role": "Assistant",
+            "content": "174. Yeah. Where to, please?"
+        },
+        {
+            "timestamp": "00:00:07",
+            "role": "Caller",
+            "content": "Asda in Sinfin, please."
+        },
+        {
+            "timestamp": "00:00:08",
+            "role": "Assistant",
+            "content": "Ten minutes. Thank you."
+        },
+        {
+            "timestamp": "00:00:09",
+            "role": "Caller",
+            "content": "Thank-- thank you. Bye."
+        },
+        {
+            "timestamp": "00:00:10",
+            "role": "Assistant",
+            "content": "Bye."
+        }
+    ]
+}

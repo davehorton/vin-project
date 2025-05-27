@@ -1,0 +1,44 @@
+{
+  "results": [
+    {
+      "timestamp": "00:00:02",
+      "role": "Speaker 0",
+      "content": "Thank you for calling Greyhound Cars. Why not download our priority booking app? All cars are now fitted with contactless chip and pin devices."
+    },
+    {
+      "timestamp": "00:00:30",
+      "role": "Speaker 1",
+      "content": "Hi, Oh, sorry to bother you. I need your help. You see, I just bought a new phone. And this morning, I had to transfer to my old one because, there was a location issue since, weekend. But I'm now in the, where I bought the phone from, and they've already reset it."
+    },
+    {
+      "timestamp": "00:00:47",
+      "role": "Speaker 1",
+      "content": "So can I log off from this phone now so that I can Try the other one again? Yes. Yes, please. Wait. Will be left."
+    },
+    {
+      "timestamp": "00:00:54",
+      "role": "Speaker 1",
+      "content": "Oh. Hang on hang on a sec. Sorry. Thank you. Let me just do that for you."
+    },
+    {
+      "timestamp": "00:01:03",
+      "role": "Speaker 1",
+      "content": "Hey. What? Thank you. Hello? Yeah."
+    },
+    {
+      "timestamp": "00:01:17",
+      "role": "Speaker 1",
+      "content": "I'm just doing it now for you, sir. Oh, okay. Okay. Okay. That's done."
+    },
+    {
+      "timestamp": "00:01:24",
+      "role": "Speaker 1",
+      "content": "Try again. Thank you. Never try again. Alright. Thanks."
+    },
+    {
+      "timestamp": "00:01:27",
+      "role": "Speaker 1",
+      "content": "Bye."
+    }
+  ]
+}

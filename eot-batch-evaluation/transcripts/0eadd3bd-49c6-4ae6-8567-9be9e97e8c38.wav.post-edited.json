@@ -1,0 +1,164 @@
+{
+    "results": [
+        {
+            "Content": "Good afternoon, Joseph. Thank you for calling A & B taxis. We've upgraded to a priority voice assistant. Listen carefully, and please ensure you speak loud and clear. The best way to book is by using our app.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "I see you're waiting for us to pick you up from Gatwick Airport RH6 0NP Hawley. Your driver has arrived. Please go meet them outside. Would you like to speak with your driver?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Yes.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "I'll connect you to your driver now.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Oh, it's cold.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Hello?",
+            "EndOfTurn": true,
+            "Role": "Driver"
+        },
+        {
+            "Content": "Hello.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "I'm with you, Trevor. Hello. How are you?",
+            "EndOfTurn": true,
+            "Role": "Driver"
+        },
+        {
+            "Content": "I'm alright. How are you?",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "I'm good, sir.",
+            "EndOfTurn": true,
+            "Role": "Driver"
+        },
+        {
+            "Content": "I, I am by, I am by the car park. I don't know where to move?",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Where are you?",
+            "EndOfTurn": true,
+            "Role": "Driver"
+        },
+        {
+            "Content": "Car Park 6.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "So, I'm in Car Park 5.",
+            "EndOfTurn": true,
+            "Role": "Driver"
+        },
+        {
+            "Content": "Five? Let's",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Wait for me over there. Just a second.",
+            "EndOfTurn": true,
+            "Role": "Driver"
+        },
+        {
+            "Content": "Alright. You'll find me just outside.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "I'm just at the crossing. Can you see me? I'm coming inside the Car Park 6. Just in",
+            "EndOfTurn": false,
+            "Role": "Driver"
+        },
+        {
+            "Content": "Oh, yeah. I can see you. I'm more, not, the other end, where we are, too.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Okay. But you still have to come to Car Park 5, uh 6 inside, because I can't pick you up on that. It's across the",
+            "EndOfTurn": false,
+            "Role": "Driver"
+        },
+        {
+            "Content": "Alright.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "On your",
+            "EndOfTurn": false,
+            "Role": "Driver"
+        },
+        {
+            "Content": "I know. I can see the car going, so let me just cross the road.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Yeah.",
+            "EndOfTurn": true,
+            "Role": "Driver"
+        },
+        {
+            "Content": "Alright.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Just that, I'm not allowed to pick you up from the road. I have to get inside the car park.",
+            "EndOfTurn": true,
+            "Role": "Driver"
+        },
+        {
+            "Content": "Okay. I'm coming inside there.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Yeah. I'm trying to, to park, very close to where you come inside. Yeah?",
+            "EndOfTurn": true,
+            "Role": "Driver"
+        },
+        {
+            "Content": "Okay.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "I'm not right.",
+            "EndOfTurn": true,
+            "Role": "Driver"
+        },
+        {
+            "Content": "Yes.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Shit.",
+            "EndOfTurn": true,
+            "Role": "Driver"
+        }
+    ]
+}

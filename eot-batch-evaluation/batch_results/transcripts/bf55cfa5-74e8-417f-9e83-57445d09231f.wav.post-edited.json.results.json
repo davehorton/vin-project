@@ -1,0 +1,165 @@
+{
+  "file_path": "transcripts/bf55cfa5-74e8-417f-9e83-57445d09231f.wav.post-edited.json",
+  "file_name": "bf55cfa5-74e8-417f-9e83-57445d09231f.wav.post-edited.json",
+  "utterance_analysis": [
+    {
+      "index": 0,
+      "content": "Hello?",
+      "role": "Passenger",
+      "ground_truth": 1,
+      "predicted_probability": 0.002879410283640027,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 1,
+      "content": "Hello. Your taxi.",
+      "role": "Driver",
+      "ground_truth": 1,
+      "predicted_probability": 0.001377732609398663,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 2,
+      "content": "Coming.",
+      "role": "Passenger",
+      "ground_truth": 1,
+      "predicted_probability": 0.0018905515316873789,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 3,
+      "content": "Thank y--",
+      "role": "Driver",
+      "ground_truth": 0,
+      "predicted_probability": 0.009770003147423267,
+      "predicted_label": 0,
+      "is_correct": true
+    },
+    {
+      "index": 4,
+      "content": "Thank you.",
+      "role": "Passenger",
+      "ground_truth": 1,
+      "predicted_probability": 0.005242500454187393,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 5,
+      "content": "--ou.",
+      "role": "Driver",
+      "ground_truth": 1,
+      "predicted_probability": 0.006697494070976973,
+      "predicted_label": 0,
+      "is_correct": false
+    }
+  ],
+  "f1_scores": {
+    "0.1": 0.0,
+    "0.2": 0.0,
+    "0.3": 0.0,
+    "0.4": 0.0,
+    "0.5": 0.0,
+    "0.6": 0.0,
+    "0.7": 0.0,
+    "0.8": 0.0,
+    "0.9": 0.0
+  },
+  "optimal_threshold": 0.5,
+  "roc": {
+    "fpr": [
+      0.0,
+      1.0,
+      1.0
+    ],
+    "tpr": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "thresholds": [
+      Infinity,
+      0.009770003147423267,
+      0.001377732609398663
+    ],
+    "auc": 0.0
+  },
+  "pr": {
+    "precision": [
+      0.8333333333333334,
+      0.8,
+      0.75,
+      0.6666666666666666,
+      0.5,
+      0.0,
+      1.0
+    ],
+    "recall": [
+      1.0,
+      0.8,
+      0.6,
+      0.4,
+      0.2,
+      0.0,
+      0.0
+    ],
+    "thresholds": [
+      0.001377732609398663,
+      0.0018905515316873789,
+      0.002879410283640027,
+      0.005242500454187393,
+      0.006697494070976973,
+      0.009770003147423267
+    ]
+  },
+  "confusion_matrix": [
+    [
+      1,
+      0
+    ],
+    [
+      5,
+      0
+    ]
+  ],
+  "metrics": {
+    "accuracy": 0.16666666666666666,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "total_utterances": 6,
+    "eot_ratio": 0.8333333333333334
+  },
+  "latency": {
+    "mean": 0.141844113667806,
+    "median": 0.13770794868469238,
+    "min": 0.0754404067993164,
+    "max": 0.21178555488586426,
+    "p95": 0.20426028966903687
+  },
+  "role_analysis": {
+    "Passenger": {
+      "count": 3,
+      "accuracy": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "eot_ratio": 1.0
+    },
+    "Driver": {
+      "count": 3,
+      "accuracy": 0.3333333333333333,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "eot_ratio": 0.6666666666666666
+    }
+  },
+  "error_summary": {
+    "false_positives": 0,
+    "false_negatives": 5
+  }
+}

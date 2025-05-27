@@ -1,0 +1,169 @@
+{
+    "results": [
+        {
+            "Content": "Good afternoon.",
+            "EndOfTurn": true,
+            "Role": "Virtual Assistant"
+        },
+        {
+            "Content": "Thank you for calling Mayflower. We've upgraded to a priority voice assistant.",
+            "EndOfTurn": true,
+            "Role": "Virtual Assistant"
+        },
+        {
+            "Content": "Listen carefully, and please ensure you speak loud and clear. The best way to book is by using our app. Would you like a taxi?",
+            "EndOfTurn": true,
+            "Role": "Virtual Assistant"
+        },
+        {
+            "Content": "Yes. I would like a taxi, but I don't want to use the app.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Got it. What address would you like to be picked up from, in--",
+            "EndOfTurn": false,
+            "Role": "Virtual Assistant"
+        },
+        {
+            "Content": "1",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "--cluding the town.",
+            "EndOfTurn": true,
+            "Role": "Virtual Assistant"
+        },
+        {
+            "Content": "1 Haires Chase.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "That's H A R E S.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "That's 11 Hairs Chase.",
+            "EndOfTurn": true,
+            "Role": "Virtual Assistant"
+        },
+        {
+            "Content": "No,",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Is that",
+            "EndOfTurn": false,
+            "Role": "Virtual Assistant"
+        },
+        {
+            "Content": "1.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "correct?",
+            "EndOfTurn": true,
+            "Role": "Virtual Assistant"
+        },
+        {
+            "Content": "1 Hairs Chase.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "1. Number 1 Hairs",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Sorry.",
+            "EndOfTurn": true,
+            "Role": "Virtual Assistant"
+        },
+        {
+            "Content": "Chase.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "I couldn't find that location. I'll forward you to an operator who will be able to assist you.",
+            "EndOfTurn": true,
+            "Role": "Virtual Assistant"
+        },
+        {
+            "Content": "Okay.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Mayflower Taxis. Hello?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Hello. Yes. I'd like a taxi",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "from 1 Hair's Chase.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Going to?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Going to Meadow Rise.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Thank you. That's all done for you.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Okay. How long will you be?",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Um, five, ten minutes.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Oh, that's okay. Lovely.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Thank you.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Thanks very much.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Bye.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Bye.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        }
+    ]
+}

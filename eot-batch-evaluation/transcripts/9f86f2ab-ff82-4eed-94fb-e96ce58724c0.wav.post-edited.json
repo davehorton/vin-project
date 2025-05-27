@@ -1,0 +1,434 @@
+{
+    "results": [
+        {
+            "Content": "Good afternoon. Mornington cars.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Hi. Good afternoon. I wanna book a car to Meadowville,",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "and I have a vaccuum with me.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Uh, to Meadow",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Yeah. But,",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "We we're gonna register everything, so",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "I'm already registered.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "No,",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "No, no, no",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "You're",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "It's not like that.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "That's not what I'm saying.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Okay,",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "We",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "go ahead.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "You're using mobile number in the first place. Where are you?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "I'm in front of your old,",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "you know, your old office.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Okay. Yeah.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Yeah.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Yeah.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "That's where",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "This is",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "I am at the moment.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Mornington Cars.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Okay, yeah, you want it for now? To go to where?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Meadowville.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Yeah. Can I have the address in Mead--",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Okay,",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "--owville?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "give me a second.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "In 88 Elgin Avenue.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Sorry, what number?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "88 Elgin Avenue.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "88 Elgin Avenue. What kind of car? How many of you?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Only me and my baby.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Okay. No problems. 88 Elgin Avenue W9. That would be eighteen pounds, preferably in cash for the driver.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Okay. No problem.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Five minutes, we should be there, I think.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Sorry?",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Five minutes, we should be there. One second. Let me tell you. One second. Uh, do you know the pickup point?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "It's just in the old office. Do know where",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Okay look.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "No. No. I know. Don't tell me about the office.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Do you",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Do you",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Okay, there's a pub.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "I am",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "You remember the pub?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Sorry?",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "The pub. The",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "The Littleton Arms.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Across the road, there's a pub.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "The Little Arms, it's called.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "There is, what? What, there is a pub?",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "The pub, yeah. The pub.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Behind you.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "The pub. You mean, you say there's a pub?",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Yeah. Yeah.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Where they serve alcohol?",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Is that",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Yeah.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "what you mean?",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Yeah. Yeah.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "The pub, okay. Alright. Okay. Yeah.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "But don't get inside. Don't get inside.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Yeah?",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "I'm look",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Wait outside",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "ing at the",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "By the, by the lamppost, okay?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "By the, okay. And",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "And a white car will come to you. He he's got your name. Ilwad.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Ilwad. Yeah, yeah",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Ilwad.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "yeah, that's right. Yeah.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Yeah, a white",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "A white car is behind me. You cross over, with your little kid?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "By the time you cross over, by the lamppost, where the, where the",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Okay.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Yeah. Is it",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "A white, white car will come to you.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "In in two minutes, you by the time you crossover, he'll be there.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Alright. Thank you so much.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "You're welcome. Take care. Bye.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Bye bye.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        }
+    ]
+}

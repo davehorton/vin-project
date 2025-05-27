@@ -1,0 +1,149 @@
+{
+    "results": [
+        {
+            "Content": "Welcome to TOA Taxis,",
+            "EndOfTurn": false,
+            "Role": "Virtual Assistant"
+        },
+        {
+            "Content": "your local service Midland wide.",
+            "EndOfTurn": true,
+            "Role": "Virtual Assistant"
+        },
+        {
+            "Content": "One of our call agents will be with you shortly.",
+            "EndOfTurn": true,
+            "Role": "Virtual Assistant"
+        },
+        {
+            "Content": "Shortly?",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Download TOA Taxi's Birmingham app from App Store or Google Play Store.",
+            "EndOfTurn": true,
+            "Role": "Virtual Assistant"
+        },
+        {
+            "Content": "We now offer prebooked journeys to all UK airports and return transfers.",
+            "EndOfTurn": true,
+            "Role": "Virtual Assistant"
+        },
+        {
+            "Content": "Taxis. How can I help you?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Right. Yeah. Can",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Can you hear me?",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "I can hear you now. Yes. Do you want to",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Hi, my name's, yes. My name's Lorianne Hinton. I'd like to get the taxi for",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "a quarter to three this afternoon, two forty five, please, to Saint Martin's Gate.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "2,",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "And",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "did you say 245?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Yes, please. And I'm going to",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Arthro, uh to the doctors, a green building.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Okay,",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Um",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "so two forty",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Two forty five this afternoon?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "From Saint",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "This afternoon.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Martin's Gate. Go to Brantwood Medical Green.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Yep. Thank you.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Thank you.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Okay,",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Bye.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Bye.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        }
+    ]
+}

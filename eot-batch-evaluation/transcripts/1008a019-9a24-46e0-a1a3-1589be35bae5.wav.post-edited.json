@@ -1,0 +1,34 @@
+{
+    "results": [
+        {
+            "Content": "711.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Hi. Can I get a taxi, please?",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Where from?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Uh, Broom House in Langley going to Wuxton Park Hospital.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "No problem. Thank you.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Thank you.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        }
+    ]
+}

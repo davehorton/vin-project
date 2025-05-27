@@ -1,0 +1,94 @@
+{
+    "results": [
+        {
+            "Content": "Hello. City Taxis.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Hello?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Can you hear me?",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "I can hear you now, yeah.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "I just wanna book a taxi for tomorrow.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "That's fine.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "What time's the pick-up?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "A quarter past 12.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Where's it picking you up from?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Eh, 35",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Loch Naver.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "That's fine. Where is it you're going?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "I'm just going to Demornay.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Demornay.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "That's in for a quarter past 12 tomorrow afternoon for you.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Thanks very much. Th--",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Thank you. Bye.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Bye.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        }
+    ]
+}

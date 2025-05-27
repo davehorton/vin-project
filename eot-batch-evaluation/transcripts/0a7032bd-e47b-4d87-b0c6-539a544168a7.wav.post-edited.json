@@ -1,0 +1,184 @@
+{
+    "results": [
+        {
+            "Content": "Mount Cars. Can help you?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Oh, hi. I'm trying to find out how much it would cost for you to pick up something from prior report.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "It's not it's not furniture or anything like that. Just a little bag",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Okay.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "For my son and drop it off at",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "E",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Washington sorry. Pick it up from Washington House and drop it off",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "At 3 Parkside Rutland Road E9",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "7JU.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "20 Pound 10.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Okay. Is it possible to arrange that now?",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Yeah. Of course.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Alright. Can I, and I'll, I'll pay when they deli-- at the defense.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "That's fine. What's the, what number Washington House are you?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Number 1,",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Ground floor.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "No worries. So that's 1 Washington House going to",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Yeah.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "3 Rutland Road. Yeah?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Yes. Can you just tell the driver to knock? Because I've got the phone at the other, the, the drop-off address.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "That's fine. That's no problem at all. And was it a phone you said we're delivering?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Sorry?",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Did you say we're delivering a bag?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "No. It's just a, it's letters, actually. It's my letters. My",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Letters. Okay.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "My son will give them to to the driver.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "No problem at all.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Alright. Thank you.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Thank y--",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Oh, how long will it be? Sorry. How long will it",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Um,",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "be?",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "should be with you roughly about ten minutes.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Ten minutes. I'll tell him. Okay. Thank you.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Alright. Thank you.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Thanks very much. Okay. Bye. Bye.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        }
+    ]
+}

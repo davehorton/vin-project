@@ -1,0 +1,69 @@
+{
+    "results": [
+        {
+            "timestamp": "00:00:01",
+            "role": "Assistant",
+            "content": "Central Taxis. Lindsay speaking."
+        },
+        {
+            "timestamp": "00:00:03",
+            "role": "Caller",
+            "content": "Hello. I would like a taxi at Peoples Ford in Sighthill."
+        },
+        {
+            "timestamp": "00:00:07",
+            "role": "Assistant",
+            "content": "And where are you going to?"
+        },
+        {
+            "timestamp": "00:00:08",
+            "role": "Caller",
+            "content": "To 56 Learmonth Court."
+        },
+        {
+            "timestamp": "00:00:15",
+            "role": "Assistant",
+            "content": "Learmonth Court. Right. No bother. I'll send the driver around just now. You'll get a ring as he's approaching Peoples Ford for you. Okay?"
+        },
+        {
+            "timestamp": "00:00:21",
+            "role": "Caller",
+            "content": "Great. Yeah. Thank you. I'm-- I'm at-- I'm at the main entrance of the building."
+        },
+        {
+            "timestamp": "00:00:24",
+            "role": "Assistant",
+            "content": "Just at the main entrance."
+        },
+        {
+            "timestamp": "00:00:25",
+            "role": "Caller",
+            "content": "Yeah. Yeah."
+        },
+        {
+            "timestamp": "00:00:25",
+            "role": "Assistant",
+            "content": "No bother."
+        },
+        {
+            "timestamp": "00:00:26",
+            "role": "Caller",
+            "content": "Okay. Thank you."
+        },
+        {
+            "timestamp": "00:00:27",
+            "role": "Assistant",
+            "content": "Thank you."
+        },
+        {
+            "timestamp": "00:00:27",
+            "role": "Caller",
+            "content": "Bye."
+        },
+        {
+            "timestamp": "00:00:28",
+            "role": "Assistant",
+            "content": "Bye."
+        }
+    ]
+}

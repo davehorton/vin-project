@@ -1,0 +1,54 @@
+{
+    "results": [
+        {
+            "timestamp": "00:00:01",
+            "role": "Assistant",
+            "content": "Good afternoon. Maryline. Diane speaking."
+        },
+        {
+            "timestamp": "00:00:03",
+            "role": "Caller",
+            "content": "Hello. I'd like to order a taxi, please."
+        },
+        {
+            "timestamp": "00:00:06",
+            "role": "Assistant",
+            "content": "Where are you going?"
+        },
+        {
+            "timestamp": "00:00:08",
+            "role": "Caller",
+            "content": "44 Sussex Road."
+        },
+        {
+            "timestamp": "00:00:10",
+            "role": "Assistant",
+            "content": "And what's the name?"
+        },
+        {
+            "timestamp": "00:00:12",
+            "role": "Caller",
+            "content": "Joe."
+        },
+        {
+            "timestamp": "00:00:13",
+            "role": "Assistant",
+            "content": "Yep. That's all done."
+        },
+        {
+            "timestamp": "00:00:15",
+            "role": "Caller",
+            "content": "Alright. Thank you."
+        },
+        {
+            "timestamp": "00:00:16",
+            "role": "Assistant",
+            "content": "Bye."
+        },
+        {
+            "timestamp": "00:00:17",
+            "role": "Caller",
+            "content": "Bye."
+        }
+    ]
+}

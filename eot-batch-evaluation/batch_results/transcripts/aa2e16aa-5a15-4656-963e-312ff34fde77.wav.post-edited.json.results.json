@@ -1,0 +1,159 @@
+{
+  "file_path": "transcripts/aa2e16aa-5a15-4656-963e-312ff34fde77.wav.post-edited.json",
+  "file_name": "aa2e16aa-5a15-4656-963e-312ff34fde77.wav.post-edited.json",
+  "utterance_analysis": [
+    {
+      "index": 0,
+      "content": "United Cars.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.0012493226677179337,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 1,
+      "content": "Hi, darling. Can I order a taxi, please?",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.04369460791349411,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 2,
+      "content": "Where from?",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.026267556473612785,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 3,
+      "content": "Right Start Nursery, Ramsgate Meeting Street.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.013939505442976952,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 4,
+      "content": "Going to?",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.01689545065164566,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 5,
+      "content": "To Southwood Road.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.010720957070589066,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 6,
+      "content": "Alright. Be straight away. 5 minutes.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.024960728362202644,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 7,
+      "content": "Alright, darling. Thank you.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.0092924227938056,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 8,
+      "content": "Bye now.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.024684956297278404,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 9,
+      "content": "Thanks. Bye.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.024036215618252754,
+      "predicted_label": 0,
+      "is_correct": false
+    }
+  ],
+  "f1_scores": {
+    "0.1": 0.0,
+    "0.2": 0.0,
+    "0.3": 0.0,
+    "0.4": 0.0,
+    "0.5": 0.0,
+    "0.6": 0.0,
+    "0.7": 0.0,
+    "0.8": 0.0,
+    "0.9": 0.0
+  },
+  "optimal_threshold": 0.5,
+  "roc": {
+    "auc": 0.5
+  },
+  "pr": {},
+  "confusion_matrix": [
+    [
+      0,
+      0
+    ],
+    [
+      10,
+      0
+    ]
+  ],
+  "metrics": {
+    "accuracy": 0.0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "total_utterances": 10,
+    "eot_ratio": 1.0
+  },
+  "latency": {
+    "mean": 0.2722618579864502,
+    "median": 0.2501581907272339,
+    "min": 0.10447025299072266,
+    "max": 0.43443894386291504,
+    "p95": 0.42156423330307
+  },
+  "role_analysis": {
+    "Assistant": {
+      "count": 5,
+      "accuracy": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "eot_ratio": 1.0
+    },
+    "Caller": {
+      "count": 5,
+      "accuracy": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "eot_ratio": 1.0
+    }
+  },
+  "error_summary": {
+    "false_positives": 0,
+    "false_negatives": 10
+  }
+}

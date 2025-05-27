@@ -1,0 +1,49 @@
+{
+    "results": [
+        {
+            "Content": "Hello?",
+            "EndOfTurn": true,
+            "Role": "Driver"
+        },
+        {
+            "Content": "Hello?",
+            "EndOfTurn": true,
+            "Role": "Passenger"
+        },
+        {
+            "Content": "Oh, hi. It's your taxi driver. Um",
+            "EndOfTurn": false,
+            "Role": "Driver"
+        },
+        {
+            "Content": "whereabouts actually are you?",
+            "EndOfTurn": true,
+            "Role": "Driver"
+        },
+        {
+            "Content": "I'm at the the mental health clinic.",
+            "EndOfTurn": true,
+            "Role": "Passenger"
+        },
+        {
+            "Content": "Okay. Alright. No problems. I'll be right with you.",
+            "EndOfTurn": true,
+            "Role": "Driver"
+        },
+        {
+            "Content": "Okay. Thank you.",
+            "EndOfTurn": true,
+            "Role": "Passenger"
+        },
+        {
+            "Content": "Cheers. Bye.",
+            "EndOfTurn": true,
+            "Role": "Driver"
+        },
+        {
+            "Content": "Bye.",
+            "EndOfTurn": true,
+            "Role": "Passenger"
+        }
+    ]
+}

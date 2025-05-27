@@ -1,0 +1,214 @@
+{
+    "results": [
+        {
+            "Content": "Good afternoon. Streamline.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Good afternoon. This is Penny at Seamak.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "You're doing a pickup for us, Carol Wolf, and Julie Falls, um",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "from the first pickup was 112",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Recover Walk.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Let have a look for you.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Carol Wolf",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "and Julie Paul. Yeah. They're actually on board at the moment.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Yeah. Apparently, the driver has picked up one passenger.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "But when he went to 112",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Recover Walk,",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "he left there and picked up the second passenger",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "because he couldn't find the passenger at the first stop.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Right.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Problem is it shouldn't have been",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "112 Recover Walk. It should have been 122.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Oh.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "So is it possible if I add, um",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "122",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "as a via, your driver can go there? Or",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Right.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "I don't know how far he's in into his, into his journey he is.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Let me give him a quick ring. What numb what's the best number to call you back on?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Um, you can put me on hold.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Okay. I won't keep you a minute.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Thank you. If he could go to 122, and I'll add that as via.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Okay.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Thank you.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Let just check with him.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Okay.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Hello?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Hello?",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Hi. Sorry. That job will have to be rebooked in.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Right. Okay then. I'll let the, um",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "booker know. I assume he's already",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Yeah. He's been and gone. The other woman's on her way because the address that we were given was that address that he went to.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Yep. Yep. That's quite understandable. Okay then. I'll let them know.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Okay. No problem. Thanks then",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "O--",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Okay.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "--kay. Bye.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Bye.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        }
+    ]
+}

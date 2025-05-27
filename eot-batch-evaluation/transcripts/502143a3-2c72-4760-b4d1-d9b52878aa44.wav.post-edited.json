@@ -1,0 +1,39 @@
+{
+    "results": [
+        {
+            "Content": "Hi, Jimmy.",
+            "EndOfTurn": true,
+            "Role": "Virtual Assistant"
+        },
+        {
+            "Content": "Thanks for calling City Cabs.",
+            "EndOfTurn": true,
+            "Role": "Virtual Assistant"
+        },
+        {
+            "Content": "To book a taxi for now, press 1. To prebook a taxi",
+            "EndOfTurn": false,
+            "Role": "Virtual Assistant"
+        },
+        {
+            "Content": "Okay.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "press 2. For account bookings,",
+            "EndOfTurn": false,
+            "Role": "Virtual Assistant"
+        },
+        {
+            "Content": "Press 1. Thanks.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "press 3. For a specialized vehicle taxi, press 4. To hold for an operator, press 5. To repeat this menu, press star.",
+            "EndOfTurn": true,
+            "Role": "Virtual Assistant"
+        }
+    ]
+}

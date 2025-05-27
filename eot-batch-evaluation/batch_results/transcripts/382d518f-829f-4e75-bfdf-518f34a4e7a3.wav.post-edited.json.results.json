@@ -1,0 +1,149 @@
+{
+  "file_path": "transcripts/382d518f-829f-4e75-bfdf-518f34a4e7a3.wav.post-edited.json",
+  "file_name": "382d518f-829f-4e75-bfdf-518f34a4e7a3.wav.post-edited.json",
+  "utterance_analysis": [
+    {
+      "index": 0,
+      "content": "All calls are recorded for training and quality purposes.",
+      "role": "Virtual Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.00024326975108124316,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 1,
+      "content": "Hello, Central.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.005784377921372652,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 2,
+      "content": "Hi there. Can get a black cab from Morrison's in Bindley, please?",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.0614941269159317,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 3,
+      "content": "And where are you going?",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.04981449618935585,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 4,
+      "content": "Up at Bailey Close.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.01948411390185356,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 5,
+      "content": "Okay then.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.005722717847675085,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 6,
+      "content": "Thank you. Bye.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.018757134675979614,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 7,
+      "content": "Goodbye.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.013757879845798016,
+      "predicted_label": 0,
+      "is_correct": false
+    }
+  ],
+  "f1_scores": {
+    "0.1": 0.0,
+    "0.2": 0.0,
+    "0.3": 0.0,
+    "0.4": 0.0,
+    "0.5": 0.0,
+    "0.6": 0.0,
+    "0.7": 0.0,
+    "0.8": 0.0,
+    "0.9": 0.0
+  },
+  "optimal_threshold": 0.5,
+  "roc": {
+    "auc": 0.5
+  },
+  "pr": {},
+  "confusion_matrix": [
+    [
+      0,
+      0
+    ],
+    [
+      8,
+      0
+    ]
+  ],
+  "metrics": {
+    "accuracy": 0.0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "total_utterances": 8,
+    "eot_ratio": 1.0
+  },
+  "latency": {
+    "mean": 0.24880996346473694,
+    "median": 0.27784931659698486,
+    "min": 0.10545039176940918,
+    "max": 0.3601255416870117,
+    "p95": 0.34954051971435546
+  },
+  "role_analysis": {
+    "Virtual Assistant": {
+      "count": 1,
+      "accuracy": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "eot_ratio": 1.0
+    },
+    "Assistant": {
+      "count": 4,
+      "accuracy": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "eot_ratio": 1.0
+    },
+    "Caller": {
+      "count": 3,
+      "accuracy": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "eot_ratio": 1.0
+    }
+  },
+  "error_summary": {
+    "false_positives": 0,
+    "false_negatives": 8
+  }
+}

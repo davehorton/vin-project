@@ -1,0 +1,330 @@
+{
+  "file_path": "transcripts/f6bcb3af-c917-4d31-8a3d-626972765095.wav.post-edited.json",
+  "file_name": "f6bcb3af-c917-4d31-8a3d-626972765095.wav.post-edited.json",
+  "utterance_analysis": [
+    {
+      "index": 0,
+      "content": "Hello. Hampton Cars.",
+      "role": "Dispatch",
+      "ground_truth": 1,
+      "predicted_probability": 0.008845055475831032,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 1,
+      "content": "Hello there. It's RC58 here again.",
+      "role": "Driver",
+      "ground_truth": 1,
+      "predicted_probability": 0.06791001558303833,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 2,
+      "content": "Hi.",
+      "role": "Dispatch",
+      "ground_truth": 1,
+      "predicted_probability": 0.07665382325649261,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 3,
+      "content": "Yeah, hi there. I've done the whole length of, you know, Upper Richmond Road West. And",
+      "role": "Driver",
+      "ground_truth": 0,
+      "predicted_probability": 0.5965733528137207,
+      "predicted_label": 1,
+      "is_correct": false
+    },
+    {
+      "index": 4,
+      "content": "Yes.",
+      "role": "Dispatch",
+      "ground_truth": 1,
+      "predicted_probability": 0.0364823080599308,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 5,
+      "content": "I've I've actually been to 416,",
+      "role": "Driver",
+      "ground_truth": 0,
+      "predicted_probability": 0.3406747877597809,
+      "predicted_label": 0,
+      "is_correct": true
+    },
+    {
+      "index": 6,
+      "content": "and, unfortunately, it wasn't a coffee shop at all.",
+      "role": "Driver",
+      "ground_truth": 1,
+      "predicted_probability": 0.12053027749061584,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 7,
+      "content": "Oh, did you ring the customer?",
+      "role": "Dispatch",
+      "ground_truth": 1,
+      "predicted_probability": 0.13349264860153198,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 8,
+      "content": "I rang, but it wouldn't, you know, it wasn't picked up.",
+      "role": "Driver",
+      "ground_truth": 1,
+      "predicted_probability": 0.1472049057483673,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 9,
+      "content": "Oh.",
+      "role": "Dispatch",
+      "ground_truth": 1,
+      "predicted_probability": 0.02210177108645439,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 10,
+      "content": "I'll try. If not, I'll have cancel it if there's no answer.",
+      "role": "Dispatch",
+      "ground_truth": 1,
+      "predicted_probability": 0.06307055801153183,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 11,
+      "content": "Okay. I",
+      "role": "Driver",
+      "ground_truth": 0,
+      "predicted_probability": 0.23825249075889587,
+      "predicted_label": 0,
+      "is_correct": true
+    },
+    {
+      "index": 12,
+      "content": "Alright.",
+      "role": "Dispatch",
+      "ground_truth": 1,
+      "predicted_probability": 0.028363103047013283,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 13,
+      "content": "think that'd be the right",
+      "role": "Driver",
+      "ground_truth": 0,
+      "predicted_probability": 0.03651820495724678,
+      "predicted_label": 0,
+      "is_correct": true
+    },
+    {
+      "index": 14,
+      "content": "Stay with me, okay?",
+      "role": "Dispatch",
+      "ground_truth": 1,
+      "predicted_probability": 0.09024320542812347,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 15,
+      "content": "thing to do.",
+      "role": "Driver",
+      "ground_truth": 1,
+      "predicted_probability": 0.032969266176223755,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 16,
+      "content": "Alright. I'll do that. Bye.",
+      "role": "Driver",
+      "ground_truth": 1,
+      "predicted_probability": 0.06087533012032509,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 17,
+      "content": "One sec.",
+      "role": "Dispatch",
+      "ground_truth": 1,
+      "predicted_probability": 0.04100451245903969,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 18,
+      "content": "Thank you. Bye.",
+      "role": "Driver",
+      "ground_truth": 1,
+      "predicted_probability": 0.047067996114492416,
+      "predicted_label": 0,
+      "is_correct": false
+    }
+  ],
+  "f1_scores": {
+    "0.1": 0.2857142857142857,
+    "0.2": 0.0,
+    "0.3": 0.0,
+    "0.4": 0.0,
+    "0.5": 0.0,
+    "0.6": 0.0,
+    "0.7": 0.0,
+    "0.8": 0.0,
+    "0.9": 0.0
+  },
+  "optimal_threshold": 0.1,
+  "roc": {
+    "fpr": [
+      0.0,
+      0.25,
+      0.75,
+      0.75,
+      1.0,
+      1.0
+    ],
+    "tpr": [
+      0.0,
+      0.0,
+      0.0,
+      0.6666666666666666,
+      0.6666666666666666,
+      1.0
+    ],
+    "thresholds": [
+      Infinity,
+      0.5965733528137207,
+      0.23825249075889587,
+      0.04100451245903969,
+      0.03651820495724678,
+      0.008845055475831032
+    ],
+    "auc": 0.16666666666666666
+  },
+  "pr": {
+    "precision": [
+      0.7894736842105263,
+      0.7777777777777778,
+      0.7647058823529411,
+      0.75,
+      0.7333333333333333,
+      0.7142857142857143,
+      0.7692307692307693,
+      0.75,
+      0.7272727272727273,
+      0.7,
+      0.6666666666666666,
+      0.625,
+      0.5714285714285714,
+      0.5,
+      0.4,
+      0.25,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "recall": [
+      1.0,
+      0.9333333333333333,
+      0.8666666666666667,
+      0.8,
+      0.7333333333333333,
+      0.6666666666666666,
+      0.6666666666666666,
+      0.6,
+      0.5333333333333333,
+      0.4666666666666667,
+      0.4,
+      0.3333333333333333,
+      0.26666666666666666,
+      0.2,
+      0.13333333333333333,
+      0.06666666666666667,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "thresholds": [
+      0.008845055475831032,
+      0.02210177108645439,
+      0.028363103047013283,
+      0.032969266176223755,
+      0.0364823080599308,
+      0.03651820495724678,
+      0.04100451245903969,
+      0.047067996114492416,
+      0.06087533012032509,
+      0.06307055801153183,
+      0.06791001558303833,
+      0.07665382325649261,
+      0.09024320542812347,
+      0.12053027749061584,
+      0.13349264860153198,
+      0.1472049057483673,
+      0.23825249075889587,
+      0.3406747877597809,
+      0.5965733528137207
+    ]
+  },
+  "confusion_matrix": [
+    [
+      1,
+      3
+    ],
+    [
+      12,
+      3
+    ]
+  ],
+  "metrics": {
+    "accuracy": 0.21052631578947367,
+    "precision": 0.5,
+    "recall": 0.2,
+    "f1": 0.2857142857142857,
+    "total_utterances": 19,
+    "eot_ratio": 0.7894736842105263
+  },
+  "latency": {
+    "mean": 0.5156459431899222,
+    "median": 0.5725629329681396,
+    "min": 0.11096310615539551,
+    "max": 0.8910424709320068,
+    "p95": 0.8870474815368652
+  },
+  "role_analysis": {
+    "Dispatch": {
+      "count": 9,
+      "accuracy": 0.1111111111111111,
+      "precision": 1.0,
+      "recall": 0.1111111111111111,
+      "f1": 0.2,
+      "eot_ratio": 1.0
+    },
+    "Driver": {
+      "count": 10,
+      "accuracy": 0.3,
+      "precision": 0.4,
+      "recall": 0.3333333333333333,
+      "f1": 0.36363636363636365,
+      "eot_ratio": 0.6
+    }
+  },
+  "error_summary": {
+    "false_positives": 3,
+    "false_negatives": 12
+  }
+}

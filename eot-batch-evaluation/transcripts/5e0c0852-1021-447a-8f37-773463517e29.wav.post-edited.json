@@ -1,0 +1,59 @@
+{
+    "results": [
+        {
+            "Content": "The King Trip.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Hello?",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Hello?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Hello.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Uh, I've just booked a taxi with you",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "for 01:40, um,",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "They sent the wrong, the wrong address has come through to me on the email. I just put my address on it, but I just need confirmation that you've, um",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "got that.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Bear with me, sir. Let me transfer to Mount Cars. They'll let you know then. Just hold the line, please.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Okay.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Thank you.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        }
+    ]
+}

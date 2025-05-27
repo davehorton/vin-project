@@ -1,0 +1,103 @@
+END-OF-TURN DETECTION EVALUATION SUMMARY
+==================================================
+
+Total transcripts evaluated: 100
+Total utterances: 1767
+Average EOT ratio: 0.7928
+
+OVERALL PERFORMANCE
+--------------------
+Mean Accuracy: 0.1773
+Mean Precision: 0.0452
+Mean Recall: 0.0193
+Mean F1 Score: 0.0240
+Mean AUC: 0.2264
+
+OPTIMAL THRESHOLD
+--------------------
+Best threshold: 0.1
+Mean F1 at best threshold: 0.0240
+
+ROLE ANALYSIS
+--------------------
+Role: Assistant
+  Total utterances: 708
+  Mean F1 Score: 0.0293
+  Mean EOT Ratio: 0.8841
+
+Role: Caller
+  Total utterances: 727
+  Mean F1 Score: 0.0218
+  Mean EOT Ratio: 0.7948
+
+Role: Caller 2
+  Total utterances: 6
+  Mean F1 Score: 0.0000
+  Mean EOT Ratio: 1.0000
+
+Role: Caller 1
+  Total utterances: 9
+  Mean F1 Score: 0.0000
+  Mean EOT Ratio: 0.8889
+
+Role: Virtual Assistant
+  Total utterances: 93
+  Mean F1 Score: 0.0000
+  Mean EOT Ratio: 0.6595
+
+Role: Passenger
+  Total utterances: 37
+  Mean F1 Score: 0.0000
+  Mean EOT Ratio: 0.8704
+
+Role: Driver
+  Total utterances: 83
+  Mean F1 Score: 0.0455
+  Mean EOT Ratio: 0.6958
+
+Role: Kara
+  Total utterances: 9
+  Mean F1 Score: 0.0000
+  Mean EOT Ratio: 1.0000
+
+Role: Kiki
+  Total utterances: 7
+  Mean F1 Score: 0.0000
+  Mean EOT Ratio: 0.7143
+
+Role: Unknown Speaker
+  Total utterances: 3
+  Mean F1 Score: 0.0000
+  Mean EOT Ratio: 1.0000
+
+Role: Virtual Assistant 1
+  Total utterances: 8
+  Mean F1 Score: 0.0000
+  Mean EOT Ratio: 0.8333
+
+Role: Virtual Assistant 2
+  Total utterances: 4
+  Mean F1 Score: 0.0000
+  Mean EOT Ratio: 0.0000
+
+Role: Dispatch 1
+  Total utterances: 31
+  Mean F1 Score: 0.0000
+  Mean EOT Ratio: 0.7097
+
+Role: Dispatch 2
+  Total utterances: 16
+  Mean F1 Score: 0.0000
+  Mean EOT Ratio: 0.8750
+
+Role: Dispatch
+  Total utterances: 26
+  Mean F1 Score: 0.0667
+  Mean EOT Ratio: 0.8857
+
+ERROR ANALYSIS
+--------------------
+Total False Positives: 93
+Total False Negatives: 1337
+Mean False Positives per transcript: 0.93
+Mean False Negatives per transcript: 13.37

@@ -1,0 +1,474 @@
+{
+  "file_path": "transcripts/647efaac-14d5-4a5c-ab44-c0ba2394cdcc.wav.post-edited.json",
+  "file_name": "647efaac-14d5-4a5c-ab44-c0ba2394cdcc.wav.post-edited.json",
+  "utterance_analysis": [
+    {
+      "index": 0,
+      "content": "Afternoon. Taxi.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.0005085143493488431,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 1,
+      "content": "Hi. Um. Would you be able to, would I be able to get a taxi to pick me up at Kirkaldy Station to take me to Lundin Links?",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.028948651626706123,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 2,
+      "content": "The railway station?",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.05852818489074707,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 3,
+      "content": "Uh-huh. Sorry. The railway station. Apologies.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.010882758535444736,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 4,
+      "content": "And whereabout in Lundin Links are you going?",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.04727649316191673,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 5,
+      "content": "Uh, Victoria Road.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.03106040321290493,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 6,
+      "content": "8 Victoria Road.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.01259466540068388,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 7,
+      "content": "I'll have our driver in Kirkaldy in about",
+      "role": "Assistant",
+      "ground_truth": 0,
+      "predicted_probability": 0.1365538090467453,
+      "predicted_label": 0,
+      "is_correct": true
+    },
+    {
+      "index": 8,
+      "content": "twenty, twenty five minutes?",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.06920277327299118,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 9,
+      "content": "Well, I'll be there, I won't be there till, I'm phoning just in case you might book up. I'll hope that the train gets in at,",
+      "role": "Caller",
+      "ground_truth": 0,
+      "predicted_probability": 0.8371655344963074,
+      "predicted_label": 1,
+      "is_correct": false
+    },
+    {
+      "index": 10,
+      "content": "at one, four, 01:36",
+      "role": "Caller",
+      "ground_truth": 0,
+      "predicted_probability": 0.16661322116851807,
+      "predicted_label": 0,
+      "is_correct": true
+    },
+    {
+      "index": 11,
+      "content": "into Kirkaldy.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.03988685458898544,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 12,
+      "content": "Right. So I'll book it in for 01:40. Is that okay?",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.07028163224458694,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 13,
+      "content": "01:40. And what what side of the station will her, will it, should I wait?",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.23541055619716644,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 14,
+      "content": "What side are getting off at?",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.17955851554870605,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 15,
+      "content": "I'm coming in from Edinburgh.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.045507267117500305,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 16,
+      "content": "So is it the ticket office side? I don't mind. It doesn't matter to me. What's easiest?",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.04391888156533241,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 17,
+      "content": "Em, the driver will just get you at the Edinburgh side.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.05523835867643356,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 18,
+      "content": "At the Edinburgh side. Okay. Thank you. So that's",
+      "role": "Caller",
+      "ground_truth": 0,
+      "predicted_probability": 0.6513423323631287,
+      "predicted_label": 1,
+      "is_correct": false
+    },
+    {
+      "index": 19,
+      "content": "And",
+      "role": "Assistant",
+      "ground_truth": 0,
+      "predicted_probability": 0.5754624605178833,
+      "predicted_label": 1,
+      "is_correct": false
+    },
+    {
+      "index": 20,
+      "content": "01:36.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.010754697024822235,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 21,
+      "content": "And my name.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.01844162307679653,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 22,
+      "content": "Yeah.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.018494654446840286,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 23,
+      "content": "Do you want my name?",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.06447075307369232,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 24,
+      "content": "Yeah. What's your name?",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.06568662822246552,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 25,
+      "content": "Jane. Just Jane.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.07845263183116913,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 26,
+      "content": "Jane. No bother. That's you booked in.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.8031039834022522,
+      "predicted_label": 1,
+      "is_correct": true
+    },
+    {
+      "index": 27,
+      "content": "01:36, thank you so much. Alright.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.8031039834022522,
+      "predicted_label": 1,
+      "is_correct": true
+    },
+    {
+      "index": 28,
+      "content": "Thanks.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.8031039834022522,
+      "predicted_label": 1,
+      "is_correct": true
+    },
+    {
+      "index": 29,
+      "content": "Thanks.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.8031039834022522,
+      "predicted_label": 1,
+      "is_correct": true
+    },
+    {
+      "index": 30,
+      "content": "Bye.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.8031039834022522,
+      "predicted_label": 1,
+      "is_correct": true
+    },
+    {
+      "index": 31,
+      "content": "Bye.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.8031039834022522,
+      "predicted_label": 1,
+      "is_correct": true
+    }
+  ],
+  "f1_scores": {
+    "0.1": 0.4,
+    "0.2": 0.3783783783783784,
+    "0.3": 0.3333333333333333,
+    "0.4": 0.3333333333333333,
+    "0.5": 0.3333333333333333,
+    "0.6": 0.34285714285714286,
+    "0.7": 0.35294117647058826,
+    "0.8": 0.35294117647058826,
+    "0.9": 0.0
+  },
+  "optimal_threshold": 0.1,
+  "roc": {
+    "fpr": [
+      0.0,
+      0.2,
+      0.2,
+      0.6,
+      0.6,
+      1.0,
+      1.0
+    ],
+    "tpr": [
+      0.0,
+      0.0,
+      0.2222222222222222,
+      0.2222222222222222,
+      0.2962962962962963,
+      0.2962962962962963,
+      1.0
+    ],
+    "thresholds": [
+      Infinity,
+      0.8371655344963074,
+      0.8031039834022522,
+      0.5754624605178833,
+      0.17955851554870605,
+      0.1365538090467453,
+      0.0005085143493488431
+    ],
+    "auc": 0.2074074074074074
+  },
+  "pr": {
+    "precision": [
+      0.84375,
+      0.8387096774193549,
+      0.8333333333333334,
+      0.8275862068965517,
+      0.8214285714285714,
+      0.8148148148148148,
+      0.8076923076923077,
+      0.8,
+      0.7916666666666666,
+      0.782608695652174,
+      0.7727272727272727,
+      0.7619047619047619,
+      0.75,
+      0.7368421052631579,
+      0.7222222222222222,
+      0.7058823529411765,
+      0.6875,
+      0.6666666666666666,
+      0.6428571428571429,
+      0.6153846153846154,
+      0.6666666666666666,
+      0.7272727272727273,
+      0.7,
+      0.6666666666666666,
+      0.75,
+      0.8571428571428571,
+      0.0,
+      1.0
+    ],
+    "recall": [
+      1.0,
+      0.9629629629629629,
+      0.9259259259259259,
+      0.8888888888888888,
+      0.8518518518518519,
+      0.8148148148148148,
+      0.7777777777777778,
+      0.7407407407407407,
+      0.7037037037037037,
+      0.6666666666666666,
+      0.6296296296296297,
+      0.5925925925925926,
+      0.5555555555555556,
+      0.5185185185185185,
+      0.48148148148148145,
+      0.4444444444444444,
+      0.4074074074074074,
+      0.37037037037037035,
+      0.3333333333333333,
+      0.2962962962962963,
+      0.2962962962962963,
+      0.2962962962962963,
+      0.25925925925925924,
+      0.2222222222222222,
+      0.2222222222222222,
+      0.2222222222222222,
+      0.0,
+      0.0
+    ],
+    "thresholds": [
+      0.0005085143493488431,
+      0.010754697024822235,
+      0.010882758535444736,
+      0.01259466540068388,
+      0.01844162307679653,
+      0.018494654446840286,
+      0.028948651626706123,
+      0.03106040321290493,
+      0.03988685458898544,
+      0.04391888156533241,
+      0.045507267117500305,
+      0.04727649316191673,
+      0.05523835867643356,
+      0.05852818489074707,
+      0.06447075307369232,
+      0.06568662822246552,
+      0.06920277327299118,
+      0.07028163224458694,
+      0.07845263183116913,
+      0.1365538090467453,
+      0.16661322116851807,
+      0.17955851554870605,
+      0.23541055619716644,
+      0.5754624605178833,
+      0.6513423323631287,
+      0.8031039834022522,
+      0.8371655344963074
+    ]
+  },
+  "confusion_matrix": [
+    [
+      0,
+      5
+    ],
+    [
+      19,
+      8
+    ]
+  ],
+  "metrics": {
+    "accuracy": 0.25,
+    "precision": 0.6153846153846154,
+    "recall": 0.2962962962962963,
+    "f1": 0.4,
+    "total_utterances": 32,
+    "eot_ratio": 0.84375
+  },
+  "latency": {
+    "mean": 1.0612439587712288,
+    "median": 1.0474835634231567,
+    "min": 0.10125589370727539,
+    "max": 1.8473753929138184,
+    "p95": 1.7780207514762878
+  },
+  "role_analysis": {
+    "Assistant": {
+      "count": 14,
+      "accuracy": 0.2857142857142857,
+      "precision": 0.6666666666666666,
+      "recall": 0.3333333333333333,
+      "f1": 0.4444444444444444,
+      "eot_ratio": 0.8571428571428571
+    },
+    "Caller": {
+      "count": 18,
+      "accuracy": 0.2222222222222222,
+      "precision": 0.5714285714285714,
+      "recall": 0.26666666666666666,
+      "f1": 0.36363636363636365,
+      "eot_ratio": 0.8333333333333334
+    }
+  },
+  "error_summary": {
+    "false_positives": 5,
+    "false_negatives": 19
+  }
+}

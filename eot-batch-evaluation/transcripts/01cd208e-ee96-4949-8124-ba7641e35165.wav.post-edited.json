@@ -1,0 +1,609 @@
+{
+    "results": [
+        {
+            "Content": "Hello. 711.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Hello. Hi. Can I speak to your supervisor?",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Right. The supervisor just left. He should be here up to 10:00 in the morning, but today, he left a bit late. He'd be back in the office tomorrow morning.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Manager?",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "He is the supervisor manager.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Oh, okay. So, basic--, who can I speak to? Because, we, I made a booking this morning, but the taxi driver was being very rude to my daughter.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Being rude? Where would, where were they picked-up from? Nobody should",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "24 Park Lawn.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "be rude.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "24 Park Lawn,",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Yeah.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "and then he kept ringing my number as well. When I give them my daughter's number as well. I rang this morning and asked specifically.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Right. I see. Yeah. 08:50 this morning. And you said",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Yeah.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "the driver",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "The dri--",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "was being rude?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "the dri--",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Yeah, the driver was being rude to my daughter. Yeah. Because he said that she was five minutes late, but he actually rang my number.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Mhmm.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "And I was at work, so I couldn't answer it. So when I did get to it, obviously, that, that, that few minutes had gone by. And I, and I've said specifically to call my daughter's number, because she was gonna go in, and she was still in the taxi.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Right. He's in the office tomorrow morning. I apologize. Nobody should be rude to anybody. Um",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Yeah. I know. That's what I thought.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "If you, um, it shouldn't happen. I don't know why they, but I'll,",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Cause",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "if you wanna speak to the manager, uh",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "No. It's fine. I don't want it, I don't want it happening again, because I don't see why, my daughter's g--, going to work, and she doesn't want,",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "No, no. That's fine. That's fine. Of course. I wouldn't like anybody to be like that to my kids or even myself.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Yeah. So, you know, on my, on my system, I asked specifically this morning that can they make sure they ring 0773 655362. Can, can you just put it on the system? That's the number you need to ring.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Okay. Next time you book a taxi, just make sure that the person puts it on there, please, because",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "No, I did. No. No, I did. I asked specifically",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "It wasn't,",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "before this.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "it wasn't done this morning. I'm sorry. But next time",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Guys.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "you do book it",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "When I rang, I asked him specifically.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Right.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "I asked. I asked before as well, and it never happened.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Alright. Tomorrow morning or whenever you next met, make sure, make sure, say \"make sure you",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Right,",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "put it.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "you know what? Can you do me a favor? I will speak to you only then. Sorry, what's your name?",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "I don't be here in the morning because I'll start work at 10:00.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "What if I make the booking now?",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "I could make a booking for you now.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Yeah?",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "What time tomorrow",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Okay.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "morning?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Same time, 08:50, and we don't want the same taxi driver",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Yeah, I put that.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "because he was rude.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "24 Park Lawn to Montrose Avenue?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Yeah.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "That's 8",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Yeah.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "4? What number do they call, please?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Um, 0773.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "0, double-7, 3.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "6, 5, 5, 5. 3, 6, 2.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "6, 5, 5, 5",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Hold on. Hang on. Let me just make sure one minute.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Yeah, go on.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Give me a second.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Go on.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Hello. Can you hear me?",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Yes.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Yeah. It's 0, 7, 7, 3.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "0, 7, 7, 3.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "6, 5, 5, 5.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "6, 5, 5, 5.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "3, 6, 2.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "3, 6, 2, and I've wrote on the, do, and do not send 1-0. Do not send D-1-0. And I've got a name of Indie.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Yeah. But, um",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Yeah, but",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "it depends on that number because I'll, I'll,",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "That's fine. I've taken your number off anyway. So the only number we have now is for, the, the number you've just given me now.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Yeah?",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "And I've",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Even though",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "booked it for 8.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "I'm ringing from my number?",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Yeah. Yeah. I've taken you. I've deleted your number, and I've put that one in.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "0773 6555362.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "3,",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Okay. That's",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "6, 2.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Okay. And that's booked for tomorrow morning, 08:50.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Yeah. Can you do it for the rest of the week, actually, 08:50?",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "08:50, Tuesday.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Yeah. But not that driver, please.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Yeah. Of course. Yeah.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "And if I can make sure it's the third building, because sometimes they wait at the gate. I don't know why.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Today is the fifth. What, Monday to Friday?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "This week. Yeah.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "So up to Friday. Yeah?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Yeah. And let's see how things go.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "08:50 on the 6th and 08:50 on the 7th. I've done it up to Friday now. Yeah?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Yeah. And 08:50, like, ten to",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "08:50",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "nine.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "to nine.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "But make sure to come to the building, the third building, not at the gate. Sometimes",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "24 Park Lawn",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "they wait there",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "I've got it. What should I write now?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Third Building. It's a third building. Come through the gate.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Third Building. Okay. Thank you.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Yeah? Alright.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Thank you.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "So what's your name?",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Isra.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "What's your name?",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Isra.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Isrod?",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Yep.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Okay. Alright. Thank you.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Third building.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Okay. Thank you. Bye.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Thank you.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        }
+    ]
+}

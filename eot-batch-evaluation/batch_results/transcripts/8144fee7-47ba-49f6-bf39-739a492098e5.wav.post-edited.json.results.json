@@ -1,0 +1,288 @@
+{
+  "file_path": "transcripts/8144fee7-47ba-49f6-bf39-739a492098e5.wav.post-edited.json",
+  "file_name": "8144fee7-47ba-49f6-bf39-739a492098e5.wav.post-edited.json",
+  "utterance_analysis": [
+    {
+      "index": 0,
+      "content": "Hello?",
+      "role": "Kara",
+      "ground_truth": 1,
+      "predicted_probability": 0.008288294076919556,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 1,
+      "content": "Hi, Kara. It's Kiki.",
+      "role": "Kiki",
+      "ground_truth": 1,
+      "predicted_probability": 0.036687254905700684,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 2,
+      "content": "You alright?",
+      "role": "Kara",
+      "ground_truth": 1,
+      "predicted_probability": 0.08454123139381409,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 3,
+      "content": "I'm alright. How are doing?",
+      "role": "Kiki",
+      "ground_truth": 1,
+      "predicted_probability": 0.058073580265045166,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 4,
+      "content": "Alright. Thank you.",
+      "role": "Kara",
+      "ground_truth": 1,
+      "predicted_probability": 0.019347500056028366,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 5,
+      "content": "I'm just calling to let you know that that patient on your PDA, Devin Spyter?",
+      "role": "Kiki",
+      "ground_truth": 1,
+      "predicted_probability": 0.08046659827232361,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 6,
+      "content": "Yeah.",
+      "role": "Kara",
+      "ground_truth": 1,
+      "predicted_probability": 0.01858491636812687,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 7,
+      "content": "She's in Patient Transport Lounge, First",
+      "role": "Kiki",
+      "ground_truth": 0,
+      "predicted_probability": 0.00044627173338085413,
+      "predicted_label": 0,
+      "is_correct": true
+    },
+    {
+      "index": 8,
+      "content": "Okay.",
+      "role": "Kara",
+      "ground_truth": 1,
+      "predicted_probability": 0.011512880213558674,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 9,
+      "content": "floor. Okay?",
+      "role": "Kiki",
+      "ground_truth": 1,
+      "predicted_probability": 0.045480407774448395,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 10,
+      "content": "Okay.",
+      "role": "Kara",
+      "ground_truth": 1,
+      "predicted_probability": 0.010257398709654808,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 11,
+      "content": "Yeah, perfect. Thank you.",
+      "role": "Kara",
+      "ground_truth": 1,
+      "predicted_probability": 0.020108100026845932,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 12,
+      "content": "Okay. Thank y--",
+      "role": "Kiki",
+      "ground_truth": 0,
+      "predicted_probability": 0.09821917861700058,
+      "predicted_label": 0,
+      "is_correct": true
+    },
+    {
+      "index": 13,
+      "content": "Alright.",
+      "role": "Kara",
+      "ground_truth": 1,
+      "predicted_probability": 0.017898190766572952,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 14,
+      "content": "See ya. Bye bye.",
+      "role": "Kara",
+      "ground_truth": 1,
+      "predicted_probability": 0.03172194957733154,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 15,
+      "content": "Bye.",
+      "role": "Kiki",
+      "ground_truth": 1,
+      "predicted_probability": 0.028902122750878334,
+      "predicted_label": 0,
+      "is_correct": false
+    }
+  ],
+  "f1_scores": {
+    "0.1": 0.0,
+    "0.2": 0.0,
+    "0.3": 0.0,
+    "0.4": 0.0,
+    "0.5": 0.0,
+    "0.6": 0.0,
+    "0.7": 0.0,
+    "0.8": 0.0,
+    "0.9": 0.0
+  },
+  "optimal_threshold": 0.5,
+  "roc": {
+    "fpr": [
+      0.0,
+      0.5,
+      0.5,
+      1.0
+    ],
+    "tpr": [
+      0.0,
+      0.0,
+      1.0,
+      1.0
+    ],
+    "thresholds": [
+      Infinity,
+      0.09821917861700058,
+      0.008288294076919556,
+      0.00044627173338085413
+    ],
+    "auc": 0.5
+  },
+  "pr": {
+    "precision": [
+      0.875,
+      0.9333333333333333,
+      0.9285714285714286,
+      0.9230769230769231,
+      0.9166666666666666,
+      0.9090909090909091,
+      0.9,
+      0.8888888888888888,
+      0.875,
+      0.8571428571428571,
+      0.8333333333333334,
+      0.8,
+      0.75,
+      0.6666666666666666,
+      0.5,
+      0.0,
+      1.0
+    ],
+    "recall": [
+      1.0,
+      1.0,
+      0.9285714285714286,
+      0.8571428571428571,
+      0.7857142857142857,
+      0.7142857142857143,
+      0.6428571428571429,
+      0.5714285714285714,
+      0.5,
+      0.42857142857142855,
+      0.35714285714285715,
+      0.2857142857142857,
+      0.21428571428571427,
+      0.14285714285714285,
+      0.07142857142857142,
+      0.0,
+      0.0
+    ],
+    "thresholds": [
+      0.00044627173338085413,
+      0.008288294076919556,
+      0.010257398709654808,
+      0.011512880213558674,
+      0.017898190766572952,
+      0.01858491636812687,
+      0.019347500056028366,
+      0.020108100026845932,
+      0.028902122750878334,
+      0.03172194957733154,
+      0.036687254905700684,
+      0.045480407774448395,
+      0.058073580265045166,
+      0.08046659827232361,
+      0.08454123139381409,
+      0.09821917861700058
+    ]
+  },
+  "confusion_matrix": [
+    [
+      2,
+      0
+    ],
+    [
+      14,
+      0
+    ]
+  ],
+  "metrics": {
+    "accuracy": 0.125,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "total_utterances": 16,
+    "eot_ratio": 0.875
+  },
+  "latency": {
+    "mean": 0.3850070983171463,
+    "median": 0.41466736793518066,
+    "min": 0.07601451873779297,
+    "max": 0.6574230194091797,
+    "p95": 0.6478545069694519
+  },
+  "role_analysis": {
+    "Kara": {
+      "count": 9,
+      "accuracy": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "eot_ratio": 1.0
+    },
+    "Kiki": {
+      "count": 7,
+      "accuracy": 0.2857142857142857,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "eot_ratio": 0.7142857142857143
+    }
+  },
+  "error_summary": {
+    "false_positives": 0,
+    "false_negatives": 14
+  }
+}

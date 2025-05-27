@@ -1,0 +1,79 @@
+{
+    "results": [
+        {
+            "timestamp": "00:00:02",
+            "role": "Assistant",
+            "content": "Hello. As-salamu alaykum [...] return key booking, [...]? Update [...] or [...]account [...]."
+        },
+        {
+            "timestamp": "00:00:13",
+            "role": "Caller",
+            "content": "[...]?"
+        },
+        {
+            "timestamp": "00:00:16",
+            "role": "Assistant",
+            "content": "Key to return [...] certain policy [...] $14.20. [...]."
+        },
+        {
+            "timestamp": "00:00:27",
+            "role": "Caller",
+            "content": "[...]."
+        },
+        {
+            "timestamp": "00:00:29",
+            "role": "Assistant",
+            "content": "[...] total cash [...] after 20 days [...]. [...] total cash [...]. Yeah, booking [...]."
+        },
+        {
+            "timestamp": "00:00:42",
+            "role": "Caller",
+            "content": "[...]? I will do 3 [...]?"
+        },
+        {
+            "timestamp": "00:00:46",
+            "role": "Assistant",
+            "content": "[...]."
+        },
+        {
+            "timestamp": "00:00:50",
+            "role": "Caller",
+            "content": "[...]."
+        },
+        {
+            "timestamp": "00:00:52",
+            "role": "Assistant",
+            "content": "[...]."
+        },
+        {
+            "timestamp": "00:00:52",
+            "role": "Caller",
+            "content": "Okay. [...]?"
+        },
+        {
+            "timestamp": "00:00:56",
+            "role": "Assistant",
+            "content": "[...]."
+        },
+        {
+            "timestamp": "00:00:59",
+            "role": "Caller",
+            "content": "Okay [...] maybe. [...]. Thank you."
+        },
+        {
+            "timestamp": "00:01:02",
+            "role": "Assistant",
+            "content": "[...]."
+        },
+        {
+            "timestamp": "00:01:03",
+            "role": "Caller",
+            "content": "Lovely."
+        },
+        {
+            "timestamp": "00:01:04",
+            "role": "Assistant",
+            "content": "Okay."
+        }
+    ]
+}

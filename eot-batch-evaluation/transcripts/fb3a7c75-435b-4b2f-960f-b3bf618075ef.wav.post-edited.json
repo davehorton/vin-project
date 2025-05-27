@@ -1,0 +1,44 @@
+{
+    "results": [
+        {
+            "Content": "Welcome to the O2 messaging service.",
+            "EndOfTurn": true,
+            "Role": "Virtual Assistant"
+        },
+        {
+            "Content": "The person you are calling is unable to take your call. Please leave your message after the tone. To rerecord your message,",
+            "EndOfTurn": false,
+            "Role": "Virtual Assistant"
+        },
+        {
+            "Content": "key hash at any time.",
+            "EndOfTurn": true,
+            "Role": "Virtual Assistant"
+        },
+        {
+            "Content": "Hi, Adrian. It's Dan,",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Reem Interiors in Gillingham. I was just calling really just to see how you got on with the most recent revised quotation I've done for you. If you give us a callback in the showroom, uh,",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "failing that, I'll give you a a little bit later. I'm gonna drop you an email as well.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Um,",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "and, hopefully, I will speak to you soon. Cheers. Bye.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        }
+    ]
+}

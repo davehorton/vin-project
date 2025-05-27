@@ -1,0 +1,201 @@
+{
+  "file_path": "transcripts/37c86af8-35cf-435f-a19a-483a49dc9c87.wav.post-edited.json",
+  "file_name": "37c86af8-35cf-435f-a19a-483a49dc9c87.wav.post-edited.json",
+  "utterance_analysis": [
+    {
+      "index": 0,
+      "content": "Afternoon. NB Texas. How may I help?",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.0008591952500864863,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 1,
+      "content": "Hello. Good afternoon. I just booked an appointment with you. Um,",
+      "role": "Caller",
+      "ground_truth": 0,
+      "predicted_probability": 0.04200432077050209,
+      "predicted_label": 0,
+      "is_correct": true
+    },
+    {
+      "index": 2,
+      "content": "from a cow pine.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.0025679401587694883,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 3,
+      "content": "I just realized my my appointment is tomorrow.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.0028090565465390682,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 4,
+      "content": "Okay. No worries, sir. I canceled.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.0037864018231630325,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 5,
+      "content": "Okay. So, so thanks. Sorry about that.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.003798318561166525,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 6,
+      "content": "No worries. Take care, boy.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.012934163212776184,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 7,
+      "content": "Thank you. Bye bye. Bye bye. Thank you.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.005902915261685848,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 8,
+      "content": "Bye.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.007599803153425455,
+      "predicted_label": 0,
+      "is_correct": false
+    }
+  ],
+  "f1_scores": {
+    "0.1": 0.0,
+    "0.2": 0.0,
+    "0.3": 0.0,
+    "0.4": 0.0,
+    "0.5": 0.0,
+    "0.6": 0.0,
+    "0.7": 0.0,
+    "0.8": 0.0,
+    "0.9": 0.0
+  },
+  "optimal_threshold": 0.5,
+  "roc": {
+    "fpr": [
+      0.0,
+      1.0,
+      1.0
+    ],
+    "tpr": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "thresholds": [
+      Infinity,
+      0.04200432077050209,
+      0.0008591952500864863
+    ],
+    "auc": 0.0
+  },
+  "pr": {
+    "precision": [
+      0.8888888888888888,
+      0.875,
+      0.8571428571428571,
+      0.8333333333333334,
+      0.8,
+      0.75,
+      0.6666666666666666,
+      0.5,
+      0.0,
+      1.0
+    ],
+    "recall": [
+      1.0,
+      0.875,
+      0.75,
+      0.625,
+      0.5,
+      0.375,
+      0.25,
+      0.125,
+      0.0,
+      0.0
+    ],
+    "thresholds": [
+      0.0008591952500864863,
+      0.0025679401587694883,
+      0.0028090565465390682,
+      0.0037864018231630325,
+      0.003798318561166525,
+      0.005902915261685848,
+      0.007599803153425455,
+      0.012934163212776184,
+      0.04200432077050209
+    ]
+  },
+  "confusion_matrix": [
+    [
+      1,
+      0
+    ],
+    [
+      8,
+      0
+    ]
+  ],
+  "metrics": {
+    "accuracy": 0.1111111111111111,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "total_utterances": 9,
+    "eot_ratio": 0.8888888888888888
+  },
+  "latency": {
+    "mean": 0.32940567864312065,
+    "median": 0.28785157203674316,
+    "min": 0.10720515251159668,
+    "max": 0.6669540405273438,
+    "p95": 0.5897107124328612
+  },
+  "role_analysis": {
+    "Assistant": {
+      "count": 4,
+      "accuracy": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "eot_ratio": 1.0
+    },
+    "Caller": {
+      "count": 5,
+      "accuracy": 0.2,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "eot_ratio": 0.8
+    }
+  },
+  "error_summary": {
+    "false_positives": 0,
+    "false_negatives": 8
+  }
+}

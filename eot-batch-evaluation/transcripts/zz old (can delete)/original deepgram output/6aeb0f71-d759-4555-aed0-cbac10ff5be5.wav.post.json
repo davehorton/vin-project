@@ -1,0 +1,19 @@
+{
+  "results": [
+    {
+      "timestamp": "00:00:00",
+      "role": "Speaker 0",
+      "content": "7011. Hello. Can I have a taxi from 174 North Fire Road, please? 174. Yeah."
+    },
+    {
+      "timestamp": "00:00:05",
+      "role": "Speaker 0",
+      "content": "Where to, please? Asda in Sydney, please. Ten minutes. Thank you. Thank thank you."
+    },
+    {
+      "timestamp": "00:00:10",
+      "role": "Speaker 0",
+      "content": "Bye. Bye."
+    }
+  ]
+}

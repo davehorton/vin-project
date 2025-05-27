@@ -1,0 +1,727 @@
+{
+  "metadata": {
+    "transaction_key": "deprecated",
+    "request_id": "1ba36a57-c308-4d0a-86cf-528e45593e86",
+    "sha256": "9159261b7f9fccfe5b3d0da6b3511121b8ae28992fa53f00e9b37585d100ffaa",
+    "created": "2025-04-03T14:54:09.793Z",
+    "duration": 12.339937,
+    "channels": 1,
+    "models": [
+      "1abfe86b-e047-4eed-858a-35e5625b41ee"
+    ],
+    "model_info": {
+      "1abfe86b-e047-4eed-858a-35e5625b41ee": {
+        "name": "2-general-nova",
+        "version": "2024-01-06.5664",
+        "arch": "nova-2"
+      }
+    }
+  },
+  "results": {
+    "channels": [
+      {
+        "alternatives": [
+          {
+            "transcript": "7011. Hello. Can I have a taxi from 174 North Fire Road, please? 174. Yeah. Where to, please? Asda in Sydney, please. Ten minutes. Thank you. Thank thank you. Bye. Bye.",
+            "confidence": 0.9885694,
+            "words": [
+              {
+                "word": "7011",
+                "start": 0.08,
+                "end": 0.9,
+                "confidence": 0.6440358,
+                "speaker": 0,
+                "speaker_confidence": 0.4838006,
+                "punctuated_word": "7011."
+              },
+              {
+                "word": "hello",
+                "start": 1.36,
+                "end": 1.68,
+                "confidence": 0.9918582,
+                "speaker": 0,
+                "speaker_confidence": 0.17890966,
+                "punctuated_word": "Hello."
+              },
+              {
+                "word": "can",
+                "start": 1.68,
+                "end": 1.8399999,
+                "confidence": 0.99862313,
+                "speaker": 0,
+                "speaker_confidence": 0.17890966,
+                "punctuated_word": "Can"
+              },
+              {
+                "word": "i",
+                "start": 1.8399999,
+                "end": 2,
+                "confidence": 0.996905,
+                "speaker": 0,
+                "speaker_confidence": 0.17890966,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "have",
+                "start": 2,
+                "end": 2.08,
+                "confidence": 0.99852103,
+                "speaker": 0,
+                "speaker_confidence": 0.4418885,
+                "punctuated_word": "have"
+              },
+              {
+                "word": "a",
+                "start": 2.08,
+                "end": 2.1599998,
+                "confidence": 0.99200714,
+                "speaker": 0,
+                "speaker_confidence": 0.4418885,
+                "punctuated_word": "a"
+              },
+              {
+                "word": "taxi",
+                "start": 2.1599998,
+                "end": 2.56,
+                "confidence": 0.9794699,
+                "speaker": 0,
+                "speaker_confidence": 0.4418885,
+                "punctuated_word": "taxi"
+              },
+              {
+                "word": "from",
+                "start": 2.56,
+                "end": 2.72,
+                "confidence": 0.89391166,
+                "speaker": 0,
+                "speaker_confidence": 0.4418885,
+                "punctuated_word": "from"
+              },
+              {
+                "word": "174",
+                "start": 2.72,
+                "end": 3.28,
+                "confidence": 0.985126,
+                "speaker": 0,
+                "speaker_confidence": 0.44188848,
+                "punctuated_word": "174"
+              },
+              {
+                "word": "north",
+                "start": 3.28,
+                "end": 3.52,
+                "confidence": 0.9511358,
+                "speaker": 0,
+                "speaker_confidence": 0.4418885,
+                "punctuated_word": "North"
+              },
+              {
+                "word": "fire",
+                "start": 3.52,
+                "end": 3.6799998,
+                "confidence": 0.30880547,
+                "speaker": 0,
+                "speaker_confidence": 0.4418885,
+                "punctuated_word": "Fire"
+              },
+              {
+                "word": "road",
+                "start": 3.6799998,
+                "end": 3.9199998,
+                "confidence": 0.9947083,
+                "speaker": 0,
+                "speaker_confidence": 0.4418885,
+                "punctuated_word": "Road,"
+              },
+              {
+                "word": "please",
+                "start": 3.9199998,
+                "end": 4.42,
+                "confidence": 0.9968258,
+                "speaker": 0,
+                "speaker_confidence": 0.4418885,
+                "punctuated_word": "please?"
+              },
+              {
+                "word": "174",
+                "start": 4.64,
+                "end": 5.44,
+                "confidence": 0.9697563,
+                "speaker": 0,
+                "speaker_confidence": 0.47323146,
+                "punctuated_word": "174."
+              },
+              {
+                "word": "yeah",
+                "start": 5.44,
+                "end": 5.6,
+                "confidence": 0.9967241,
+                "speaker": 0,
+                "speaker_confidence": 0.4732315,
+                "punctuated_word": "Yeah."
+              },
+              {
+                "word": "where",
+                "start": 5.6,
+                "end": 5.8399997,
+                "confidence": 0.87260675,
+                "speaker": 0,
+                "speaker_confidence": 0.4732315,
+                "punctuated_word": "Where"
+              },
+              {
+                "word": "to",
+                "start": 5.8399997,
+                "end": 6,
+                "confidence": 0.9509355,
+                "speaker": 0,
+                "speaker_confidence": 0.4732315,
+                "punctuated_word": "to,"
+              },
+              {
+                "word": "please",
+                "start": 6,
+                "end": 6.5,
+                "confidence": 0.9865757,
+                "speaker": 0,
+                "speaker_confidence": 0.4732315,
+                "punctuated_word": "please?"
+              },
+              {
+                "word": "asda",
+                "start": 7.44,
+                "end": 7.7599998,
+                "confidence": 0.6309358,
+                "speaker": 0,
+                "speaker_confidence": 0.4640783,
+                "punctuated_word": "Asda"
+              },
+              {
+                "word": "in",
+                "start": 7.7599998,
+                "end": 7.9199996,
+                "confidence": 0.5480936,
+                "speaker": 0,
+                "speaker_confidence": 0.4640783,
+                "punctuated_word": "in"
+              },
+              {
+                "word": "sydney",
+                "start": 7.9199996,
+                "end": 8.24,
+                "confidence": 0.74829674,
+                "speaker": 0,
+                "speaker_confidence": 0.4640783,
+                "punctuated_word": "Sydney,"
+              },
+              {
+                "word": "please",
+                "start": 8.24,
+                "end": 8.559999,
+                "confidence": 0.97356415,
+                "speaker": 0,
+                "speaker_confidence": 0.4640783,
+                "punctuated_word": "please."
+              },
+              {
+                "word": "ten",
+                "start": 8.559999,
+                "end": 8.88,
+                "confidence": 0.993152,
+                "speaker": 0,
+                "speaker_confidence": 0.5293956,
+                "punctuated_word": "Ten"
+              },
+              {
+                "word": "minutes",
+                "start": 8.88,
+                "end": 9.2,
+                "confidence": 0.99947864,
+                "speaker": 0,
+                "speaker_confidence": 0.5293956,
+                "punctuated_word": "minutes."
+              },
+              {
+                "word": "thank",
+                "start": 9.2,
+                "end": 9.44,
+                "confidence": 0.9997861,
+                "speaker": 0,
+                "speaker_confidence": 0.5293956,
+                "punctuated_word": "Thank"
+              },
+              {
+                "word": "you",
+                "start": 9.44,
+                "end": 9.84,
+                "confidence": 0.9998125,
+                "speaker": 0,
+                "speaker_confidence": 0.5293956,
+                "punctuated_word": "you."
+              },
+              {
+                "word": "thank",
+                "start": 9.84,
+                "end": 10.08,
+                "confidence": 0.24311623,
+                "speaker": 0,
+                "speaker_confidence": 0.25093204,
+                "punctuated_word": "Thank"
+              },
+              {
+                "word": "thank",
+                "start": 10.08,
+                "end": 10.32,
+                "confidence": 0.60107476,
+                "speaker": 0,
+                "speaker_confidence": 0.25093204,
+                "punctuated_word": "thank"
+              },
+              {
+                "word": "you",
+                "start": 10.32,
+                "end": 10.559999,
+                "confidence": 0.99947476,
+                "speaker": 0,
+                "speaker_confidence": 0.25093204,
+                "punctuated_word": "you."
+              },
+              {
+                "word": "bye",
+                "start": 10.559999,
+                "end": 10.88,
+                "confidence": 0.99219084,
+                "speaker": 0,
+                "speaker_confidence": 0.25093204,
+                "punctuated_word": "Bye."
+              },
+              {
+                "word": "bye",
+                "start": 10.88,
+                "end": 11.38,
+                "confidence": 0.9885694,
+                "speaker": 0,
+                "speaker_confidence": 0.25093204,
+                "punctuated_word": "Bye."
+              }
+            ],
+            "paragraphs": {
+              "transcript": "\nSpeaker 0: 7011. Hello. Can I have a taxi from 174 North Fire Road, please? 174. Yeah.\n\nWhere to, please? Asda in Sydney, please. Ten minutes. Thank you. Thank thank you.\n\nBye. Bye.",
+              "paragraphs": [
+                {
+                  "sentences": [
+                    {
+                      "text": "7011.",
+                      "start": 0.08,
+                      "end": 0.9
+                    },
+                    {
+                      "text": "Hello.",
+                      "start": 1.36,
+                      "end": 1.68
+                    },
+                    {
+                      "text": "Can I have a taxi from 174 North Fire Road, please?",
+                      "start": 1.68,
+                      "end": 4.42
+                    },
+                    {
+                      "text": "174.",
+                      "start": 4.64,
+                      "end": 5.44
+                    },
+                    {
+                      "text": "Yeah.",
+                      "start": 5.44,
+                      "end": 5.6
+                    }
+                  ],
+                  "speaker": 0,
+                  "num_words": 15,
+                  "start": 0.08,
+                  "end": 5.6
+                },
+                {
+                  "sentences": [
+                    {
+                      "text": "Where to, please?",
+                      "start": 5.6,
+                      "end": 6.5
+                    },
+                    {
+                      "text": "Asda in Sydney, please.",
+                      "start": 7.44,
+                      "end": 8.559999
+                    },
+                    {
+                      "text": "Ten minutes.",
+                      "start": 8.559999,
+                      "end": 9.2
+                    },
+                    {
+                      "text": "Thank you.",
+                      "start": 9.2,
+                      "end": 9.84
+                    },
+                    {
+                      "text": "Thank thank you.",
+                      "start": 9.84,
+                      "end": 10.559999
+                    }
+                  ],
+                  "speaker": 0,
+                  "num_words": 14,
+                  "start": 5.6,
+                  "end": 10.559999
+                },
+                {
+                  "sentences": [
+                    {
+                      "text": "Bye.",
+                      "start": 10.559999,
+                      "end": 10.88
+                    },
+                    {
+                      "text": "Bye.",
+                      "start": 10.88,
+                      "end": 11.38
+                    }
+                  ],
+                  "speaker": 0,
+                  "num_words": 2,
+                  "start": 10.559999,
+                  "end": 11.38
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "utterances": [
+      {
+        "start": 0.08,
+        "end": 0.9,
+        "confidence": 0.6440358,
+        "channel": 0,
+        "transcript": "7011.",
+        "words": [
+          {
+            "word": "7011",
+            "start": 0.08,
+            "end": 0.9,
+            "confidence": 0.6440358,
+            "speaker": 0,
+            "speaker_confidence": 0.4838006,
+            "punctuated_word": "7011."
+          }
+        ],
+        "speaker": 0,
+        "id": "a46a2cc3-6753-43e4-b8d6-23c124553118"
+      },
+      {
+        "start": 1.36,
+        "end": 5.44,
+        "confidence": 0.9275119,
+        "channel": 0,
+        "transcript": "Hello. Can I have a taxi from 174 North Fire Road, please? 174.",
+        "words": [
+          {
+            "word": "hello",
+            "start": 1.36,
+            "end": 1.68,
+            "confidence": 0.9918582,
+            "speaker": 0,
+            "speaker_confidence": 0.17890966,
+            "punctuated_word": "Hello."
+          },
+          {
+            "word": "can",
+            "start": 1.68,
+            "end": 1.8399999,
+            "confidence": 0.99862313,
+            "speaker": 0,
+            "speaker_confidence": 0.17890966,
+            "punctuated_word": "Can"
+          },
+          {
+            "word": "i",
+            "start": 1.8399999,
+            "end": 2,
+            "confidence": 0.996905,
+            "speaker": 0,
+            "speaker_confidence": 0.17890966,
+            "punctuated_word": "I"
+          },
+          {
+            "word": "have",
+            "start": 2,
+            "end": 2.08,
+            "confidence": 0.99852103,
+            "speaker": 0,
+            "speaker_confidence": 0.4418885,
+            "punctuated_word": "have"
+          },
+          {
+            "word": "a",
+            "start": 2.08,
+            "end": 2.1599998,
+            "confidence": 0.99200714,
+            "speaker": 0,
+            "speaker_confidence": 0.4418885,
+            "punctuated_word": "a"
+          },
+          {
+            "word": "taxi",
+            "start": 2.1599998,
+            "end": 2.56,
+            "confidence": 0.9794699,
+            "speaker": 0,
+            "speaker_confidence": 0.4418885,
+            "punctuated_word": "taxi"
+          },
+          {
+            "word": "from",
+            "start": 2.56,
+            "end": 2.72,
+            "confidence": 0.89391166,
+            "speaker": 0,
+            "speaker_confidence": 0.4418885,
+            "punctuated_word": "from"
+          },
+          {
+            "word": "174",
+            "start": 2.72,
+            "end": 3.28,
+            "confidence": 0.985126,
+            "speaker": 0,
+            "speaker_confidence": 0.44188848,
+            "punctuated_word": "174"
+          },
+          {
+            "word": "north",
+            "start": 3.28,
+            "end": 3.52,
+            "confidence": 0.9511358,
+            "speaker": 0,
+            "speaker_confidence": 0.4418885,
+            "punctuated_word": "North"
+          },
+          {
+            "word": "fire",
+            "start": 3.52,
+            "end": 3.6799998,
+            "confidence": 0.30880547,
+            "speaker": 0,
+            "speaker_confidence": 0.4418885,
+            "punctuated_word": "Fire"
+          },
+          {
+            "word": "road",
+            "start": 3.6799998,
+            "end": 3.9199998,
+            "confidence": 0.9947083,
+            "speaker": 0,
+            "speaker_confidence": 0.4418885,
+            "punctuated_word": "Road,"
+          },
+          {
+            "word": "please",
+            "start": 3.9199998,
+            "end": 4.42,
+            "confidence": 0.9968258,
+            "speaker": 0,
+            "speaker_confidence": 0.4418885,
+            "punctuated_word": "please?"
+          },
+          {
+            "word": "174",
+            "start": 4.64,
+            "end": 5.44,
+            "confidence": 0.9697563,
+            "speaker": 0,
+            "speaker_confidence": 0.47323146,
+            "punctuated_word": "174."
+          }
+        ],
+        "speaker": 0,
+        "id": "6b5ad9b0-a7e9-4390-88fd-59c9505c9436"
+      },
+      {
+        "start": 5.44,
+        "end": 6.5,
+        "confidence": 0.95171046,
+        "channel": 0,
+        "transcript": "Yeah. Where to, please?",
+        "words": [
+          {
+            "word": "yeah",
+            "start": 5.44,
+            "end": 5.6,
+            "confidence": 0.9967241,
+            "speaker": 0,
+            "speaker_confidence": 0.4732315,
+            "punctuated_word": "Yeah."
+          },
+          {
+            "word": "where",
+            "start": 5.6,
+            "end": 5.8399997,
+            "confidence": 0.87260675,
+            "speaker": 0,
+            "speaker_confidence": 0.4732315,
+            "punctuated_word": "Where"
+          },
+          {
+            "word": "to",
+            "start": 5.8399997,
+            "end": 6,
+            "confidence": 0.9509355,
+            "speaker": 0,
+            "speaker_confidence": 0.4732315,
+            "punctuated_word": "to,"
+          },
+          {
+            "word": "please",
+            "start": 6,
+            "end": 6.5,
+            "confidence": 0.9865757,
+            "speaker": 0,
+            "speaker_confidence": 0.4732315,
+            "punctuated_word": "please?"
+          }
+        ],
+        "speaker": 0,
+        "id": "c6b83343-536e-4782-8984-7a176ff65068"
+      },
+      {
+        "start": 7.44,
+        "end": 11.38,
+        "confidence": 0.82442665,
+        "channel": 0,
+        "transcript": "Asda in Sydney, please. Ten minutes. Thank you. Thank thank you. Bye. Bye.",
+        "words": [
+          {
+            "word": "asda",
+            "start": 7.44,
+            "end": 7.7599998,
+            "confidence": 0.6309358,
+            "speaker": 0,
+            "speaker_confidence": 0.4640783,
+            "punctuated_word": "Asda"
+          },
+          {
+            "word": "in",
+            "start": 7.7599998,
+            "end": 7.9199996,
+            "confidence": 0.5480936,
+            "speaker": 0,
+            "speaker_confidence": 0.4640783,
+            "punctuated_word": "in"
+          },
+          {
+            "word": "sydney",
+            "start": 7.9199996,
+            "end": 8.24,
+            "confidence": 0.74829674,
+            "speaker": 0,
+            "speaker_confidence": 0.4640783,
+            "punctuated_word": "Sydney,"
+          },
+          {
+            "word": "please",
+            "start": 8.24,
+            "end": 8.559999,
+            "confidence": 0.97356415,
+            "speaker": 0,
+            "speaker_confidence": 0.4640783,
+            "punctuated_word": "please."
+          },
+          {
+            "word": "ten",
+            "start": 8.559999,
+            "end": 8.88,
+            "confidence": 0.993152,
+            "speaker": 0,
+            "speaker_confidence": 0.5293956,
+            "punctuated_word": "Ten"
+          },
+          {
+            "word": "minutes",
+            "start": 8.88,
+            "end": 9.2,
+            "confidence": 0.99947864,
+            "speaker": 0,
+            "speaker_confidence": 0.5293956,
+            "punctuated_word": "minutes."
+          },
+          {
+            "word": "thank",
+            "start": 9.2,
+            "end": 9.44,
+            "confidence": 0.9997861,
+            "speaker": 0,
+            "speaker_confidence": 0.5293956,
+            "punctuated_word": "Thank"
+          },
+          {
+            "word": "you",
+            "start": 9.44,
+            "end": 9.84,
+            "confidence": 0.9998125,
+            "speaker": 0,
+            "speaker_confidence": 0.5293956,
+            "punctuated_word": "you."
+          },
+          {
+            "word": "thank",
+            "start": 9.84,
+            "end": 10.08,
+            "confidence": 0.24311623,
+            "speaker": 0,
+            "speaker_confidence": 0.25093204,
+            "punctuated_word": "Thank"
+          },
+          {
+            "word": "thank",
+            "start": 10.08,
+            "end": 10.32,
+            "confidence": 0.60107476,
+            "speaker": 0,
+            "speaker_confidence": 0.25093204,
+            "punctuated_word": "thank"
+          },
+          {
+            "word": "you",
+            "start": 10.32,
+            "end": 10.559999,
+            "confidence": 0.99947476,
+            "speaker": 0,
+            "speaker_confidence": 0.25093204,
+            "punctuated_word": "you."
+          },
+          {
+            "word": "bye",
+            "start": 10.559999,
+            "end": 10.88,
+            "confidence": 0.99219084,
+            "speaker": 0,
+            "speaker_confidence": 0.25093204,
+            "punctuated_word": "Bye."
+          },
+          {
+            "word": "bye",
+            "start": 10.88,
+            "end": 11.38,
+            "confidence": 0.9885694,
+            "speaker": 0,
+            "speaker_confidence": 0.25093204,
+            "punctuated_word": "Bye."
+          }
+        ],
+        "speaker": 0,
+        "id": "1ddd4093-c518-432e-b2ff-53ea61adfc31"
+      }
+    ]
+  }
+}

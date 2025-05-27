@@ -1,0 +1,204 @@
+{
+  "file_path": "transcripts/83dec5ab-97e0-45d6-a35d-77c238102744.wav.post-edited.json",
+  "file_name": "83dec5ab-97e0-45d6-a35d-77c238102744.wav.post-edited.json",
+  "utterance_analysis": [
+    {
+      "index": 0,
+      "content": "Hello?",
+      "role": "Driver",
+      "ground_truth": 1,
+      "predicted_probability": 0.0028127210680395365,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 1,
+      "content": "Hello?",
+      "role": "Passenger",
+      "ground_truth": 1,
+      "predicted_probability": 0.02438623271882534,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 2,
+      "content": "Oh, hi. It's your taxi driver. Um",
+      "role": "Driver",
+      "ground_truth": 0,
+      "predicted_probability": 0.029021283611655235,
+      "predicted_label": 0,
+      "is_correct": true
+    },
+    {
+      "index": 3,
+      "content": "whereabouts actually are you?",
+      "role": "Driver",
+      "ground_truth": 1,
+      "predicted_probability": 0.05940323695540428,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 4,
+      "content": "I'm at the the mental health clinic.",
+      "role": "Passenger",
+      "ground_truth": 1,
+      "predicted_probability": 0.002867224160581827,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 5,
+      "content": "Okay. Alright. No problems. I'll be right with you.",
+      "role": "Driver",
+      "ground_truth": 1,
+      "predicted_probability": 0.004100474528968334,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 6,
+      "content": "Okay. Thank you.",
+      "role": "Passenger",
+      "ground_truth": 1,
+      "predicted_probability": 0.0030777815263718367,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 7,
+      "content": "Cheers. Bye.",
+      "role": "Driver",
+      "ground_truth": 1,
+      "predicted_probability": 0.02084149606525898,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 8,
+      "content": "Bye.",
+      "role": "Passenger",
+      "ground_truth": 1,
+      "predicted_probability": 0.009944945573806763,
+      "predicted_label": 0,
+      "is_correct": false
+    }
+  ],
+  "f1_scores": {
+    "0.1": 0.0,
+    "0.2": 0.0,
+    "0.3": 0.0,
+    "0.4": 0.0,
+    "0.5": 0.0,
+    "0.6": 0.0,
+    "0.7": 0.0,
+    "0.8": 0.0,
+    "0.9": 0.0
+  },
+  "optimal_threshold": 0.5,
+  "roc": {
+    "fpr": [
+      0.0,
+      0.0,
+      1.0,
+      1.0
+    ],
+    "tpr": [
+      0.0,
+      0.125,
+      0.125,
+      1.0
+    ],
+    "thresholds": [
+      Infinity,
+      0.05940323695540428,
+      0.029021283611655235,
+      0.0028127210680395365
+    ],
+    "auc": 0.125
+  },
+  "pr": {
+    "precision": [
+      0.8888888888888888,
+      0.875,
+      0.8571428571428571,
+      0.8333333333333334,
+      0.8,
+      0.75,
+      0.6666666666666666,
+      0.5,
+      1.0,
+      1.0
+    ],
+    "recall": [
+      1.0,
+      0.875,
+      0.75,
+      0.625,
+      0.5,
+      0.375,
+      0.25,
+      0.125,
+      0.125,
+      0.0
+    ],
+    "thresholds": [
+      0.0028127210680395365,
+      0.002867224160581827,
+      0.0030777815263718367,
+      0.004100474528968334,
+      0.009944945573806763,
+      0.02084149606525898,
+      0.02438623271882534,
+      0.029021283611655235,
+      0.05940323695540428
+    ]
+  },
+  "confusion_matrix": [
+    [
+      1,
+      0
+    ],
+    [
+      8,
+      0
+    ]
+  ],
+  "metrics": {
+    "accuracy": 0.1111111111111111,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "total_utterances": 9,
+    "eot_ratio": 0.8888888888888888
+  },
+  "latency": {
+    "mean": 0.24703115887112087,
+    "median": 0.22449016571044922,
+    "min": 0.07051491737365723,
+    "max": 0.4265940189361572,
+    "p95": 0.42164196968078616
+  },
+  "role_analysis": {
+    "Passenger": {
+      "count": 4,
+      "accuracy": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "eot_ratio": 1.0
+    },
+    "Driver": {
+      "count": 5,
+      "accuracy": 0.2,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "eot_ratio": 0.8
+    }
+  },
+  "error_summary": {
+    "false_positives": 0,
+    "false_negatives": 8
+  }
+}

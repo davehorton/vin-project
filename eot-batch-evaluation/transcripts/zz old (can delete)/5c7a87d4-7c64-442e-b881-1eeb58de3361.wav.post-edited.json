@@ -1,0 +1,239 @@
+{
+    "results": [
+        {
+            "timestamp": "00:00:03",
+            "role": "Virtual Assistant",
+            "content": "Good afternoon, Marie. Thank you for calling A & B taxis. The best way to book is by using our app. Your next booking is scheduled to arrive Wednesday, February 5 at 11:45AM to pick you up from 3 Pintails. Are you calling about this booking?"
+        },
+        {
+            "timestamp": "00:00:20",
+            "role": "Caller",
+            "content": "No. We are waiting at the Dipple clinic to go to the 3 Pintails. Put me through to operator."
+        },
+        {
+            "timestamp": "00:00:32",
+            "role": "Virtual Assistant",
+            "content": "Let's schedule a booking. Would you like to be picked up from Dipple Medical Centre, East Wing, Wickford Avenue, Basildon?"
+        },
+        {
+            "timestamp": "00:00:41",
+            "role": "Caller",
+            "content": "Put me through to a operator, please."
+        },
+        {
+            "timestamp": "00:00:46",
+            "role": "Virtual Assistant",
+            "content": "I'll forward you to an operator who will be able to assist you."
+        },
+        {
+            "timestamp": "00:00:54",
+            "role": "Assistant",
+            "content": "Good afternoon, taxis."
+        },
+        {
+            "timestamp": "00:00:56",
+            "role": "Caller",
+            "content": "Hi. It's Marie again from, the Dipple clinic to go to 3 Pintails. Is there a problem with the taxi? It's taking so long."
+        },
+        {
+            "timestamp": "00:01:06",
+            "role": "Assistant",
+            "content": "Okay. You've ordered it from 3 Pintails. No. No. But Yeah."
+        },
+        {
+            "timestamp": "00:01:09",
+            "role": "Caller",
+            "content": "No. No. From the--"
+        },
+        {
+            "timestamp": "00:01:11",
+            "role": "Assistant",
+            "content": "You have. Unfortunately, it's been ordered from 3 Pintails."
+        },
+        {
+            "timestamp": "00:01:14",
+            "role": "Caller",
+            "content": "No. No. From we--"
+        },
+        {
+            "timestamp": "00:01:16",
+            "role": "Assistant",
+            "content": "Okay-- But-- The computer said back to you, it said '3 Pintails,' you must have missed it."
+        },
+        {
+            "timestamp": "00:01:21",
+            "role": "Caller",
+            "content": "No. They're-- They're making mistakes. They're making mistakes."
+        },
+        {
+            "timestamp": "00:01:23",
+            "role": "Assistant",
+            "content": "Yes, they've made a mistake, madam, but I was just explaining why the reason we haven't turned up to you is because you've sent it to 3 Pintails--"
+        },
+        {
+            "timestamp": "00:01:29",
+            "role": "Caller",
+            "content": "Alright."
+        },
+        {
+            "timestamp": "00:01:30",
+            "role": "Assistant",
+            "content": "--by mistake. So--"
+        },
+        {
+            "timestamp": "00:01:30",
+            "role": "Caller",
+            "content": "Can-- Can we correct can we correct it now?"
+        },
+        {
+            "timestamp": "00:01:32",
+            "role": "Assistant",
+            "content": "Of course. I'll do that now for you."
+        },
+        {
+            "timestamp": "00:01:33",
+            "role": "Caller",
+            "content": "We are at the Dipple clinic."
+        },
+        {
+            "timestamp": "00:01:37",
+            "role": "Assistant",
+            "content": "Okay, Marie. Going to 3 Pintails. Yeah?"
+        },
+        {
+            "timestamp": "00:01:40",
+            "role": "Caller",
+            "content": "Yeah. From the dental clinic."
+        },
+        {
+            "timestamp": "00:01:41",
+            "role": "Assistant",
+            "content": "Okay."
+        },
+        {
+            "timestamp": "00:01:41",
+            "role": "Caller",
+            "content": "From the Dipple clinic."
+        },
+        {
+            "timestamp": "00:01:43",
+            "role": "Assistant",
+            "content": "No problem. I'll do that for you now."
+        },
+        {
+            "timestamp": "00:01:45",
+            "role": "Caller",
+            "content": "Okay. Listen. How long is it gonna take?"
+        },
+        {
+            "timestamp": "00:01:48",
+            "role": "Assistant",
+            "content": "I'm gonna send it straight away. So a few minutes."
+        },
+        {
+            "timestamp": "00:01:51",
+            "role": "Caller",
+            "content": "Okay. Listen. And and the other thing is when I phone and the-- and-- and-- and the the recording, still got that booking for tomorrow, which is wrong. Can you cancel tomorrow's booking?"
+        },
+        {
+            "timestamp": "00:02:04",
+            "role": "Assistant",
+            "content": "Okay. Let me just have a look for you. One second. Okay. So you're not supposed to have one in for tomorrow?"
+        },
+        {
+            "timestamp": "00:02:13",
+            "role": "Assistant",
+            "content": "No."
+        },
+        {
+            "timestamp": "00:02:14",
+            "role": "Assistant",
+            "content": "Right. Okay. No problem. I'll get that canceled out for you."
+        },
+        {
+            "timestamp": "00:02:19",
+            "role": "Caller",
+            "content": "Okay. So-- Okay. Is it actually on its way?"
+        },
+        {
+            "timestamp": "00:02:19",
+            "role": "Assistant",
+            "content": "Okay."
+        },
+        {
+            "timestamp": "00:02:20",
+            "role": "Caller",
+            "content": "Is it actually on its way?"
+        },
+        {
+            "timestamp": "00:02:22",
+            "role": "Assistant",
+            "content": "Yes. I'm sending it on its way now for you to the Dipple Centre, and I can-- I'm gonna cancel the two that you have booked for tomorrow."
+        },
+        {
+            "timestamp": "00:02:29",
+            "role": "Caller",
+            "content": "Yeah. At the--"
+        },
+        {
+            "timestamp": "00:02:30",
+            "role": "Assistant",
+            "content": "Okay."
+        },
+        {
+            "timestamp": "00:02:30",
+            "role": "Caller",
+            "content": "--Dipple clinic. At the Dipple Medical Centre."
+        },
+        {
+            "timestamp": "00:02:33",
+            "role": "Assistant",
+            "content": "Yes. No problem. They're canceled--"
+        },
+        {
+            "timestamp": "00:02:35",
+            "role": "Caller",
+            "content": "Okay."
+        },
+        {
+            "timestamp": "00:02:35",
+            "role": "Assistant",
+            "content": "--for you. Okay?"
+        },
+        {
+            "timestamp": "00:02:36",
+            "role": "Caller",
+            "content": "Yeah. But but we are here at the Dipple clinic now."
+        },
+        {
+            "timestamp": "00:02:40",
+            "role": "Assistant",
+            "content": "Yes. I've sent it to the Dipple clinic now for you. I've updated it."
+        },
+        {
+            "timestamp": "00:02:44",
+            "role": "Caller",
+            "content": "Okay. Thank you."
+        },
+        {
+            "timestamp": "00:02:45",
+            "role": "Assistant",
+            "content": "Okay. You're welcome."
+        },
+        {
+            "timestamp": "00:02:46",
+            "role": "Caller",
+            "content": "Bye."
+        },
+        {
+            "timestamp": "00:02:47",
+            "role": "Assistant",
+            "content": "Bye bye."
+        },
+        {
+            "timestamp": "00:02:47",
+            "role": "Caller",
+            "content": "Bye."
+        }
+    ]
+}

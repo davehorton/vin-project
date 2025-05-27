@@ -1,0 +1,144 @@
+{
+  "file_path": "transcripts/461cef2f-eb1a-40ef-a4c9-85d1db6e58f0.wav.post-edited.json",
+  "file_name": "461cef2f-eb1a-40ef-a4c9-85d1db6e58f0.wav.post-edited.json",
+  "utterance_analysis": [
+    {
+      "index": 0,
+      "content": "Hello?",
+      "role": "Passenger",
+      "ground_truth": 1,
+      "predicted_probability": 0.002879410283640027,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 1,
+      "content": "Hell--",
+      "role": "Passenger",
+      "ground_truth": 0,
+      "predicted_probability": 0.001666775206103921,
+      "predicted_label": 0,
+      "is_correct": true
+    },
+    {
+      "index": 2,
+      "content": "City Cab.",
+      "role": "Driver",
+      "ground_truth": 1,
+      "predicted_probability": 0.0033248935360461473,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 3,
+      "content": "Coming. Thank you.",
+      "role": "Passenger",
+      "ground_truth": 1,
+      "predicted_probability": 0.0025938053149729967,
+      "predicted_label": 0,
+      "is_correct": false
+    }
+  ],
+  "f1_scores": {
+    "0.1": 0.0,
+    "0.2": 0.0,
+    "0.3": 0.0,
+    "0.4": 0.0,
+    "0.5": 0.0,
+    "0.6": 0.0,
+    "0.7": 0.0,
+    "0.8": 0.0,
+    "0.9": 0.0
+  },
+  "optimal_threshold": 0.5,
+  "roc": {
+    "fpr": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "tpr": [
+      0.0,
+      0.3333333333333333,
+      1.0,
+      1.0
+    ],
+    "thresholds": [
+      Infinity,
+      0.0033248935360461473,
+      0.0025938053149729967,
+      0.001666775206103921
+    ],
+    "auc": 1.0
+  },
+  "pr": {
+    "precision": [
+      0.75,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "recall": [
+      1.0,
+      1.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.0
+    ],
+    "thresholds": [
+      0.001666775206103921,
+      0.0025938053149729967,
+      0.002879410283640027,
+      0.0033248935360461473
+    ]
+  },
+  "confusion_matrix": [
+    [
+      1,
+      0
+    ],
+    [
+      3,
+      0
+    ]
+  ],
+  "metrics": {
+    "accuracy": 0.25,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "total_utterances": 4,
+    "eot_ratio": 0.75
+  },
+  "latency": {
+    "mean": 0.12674427032470703,
+    "median": 0.12903141975402832,
+    "min": 0.07574248313903809,
+    "max": 0.1731717586517334,
+    "p95": 0.16854662895202635
+  },
+  "role_analysis": {
+    "Passenger": {
+      "count": 3,
+      "accuracy": 0.3333333333333333,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "eot_ratio": 0.6666666666666666
+    },
+    "Driver": {
+      "count": 1,
+      "accuracy": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "eot_ratio": 1.0
+    }
+  },
+  "error_summary": {
+    "false_positives": 0,
+    "false_negatives": 3
+  }
+}

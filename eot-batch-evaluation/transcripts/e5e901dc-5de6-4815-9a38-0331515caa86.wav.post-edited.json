@@ -1,0 +1,64 @@
+{
+    "results": [
+        {
+            "Content": "Yeah, hello?",
+            "EndOfTurn": true,
+            "Role": "Dispatch"
+        },
+        {
+            "Content": "Hello?",
+            "EndOfTurn": true,
+            "Role": "Driver"
+        },
+        {
+            "Content": "Yeah, hello. It's me.",
+            "EndOfTurn": true,
+            "Role": "Dispatch"
+        },
+        {
+            "Content": "I'm",
+            "EndOfTurn": false,
+            "Role": "Driver"
+        },
+        {
+            "Content": "waiting for someone. You know, meeting the girl at the job fair. I don't know",
+            "EndOfTurn": false,
+            "Role": "Driver"
+        },
+        {
+            "Content": "Yeah, yeah, yeah. Just wait, just gonna go be, be a couple minutes, gonna be out.",
+            "EndOfTurn": true,
+            "Role": "Dispatch"
+        },
+        {
+            "Content": "Okay. Just give me a call, yeah? When she's",
+            "EndOfTurn": false,
+            "Role": "Driver"
+        },
+        {
+            "Content": "Okay.",
+            "EndOfTurn": true,
+            "Role": "Dispatch"
+        },
+        {
+            "Content": "Okay,",
+            "EndOfTurn": false,
+            "Role": "Dispatch"
+        },
+        {
+            "Content": "Yeah.",
+            "EndOfTurn": true,
+            "Role": "Driver"
+        },
+        {
+            "Content": "okay. Thank you.",
+            "EndOfTurn": true,
+            "Role": "Dispatch"
+        },
+        {
+            "Content": "Thank you.",
+            "EndOfTurn": true,
+            "Role": "Dispatch"
+        }
+    ]
+}

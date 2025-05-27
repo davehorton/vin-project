@@ -1,0 +1,439 @@
+{
+    "results": [
+        {
+            "timestamp": "00:00:00",
+            "role": "Assistant",
+            "content": "Hello. 711."
+        },
+        {
+            "timestamp": "00:00:02",
+            "role": "Caller",
+            "content": "Hello. Hi. Can I speak to your supervisor?"
+        },
+        {
+            "timestamp": "00:00:07",
+            "role": "Assistant",
+            "content": "Right. The supervisor just left. He should be here up to 10:00 in the morning, but today, he left a bit late. He'd be back in the office tomorrow morning."
+        },
+        {
+            "timestamp": "00:00:17",
+            "role": "Caller",
+            "content": "Manager?"
+        },
+        {
+            "timestamp": "00:00:18",
+            "role": "Assistant",
+            "content": "He is the supervisor manager."
+        },
+        {
+            "timestamp": "00:00:20",
+            "role": "Caller",
+            "content": "Oh, okay. So, basic-- [...]-- Who can I speak to? Because, we-- I made a booking this morning, but the taxi driver was being very rude to my daughter."
+        },
+        {
+            "timestamp": "00:00:29",
+            "role": "Assistant",
+            "content": "Being rude? Where would-- where were they picked-up from? Nobody should be rude."
+        },
+        {
+            "timestamp": "00:00:32",
+            "role": "Caller",
+            "content": "24 Park Lawn. 24 Park Lawn, and then he kept ringing my number as well. When I give them my daughter's number as well. I rang this morning and asked specifically."
+        },
+        {
+            "timestamp": "00:00:46",
+            "role": "Assistant",
+            "content": "Right. I see. Yeah. 08:50 this morning. And you said the driver was being rude?"
+        },
+        {
+            "timestamp": "00:00:49",
+            "role": "Caller",
+            "content": "Yeah. The d-- the dri--. Yeah, the driver was being rude to my daughter. Yeah. Because he said that she was five minutes late, but he actually rang my number."
+        },
+        {
+            "timestamp": "00:00:56",
+            "role": "Assistant",
+            "content": "Mhmm."
+        },
+        {
+            "timestamp": "00:00:57",
+            "role": "Caller",
+            "content": "And I was at work, so I couldn't answer it. So when I did get to it, obviously, that-- that-- that few minutes had gone by. And I-- and I've said specifically to call my daughter's number, because she was gonna go in, and she was still in the taxi."
+        },
+        {
+            "timestamp": "00:01:08",
+            "role": "Assistant",
+            "content": "Right. He's in the office tomorrow morning. I apologize. Nobody should be rude to anybody."
+        },
+        {
+            "timestamp": "00:01:13",
+            "role": "Caller",
+            "content": "Yeah. I know. That's what I thought."
+        },
+        {
+            "timestamp": "00:01:15",
+            "role": "Assistant",
+            "content": "If you-- It shouldn't happen. I don't know why they-- but I'll-- If you wanna speak to the manager--"
+        },
+        {
+            "timestamp": "00:01:23",
+            "role": "Caller",
+            "content": "No. It's fine. I don't want it-- I don't want it happening again, because I don't see why-- My daughter's g-- going to work, and she doesn't want--"
+        },
+        {
+            "timestamp": "00:01:27",
+            "role": "Assistant",
+            "content": "No, no. That's fine. That's fine. Of course. I wouldn't like anybody to be like that to my kids or even myself."
+        },
+        {
+            "timestamp": "00:01:33",
+            "role": "Caller",
+            "content": "Yeah. So, you know, on my-- on my system, I asked specifically this morning that can they make sure they ring 0773 655362. Can-- can you just put it on the system? That's the number you need to ring."
+        },
+        {
+            "timestamp": "00:01:44",
+            "role": "Assistant",
+            "content": "Okay. Next time you book a taxi, just make sure that the person puts it on there, please, because--"
+        },
+        {
+            "timestamp": "00:01:49",
+            "role": "Caller",
+            "content": "No, I did. No. No, I did. I asked specifically before this."
+        },
+        {
+            "timestamp": "00:01:52",
+            "role": "Assistant",
+            "content": "It wasn't-- it wasn't done this morning. I'm sorry. But next time you do book it--"
+        },
+        {
+            "timestamp": "00:01:56",
+            "role": "Caller",
+            "content": "When I rang, I asked him specifically. I asked. I asked before as well, and it never happened."
+        },
+        {
+            "timestamp": "00:02:01",
+            "role": "Assistant",
+            "content": "Alright. Tomorrow morning or whenever you next met, make sure-- make sure-- say 'make sure you put it in place.'"
+        },
+        {
+            "timestamp": "00:02:08",
+            "role": "Caller",
+            "content": "Right. You know what? Can you do me a favor? I will speak to you only then. Sorry, what's your name?"
+        },
+        {
+            "timestamp": "00:02:12",
+            "role": "Assistant",
+            "content": "I don't be here in the morning because I'll start work at 10:00."
+        },
+        {
+            "timestamp": "00:02:15",
+            "role": "Caller",
+            "content": "What if I make the booking now?"
+        },
+        {
+            "timestamp": "00:02:17",
+            "role": "Assistant",
+            "content": "I could make a booking for you now. Yeah. What time tomorrow morning?"
+        },
+        {
+            "timestamp": "00:02:18",
+            "role": "Caller",
+            "content": "Yeah? Okay."
+        },
+        {
+            "timestamp": "00:02:18",
+            "role": "Assistant",
+            "content": "What time tomorrow morning?"
+        },
+        {
+            "timestamp": "00:02:20",
+            "role": "Caller",
+            "content": "Same time, 08:50, and we don't want the same taxi driver because he was rude."
+        },
+        {
+            "timestamp": "00:02:23",
+            "role": "Assistant",
+            "content": "Yeah, I put that. 24 Park Lawn to Montrose Avenue?"
+        },
+        {
+            "timestamp": "00:02:26",
+            "role": "Caller",
+            "content": "Yeah. Yeah."
+        },
+        {
+            "timestamp": "00:02:27",
+            "role": "Assistant",
+            "content": "That's 8, 4-- What number do they call, please?"
+        },
+        {
+            "timestamp": "00:02:31",
+            "role": "Caller",
+            "content": "0773--"
+        },
+        {
+            "timestamp": "00:02:32",
+            "role": "Assistant",
+            "content": "0, double-7, 3."
+        },
+        {
+            "timestamp": "00:02:34",
+            "role": "Caller",
+            "content": "6, 5, 5, 5. 3, 6, 2."
+        },
+        {
+            "timestamp": "00:02:37",
+            "role": "Assistant",
+            "content": "6, 5, 5, 5."
+        },
+        {
+            "timestamp": "00:02:39",
+            "role": "Caller",
+            "content": "Hold on. Hang on. Let me just make sure one minute. Give me a second."
+        },
+        {
+            "timestamp": "00:02:41",
+            "role": "Assistant",
+            "content": "Yeah, go on. Go on."
+        },
+        {
+            "timestamp": "00:02:59",
+            "role": "Caller",
+            "content": "Hello. Can you hear me?"
+        },
+        {
+            "timestamp": "00:03:00",
+            "role": "Assistant",
+            "content": "Yes."
+        },
+        {
+            "timestamp": "00:03:01",
+            "role": "Caller",
+            "content": "Yeah. It's 0, 7, 7, 3."
+        },
+        {
+            "timestamp": "00:03:03",
+            "role": "Assistant",
+            "content": "0, 7, 7, 3."
+        },
+        {
+            "timestamp": "00:03:05",
+            "role": "Caller",
+            "content": "6, 5, 5, 5."
+        },
+        {
+            "timestamp": "00:03:07",
+            "role": "Assistant",
+            "content": "6, 5, 5, 5."
+        },
+        {
+            "timestamp": "00:03:09",
+            "role": "Caller",
+            "content": "3, 6, 2."
+        },
+        {
+            "timestamp": "00:03:11",
+            "role": "Assistant",
+            "content": "3, 6, 2, and I've wrote on the-- do-- and do not send 1-0. Do not send D 1-0. And I've got a name of Indy."
+        },
+        {
+            "timestamp": "00:03:22",
+            "role": "Caller",
+            "content": "Yeah. But, it depends on that number because I'll-- I'll--"
+        },
+        {
+            "timestamp": "00:03:22",
+            "role": "Assistant",
+            "content": "Yeah."
+        },
+        {
+            "timestamp": "00:03:23",
+            "role": "Caller",
+            "content": "But it depends on that number because I'll-- I'll--"
+        },
+        {
+            "timestamp": "00:03:25",
+            "role": "Assistant",
+            "content": "That's fine. I've taken your number off anyway. So the only number we have now is for, the-- the number you've just given me now."
+        },
+        {
+            "timestamp": "00:03:32",
+            "role": "Caller",
+            "content": "Yeah?"
+        },
+        {
+            "timestamp": "00:03:32",
+            "role": "Assistant",
+            "content": "And I've booked it for 8--"
+        },
+        {
+            "timestamp": "00:03:32",
+            "role": "Caller",
+            "content": "Even though I'm ringing from my number."
+        },
+        {
+            "timestamp": "00:03:34",
+            "role": "Assistant",
+            "content": "Yeah. Yeah. I've taken you. I've deleted your number, and I've put that one in."
+        },
+        {
+            "timestamp": "00:03:38",
+            "role": "Caller",
+            "content": "0773 6555362."
+        },
+        {
+            "timestamp": "00:03:40",
+            "role": "Assistant",
+            "content": "3, 6, 2."
+        },
+        {
+            "timestamp": "00:03:40",
+            "role": "Caller",
+            "content": "Okay. That's--"
+        },
+        {
+            "timestamp": "00:03:41",
+            "role": "Assistant",
+            "content": "Okay. And that's booked for tomorrow morning, 08:50."
+        },
+        {
+            "timestamp": "00:03:42",
+            "role": "Caller",
+            "content": "Yeah."
+        },
+        {
+            "timestamp": "00:03:42",
+            "role": "Assistant",
+            "content": "And that's booked for tomorrow morning, 08:50."
+        },
+        {
+            "timestamp": "00:03:45",
+            "role": "Caller",
+            "content": "Yeah. Can you do it for the rest of the week, actually, 08:50?"
+        },
+        {
+            "timestamp": "00:03:48",
+            "role": "Assistant",
+            "content": "08:50, Tuesday."
+        },
+        {
+            "timestamp": "00:03:49",
+            "role": "Caller",
+            "content": "Yeah. But not that driver, please."
+        },
+        {
+            "timestamp": "00:03:52",
+            "role": "Assistant",
+            "content": "Yeah. Of course. Yeah."
+        },
+        {
+            "timestamp": "00:03:54",
+            "role": "Caller",
+            "content": "And if I can make sure it's the third building, because sometimes they wait at the gate. I don't know why."
+        },
+        {
+            "timestamp": "00:03:58",
+            "role": "Assistant",
+            "content": "Today is the fifth. What, Monday to Friday?"
+        },
+        {
+            "timestamp": "00:04:02",
+            "role": "Caller",
+            "content": "This week. Yeah."
+        },
+        {
+            "timestamp": "00:04:03",
+            "role": "Assistant",
+            "content": "So up to Friday. Yeah?"
+        },
+        {
+            "timestamp": "00:04:05",
+            "role": "Caller",
+            "content": "Yeah. And let's see how things go."
+        },
+        {
+            "timestamp": "00:04:07",
+            "role": "Assistant",
+            "content": "08:50 on the sixth and 08:50 on the seventh. I've done it up to Friday now. Yeah?"
+        },
+        {
+            "timestamp": "00:04:18",
+            "role": "Caller",
+            "content": "Yeah. And 08:50, like, ten to nine. But make sure to come to the building, the third building, not at the gate. Something like that."
+        },
+        {
+            "timestamp": "00:04:19",
+            "role": "Assistant",
+            "content": "08:50 to nine."
+        },
+        {
+            "timestamp": "00:04:20",
+            "role": "Caller",
+            "content": "But make sure to come to the building, the third building, not at the gate. Sometimes they wait there--"
+        },
+        {
+            "timestamp": "00:04:23",
+            "role": "Assistant",
+            "content": "24 Park Lawn. I've got it. What should I write now?"
+        },
+        {
+            "timestamp": "00:04:27",
+            "role": "Caller",
+            "content": "Third Building. It's a third building. Come through the gate."
+        },
+        {
+            "timestamp": "00:04:29",
+            "role": "Assistant",
+            "content": "Third Building. Okay. Thank you."
+        },
+        {
+            "timestamp": "00:04:31",
+            "role": "Caller",
+            "content": "Yeah? Alright. So what's your name?"
+        },
+        {
+            "timestamp": "00:04:33",
+            "role": "Assistant",
+            "content": "Israel."
+        },
+        {
+            "timestamp": "00:04:34",
+            "role": "Caller",
+            "content": "What's your name?"
+        },
+        {
+            "timestamp": "00:04:34",
+            "role": "Assistant",
+            "content": "Israel."
+        },
+        {
+            "timestamp": "00:04:35",
+            "role": "Caller",
+            "content": "Israel?"
+        },
+        {
+            "timestamp": "00:04:36",
+            "role": "Assistant",
+            "content": "Yep."
+        },
+        {
+            "timestamp": "00:04:37",
+            "role": "Caller",
+            "content": "Okay. Alright. Thank you."
+        },
+        {
+            "timestamp": "00:04:38",
+            "role": "Assistant",
+            "content": "Third building."
+        },
+        {
+            "timestamp": "00:04:40",
+            "role": "Caller",
+            "content": "Okay. Thank you. Bye."
+        },
+        {
+            "timestamp": "00:04:41",
+            "role": "Assistant",
+            "content": "Thank you."
+        }
+    ]
+}

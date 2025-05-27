@@ -1,0 +1,19 @@
+{
+  "results": [
+    {
+      "timestamp": "00:00:01",
+      "role": "Speaker 0",
+      "content": "Afternoon. INBTACS. How may I help? Hi. Can you tell the taxi for 32 a 4?"
+    },
+    {
+      "timestamp": "00:00:06",
+      "role": "Speaker 0",
+      "content": "Just please hold just a few minutes. Bear with me. Yeah. Sure. Alright."
+    },
+    {
+      "timestamp": "00:00:12",
+      "role": "Speaker 0",
+      "content": "Thank you. Bye."
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "file_path": "transcripts/dee6089b-b1ec-487c-ab45-dcb637aee261.wav.post-edited.json",
+  "file_name": "dee6089b-b1ec-487c-ab45-dcb637aee261.wav.post-edited.json",
+  "utterance_analysis": [
+    {
+      "index": 0,
+      "content": "Hello?",
+      "role": "Caller 1",
+      "ground_truth": 1,
+      "predicted_probability": 0.0006717286887578666,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 1,
+      "content": "You need a cab?",
+      "role": "Caller 2",
+      "ground_truth": 1,
+      "predicted_probability": 0.007614746689796448,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 2,
+      "content": "Caltech?",
+      "role": "Caller 1",
+      "ground_truth": 1,
+      "predicted_probability": 0.00600819056853652,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 3,
+      "content": "Yes.",
+      "role": "Caller 2",
+      "ground_truth": 1,
+      "predicted_probability": 0.0007357175927609205,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 4,
+      "content": "Thank you. Thank you. Thanks.",
+      "role": "Caller 1",
+      "ground_truth": 1,
+      "predicted_probability": 0.0016204131534323096,
+      "predicted_label": 0,
+      "is_correct": false
+    }
+  ],
+  "f1_scores": {
+    "0.1": 0.0,
+    "0.2": 0.0,
+    "0.3": 0.0,
+    "0.4": 0.0,
+    "0.5": 0.0,
+    "0.6": 0.0,
+    "0.7": 0.0,
+    "0.8": 0.0,
+    "0.9": 0.0
+  },
+  "optimal_threshold": 0.5,
+  "roc": {
+    "auc": 0.5
+  },
+  "pr": {},
+  "confusion_matrix": [
+    [
+      0,
+      0
+    ],
+    [
+      5,
+      0
+    ]
+  ],
+  "metrics": {
+    "accuracy": 0.0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "total_utterances": 5,
+    "eot_ratio": 1.0
+  },
+  "latency": {
+    "mean": 0.16590185165405275,
+    "median": 0.1638338565826416,
+    "min": 0.08516597747802734,
+    "max": 0.2504997253417969,
+    "p95": 0.2393764019012451
+  },
+  "role_analysis": {
+    "Caller 2": {
+      "count": 2,
+      "accuracy": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "eot_ratio": 1.0
+    },
+    "Caller 1": {
+      "count": 3,
+      "accuracy": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "eot_ratio": 1.0
+    }
+  },
+  "error_summary": {
+    "false_positives": 0,
+    "false_negatives": 5
+  }
+}

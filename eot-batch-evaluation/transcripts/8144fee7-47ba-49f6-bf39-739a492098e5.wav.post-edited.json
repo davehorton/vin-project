@@ -1,0 +1,84 @@
+{
+    "results": [
+        {
+            "Content": "Hello?",
+            "EndOfTurn": true,
+            "Role": "Kara"
+        },
+        {
+            "Content": "Hi, Kara. It's Kiki.",
+            "EndOfTurn": true,
+            "Role": "Kiki"
+        },
+        {
+            "Content": "You alright?",
+            "EndOfTurn": true,
+            "Role": "Kara"
+        },
+        {
+            "Content": "I'm alright. How are doing?",
+            "EndOfTurn": true,
+            "Role": "Kiki"
+        },
+        {
+            "Content": "Alright. Thank you.",
+            "EndOfTurn": true,
+            "Role": "Kara"
+        },
+        {
+            "Content": "I'm just calling to let you know that that patient on your PDA, Devin Spyter?",
+            "EndOfTurn": true,
+            "Role": "Kiki"
+        },
+        {
+            "Content": "Yeah.",
+            "EndOfTurn": true,
+            "Role": "Kara"
+        },
+        {
+            "Content": "She's in Patient Transport Lounge, First",
+            "EndOfTurn": false,
+            "Role": "Kiki"
+        },
+        {
+            "Content": "Okay.",
+            "EndOfTurn": true,
+            "Role": "Kara"
+        },
+        {
+            "Content": "floor. Okay?",
+            "EndOfTurn": true,
+            "Role": "Kiki"
+        },
+        {
+            "Content": "Okay.",
+            "EndOfTurn": true,
+            "Role": "Kara"
+        },
+        {
+            "Content": "Yeah, perfect. Thank you.",
+            "EndOfTurn": true,
+            "Role": "Kara"
+        },
+        {
+            "Content": "Okay. Thank y--",
+            "EndOfTurn": false,
+            "Role": "Kiki"
+        },
+        {
+            "Content": "Alright.",
+            "EndOfTurn": true,
+            "Role": "Kara"
+        },
+        {
+            "Content": "See ya. Bye bye.",
+            "EndOfTurn": true,
+            "Role": "Kara"
+        },
+        {
+            "Content": "Bye.",
+            "EndOfTurn": true,
+            "Role": "Kiki"
+        }
+    ]
+}

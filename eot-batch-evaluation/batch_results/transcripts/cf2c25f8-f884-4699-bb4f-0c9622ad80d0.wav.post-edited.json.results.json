@@ -1,0 +1,159 @@
+{
+  "file_path": "transcripts/cf2c25f8-f884-4699-bb4f-0c9622ad80d0.wav.post-edited.json",
+  "file_name": "cf2c25f8-f884-4699-bb4f-0c9622ad80d0.wav.post-edited.json",
+  "utterance_analysis": [
+    {
+      "index": 0,
+      "content": "Good afternoon. Maryline. Diane speaking.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.0053670951165258884,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 1,
+      "content": "Hello. I'd like to order a taxi, please.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.01528441347181797,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 2,
+      "content": "Where are going?",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.02073787897825241,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 3,
+      "content": "44 Sussex Road.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.02995290793478489,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 4,
+      "content": "And what's the name?",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.05561317130923271,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 5,
+      "content": "Joe.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.04828266799449921,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 6,
+      "content": "Yep. That's all done.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.030395355075597763,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 7,
+      "content": "Alright. Thank you.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.014392673037946224,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 8,
+      "content": "Thanks, bye.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.02775690332055092,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 9,
+      "content": "Bye.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.024519676342606544,
+      "predicted_label": 0,
+      "is_correct": false
+    }
+  ],
+  "f1_scores": {
+    "0.1": 0.0,
+    "0.2": 0.0,
+    "0.3": 0.0,
+    "0.4": 0.0,
+    "0.5": 0.0,
+    "0.6": 0.0,
+    "0.7": 0.0,
+    "0.8": 0.0,
+    "0.9": 0.0
+  },
+  "optimal_threshold": 0.5,
+  "roc": {
+    "auc": 0.5
+  },
+  "pr": {},
+  "confusion_matrix": [
+    [
+      0,
+      0
+    ],
+    [
+      10,
+      0
+    ]
+  ],
+  "metrics": {
+    "accuracy": 0.0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "total_utterances": 10,
+    "eot_ratio": 1.0
+  },
+  "latency": {
+    "mean": 0.25856077671051025,
+    "median": 0.25607311725616455,
+    "min": 0.08686542510986328,
+    "max": 0.4360630512237549,
+    "p95": 0.41247398853302
+  },
+  "role_analysis": {
+    "Assistant": {
+      "count": 5,
+      "accuracy": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "eot_ratio": 1.0
+    },
+    "Caller": {
+      "count": 5,
+      "accuracy": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "eot_ratio": 1.0
+    }
+  },
+  "error_summary": {
+    "false_positives": 0,
+    "false_negatives": 10
+  }
+}

@@ -1,0 +1,1989 @@
+{
+  "metrics": {
+    "mean_accuracy": 0.17727774941798524,
+    "mean_precision": 0.04520417082917083,
+    "mean_recall": 0.019336628461551063,
+    "mean_f1": 0.024034128420714684,
+    "median_accuracy": 0.12771739130434784,
+    "median_precision": 0.0,
+    "median_recall": 0.0,
+    "median_f1": 0.0,
+    "min_accuracy": 0.0,
+    "min_precision": 0.0,
+    "min_recall": 0.0,
+    "min_f1": 0.0,
+    "max_accuracy": 1.0,
+    "max_precision": 0.6666666666666666,
+    "max_recall": 0.5,
+    "max_f1": 0.4,
+    "std_accuracy": 0.18399093526268476,
+    "std_precision": 0.14125128325585656,
+    "std_recall": 0.07062472997641302,
+    "std_f1": 0.07914443253753828,
+    "total_transcripts": 100,
+    "total_utterances": 1767,
+    "mean_eot_ratio": 0.7927771212546019
+  },
+  "f1_by_threshold": {
+    "0.1": {
+      "mean": 0.024034128420714684,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.4,
+      "std": 0.07914443253753828
+    },
+    "0.2": {
+      "mean": 0.007302302302302302,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.3783783783783784,
+      "std": 0.04695586199932043
+    },
+    "0.3": {
+      "mean": 0.006190476190476191,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.3333333333333333,
+      "std": 0.04346395801418118
+    },
+    "0.4": {
+      "mean": 0.003333333333333333,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.3333333333333333,
+      "std": 0.033166247903554
+    },
+    "0.5": {
+      "mean": 0.003333333333333333,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.3333333333333333,
+      "std": 0.033166247903554
+    },
+    "0.6": {
+      "mean": 0.0034285714285714284,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.34285714285714286,
+      "std": 0.0341138549865127
+    },
+    "0.7": {
+      "mean": 0.0035294117647058825,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.35294117647058826,
+      "std": 0.03511720366258658
+    },
+    "0.8": {
+      "mean": 0.0035294117647058825,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.35294117647058826,
+      "std": 0.03511720366258658
+    },
+    "0.9": {
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "std": 0.0
+    }
+  },
+  "optimal_threshold": "0.1",
+  "roc": {
+    "mean_auc": 0.2263514057479875,
+    "median_auc": 0.16666666666666669,
+    "min_auc": 0.0,
+    "max_auc": 1.0,
+    "std_auc": 0.2348551053913096
+  },
+  "latency": {
+    "mean_mean": 0.4733176506524973,
+    "mean_median": 0.4817268860340118,
+    "mean_min": 0.10491964101791382,
+    "mean_max": 0.8064234042167664,
+    "mean_p95": 0.7609746208190917,
+    "overall_mean": 0.4733176506524973,
+    "overall_median": 0.3630515933036804
+  },
+  "role_analysis": {
+    "Assistant": {
+      "accuracy": {
+        "mean": 0.10297637304998443,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 1.0,
+        "std": 0.15358600261099156
+      },
+      "precision": {
+        "mean": 0.062271062271062265,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 1.0,
+        "std": 0.19729775024205942
+      },
+      "recall": {
+        "mean": 0.0220211161387632,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.3333333333333333,
+        "std": 0.071999791525286
+      },
+      "f1": {
+        "mean": 0.029290443399755138,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.4444444444444444,
+        "std": 0.09202837742459492
+      },
+      "eot_ratio": {
+        "mean": 0.8841388621421737,
+        "median": 0.9761904761904762,
+        "min": 0.0,
+        "max": 1.0,
+        "std": 0.1641807987327405
+      },
+      "total_count": 708
+    },
+    "Caller": {
+      "accuracy": {
+        "mean": 0.16545566367964787,
+        "median": 0.14285714285714285,
+        "min": 0.0,
+        "max": 0.8,
+        "std": 0.16832552607521378
+      },
+      "precision": {
+        "mean": 0.031540270429159314,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.5714285714285714,
+        "std": 0.11544673519263475
+      },
+      "recall": {
+        "mean": 0.023251861848353074,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 1.0,
+        "std": 0.11889779051371732
+      },
+      "f1": {
+        "mean": 0.02178479956257734,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.5714285714285714,
+        "std": 0.08763806713424697
+      },
+      "eot_ratio": {
+        "mean": 0.7947662579475026,
+        "median": 0.8,
+        "min": 0.2,
+        "max": 1.0,
+        "std": 0.18234054667080898
+      },
+      "total_count": 727
+    },
+    "Caller 2": {
+      "accuracy": {
+        "mean": 0.0,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "std": 0.0
+      },
+      "precision": {
+        "mean": 0.0,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "std": 0.0
+      },
+      "recall": {
+        "mean": 0.0,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "std": 0.0
+      },
+      "f1": {
+        "mean": 0.0,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "std": 0.0
+      },
+      "eot_ratio": {
+        "mean": 1.0,
+        "median": 1.0,
+        "min": 1.0,
+        "max": 1.0,
+        "std": 0.0
+      },
+      "total_count": 6
+    },
+    "Caller 1": {
+      "accuracy": {
+        "mean": 0.1111111111111111,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.3333333333333333,
+        "std": 0.15713484026367722
+      },
+      "precision": {
+        "mean": 0.0,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "std": 0.0
+      },
+      "recall": {
+        "mean": 0.0,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "std": 0.0
+      },
+      "f1": {
+        "mean": 0.0,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "std": 0.0
+      },
+      "eot_ratio": {
+        "mean": 0.8888888888888888,
+        "median": 1.0,
+        "min": 0.6666666666666666,
+        "max": 1.0,
+        "std": 0.15713484026367724
+      },
+      "total_count": 9
+    },
+    "Virtual Assistant": {
+      "accuracy": {
+        "mean": 0.3098214285714285,
+        "median": 0.2,
+        "min": 0.0,
+        "max": 1.0,
+        "std": 0.3449540857662771
+      },
+      "precision": {
+        "mean": 0.0,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "std": 0.0
+      },
+      "recall": {
+        "mean": 0.0,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "std": 0.0
+      },
+      "f1": {
+        "mean": 0.0,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "std": 0.0
+      },
+      "eot_ratio": {
+        "mean": 0.6595238095238095,
+        "median": 0.6666666666666666,
+        "min": 0.0,
+        "max": 1.0,
+        "std": 0.33562984415908165
+      },
+      "total_count": 93
+    },
+    "Passenger": {
+      "accuracy": {
+        "mean": 0.10185185185185185,
+        "median": 0.037037037037037035,
+        "min": 0.0,
+        "max": 0.3333333333333333,
+        "std": 0.1370245239532291
+      },
+      "precision": {
+        "mean": 0.0,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "std": 0.0
+      },
+      "recall": {
+        "mean": 0.0,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "std": 0.0
+      },
+      "f1": {
+        "mean": 0.0,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "std": 0.0
+      },
+      "eot_ratio": {
+        "mean": 0.8703703703703703,
+        "median": 0.9074074074074074,
+        "min": 0.6666666666666666,
+        "max": 1.0,
+        "std": 0.1398117488013102
+      },
+      "total_count": 37
+    },
+    "Driver": {
+      "accuracy": {
+        "mean": 0.23273809523809524,
+        "median": 0.24285714285714285,
+        "min": 0.0,
+        "max": 0.4,
+        "std": 0.11716215239849653
+      },
+      "precision": {
+        "mean": 0.05,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.4,
+        "std": 0.13228756555322954
+      },
+      "recall": {
+        "mean": 0.041666666666666664,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.3333333333333333,
+        "std": 0.1102396379610246
+      },
+      "f1": {
+        "mean": 0.045454545454545456,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.36363636363636365,
+        "std": 0.12026142323020866
+      },
+      "eot_ratio": {
+        "mean": 0.6958333333333333,
+        "median": 0.6904761904761905,
+        "min": 0.4,
+        "max": 1.0,
+        "std": 0.1652737284894311
+      },
+      "total_count": 83
+    },
+    "Kara": {
+      "accuracy": {
+        "mean": 0.0,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "std": 0.0
+      },
+      "precision": {
+        "mean": 0.0,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "std": 0.0
+      },
+      "recall": {
+        "mean": 0.0,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "std": 0.0
+      },
+      "f1": {
+        "mean": 0.0,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "std": 0.0
+      },
+      "eot_ratio": {
+        "mean": 1.0,
+        "median": 1.0,
+        "min": 1.0,
+        "max": 1.0,
+        "std": 0.0
+      },
+      "total_count": 9
+    },
+    "Kiki": {
+      "accuracy": {
+        "mean": 0.2857142857142857,
+        "median": 0.2857142857142857,
+        "min": 0.2857142857142857,
+        "max": 0.2857142857142857,
+        "std": 0.0
+      },
+      "precision": {
+        "mean": 0.0,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "std": 0.0
+      },
+      "recall": {
+        "mean": 0.0,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "std": 0.0
+      },
+      "f1": {
+        "mean": 0.0,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "std": 0.0
+      },
+      "eot_ratio": {
+        "mean": 0.7142857142857143,
+        "median": 0.7142857142857143,
+        "min": 0.7142857142857143,
+        "max": 0.7142857142857143,
+        "std": 0.0
+      },
+      "total_count": 7
+    },
+    "Unknown Speaker": {
+      "accuracy": {
+        "mean": 0.0,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "std": 0.0
+      },
+      "precision": {
+        "mean": 0.0,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "std": 0.0
+      },
+      "recall": {
+        "mean": 0.0,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "std": 0.0
+      },
+      "f1": {
+        "mean": 0.0,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "std": 0.0
+      },
+      "eot_ratio": {
+        "mean": 1.0,
+        "median": 1.0,
+        "min": 1.0,
+        "max": 1.0,
+        "std": 0.0
+      },
+      "total_count": 3
+    },
+    "Virtual Assistant 1": {
+      "accuracy": {
+        "mean": 0.16666666666666666,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.5,
+        "std": 0.23570226039551584
+      },
+      "precision": {
+        "mean": 0.0,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "std": 0.0
+      },
+      "recall": {
+        "mean": 0.0,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "std": 0.0
+      },
+      "f1": {
+        "mean": 0.0,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "std": 0.0
+      },
+      "eot_ratio": {
+        "mean": 0.8333333333333334,
+        "median": 1.0,
+        "min": 0.5,
+        "max": 1.0,
+        "std": 0.23570226039551584
+      },
+      "total_count": 8
+    },
+    "Virtual Assistant 2": {
+      "accuracy": {
+        "mean": 1.0,
+        "median": 1.0,
+        "min": 1.0,
+        "max": 1.0,
+        "std": 0.0
+      },
+      "precision": {
+        "mean": 0.0,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "std": 0.0
+      },
+      "recall": {
+        "mean": 0.0,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "std": 0.0
+      },
+      "f1": {
+        "mean": 0.0,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "std": 0.0
+      },
+      "eot_ratio": {
+        "mean": 0.0,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "std": 0.0
+      },
+      "total_count": 4
+    },
+    "Dispatch 1": {
+      "accuracy": {
+        "mean": 0.2903225806451613,
+        "median": 0.2903225806451613,
+        "min": 0.2903225806451613,
+        "max": 0.2903225806451613,
+        "std": 0.0
+      },
+      "precision": {
+        "mean": 0.0,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "std": 0.0
+      },
+      "recall": {
+        "mean": 0.0,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "std": 0.0
+      },
+      "f1": {
+        "mean": 0.0,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "std": 0.0
+      },
+      "eot_ratio": {
+        "mean": 0.7096774193548387,
+        "median": 0.7096774193548387,
+        "min": 0.7096774193548387,
+        "max": 0.7096774193548387,
+        "std": 0.0
+      },
+      "total_count": 31
+    },
+    "Dispatch 2": {
+      "accuracy": {
+        "mean": 0.125,
+        "median": 0.125,
+        "min": 0.125,
+        "max": 0.125,
+        "std": 0.0
+      },
+      "precision": {
+        "mean": 0.0,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "std": 0.0
+      },
+      "recall": {
+        "mean": 0.0,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "std": 0.0
+      },
+      "f1": {
+        "mean": 0.0,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "std": 0.0
+      },
+      "eot_ratio": {
+        "mean": 0.875,
+        "median": 0.875,
+        "min": 0.875,
+        "max": 0.875,
+        "std": 0.0
+      },
+      "total_count": 16
+    },
+    "Dispatch": {
+      "accuracy": {
+        "mean": 0.1037037037037037,
+        "median": 0.1111111111111111,
+        "min": 0.0,
+        "max": 0.2,
+        "std": 0.08181748901620194
+      },
+      "precision": {
+        "mean": 0.3333333333333333,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 1.0,
+        "std": 0.4714045207910317
+      },
+      "recall": {
+        "mean": 0.037037037037037035,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.1111111111111111,
+        "std": 0.05237828008789241
+      },
+      "f1": {
+        "mean": 0.06666666666666667,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.2,
+        "std": 0.09428090415820635
+      },
+      "eot_ratio": {
+        "mean": 0.8857142857142857,
+        "median": 0.8571428571428571,
+        "min": 0.8,
+        "max": 1.0,
+        "std": 0.08411200825074139
+      },
+      "total_count": 26
+    }
+  },
+  "error_summary": {
+    "total_false_positives": 93,
+    "total_false_negatives": 1337,
+    "mean_false_positives": 0.93,
+    "mean_false_negatives": 13.37
+  },
+  "transcript_metrics": [
+    {
+      "file_name": "36a6890e-a8d8-420c-aa8b-41b5c99164b7.wav.post-edited.json",
+      "accuracy": 0.13043478260869565,
+      "precision": 0.6666666666666666,
+      "recall": 0.09523809523809523,
+      "f1": 0.16666666666666666,
+      "total_utterances": 23,
+      "eot_ratio": 0.9130434782608695,
+      "auc": 0.07142857142857142,
+      "optimal_threshold": 0.1,
+      "false_positives": 1,
+      "false_negatives": 19
+    },
+    {
+      "file_name": "cfe48401-e279-4ec3-9a04-7fef9652bb30.wav.post-edited.json",
+      "accuracy": 0.2,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "total_utterances": 5,
+      "eot_ratio": 0.8,
+      "auc": 0.25,
+      "optimal_threshold": 0.5,
+      "false_positives": 0,
+      "false_negatives": 4
+    },
+    {
+      "file_name": "e163261f-1fbc-4c06-9d13-b899762d1c60.wav.post-edited.json",
+      "accuracy": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "total_utterances": 13,
+      "eot_ratio": 1.0,
+      "auc": 0.5,
+      "optimal_threshold": 0.5,
+      "false_positives": 0,
+      "false_negatives": 13
+    },
+    {
+      "file_name": "2b411ef2-d422-4677-8e3e-5beec5318842.wav.post-edited.json",
+      "accuracy": 0.6666666666666666,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "total_utterances": 3,
+      "eot_ratio": 0.3333333333333333,
+      "auc": 0.5,
+      "optimal_threshold": 0.5,
+      "false_positives": 0,
+      "false_negatives": 1
+    },
+    {
+      "file_name": "aa2e16aa-5a15-4656-963e-312ff34fde77.wav.post-edited.json",
+      "accuracy": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "total_utterances": 10,
+      "eot_ratio": 1.0,
+      "auc": 0.5,
+      "optimal_threshold": 0.5,
+      "false_positives": 0,
+      "false_negatives": 10
+    },
+    {
+      "file_name": "0a7032bd-e47b-4d87-b0c6-539a544168a7.wav.post-edited.json",
+      "accuracy": 0.25,
+      "precision": 0.4375,
+      "recall": 0.28,
+      "f1": 0.34146341463414637,
+      "total_utterances": 36,
+      "eot_ratio": 0.6944444444444444,
+      "auc": 0.18,
+      "optimal_threshold": 0.1,
+      "false_positives": 9,
+      "false_negatives": 18
+    },
+    {
+      "file_name": "6c5bc3e1-556c-4ba0-be0c-cdd6f499309f.wav.post-edited.json",
+      "accuracy": 0.13793103448275862,
+      "precision": 0.16666666666666666,
+      "recall": 0.11764705882352941,
+      "f1": 0.13793103448275862,
+      "total_utterances": 29,
+      "eot_ratio": 0.5862068965517241,
+      "auc": 0.09803921568627455,
+      "optimal_threshold": 0.1,
+      "false_positives": 10,
+      "false_negatives": 15
+    },
+    {
+      "file_name": "83dec5ab-97e0-45d6-a35d-77c238102744.wav.post-edited.json",
+      "accuracy": 0.1111111111111111,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "total_utterances": 9,
+      "eot_ratio": 0.8888888888888888,
+      "auc": 0.125,
+      "optimal_threshold": 0.5,
+      "false_positives": 0,
+      "false_negatives": 8
+    },
+    {
+      "file_name": "4a05d738-5484-42c2-bb19-2bf898140246.wav.post-edited.json",
+      "accuracy": 0.1111111111111111,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "total_utterances": 18,
+      "eot_ratio": 0.8333333333333334,
+      "auc": 0.0,
+      "optimal_threshold": 0.5,
+      "false_positives": 1,
+      "false_negatives": 15
+    },
+    {
+      "file_name": "5c53dda3-5a5f-4a68-a346-b9e6195e8d85.wav.post-edited.json",
+      "accuracy": 0.09090909090909091,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "total_utterances": 11,
+      "eot_ratio": 0.9090909090909091,
+      "auc": 1.0,
+      "optimal_threshold": 0.5,
+      "false_positives": 0,
+      "false_negatives": 10
+    },
+    {
+      "file_name": "5e0c0852-1021-447a-8f37-773463517e29.wav.post-edited.json",
+      "accuracy": 0.18181818181818182,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "total_utterances": 11,
+      "eot_ratio": 0.7272727272727273,
+      "auc": 0.0,
+      "optimal_threshold": 0.5,
+      "false_positives": 1,
+      "false_negatives": 8
+    },
+    {
+      "file_name": "c711e4a2-5534-42d9-b12b-5a334a5a2f50.wav.post-edited.json",
+      "accuracy": 0.5,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "total_utterances": 2,
+      "eot_ratio": 0.5,
+      "auc": 0.0,
+      "optimal_threshold": 0.5,
+      "false_positives": 0,
+      "false_negatives": 1
+    },
+    {
+      "file_name": "b889fd9d-04d6-49ab-94f1-6e421b96c86d.wav.post-edited.json",
+      "accuracy": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "total_utterances": 2,
+      "eot_ratio": 1.0,
+      "auc": 0.5,
+      "optimal_threshold": 0.5,
+      "false_positives": 0,
+      "false_negatives": 2
+    },
+    {
+      "file_name": "ab56ada9-5010-4985-ac47-9c9c1ff34785.wav.post-edited.json",
+      "accuracy": 0.2,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "total_utterances": 10,
+      "eot_ratio": 0.8,
+      "auc": 0.3125,
+      "optimal_threshold": 0.5,
+      "false_positives": 0,
+      "false_negatives": 8
+    },
+    {
+      "file_name": "61c2b739-aab6-4ea7-8b6b-81b27fe57f26.wav.post-edited.json",
+      "accuracy": 0.05263157894736842,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "total_utterances": 19,
+      "eot_ratio": 0.9473684210526315,
+      "auc": 0.0,
+      "optimal_threshold": 0.5,
+      "false_positives": 0,
+      "false_negatives": 18
+    },
+    {
+      "file_name": "8144fee7-47ba-49f6-bf39-739a492098e5.wav.post-edited.json",
+      "accuracy": 0.125,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "total_utterances": 16,
+      "eot_ratio": 0.875,
+      "auc": 0.5,
+      "optimal_threshold": 0.5,
+      "false_positives": 0,
+      "false_negatives": 14
+    },
+    {
+      "file_name": "68747fad-c7e3-4888-b6da-97fc8d0333fc.wav.post-edited.json",
+      "accuracy": 0.2,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "total_utterances": 10,
+      "eot_ratio": 0.8,
+      "auc": 0.5,
+      "optimal_threshold": 0.5,
+      "false_positives": 0,
+      "false_negatives": 8
+    },
+    {
+      "file_name": "5dcd871d-0eed-4328-b239-502cf6d5a533.wav.post-edited.json",
+      "accuracy": 0.1111111111111111,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "total_utterances": 9,
+      "eot_ratio": 0.8888888888888888,
+      "auc": 0.0,
+      "optimal_threshold": 0.5,
+      "false_positives": 0,
+      "false_negatives": 8
+    },
+    {
+      "file_name": "fb83796c-d770-4aa8-9e15-40572bbefd6d.wav.post-edited.json",
+      "accuracy": 0.6666666666666666,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "total_utterances": 6,
+      "eot_ratio": 0.3333333333333333,
+      "auc": 0.25,
+      "optimal_threshold": 0.5,
+      "false_positives": 0,
+      "false_negatives": 2
+    },
+    {
+      "file_name": "647efaac-14d5-4a5c-ab44-c0ba2394cdcc.wav.post-edited.json",
+      "accuracy": 0.25,
+      "precision": 0.6153846153846154,
+      "recall": 0.2962962962962963,
+      "f1": 0.4,
+      "total_utterances": 32,
+      "eot_ratio": 0.84375,
+      "auc": 0.2074074074074074,
+      "optimal_threshold": 0.1,
+      "false_positives": 5,
+      "false_negatives": 19
+    },
+    {
+      "file_name": "8ada478d-c6d8-4a3e-9040-1e554b10d63f.wav.post-edited.json",
+      "accuracy": 0.23809523809523808,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "total_utterances": 21,
+      "eot_ratio": 0.7619047619047619,
+      "auc": 0.04999999999999999,
+      "optimal_threshold": 0.5,
+      "false_positives": 0,
+      "false_negatives": 16
+    },
+    {
+      "file_name": "38ee7aab-cae3-421a-a9ff-5d100cc663ec.wav.post-edited.json",
+      "accuracy": 0.23076923076923078,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "total_utterances": 13,
+      "eot_ratio": 0.7692307692307693,
+      "auc": 0.26666666666666666,
+      "optimal_threshold": 0.5,
+      "false_positives": 0,
+      "false_negatives": 10
+    },
+    {
+      "file_name": "1392019d-17c1-4d78-95ff-412d6de417f8.wav.post-edited.json",
+      "accuracy": 0.2727272727272727,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "total_utterances": 11,
+      "eot_ratio": 0.6363636363636364,
+      "auc": 0.14285714285714285,
+      "optimal_threshold": 0.5,
+      "false_positives": 1,
+      "false_negatives": 7
+    },
+    {
+      "file_name": "249f913f-0922-4d80-a6af-a452e0e01635.wav.post-edited.json",
+      "accuracy": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "total_utterances": 11,
+      "eot_ratio": 1.0,
+      "auc": 0.5,
+      "optimal_threshold": 0.5,
+      "false_positives": 0,
+      "false_negatives": 11
+    },
+    {
+      "file_name": "950201e6-d374-4801-9fb0-53984cfef7bc.wav.post-edited.json",
+      "accuracy": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "total_utterances": 4,
+      "eot_ratio": 1.0,
+      "auc": 0.5,
+      "optimal_threshold": 0.5,
+      "false_positives": 0,
+      "false_negatives": 4
+    },
+    {
+      "file_name": "13f34ee1-46fc-437b-9294-2bfc4aac839f.wav.post-edited.json",
+      "accuracy": 0.1,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "total_utterances": 10,
+      "eot_ratio": 0.9,
+      "auc": 0.0,
+      "optimal_threshold": 0.5,
+      "false_positives": 0,
+      "false_negatives": 9
+    },
+    {
+      "file_name": "1fac792f-d7e2-4a4c-b20d-ddb3fe0afa76.wav.post-edited.json",
+      "accuracy": 0.07142857142857142,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "total_utterances": 14,
+      "eot_ratio": 0.9285714285714286,
+      "auc": 0.0,
+      "optimal_threshold": 0.5,
+      "false_positives": 0,
+      "false_negatives": 13
+    },
+    {
+      "file_name": "dee6089b-b1ec-487c-ab45-dcb637aee261.wav.post-edited.json",
+      "accuracy": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "total_utterances": 5,
+      "eot_ratio": 1.0,
+      "auc": 0.5,
+      "optimal_threshold": 0.5,
+      "false_positives": 0,
+      "false_negatives": 5
+    },
+    {
+      "file_name": "46a84c2d-8e96-4520-abf9-0d060a2729fb.wav.post-edited.json",
+      "accuracy": 0.17647058823529413,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "total_utterances": 34,
+      "eot_ratio": 0.7352941176470589,
+      "auc": 0.022222222222222223,
+      "optimal_threshold": 0.5,
+      "false_positives": 3,
+      "false_negatives": 25
+    },
+    {
+      "file_name": "1eaf77e7-a04d-4415-9bf1-e0f87c53c8a5.wav.post-edited.json",
+      "accuracy": 0.043478260869565216,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "total_utterances": 23,
+      "eot_ratio": 0.9130434782608695,
+      "auc": 0.0,
+      "optimal_threshold": 0.5,
+      "false_positives": 1,
+      "false_negatives": 21
+    },
+    {
+      "file_name": "5bf5b1d5-b5c4-4931-a282-e929ba315364.wav.post-edited.json",
+      "accuracy": 0.05,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "total_utterances": 20,
+      "eot_ratio": 0.9,
+      "auc": 0.0,
+      "optimal_threshold": 0.5,
+      "false_positives": 1,
+      "false_negatives": 18
+    },
+    {
+      "file_name": "3b8f2502-f3ba-495b-8edc-0721c55cfeea.wav.post-edited.json",
+      "accuracy": 1.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "total_utterances": 1,
+      "eot_ratio": 0.0,
+      "auc": 0.5,
+      "optimal_threshold": 0.5,
+      "false_positives": 0,
+      "false_negatives": 0
+    },
+    {
+      "file_name": "6ed419f0-98f6-43a4-b71e-838340b9c6e8.wav.post-edited.json",
+      "accuracy": 0.14285714285714285,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "total_utterances": 14,
+      "eot_ratio": 0.8571428571428571,
+      "auc": 0.4583333333333333,
+      "optimal_threshold": 0.5,
+      "false_positives": 0,
+      "false_negatives": 12
+    },
+    {
+      "file_name": "54c9b180-141a-4e73-ae17-89378a26473d.wav.post-edited.json",
+      "accuracy": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "total_utterances": 7,
+      "eot_ratio": 1.0,
+      "auc": 0.5,
+      "optimal_threshold": 0.5,
+      "false_positives": 0,
+      "false_negatives": 7
+    },
+    {
+      "file_name": "9cb2988a-2946-4b38-a0ce-adb66febf35c.wav.post-edited.json",
+      "accuracy": 0.1111111111111111,
+      "precision": 0.16666666666666666,
+      "recall": 0.05,
+      "f1": 0.07692307692307693,
+      "total_utterances": 27,
+      "eot_ratio": 0.7407407407407407,
+      "auc": 0.14285714285714285,
+      "optimal_threshold": 0.1,
+      "false_positives": 5,
+      "false_negatives": 19
+    },
+    {
+      "file_name": "31f0d72c-c103-4d47-a3cb-861b1acc8c71.wav.post-edited.json",
+      "accuracy": 0.4,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "total_utterances": 10,
+      "eot_ratio": 0.5,
+      "auc": 0.19999999999999998,
+      "optimal_threshold": 0.5,
+      "false_positives": 1,
+      "false_negatives": 5
+    },
+    {
+      "file_name": "fcf91d1d-4c48-4145-9cfc-a9d64755969f.wav.post-edited.json",
+      "accuracy": 0.25,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "total_utterances": 4,
+      "eot_ratio": 0.75,
+      "auc": 0.0,
+      "optimal_threshold": 0.5,
+      "false_positives": 0,
+      "false_negatives": 3
+    },
+    {
+      "file_name": "7cf1ab08-69ab-48b3-87ac-8c2424eaba2f.wav.post-edited.json",
+      "accuracy": 0.2727272727272727,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "total_utterances": 11,
+      "eot_ratio": 0.7272727272727273,
+      "auc": 0.2916666666666667,
+      "optimal_threshold": 0.5,
+      "false_positives": 0,
+      "false_negatives": 8
+    },
+    {
+      "file_name": "31cd151c-b64e-48d8-8ce1-e48f3968d979.wav.post-edited.json",
+      "accuracy": 0.2727272727272727,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "total_utterances": 11,
+      "eot_ratio": 0.7272727272727273,
+      "auc": 0.04166666666666667,
+      "optimal_threshold": 0.5,
+      "false_positives": 0,
+      "false_negatives": 8
+    },
+    {
+      "file_name": "461cef2f-eb1a-40ef-a4c9-85d1db6e58f0.wav.post-edited.json",
+      "accuracy": 0.25,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "total_utterances": 4,
+      "eot_ratio": 0.75,
+      "auc": 1.0,
+      "optimal_threshold": 0.5,
+      "false_positives": 0,
+      "false_negatives": 3
+    },
+    {
+      "file_name": "8cbc0fc3-c015-4ce1-a532-14edc281c28c.wav.post-edited.json",
+      "accuracy": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "total_utterances": 6,
+      "eot_ratio": 0.8333333333333334,
+      "auc": 0.0,
+      "optimal_threshold": 0.5,
+      "false_positives": 1,
+      "false_negatives": 5
+    },
+    {
+      "file_name": "206357de-349e-49fe-b42a-717dd923a6cc.wav.post-edited.json",
+      "accuracy": 0.3333333333333333,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "total_utterances": 12,
+      "eot_ratio": 0.6666666666666666,
+      "auc": 0.0,
+      "optimal_threshold": 0.5,
+      "false_positives": 0,
+      "false_negatives": 8
+    },
+    {
+      "file_name": "e98e323d-e027-4cff-bdf5-bf557a752f0a.wav.post-edited.json",
+      "accuracy": 0.07142857142857142,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "total_utterances": 14,
+      "eot_ratio": 0.9285714285714286,
+      "auc": 0.0,
+      "optimal_threshold": 0.5,
+      "false_positives": 0,
+      "false_negatives": 13
+    },
+    {
+      "file_name": "99802f26-656a-4405-909c-9ac36903036a.wav.post-edited.json",
+      "accuracy": 0.25,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "total_utterances": 12,
+      "eot_ratio": 0.75,
+      "auc": 0.0,
+      "optimal_threshold": 0.5,
+      "false_positives": 0,
+      "false_negatives": 9
+    },
+    {
+      "file_name": "f045808a-bd3a-4dc6-b5a6-ec46f5c13eff.wav.post-edited.json",
+      "accuracy": 0.1111111111111111,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "total_utterances": 18,
+      "eot_ratio": 0.8888888888888888,
+      "auc": 0.0,
+      "optimal_threshold": 0.5,
+      "false_positives": 0,
+      "false_negatives": 16
+    },
+    {
+      "file_name": "7eb01efb-6e0d-4064-8167-b6f1d55719f3.wav.post-edited.json",
+      "accuracy": 0.23529411764705882,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "total_utterances": 17,
+      "eot_ratio": 0.7647058823529411,
+      "auc": 0.34615384615384615,
+      "optimal_threshold": 0.5,
+      "false_positives": 0,
+      "false_negatives": 13
+    },
+    {
+      "file_name": "ef61631c-c83d-49e7-9430-70d360b06fe6.wav.post-edited.json",
+      "accuracy": 0.15789473684210525,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "total_utterances": 19,
+      "eot_ratio": 0.6842105263157895,
+      "auc": 0.16666666666666669,
+      "optimal_threshold": 0.5,
+      "false_positives": 3,
+      "false_negatives": 13
+    },
+    {
+      "file_name": "fff7cebe-e4ff-439e-a9cc-17088e4b20aa.wav.post-edited.json",
+      "accuracy": 0.28431372549019607,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "total_utterances": 102,
+      "eot_ratio": 0.7156862745098039,
+      "auc": 0.4558337269721303,
+      "optimal_threshold": 0.5,
+      "false_positives": 0,
+      "false_negatives": 73
+    },
+    {
+      "file_name": "1e335a44-a654-4a86-ab81-40c940461761.wav.post-edited.json",
+      "accuracy": 0.125,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "total_utterances": 8,
+      "eot_ratio": 0.875,
+      "auc": 0.42857142857142855,
+      "optimal_threshold": 0.5,
+      "false_positives": 0,
+      "false_negatives": 7
+    },
+    {
+      "file_name": "d33d90b7-fa84-4a7b-9189-446488402ae4.wav.post-edited.json",
+      "accuracy": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "total_utterances": 1,
+      "eot_ratio": 1.0,
+      "auc": 0.5,
+      "optimal_threshold": 0.5,
+      "false_positives": 0,
+      "false_negatives": 1
+    },
+    {
+      "file_name": "0e61c9c9-2879-41e2-9844-09c846853421.wav.post-edited.json",
+      "accuracy": 0.2,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "total_utterances": 15,
+      "eot_ratio": 0.8,
+      "auc": 0.0,
+      "optimal_threshold": 0.5,
+      "false_positives": 0,
+      "false_negatives": 12
+    },
+    {
+      "file_name": "f4da1c32-3f7d-4b94-ab41-83f96988a9d8.wav.post-edited.json",
+      "accuracy": 0.1111111111111111,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "total_utterances": 18,
+      "eot_ratio": 0.8888888888888888,
+      "auc": 0.09375,
+      "optimal_threshold": 0.5,
+      "false_positives": 0,
+      "false_negatives": 16
+    },
+    {
+      "file_name": "5071885b-231b-4f96-bcf4-0cd5b618f10a.wav.post-edited.json",
+      "accuracy": 0.11764705882352941,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "total_utterances": 17,
+      "eot_ratio": 0.8235294117647058,
+      "auc": 0.11904761904761907,
+      "optimal_threshold": 0.5,
+      "false_positives": 1,
+      "false_negatives": 14
+    },
+    {
+      "file_name": "26a6305a-a835-47a6-aa9d-87580a732ecc.wav.post-edited.json",
+      "accuracy": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "total_utterances": 4,
+      "eot_ratio": 1.0,
+      "auc": 0.5,
+      "optimal_threshold": 0.5,
+      "false_positives": 0,
+      "false_negatives": 4
+    },
+    {
+      "file_name": "9f86f2ab-ff82-4eed-94fb-e96ce58724c0.wav.post-edited.json",
+      "accuracy": 0.313953488372093,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "total_utterances": 86,
+      "eot_ratio": 0.6744186046511628,
+      "auc": 0.3516009852216749,
+      "optimal_threshold": 0.5,
+      "false_positives": 1,
+      "false_negatives": 58
+    },
+    {
+      "file_name": "5c7a87d4-7c64-442e-b881-1eeb58de3361.wav.post-edited.json",
+      "accuracy": 0.17647058823529413,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "total_utterances": 51,
+      "eot_ratio": 0.8235294117647058,
+      "auc": 0.28571428571428564,
+      "optimal_threshold": 0.5,
+      "false_positives": 0,
+      "false_negatives": 42
+    },
+    {
+      "file_name": "6e64161b-5b88-477b-b768-fd9682925bd3.wav.post-edited.json",
+      "accuracy": 1.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "total_utterances": 1,
+      "eot_ratio": 0.0,
+      "auc": 0.5,
+      "optimal_threshold": 0.5,
+      "false_positives": 0,
+      "false_negatives": 0
+    },
+    {
+      "file_name": "01cd208e-ee96-4949-8124-ba7641e35165.wav.post-edited.json",
+      "accuracy": 0.2644628099173554,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "total_utterances": 121,
+      "eot_ratio": 0.71900826446281,
+      "auc": 0.36612576064908725,
+      "optimal_threshold": 0.5,
+      "false_positives": 2,
+      "false_negatives": 87
+    },
+    {
+      "file_name": "502143a3-2c72-4760-b4d1-d9b52878aa44.wav.post-edited.json",
+      "accuracy": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "total_utterances": 7,
+      "eot_ratio": 0.7142857142857143,
+      "auc": 0.0,
+      "optimal_threshold": 0.5,
+      "false_positives": 2,
+      "false_negatives": 5
+    },
+    {
+      "file_name": "66391b9d-8fe1-47f0-b553-fa36aaf14cc9.wav.post-edited.json",
+      "accuracy": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "total_utterances": 7,
+      "eot_ratio": 0.8571428571428571,
+      "auc": 0.0,
+      "optimal_threshold": 0.5,
+      "false_positives": 1,
+      "false_negatives": 6
+    },
+    {
+      "file_name": "28c2001c-e682-4fa9-b0e0-c7e8b0a265f3.wav.post-edited.json",
+      "accuracy": 0.5098039215686274,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "total_utterances": 51,
+      "eot_ratio": 0.47058823529411764,
+      "auc": 0.4506172839506174,
+      "optimal_threshold": 0.5,
+      "false_positives": 1,
+      "false_negatives": 24
+    },
+    {
+      "file_name": "88f76145-1890-4c99-bc7d-e9bbaaa9e70c.wav.post-edited.json",
+      "accuracy": 0.17647058823529413,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "total_utterances": 17,
+      "eot_ratio": 0.8235294117647058,
+      "auc": 0.21428571428571433,
+      "optimal_threshold": 0.5,
+      "false_positives": 0,
+      "false_negatives": 14
+    },
+    {
+      "file_name": "46048dfb-a4a7-4203-8890-18f93fc4d652.wav.post-edited.json",
+      "accuracy": 0.09090909090909091,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "total_utterances": 11,
+      "eot_ratio": 0.9090909090909091,
+      "auc": 0.0,
+      "optimal_threshold": 0.5,
+      "false_positives": 0,
+      "false_negatives": 10
+    },
+    {
+      "file_name": "b3609db3-aa68-4252-872b-3b922433fc33.wav.post-edited.json",
+      "accuracy": 0.08333333333333333,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "total_utterances": 12,
+      "eot_ratio": 0.9166666666666666,
+      "auc": 0.18181818181818182,
+      "optimal_threshold": 0.5,
+      "false_positives": 0,
+      "false_negatives": 11
+    },
+    {
+      "file_name": "d49588cd-2011-4226-b10f-bc4fced6e15a.wav.post-edited.json",
+      "accuracy": 0.28,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "total_utterances": 25,
+      "eot_ratio": 0.72,
+      "auc": 0.20634920634920637,
+      "optimal_threshold": 0.5,
+      "false_positives": 0,
+      "false_negatives": 18
+    },
+    {
+      "file_name": "f046b179-53e9-4dc3-a7cc-0e6cc3718cf2.wav.post-edited.json",
+      "accuracy": 0.3076923076923077,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "total_utterances": 13,
+      "eot_ratio": 0.6923076923076923,
+      "auc": 0.05555555555555555,
+      "optimal_threshold": 0.5,
+      "false_positives": 0,
+      "false_negatives": 9
+    },
+    {
+      "file_name": "37c86af8-35cf-435f-a19a-483a49dc9c87.wav.post-edited.json",
+      "accuracy": 0.1111111111111111,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "total_utterances": 9,
+      "eot_ratio": 0.8888888888888888,
+      "auc": 0.0,
+      "optimal_threshold": 0.5,
+      "false_positives": 0,
+      "false_negatives": 8
+    },
+    {
+      "file_name": "45e71e2e-4dce-483b-9fb4-a6d7094d9443.wav.post-edited.json",
+      "accuracy": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "total_utterances": 5,
+      "eot_ratio": 1.0,
+      "auc": 0.5,
+      "optimal_threshold": 0.5,
+      "false_positives": 0,
+      "false_negatives": 5
+    },
+    {
+      "file_name": "e5e901dc-5de6-4815-9a38-0331515caa86.wav.post-edited.json",
+      "accuracy": 0.08333333333333333,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "total_utterances": 12,
+      "eot_ratio": 0.6666666666666666,
+      "auc": 0.0,
+      "optimal_threshold": 0.5,
+      "false_positives": 3,
+      "false_negatives": 8
+    },
+    {
+      "file_name": "1dbb1133-5558-48a5-b74c-c907c86ee4a7.wav.post-edited.json",
+      "accuracy": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "total_utterances": 1,
+      "eot_ratio": 1.0,
+      "auc": 0.5,
+      "optimal_threshold": 0.5,
+      "false_positives": 0,
+      "false_negatives": 1
+    },
+    {
+      "file_name": "8cc27f79-4a19-4cfa-8d55-ae972fa41b50.wav.post-edited.json",
+      "accuracy": 0.30952380952380953,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "total_utterances": 42,
+      "eot_ratio": 0.6666666666666666,
+      "auc": 0.24489795918367344,
+      "optimal_threshold": 0.5,
+      "false_positives": 1,
+      "false_negatives": 28
+    },
+    {
+      "file_name": "0eadd3bd-49c6-4ae6-8567-9be9e97e8c38.wav.post-edited.json",
+      "accuracy": 0.0625,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "total_utterances": 32,
+      "eot_ratio": 0.875,
+      "auc": 0.0,
+      "optimal_threshold": 0.5,
+      "false_positives": 2,
+      "false_negatives": 28
+    },
+    {
+      "file_name": "62c273f1-6084-4b71-a4f0-efffc6c123b1.wav.post-edited.json",
+      "accuracy": 0.36363636363636365,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "total_utterances": 11,
+      "eot_ratio": 0.6363636363636364,
+      "auc": 0.0,
+      "optimal_threshold": 0.5,
+      "false_positives": 0,
+      "false_negatives": 7
+    },
+    {
+      "file_name": "6aeb0f71-d759-4555-aed0-cbac10ff5be5.wav.post-edited.json",
+      "accuracy": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "total_utterances": 8,
+      "eot_ratio": 1.0,
+      "auc": 0.5,
+      "optimal_threshold": 0.5,
+      "false_positives": 0,
+      "false_negatives": 8
+    },
+    {
+      "file_name": "032e3a87-e651-48c6-92a6-4c5d62d0198c.wav.post-edited.json",
+      "accuracy": 0.18181818181818182,
+      "precision": 0.14285714285714285,
+      "recall": 0.025,
+      "f1": 0.0425531914893617,
+      "total_utterances": 55,
+      "eot_ratio": 0.7272727272727273,
+      "auc": 0.12833333333333333,
+      "optimal_threshold": 0.1,
+      "false_positives": 6,
+      "false_negatives": 39
+    },
+    {
+      "file_name": "567df6d8-d827-4fd8-9a13-45570dd8bf9f.wav.post-edited.json",
+      "accuracy": 0.3,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "total_utterances": 20,
+      "eot_ratio": 0.7,
+      "auc": 0.34523809523809523,
+      "optimal_threshold": 0.5,
+      "false_positives": 0,
+      "false_negatives": 14
+    },
+    {
+      "file_name": "0b123d01-7993-42ec-9422-1c5c80a52c08.wav.post-edited.json",
+      "accuracy": 0.07692307692307693,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "total_utterances": 13,
+      "eot_ratio": 0.9230769230769231,
+      "auc": 0.0,
+      "optimal_threshold": 0.5,
+      "false_positives": 0,
+      "false_negatives": 12
+    },
+    {
+      "file_name": "f605901e-1cc6-4893-b0f9-d31707d703f8.wav.post-edited.json",
+      "accuracy": 0.36363636363636365,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "total_utterances": 11,
+      "eot_ratio": 0.6363636363636364,
+      "auc": 0.2857142857142857,
+      "optimal_threshold": 0.5,
+      "false_positives": 0,
+      "false_negatives": 7
+    },
+    {
+      "file_name": "60eed7fb-c0bc-46a9-9694-c3144dd688d4.wav.post-edited.json",
+      "accuracy": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "total_utterances": 7,
+      "eot_ratio": 1.0,
+      "auc": 0.5,
+      "optimal_threshold": 0.5,
+      "false_positives": 0,
+      "false_negatives": 7
+    },
+    {
+      "file_name": "af2a0dba-5402-4f16-ab8c-43b03e3d4c77.wav.post-edited.json",
+      "accuracy": 0.07142857142857142,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "total_utterances": 14,
+      "eot_ratio": 0.9285714285714286,
+      "auc": 0.0,
+      "optimal_threshold": 0.5,
+      "false_positives": 0,
+      "false_negatives": 13
+    },
+    {
+      "file_name": "507fadd5-16ed-495f-b020-ddd383fcbd8a.wav.post-edited.json",
+      "accuracy": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "total_utterances": 10,
+      "eot_ratio": 1.0,
+      "auc": 0.5,
+      "optimal_threshold": 0.5,
+      "false_positives": 0,
+      "false_negatives": 10
+    },
+    {
+      "file_name": "1008a019-9a24-46e0-a1a3-1589be35bae5.wav.post-edited.json",
+      "accuracy": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "total_utterances": 6,
+      "eot_ratio": 1.0,
+      "auc": 0.5,
+      "optimal_threshold": 0.5,
+      "false_positives": 0,
+      "false_negatives": 6
+    },
+    {
+      "file_name": "2a680978-f5df-4682-b3b2-6beb1342dcdd.wav.post-edited.json",
+      "accuracy": 0.07317073170731707,
+      "precision": 0.6666666666666666,
+      "recall": 0.05128205128205128,
+      "f1": 0.09523809523809523,
+      "total_utterances": 41,
+      "eot_ratio": 0.9512195121951219,
+      "auc": 0.34615384615384615,
+      "optimal_threshold": 0.1,
+      "false_positives": 1,
+      "false_negatives": 37
+    },
+    {
+      "file_name": "fb3a7c75-435b-4b2f-960f-b3bf618075ef.wav.post-edited.json",
+      "accuracy": 0.25,
+      "precision": 0.3333333333333333,
+      "recall": 0.5,
+      "f1": 0.4,
+      "total_utterances": 8,
+      "eot_ratio": 0.5,
+      "auc": 0.0,
+      "optimal_threshold": 0.1,
+      "false_positives": 4,
+      "false_negatives": 2
+    },
+    {
+      "file_name": "8ddd290a-d172-4cb8-82ff-37219e969ac0.wav.post-edited.json",
+      "accuracy": 0.06666666666666667,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "total_utterances": 15,
+      "eot_ratio": 0.9333333333333333,
+      "auc": 0.0,
+      "optimal_threshold": 0.5,
+      "false_positives": 0,
+      "false_negatives": 14
+    },
+    {
+      "file_name": "cf2c25f8-f884-4699-bb4f-0c9622ad80d0.wav.post-edited.json",
+      "accuracy": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "total_utterances": 10,
+      "eot_ratio": 1.0,
+      "auc": 0.5,
+      "optimal_threshold": 0.5,
+      "false_positives": 0,
+      "false_negatives": 10
+    },
+    {
+      "file_name": "5eb6a252-084e-4215-8efc-2bca14fc3eb2.wav.post-edited.json",
+      "accuracy": 0.09090909090909091,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "total_utterances": 11,
+      "eot_ratio": 0.9090909090909091,
+      "auc": 0.8,
+      "optimal_threshold": 0.5,
+      "false_positives": 0,
+      "false_negatives": 10
+    },
+    {
+      "file_name": "91490dca-46fc-414b-8af2-bbb92b19f1c1.wav.post-edited.json",
+      "accuracy": 0.29411764705882354,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "total_utterances": 17,
+      "eot_ratio": 0.7058823529411765,
+      "auc": 0.08333333333333331,
+      "optimal_threshold": 0.5,
+      "false_positives": 0,
+      "false_negatives": 12
+    },
+    {
+      "file_name": "154a6e89-9b56-4cda-9f1b-55fe2369055f.wav.post-edited.json",
+      "accuracy": 0.17647058823529413,
+      "precision": 0.5,
+      "recall": 0.21428571428571427,
+      "f1": 0.3,
+      "total_utterances": 17,
+      "eot_ratio": 0.8235294117647058,
+      "auc": 0.02380952380952381,
+      "optimal_threshold": 0.1,
+      "false_positives": 3,
+      "false_negatives": 11
+    },
+    {
+      "file_name": "f6bcb3af-c917-4d31-8a3d-626972765095.wav.post-edited.json",
+      "accuracy": 0.21052631578947367,
+      "precision": 0.5,
+      "recall": 0.2,
+      "f1": 0.2857142857142857,
+      "total_utterances": 19,
+      "eot_ratio": 0.7894736842105263,
+      "auc": 0.16666666666666666,
+      "optimal_threshold": 0.1,
+      "false_positives": 3,
+      "false_negatives": 12
+    },
+    {
+      "file_name": "ef472040-65ca-4ba8-95b5-238ba2a6e2c7.wav.post-edited.json",
+      "accuracy": 0.125,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "total_utterances": 16,
+      "eot_ratio": 0.875,
+      "auc": 0.0,
+      "optimal_threshold": 0.5,
+      "false_positives": 0,
+      "false_negatives": 14
+    },
+    {
+      "file_name": "382d518f-829f-4e75-bfdf-518f34a4e7a3.wav.post-edited.json",
+      "accuracy": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "total_utterances": 8,
+      "eot_ratio": 1.0,
+      "auc": 0.5,
+      "optimal_threshold": 0.5,
+      "false_positives": 0,
+      "false_negatives": 8
+    },
+    {
+      "file_name": "aecc92d3-cf62-42e5-8d5e-dde214263d99.wav.post-edited.json",
+      "accuracy": 0.5,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "total_utterances": 2,
+      "eot_ratio": 0.5,
+      "auc": 0.0,
+      "optimal_threshold": 0.5,
+      "false_positives": 0,
+      "false_negatives": 1
+    },
+    {
+      "file_name": "fc51e4f1-f606-4dd3-85ff-33244e63c416.wav.post-edited.json",
+      "accuracy": 0.16363636363636364,
+      "precision": 0.18181818181818182,
+      "recall": 0.05128205128205128,
+      "f1": 0.08,
+      "total_utterances": 55,
+      "eot_ratio": 0.7090909090909091,
+      "auc": 0.1778846153846154,
+      "optimal_threshold": 0.1,
+      "false_positives": 9,
+      "false_negatives": 37
+    },
+    {
+      "file_name": "11488556-4987-44c5-8c48-0edec8d0d14c.wav.post-edited.json",
+      "accuracy": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "total_utterances": 9,
+      "eot_ratio": 0.8888888888888888,
+      "auc": 0.0,
+      "optimal_threshold": 0.5,
+      "false_positives": 1,
+      "false_negatives": 8
+    },
+    {
+      "file_name": "67ca4d4b-0b9c-4f07-b2b3-1cfffc9b343e.wav.post-edited.json",
+      "accuracy": 0.08333333333333333,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "total_utterances": 12,
+      "eot_ratio": 0.75,
+      "auc": 0.0,
+      "optimal_threshold": 0.5,
+      "false_positives": 2,
+      "false_negatives": 9
+    },
+    {
+      "file_name": "7ffc651f-b5df-4024-abb3-03b8913a1e0f.wav.post-edited.json",
+      "accuracy": 0.1111111111111111,
+      "precision": 0.14285714285714285,
+      "recall": 0.05263157894736842,
+      "f1": 0.07692307692307693,
+      "total_utterances": 27,
+      "eot_ratio": 0.7037037037037037,
+      "auc": 0.046052631578947366,
+      "optimal_threshold": 0.1,
+      "false_positives": 6,
+      "false_negatives": 18
+    },
+    {
+      "file_name": "b543f994-3a98-4194-8f4e-a8d5b5c6852d.wav.post-edited.json",
+      "accuracy": 0.2727272727272727,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "total_utterances": 11,
+      "eot_ratio": 0.7272727272727273,
+      "auc": 0.0,
+      "optimal_threshold": 0.5,
+      "false_positives": 0,
+      "false_negatives": 8
+    },
+    {
+      "file_name": "bf55cfa5-74e8-417f-9e83-57445d09231f.wav.post-edited.json",
+      "accuracy": 0.16666666666666666,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "total_utterances": 6,
+      "eot_ratio": 0.8333333333333334,
+      "auc": 0.0,
+      "optimal_threshold": 0.5,
+      "false_positives": 0,
+      "false_negatives": 5
+    },
+    {
+      "file_name": "25d55b6a-dc9f-41c2-a8bc-1c9a3368ec5b.wav.post-edited.json",
+      "accuracy": 0.15151515151515152,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "total_utterances": 33,
+      "eot_ratio": 0.8181818181818182,
+      "auc": 0.15432098765432098,
+      "optimal_threshold": 0.5,
+      "false_positives": 1,
+      "false_negatives": 27
+    }
+  ]
+}

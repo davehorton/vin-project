@@ -1,0 +1,29 @@
+{
+    "results": [
+        {
+            "Content": "Hello?",
+            "EndOfTurn": true,
+            "Role": "Caller 1"
+        },
+        {
+            "Content": "You need a cab?",
+            "EndOfTurn": true,
+            "Role": "Caller 2"
+        },
+        {
+            "Content": "Caltech?",
+            "EndOfTurn": true,
+            "Role": "Caller 1"
+        },
+        {
+            "Content": "Yes.",
+            "EndOfTurn": true,
+            "Role": "Caller 2"
+        },
+        {
+            "Content": "Thank you. Thank you. Thanks.",
+            "EndOfTurn": true,
+            "Role": "Caller 1"
+        }
+    ]
+}

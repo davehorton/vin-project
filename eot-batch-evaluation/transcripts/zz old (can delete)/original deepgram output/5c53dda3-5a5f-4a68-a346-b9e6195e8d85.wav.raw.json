@@ -1,0 +1,926 @@
+{
+  "metadata": {
+    "transaction_key": "deprecated",
+    "request_id": "10f0fea3-fe83-4ff6-b6f6-4d538024f386",
+    "sha256": "bc9dddc7bf63628fb9eab828d4eceb161a7081d8fc7665c6c92e0292d9d14f27",
+    "created": "2025-04-03T14:53:13.672Z",
+    "duration": 20.899937,
+    "channels": 1,
+    "models": [
+      "1abfe86b-e047-4eed-858a-35e5625b41ee"
+    ],
+    "model_info": {
+      "1abfe86b-e047-4eed-858a-35e5625b41ee": {
+        "name": "2-general-nova",
+        "version": "2024-01-06.5664",
+        "arch": "nova-2"
+      }
+    }
+  },
+  "results": {
+    "channels": [
+      {
+        "alternatives": [
+          {
+            "transcript": "You are at q MS. Carr. Do I have speak to Carl available now? From? Thank you on Valtry. Green 2. Understood until. A yellow car? Yeah. We'll get to you shortly. Yeah. Thank you. Thank you.",
+            "confidence": 0.82518184,
+            "words": [
+              {
+                "word": "you",
+                "start": 0.88,
+                "end": 1.04,
+                "confidence": 0.9830034,
+                "speaker": 0,
+                "speaker_confidence": 0.5042607,
+                "punctuated_word": "You"
+              },
+              {
+                "word": "are",
+                "start": 1.04,
+                "end": 1.28,
+                "confidence": 0.9984238,
+                "speaker": 0,
+                "speaker_confidence": 0.5042607,
+                "punctuated_word": "are"
+              },
+              {
+                "word": "at",
+                "start": 1.28,
+                "end": 1.52,
+                "confidence": 0.9974165,
+                "speaker": 0,
+                "speaker_confidence": 0.5042607,
+                "punctuated_word": "at"
+              },
+              {
+                "word": "q",
+                "start": 1.52,
+                "end": 2.02,
+                "confidence": 0.5306184,
+                "speaker": 0,
+                "speaker_confidence": 0.5042607,
+                "punctuated_word": "q"
+              },
+              {
+                "word": "ms",
+                "start": 3.52,
+                "end": 4,
+                "confidence": 0.21071652,
+                "speaker": 1,
+                "speaker_confidence": 0.7392812,
+                "punctuated_word": "MS."
+              },
+              {
+                "word": "carr",
+                "start": 4,
+                "end": 4.5,
+                "confidence": 0.51126033,
+                "speaker": 1,
+                "speaker_confidence": 0.7392812,
+                "punctuated_word": "Carr."
+              },
+              {
+                "word": "do",
+                "start": 4.64,
+                "end": 4.88,
+                "confidence": 0.28044152,
+                "speaker": 0,
+                "speaker_confidence": 0.5579328,
+                "punctuated_word": "Do"
+              },
+              {
+                "word": "i",
+                "start": 4.88,
+                "end": 4.96,
+                "confidence": 0.32225734,
+                "speaker": 0,
+                "speaker_confidence": 0.5579328,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "have",
+                "start": 4.96,
+                "end": 5.3599997,
+                "confidence": 0.6390424,
+                "speaker": 0,
+                "speaker_confidence": 0.5579328,
+                "punctuated_word": "have"
+              },
+              {
+                "word": "speak",
+                "start": 5.3599997,
+                "end": 5.6,
+                "confidence": 0.22871925,
+                "speaker": 0,
+                "speaker_confidence": 0.5579328,
+                "punctuated_word": "speak"
+              },
+              {
+                "word": "to",
+                "start": 5.6,
+                "end": 5.68,
+                "confidence": 0.9189436,
+                "speaker": 0,
+                "speaker_confidence": 0.5579328,
+                "punctuated_word": "to"
+              },
+              {
+                "word": "carl",
+                "start": 5.68,
+                "end": 5.92,
+                "confidence": 0.43941733,
+                "speaker": 0,
+                "speaker_confidence": 0.5579328,
+                "punctuated_word": "Carl"
+              },
+              {
+                "word": "available",
+                "start": 5.92,
+                "end": 6.3199997,
+                "confidence": 0.9932863,
+                "speaker": 0,
+                "speaker_confidence": 0.5579328,
+                "punctuated_word": "available"
+              },
+              {
+                "word": "now",
+                "start": 6.3199997,
+                "end": 6.8199997,
+                "confidence": 0.9964143,
+                "speaker": 0,
+                "speaker_confidence": 0.5579328,
+                "punctuated_word": "now?"
+              },
+              {
+                "word": "from",
+                "start": 7.6,
+                "end": 8.1,
+                "confidence": 0.82518184,
+                "speaker": 0,
+                "speaker_confidence": 0.5579328,
+                "punctuated_word": "From?"
+              },
+              {
+                "word": "thank",
+                "start": 8.24,
+                "end": 8.559999,
+                "confidence": 0.07819557,
+                "speaker": 0,
+                "speaker_confidence": 0.62833357,
+                "punctuated_word": "Thank"
+              },
+              {
+                "word": "you",
+                "start": 8.559999,
+                "end": 8.72,
+                "confidence": 0.99629337,
+                "speaker": 0,
+                "speaker_confidence": 0.62833357,
+                "punctuated_word": "you"
+              },
+              {
+                "word": "on",
+                "start": 8.72,
+                "end": 8.96,
+                "confidence": 0.5430817,
+                "speaker": 0,
+                "speaker_confidence": 0.62833357,
+                "punctuated_word": "on"
+              },
+              {
+                "word": "valtry",
+                "start": 8.96,
+                "end": 9.46,
+                "confidence": 0.7452042,
+                "speaker": 0,
+                "speaker_confidence": 0.62833357,
+                "punctuated_word": "Valtry."
+              },
+              {
+                "word": "green",
+                "start": 10.32,
+                "end": 10.639999,
+                "confidence": 0.6152971,
+                "speaker": 1,
+                "speaker_confidence": 0.7449393,
+                "punctuated_word": "Green"
+              },
+              {
+                "word": "2",
+                "start": 10.639999,
+                "end": 10.96,
+                "confidence": 0.8322232,
+                "speaker": 1,
+                "speaker_confidence": 0.7449393,
+                "punctuated_word": "2."
+              },
+              {
+                "word": "understood",
+                "start": 10.96,
+                "end": 11.46,
+                "confidence": 0.45948502,
+                "speaker": 0,
+                "speaker_confidence": 0.55581254,
+                "punctuated_word": "Understood"
+              },
+              {
+                "word": "until",
+                "start": 11.5199995,
+                "end": 12.0199995,
+                "confidence": 0.6173297,
+                "speaker": 0,
+                "speaker_confidence": 0.55581254,
+                "punctuated_word": "until."
+              },
+              {
+                "word": "a",
+                "start": 14.844875,
+                "end": 15.004875,
+                "confidence": 0.9557025,
+                "speaker": 1,
+                "speaker_confidence": 0.8084005,
+                "punctuated_word": "A"
+              },
+              {
+                "word": "yellow",
+                "start": 15.004875,
+                "end": 15.324875,
+                "confidence": 0.99230653,
+                "speaker": 1,
+                "speaker_confidence": 0.8084005,
+                "punctuated_word": "yellow"
+              },
+              {
+                "word": "car",
+                "start": 15.324875,
+                "end": 15.824875,
+                "confidence": 0.80180407,
+                "speaker": 1,
+                "speaker_confidence": 0.8084005,
+                "punctuated_word": "car?"
+              },
+              {
+                "word": "yeah",
+                "start": 16.444874,
+                "end": 16.944874,
+                "confidence": 0.99542844,
+                "speaker": 0,
+                "speaker_confidence": 0.29778743,
+                "punctuated_word": "Yeah."
+              },
+              {
+                "word": "we'll",
+                "start": 17.724874,
+                "end": 17.964874,
+                "confidence": 0.7658422,
+                "speaker": 1,
+                "speaker_confidence": 0.7316685,
+                "punctuated_word": "We'll"
+              },
+              {
+                "word": "get",
+                "start": 17.964874,
+                "end": 18.204874,
+                "confidence": 0.31172183,
+                "speaker": 1,
+                "speaker_confidence": 0.7316685,
+                "punctuated_word": "get"
+              },
+              {
+                "word": "to",
+                "start": 18.204874,
+                "end": 18.284874,
+                "confidence": 0.7191999,
+                "speaker": 1,
+                "speaker_confidence": 0.7316685,
+                "punctuated_word": "to"
+              },
+              {
+                "word": "you",
+                "start": 18.284874,
+                "end": 18.364876,
+                "confidence": 0.98529285,
+                "speaker": 1,
+                "speaker_confidence": 0.7316685,
+                "punctuated_word": "you"
+              },
+              {
+                "word": "shortly",
+                "start": 18.364876,
+                "end": 18.844875,
+                "confidence": 0.96476907,
+                "speaker": 1,
+                "speaker_confidence": 0.7316685,
+                "punctuated_word": "shortly."
+              },
+              {
+                "word": "yeah",
+                "start": 18.844875,
+                "end": 19.084875,
+                "confidence": 0.8737929,
+                "speaker": 1,
+                "speaker_confidence": 0.7316685,
+                "punctuated_word": "Yeah."
+              },
+              {
+                "word": "thank",
+                "start": 19.084875,
+                "end": 19.244875,
+                "confidence": 0.99941707,
+                "speaker": 1,
+                "speaker_confidence": 0.7316685,
+                "punctuated_word": "Thank"
+              },
+              {
+                "word": "you",
+                "start": 19.244875,
+                "end": 19.724874,
+                "confidence": 0.99961627,
+                "speaker": 1,
+                "speaker_confidence": 0.7316685,
+                "punctuated_word": "you."
+              },
+              {
+                "word": "thank",
+                "start": 19.724874,
+                "end": 19.964874,
+                "confidence": 0.99935263,
+                "speaker": 0,
+                "speaker_confidence": 0.5531058,
+                "punctuated_word": "Thank"
+              },
+              {
+                "word": "you",
+                "start": 19.964874,
+                "end": 20.464874,
+                "confidence": 0.9974226,
+                "speaker": 0,
+                "speaker_confidence": 0.5531058,
+                "punctuated_word": "you."
+              }
+            ],
+            "paragraphs": {
+              "transcript": "\nSpeaker 0: You are at q\n\nSpeaker 1: MS. Carr.\n\nSpeaker 0: Do I have speak to Carl available now? From? Thank you on Valtry.\n\nSpeaker 1: Green 2.\n\nSpeaker 0: Understood until.\n\nSpeaker 1: A yellow car?\n\nSpeaker 0: Yeah.\n\nSpeaker 1: We'll get to you shortly. Yeah. Thank you.\n\nSpeaker 0: Thank you.",
+              "paragraphs": [
+                {
+                  "sentences": [
+                    {
+                      "text": "You are at q",
+                      "start": 0.88,
+                      "end": 2.02
+                    }
+                  ],
+                  "speaker": 0,
+                  "num_words": 4,
+                  "start": 0.88,
+                  "end": 2.02
+                },
+                {
+                  "sentences": [
+                    {
+                      "text": "MS.",
+                      "start": 3.52,
+                      "end": 4
+                    },
+                    {
+                      "text": "Carr.",
+                      "start": 4,
+                      "end": 4.5
+                    }
+                  ],
+                  "speaker": 1,
+                  "num_words": 2,
+                  "start": 3.52,
+                  "end": 4.5
+                },
+                {
+                  "sentences": [
+                    {
+                      "text": "Do I have speak to Carl available now?",
+                      "start": 4.64,
+                      "end": 6.8199997
+                    },
+                    {
+                      "text": "From?",
+                      "start": 7.6,
+                      "end": 8.1
+                    },
+                    {
+                      "text": "Thank you on Valtry.",
+                      "start": 8.24,
+                      "end": 9.46
+                    }
+                  ],
+                  "speaker": 0,
+                  "num_words": 13,
+                  "start": 4.64,
+                  "end": 9.46
+                },
+                {
+                  "sentences": [
+                    {
+                      "text": "Green 2.",
+                      "start": 10.32,
+                      "end": 10.96
+                    }
+                  ],
+                  "speaker": 1,
+                  "num_words": 2,
+                  "start": 10.32,
+                  "end": 10.96
+                },
+                {
+                  "sentences": [
+                    {
+                      "text": "Understood until.",
+                      "start": 10.96,
+                      "end": 12.0199995
+                    }
+                  ],
+                  "speaker": 0,
+                  "num_words": 2,
+                  "start": 10.96,
+                  "end": 12.0199995
+                },
+                {
+                  "sentences": [
+                    {
+                      "text": "A yellow car?",
+                      "start": 14.844875,
+                      "end": 15.824875
+                    }
+                  ],
+                  "speaker": 1,
+                  "num_words": 3,
+                  "start": 14.844875,
+                  "end": 15.824875
+                },
+                {
+                  "sentences": [
+                    {
+                      "text": "Yeah.",
+                      "start": 16.444874,
+                      "end": 16.944874
+                    }
+                  ],
+                  "speaker": 0,
+                  "num_words": 1,
+                  "start": 16.444874,
+                  "end": 16.944874
+                },
+                {
+                  "sentences": [
+                    {
+                      "text": "We'll get to you shortly.",
+                      "start": 17.724874,
+                      "end": 18.844875
+                    },
+                    {
+                      "text": "Yeah.",
+                      "start": 18.844875,
+                      "end": 19.084875
+                    },
+                    {
+                      "text": "Thank you.",
+                      "start": 19.084875,
+                      "end": 19.724874
+                    }
+                  ],
+                  "speaker": 1,
+                  "num_words": 8,
+                  "start": 17.724874,
+                  "end": 19.724874
+                },
+                {
+                  "sentences": [
+                    {
+                      "text": "Thank you.",
+                      "start": 19.724874,
+                      "end": 20.464874
+                    }
+                  ],
+                  "speaker": 0,
+                  "num_words": 2,
+                  "start": 19.724874,
+                  "end": 20.464874
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "utterances": [
+      {
+        "start": 0.88,
+        "end": 2.02,
+        "confidence": 0.8773655,
+        "channel": 0,
+        "transcript": "You are at q",
+        "words": [
+          {
+            "word": "you",
+            "start": 0.88,
+            "end": 1.04,
+            "confidence": 0.9830034,
+            "speaker": 0,
+            "speaker_confidence": 0.5042607,
+            "punctuated_word": "You"
+          },
+          {
+            "word": "are",
+            "start": 1.04,
+            "end": 1.28,
+            "confidence": 0.9984238,
+            "speaker": 0,
+            "speaker_confidence": 0.5042607,
+            "punctuated_word": "are"
+          },
+          {
+            "word": "at",
+            "start": 1.28,
+            "end": 1.52,
+            "confidence": 0.9974165,
+            "speaker": 0,
+            "speaker_confidence": 0.5042607,
+            "punctuated_word": "at"
+          },
+          {
+            "word": "q",
+            "start": 1.52,
+            "end": 2.02,
+            "confidence": 0.5306184,
+            "speaker": 0,
+            "speaker_confidence": 0.5042607,
+            "punctuated_word": "q"
+          }
+        ],
+        "speaker": 0,
+        "id": "125c72bf-70d9-4148-a9ae-bb72192460ff"
+      },
+      {
+        "start": 3.52,
+        "end": 6.8199997,
+        "confidence": 0.55404985,
+        "channel": 0,
+        "transcript": "MS. Carr. Do I have speak to Carl available now?",
+        "words": [
+          {
+            "word": "ms",
+            "start": 3.52,
+            "end": 4,
+            "confidence": 0.21071652,
+            "speaker": 1,
+            "speaker_confidence": 0.7392812,
+            "punctuated_word": "MS."
+          },
+          {
+            "word": "carr",
+            "start": 4,
+            "end": 4.5,
+            "confidence": 0.51126033,
+            "speaker": 1,
+            "speaker_confidence": 0.7392812,
+            "punctuated_word": "Carr."
+          },
+          {
+            "word": "do",
+            "start": 4.64,
+            "end": 4.88,
+            "confidence": 0.28044152,
+            "speaker": 0,
+            "speaker_confidence": 0.5579328,
+            "punctuated_word": "Do"
+          },
+          {
+            "word": "i",
+            "start": 4.88,
+            "end": 4.96,
+            "confidence": 0.32225734,
+            "speaker": 0,
+            "speaker_confidence": 0.5579328,
+            "punctuated_word": "I"
+          },
+          {
+            "word": "have",
+            "start": 4.96,
+            "end": 5.3599997,
+            "confidence": 0.6390424,
+            "speaker": 0,
+            "speaker_confidence": 0.5579328,
+            "punctuated_word": "have"
+          },
+          {
+            "word": "speak",
+            "start": 5.3599997,
+            "end": 5.6,
+            "confidence": 0.22871925,
+            "speaker": 0,
+            "speaker_confidence": 0.5579328,
+            "punctuated_word": "speak"
+          },
+          {
+            "word": "to",
+            "start": 5.6,
+            "end": 5.68,
+            "confidence": 0.9189436,
+            "speaker": 0,
+            "speaker_confidence": 0.5579328,
+            "punctuated_word": "to"
+          },
+          {
+            "word": "carl",
+            "start": 5.68,
+            "end": 5.92,
+            "confidence": 0.43941733,
+            "speaker": 0,
+            "speaker_confidence": 0.5579328,
+            "punctuated_word": "Carl"
+          },
+          {
+            "word": "available",
+            "start": 5.92,
+            "end": 6.3199997,
+            "confidence": 0.9932863,
+            "speaker": 0,
+            "speaker_confidence": 0.5579328,
+            "punctuated_word": "available"
+          },
+          {
+            "word": "now",
+            "start": 6.3199997,
+            "end": 6.8199997,
+            "confidence": 0.9964143,
+            "speaker": 0,
+            "speaker_confidence": 0.5579328,
+            "punctuated_word": "now?"
+          }
+        ],
+        "speaker": 0,
+        "id": "e96eb89e-58aa-4709-bbe5-44266c639d10"
+      },
+      {
+        "start": 7.6,
+        "end": 9.46,
+        "confidence": 0.63759136,
+        "channel": 0,
+        "transcript": "From? Thank you on Valtry.",
+        "words": [
+          {
+            "word": "from",
+            "start": 7.6,
+            "end": 8.1,
+            "confidence": 0.82518184,
+            "speaker": 0,
+            "speaker_confidence": 0.5579328,
+            "punctuated_word": "From?"
+          },
+          {
+            "word": "thank",
+            "start": 8.24,
+            "end": 8.559999,
+            "confidence": 0.07819557,
+            "speaker": 0,
+            "speaker_confidence": 0.62833357,
+            "punctuated_word": "Thank"
+          },
+          {
+            "word": "you",
+            "start": 8.559999,
+            "end": 8.72,
+            "confidence": 0.99629337,
+            "speaker": 0,
+            "speaker_confidence": 0.62833357,
+            "punctuated_word": "you"
+          },
+          {
+            "word": "on",
+            "start": 8.72,
+            "end": 8.96,
+            "confidence": 0.5430817,
+            "speaker": 0,
+            "speaker_confidence": 0.62833357,
+            "punctuated_word": "on"
+          },
+          {
+            "word": "valtry",
+            "start": 8.96,
+            "end": 9.46,
+            "confidence": 0.7452042,
+            "speaker": 0,
+            "speaker_confidence": 0.62833357,
+            "punctuated_word": "Valtry."
+          }
+        ],
+        "speaker": 0,
+        "id": "74ccd218-2806-478f-8386-5618382361f2"
+      },
+      {
+        "start": 10.32,
+        "end": 12.0199995,
+        "confidence": 0.6310837,
+        "channel": 0,
+        "transcript": "Green 2. Understood until.",
+        "words": [
+          {
+            "word": "green",
+            "start": 10.32,
+            "end": 10.639999,
+            "confidence": 0.6152971,
+            "speaker": 1,
+            "speaker_confidence": 0.7449393,
+            "punctuated_word": "Green"
+          },
+          {
+            "word": "2",
+            "start": 10.639999,
+            "end": 10.96,
+            "confidence": 0.8322232,
+            "speaker": 1,
+            "speaker_confidence": 0.7449393,
+            "punctuated_word": "2."
+          },
+          {
+            "word": "understood",
+            "start": 10.96,
+            "end": 11.46,
+            "confidence": 0.45948502,
+            "speaker": 0,
+            "speaker_confidence": 0.55581254,
+            "punctuated_word": "Understood"
+          },
+          {
+            "word": "until",
+            "start": 11.5199995,
+            "end": 12.0199995,
+            "confidence": 0.6173297,
+            "speaker": 0,
+            "speaker_confidence": 0.55581254,
+            "punctuated_word": "until."
+          }
+        ],
+        "speaker": 0,
+        "id": "d99925f8-4eae-4475-93a1-0b6278d0c0f4"
+      },
+      {
+        "start": 14.844875,
+        "end": 15.824875,
+        "confidence": 0.91660434,
+        "channel": 0,
+        "transcript": "A yellow car?",
+        "words": [
+          {
+            "word": "a",
+            "start": 14.844875,
+            "end": 15.004875,
+            "confidence": 0.9557025,
+            "speaker": 1,
+            "speaker_confidence": 0.8084005,
+            "punctuated_word": "A"
+          },
+          {
+            "word": "yellow",
+            "start": 15.004875,
+            "end": 15.324875,
+            "confidence": 0.99230653,
+            "speaker": 1,
+            "speaker_confidence": 0.8084005,
+            "punctuated_word": "yellow"
+          },
+          {
+            "word": "car",
+            "start": 15.324875,
+            "end": 15.824875,
+            "confidence": 0.80180407,
+            "speaker": 1,
+            "speaker_confidence": 0.8084005,
+            "punctuated_word": "car?"
+          }
+        ],
+        "speaker": 1,
+        "id": "8aa1a755-1851-4888-aabf-4d877f4c1de4"
+      },
+      {
+        "start": 16.444874,
+        "end": 16.944874,
+        "confidence": 0.99542844,
+        "channel": 0,
+        "transcript": "Yeah.",
+        "words": [
+          {
+            "word": "yeah",
+            "start": 16.444874,
+            "end": 16.944874,
+            "confidence": 0.99542844,
+            "speaker": 0,
+            "speaker_confidence": 0.29778743,
+            "punctuated_word": "Yeah."
+          }
+        ],
+        "speaker": 0,
+        "id": "69f07078-513e-4e6a-bde0-b479d70d7a7d"
+      },
+      {
+        "start": 17.724874,
+        "end": 20.464874,
+        "confidence": 0.8616427,
+        "channel": 0,
+        "transcript": "We'll get to you shortly. Yeah. Thank you. Thank you.",
+        "words": [
+          {
+            "word": "we'll",
+            "start": 17.724874,
+            "end": 17.964874,
+            "confidence": 0.7658422,
+            "speaker": 1,
+            "speaker_confidence": 0.7316685,
+            "punctuated_word": "We'll"
+          },
+          {
+            "word": "get",
+            "start": 17.964874,
+            "end": 18.204874,
+            "confidence": 0.31172183,
+            "speaker": 1,
+            "speaker_confidence": 0.7316685,
+            "punctuated_word": "get"
+          },
+          {
+            "word": "to",
+            "start": 18.204874,
+            "end": 18.284874,
+            "confidence": 0.7191999,
+            "speaker": 1,
+            "speaker_confidence": 0.7316685,
+            "punctuated_word": "to"
+          },
+          {
+            "word": "you",
+            "start": 18.284874,
+            "end": 18.364876,
+            "confidence": 0.98529285,
+            "speaker": 1,
+            "speaker_confidence": 0.7316685,
+            "punctuated_word": "you"
+          },
+          {
+            "word": "shortly",
+            "start": 18.364876,
+            "end": 18.844875,
+            "confidence": 0.96476907,
+            "speaker": 1,
+            "speaker_confidence": 0.7316685,
+            "punctuated_word": "shortly."
+          },
+          {
+            "word": "yeah",
+            "start": 18.844875,
+            "end": 19.084875,
+            "confidence": 0.8737929,
+            "speaker": 1,
+            "speaker_confidence": 0.7316685,
+            "punctuated_word": "Yeah."
+          },
+          {
+            "word": "thank",
+            "start": 19.084875,
+            "end": 19.244875,
+            "confidence": 0.99941707,
+            "speaker": 1,
+            "speaker_confidence": 0.7316685,
+            "punctuated_word": "Thank"
+          },
+          {
+            "word": "you",
+            "start": 19.244875,
+            "end": 19.724874,
+            "confidence": 0.99961627,
+            "speaker": 1,
+            "speaker_confidence": 0.7316685,
+            "punctuated_word": "you."
+          },
+          {
+            "word": "thank",
+            "start": 19.724874,
+            "end": 19.964874,
+            "confidence": 0.99935263,
+            "speaker": 0,
+            "speaker_confidence": 0.5531058,
+            "punctuated_word": "Thank"
+          },
+          {
+            "word": "you",
+            "start": 19.964874,
+            "end": 20.464874,
+            "confidence": 0.9974226,
+            "speaker": 0,
+            "speaker_confidence": 0.5531058,
+            "punctuated_word": "you."
+          }
+        ],
+        "speaker": 1,
+        "id": "71f680dd-17dd-4fae-b68d-8ea850e98b66"
+      }
+    ]
+  }
+}

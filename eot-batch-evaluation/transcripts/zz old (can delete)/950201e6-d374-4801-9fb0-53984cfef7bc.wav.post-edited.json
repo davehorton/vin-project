@@ -1,0 +1,24 @@
+{
+    "results": [
+        {
+            "timestamp": "00:00:01",
+            "role": "Assistant",
+            "content": "Afternoon. M. B. Taxis. How may I help?"
+        },
+        {
+            "timestamp": "00:00:03",
+            "role": "Caller",
+            "content": "Hi. Can you tell the taxi for 32 [...]--please hold just a minute?"
+        },
+        {
+            "timestamp": "00:00:09",
+            "role": "Assistant",
+            "content": "Bear with me. Yeah. Sure."
+        },
+        {
+            "timestamp": "00:00:11",
+            "role": "Caller",
+            "content": "Great. Thank you. Bye."
+        }
+    ]
+}

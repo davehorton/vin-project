@@ -1,0 +1,461 @@
+{
+  "metadata": {
+    "transaction_key": "deprecated",
+    "request_id": "6358e47e-ee4c-47a0-bb7a-280a234a0e66",
+    "sha256": "17d7c8f3cd35e7de6c8ca5890fd9faf9683610464e2c9bbb690fba16d78f1211",
+    "created": "2025-04-03T14:50:47.007Z",
+    "duration": 10.759937,
+    "channels": 1,
+    "models": [
+      "1abfe86b-e047-4eed-858a-35e5625b41ee"
+    ],
+    "model_info": {
+      "1abfe86b-e047-4eed-858a-35e5625b41ee": {
+        "name": "2-general-nova",
+        "version": "2024-01-06.5664",
+        "arch": "nova-2"
+      }
+    }
+  },
+  "results": {
+    "channels": [
+      {
+        "alternatives": [
+          {
+            "transcript": "I'm afraid all the operators are busy at the moment, but please hold and you will be transferred when somebody becomes available.",
+            "confidence": 0.99968165,
+            "words": [
+              {
+                "word": "i'm",
+                "start": 1.5999999,
+                "end": 1.8399999,
+                "confidence": 0.8067316,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "I'm"
+              },
+              {
+                "word": "afraid",
+                "start": 1.8399999,
+                "end": 2.24,
+                "confidence": 0.99979156,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "afraid"
+              },
+              {
+                "word": "all",
+                "start": 2.24,
+                "end": 2.48,
+                "confidence": 0.9955577,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "all"
+              },
+              {
+                "word": "the",
+                "start": 2.48,
+                "end": 2.56,
+                "confidence": 0.9944155,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "the"
+              },
+              {
+                "word": "operators",
+                "start": 2.56,
+                "end": 3.06,
+                "confidence": 0.99914277,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "operators"
+              },
+              {
+                "word": "are",
+                "start": 3.12,
+                "end": 3.1999998,
+                "confidence": 0.9997193,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "are"
+              },
+              {
+                "word": "busy",
+                "start": 3.1999998,
+                "end": 3.52,
+                "confidence": 0.999987,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "busy"
+              },
+              {
+                "word": "at",
+                "start": 3.52,
+                "end": 3.6,
+                "confidence": 0.99989295,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "at"
+              },
+              {
+                "word": "the",
+                "start": 3.6,
+                "end": 3.76,
+                "confidence": 0.99967945,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "the"
+              },
+              {
+                "word": "moment",
+                "start": 3.76,
+                "end": 4.24,
+                "confidence": 0.9476285,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "moment,"
+              },
+              {
+                "word": "but",
+                "start": 4.24,
+                "end": 4.56,
+                "confidence": 0.9995499,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "but"
+              },
+              {
+                "word": "please",
+                "start": 4.56,
+                "end": 4.88,
+                "confidence": 0.99959093,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "please"
+              },
+              {
+                "word": "hold",
+                "start": 4.88,
+                "end": 5.12,
+                "confidence": 0.99985933,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "hold"
+              },
+              {
+                "word": "and",
+                "start": 5.12,
+                "end": 5.3599997,
+                "confidence": 0.61718595,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "and"
+              },
+              {
+                "word": "you",
+                "start": 5.3599997,
+                "end": 5.52,
+                "confidence": 0.99991167,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "you"
+              },
+              {
+                "word": "will",
+                "start": 5.52,
+                "end": 5.6,
+                "confidence": 0.80535257,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "will"
+              },
+              {
+                "word": "be",
+                "start": 5.6,
+                "end": 5.8399997,
+                "confidence": 0.99925345,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "be"
+              },
+              {
+                "word": "transferred",
+                "start": 5.8399997,
+                "end": 6.3199997,
+                "confidence": 0.9999347,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "transferred"
+              },
+              {
+                "word": "when",
+                "start": 6.3199997,
+                "end": 6.48,
+                "confidence": 0.9997627,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "when"
+              },
+              {
+                "word": "somebody",
+                "start": 6.48,
+                "end": 6.96,
+                "confidence": 0.99987566,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "somebody"
+              },
+              {
+                "word": "becomes",
+                "start": 6.96,
+                "end": 7.3599997,
+                "confidence": 0.99973434,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "becomes"
+              },
+              {
+                "word": "available",
+                "start": 7.3599997,
+                "end": 7.8599997,
+                "confidence": 0.99968165,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "available."
+              }
+            ],
+            "paragraphs": {
+              "transcript": "\nSpeaker 0: I'm afraid all the operators are busy at the moment, but please hold and you will be transferred when somebody becomes available.",
+              "paragraphs": [
+                {
+                  "sentences": [
+                    {
+                      "text": "I'm afraid all the operators are busy at the moment, but please hold and you will be transferred when somebody becomes available.",
+                      "start": 1.5999999,
+                      "end": 7.8599997
+                    }
+                  ],
+                  "speaker": 0,
+                  "num_words": 22,
+                  "start": 1.5999999,
+                  "end": 7.8599997
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "utterances": [
+      {
+        "start": 1.5999999,
+        "end": 7.8599997,
+        "confidence": 0.96192,
+        "channel": 0,
+        "transcript": "I'm afraid all the operators are busy at the moment, but please hold and you will be transferred when somebody becomes available.",
+        "words": [
+          {
+            "word": "i'm",
+            "start": 1.5999999,
+            "end": 1.8399999,
+            "confidence": 0.8067316,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "I'm"
+          },
+          {
+            "word": "afraid",
+            "start": 1.8399999,
+            "end": 2.24,
+            "confidence": 0.99979156,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "afraid"
+          },
+          {
+            "word": "all",
+            "start": 2.24,
+            "end": 2.48,
+            "confidence": 0.9955577,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "all"
+          },
+          {
+            "word": "the",
+            "start": 2.48,
+            "end": 2.56,
+            "confidence": 0.9944155,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "the"
+          },
+          {
+            "word": "operators",
+            "start": 2.56,
+            "end": 3.06,
+            "confidence": 0.99914277,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "operators"
+          },
+          {
+            "word": "are",
+            "start": 3.12,
+            "end": 3.1999998,
+            "confidence": 0.9997193,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "are"
+          },
+          {
+            "word": "busy",
+            "start": 3.1999998,
+            "end": 3.52,
+            "confidence": 0.999987,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "busy"
+          },
+          {
+            "word": "at",
+            "start": 3.52,
+            "end": 3.6,
+            "confidence": 0.99989295,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "at"
+          },
+          {
+            "word": "the",
+            "start": 3.6,
+            "end": 3.76,
+            "confidence": 0.99967945,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "the"
+          },
+          {
+            "word": "moment",
+            "start": 3.76,
+            "end": 4.24,
+            "confidence": 0.9476285,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "moment,"
+          },
+          {
+            "word": "but",
+            "start": 4.24,
+            "end": 4.56,
+            "confidence": 0.9995499,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "but"
+          },
+          {
+            "word": "please",
+            "start": 4.56,
+            "end": 4.88,
+            "confidence": 0.99959093,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "please"
+          },
+          {
+            "word": "hold",
+            "start": 4.88,
+            "end": 5.12,
+            "confidence": 0.99985933,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "hold"
+          },
+          {
+            "word": "and",
+            "start": 5.12,
+            "end": 5.3599997,
+            "confidence": 0.61718595,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "and"
+          },
+          {
+            "word": "you",
+            "start": 5.3599997,
+            "end": 5.52,
+            "confidence": 0.99991167,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "you"
+          },
+          {
+            "word": "will",
+            "start": 5.52,
+            "end": 5.6,
+            "confidence": 0.80535257,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "will"
+          },
+          {
+            "word": "be",
+            "start": 5.6,
+            "end": 5.8399997,
+            "confidence": 0.99925345,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "be"
+          },
+          {
+            "word": "transferred",
+            "start": 5.8399997,
+            "end": 6.3199997,
+            "confidence": 0.9999347,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "transferred"
+          },
+          {
+            "word": "when",
+            "start": 6.3199997,
+            "end": 6.48,
+            "confidence": 0.9997627,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "when"
+          },
+          {
+            "word": "somebody",
+            "start": 6.48,
+            "end": 6.96,
+            "confidence": 0.99987566,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "somebody"
+          },
+          {
+            "word": "becomes",
+            "start": 6.96,
+            "end": 7.3599997,
+            "confidence": 0.99973434,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "becomes"
+          },
+          {
+            "word": "available",
+            "start": 7.3599997,
+            "end": 7.8599997,
+            "confidence": 0.99968165,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "available."
+          }
+        ],
+        "speaker": 0,
+        "id": "11225363-a704-4aea-86f5-aaa627cc4f89"
+      }
+    ]
+  }
+}

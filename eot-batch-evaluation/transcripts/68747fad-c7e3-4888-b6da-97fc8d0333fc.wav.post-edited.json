@@ -1,0 +1,54 @@
+{
+    "results": [
+        {
+            "Content": "Good afternoon. The King Group. How can I help?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Yeah. I need a car from 24 Leonsign Grove going to",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Um.",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Burger King in Peckham.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Burger King in Peckham?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Yeah.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Alright. Taxi's coming in about ten minutes. It'll be £10.50.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Okay.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Alright. Thank you.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Cheers. Bye-bye.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        }
+    ]
+}

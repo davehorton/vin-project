@@ -1,0 +1,89 @@
+{
+    "results": [
+        {
+            "Content": "Good afternoon. Abba Cars, speaking.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Yes. Good afternoon. Could have a taxi, please, for straight away?",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Sure. Where from, please?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "From Number 12",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Park Avenue in Lachford.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Number 12 Park Avenue in Lachford. Where are you going to, please?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Yeah. Going to the White Hart Pub on Shanky Street.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Going to the White Hart, Shanky Street.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "What's the name, please?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Yeah. The name is Smith.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Smith. This is all booked in for you for now.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "12 Park Avenue in five, ten minutes, please.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Okay. Thank you. Thank you, thank",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Have",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "you.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "a good day. Bye bye.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Bye.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        }
+    ]
+}

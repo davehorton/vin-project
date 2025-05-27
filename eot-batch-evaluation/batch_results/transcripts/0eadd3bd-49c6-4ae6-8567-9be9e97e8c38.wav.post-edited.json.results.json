@@ -1,0 +1,476 @@
+{
+  "file_path": "transcripts/0eadd3bd-49c6-4ae6-8567-9be9e97e8c38.wav.post-edited.json",
+  "file_name": "0eadd3bd-49c6-4ae6-8567-9be9e97e8c38.wav.post-edited.json",
+  "utterance_analysis": [
+    {
+      "index": 0,
+      "content": "Good afternoon, Joseph. Thank you for calling A & B taxis. We've upgraded to a priority voice assistant. Listen carefully, and please ensure you speak loud and clear. The best way to book is by using our app.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.00721475575119257,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 1,
+      "content": "I see you're waiting for us to pick you up from Gatwick Airport RH6 0NP Hawley. Your driver has arrived. Please go meet them outside. Would you like to speak with your driver?",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.060117270797491074,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 2,
+      "content": "Yes.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.011535374447703362,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 3,
+      "content": "I'll connect you to your driver now.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.02045540325343609,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 4,
+      "content": "Oh, it's cold.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.031396303325891495,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 5,
+      "content": "Hello?",
+      "role": "Driver",
+      "ground_truth": 1,
+      "predicted_probability": 0.07429995387792587,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 6,
+      "content": "Hello.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.01957973837852478,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 7,
+      "content": "I'm with you, Trevor. Hello. How are you?",
+      "role": "Driver",
+      "ground_truth": 1,
+      "predicted_probability": 0.06778533011674881,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 8,
+      "content": "I'm alright. How are you?",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.05325876176357269,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 9,
+      "content": "I'm good, sir.",
+      "role": "Driver",
+      "ground_truth": 1,
+      "predicted_probability": 0.013934395276010036,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 10,
+      "content": "I, I am by, I am by the car park. I don't know where to move?",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.0667998194694519,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 11,
+      "content": "Where are you?",
+      "role": "Driver",
+      "ground_truth": 1,
+      "predicted_probability": 0.08449207991361618,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 12,
+      "content": "Car Park 6.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.07231754064559937,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 13,
+      "content": "So, I'm in Car Park 5.",
+      "role": "Driver",
+      "ground_truth": 1,
+      "predicted_probability": 0.012564119882881641,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 14,
+      "content": "Five? Let's",
+      "role": "Caller",
+      "ground_truth": 0,
+      "predicted_probability": 0.5334213972091675,
+      "predicted_label": 1,
+      "is_correct": false
+    },
+    {
+      "index": 15,
+      "content": "Wait for me over there. Just a second.",
+      "role": "Driver",
+      "ground_truth": 1,
+      "predicted_probability": 0.020206650719046593,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 16,
+      "content": "Alright. You'll find me just outside.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.01480074506253004,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 17,
+      "content": "I'm just at the crossing. Can you see me? I'm coming inside the Car Park 6. Just in",
+      "role": "Driver",
+      "ground_truth": 0,
+      "predicted_probability": 0.40162393450737,
+      "predicted_label": 0,
+      "is_correct": true
+    },
+    {
+      "index": 18,
+      "content": "Oh, yeah. I can see you. I'm more, not, the other end, where we are, too.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.029820948839187622,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 19,
+      "content": "Okay. But you still have to come to Car Park 5, uh 6 inside, because I can't pick you up on that. It's across the",
+      "role": "Driver",
+      "ground_truth": 0,
+      "predicted_probability": 0.43734562397003174,
+      "predicted_label": 0,
+      "is_correct": true
+    },
+    {
+      "index": 20,
+      "content": "Alright.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.012859497219324112,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 21,
+      "content": "On your",
+      "role": "Driver",
+      "ground_truth": 0,
+      "predicted_probability": 0.5054080486297607,
+      "predicted_label": 1,
+      "is_correct": false
+    },
+    {
+      "index": 22,
+      "content": "I know. I can see the car going, so let me just cross the road.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.030954932793974876,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 23,
+      "content": "Yeah.",
+      "role": "Driver",
+      "ground_truth": 1,
+      "predicted_probability": 0.017131567001342773,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 24,
+      "content": "Alright.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.01481282152235508,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 25,
+      "content": "Just that, I'm not allowed to pick you up from the road. I have to get inside the car park.",
+      "role": "Driver",
+      "ground_truth": 1,
+      "predicted_probability": 0.043578773736953735,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 26,
+      "content": "Okay. I'm coming inside there.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.043578773736953735,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 27,
+      "content": "Yeah. I'm trying to, to park, very close to where you come inside. Yeah?",
+      "role": "Driver",
+      "ground_truth": 1,
+      "predicted_probability": 0.043578773736953735,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 28,
+      "content": "Okay.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.043578773736953735,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 29,
+      "content": "I'm not right.",
+      "role": "Driver",
+      "ground_truth": 1,
+      "predicted_probability": 0.043578773736953735,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 30,
+      "content": "Yes.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.043578773736953735,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 31,
+      "content": "Shit.",
+      "role": "Driver",
+      "ground_truth": 1,
+      "predicted_probability": 0.043578773736953735,
+      "predicted_label": 0,
+      "is_correct": false
+    }
+  ],
+  "f1_scores": {
+    "0.1": 0.0,
+    "0.2": 0.0,
+    "0.3": 0.0,
+    "0.4": 0.0,
+    "0.5": 0.0,
+    "0.6": 0.0,
+    "0.7": 0.0,
+    "0.8": 0.0,
+    "0.9": 0.0
+  },
+  "optimal_threshold": 0.5,
+  "roc": {
+    "fpr": [
+      0.0,
+      0.25,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "tpr": [
+      0.0,
+      0.0,
+      0.0,
+      0.25,
+      0.5,
+      1.0
+    ],
+    "thresholds": [
+      Infinity,
+      0.5334213972091675,
+      0.40162393450737,
+      0.05325876176357269,
+      0.043578773736953735,
+      0.00721475575119257
+    ],
+    "auc": 0.0
+  },
+  "pr": {
+    "precision": [
+      0.875,
+      0.8709677419354839,
+      0.8666666666666667,
+      0.8620689655172413,
+      0.8571428571428571,
+      0.8518518518518519,
+      0.8461538461538461,
+      0.84,
+      0.8333333333333334,
+      0.8260869565217391,
+      0.8181818181818182,
+      0.8095238095238095,
+      0.8,
+      0.7894736842105263,
+      0.7777777777777778,
+      0.6363636363636364,
+      0.6,
+      0.5555555555555556,
+      0.5,
+      0.42857142857142855,
+      0.3333333333333333,
+      0.2,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "recall": [
+      1.0,
+      0.9642857142857143,
+      0.9285714285714286,
+      0.8928571428571429,
+      0.8571428571428571,
+      0.8214285714285714,
+      0.7857142857142857,
+      0.75,
+      0.7142857142857143,
+      0.6785714285714286,
+      0.6428571428571429,
+      0.6071428571428571,
+      0.5714285714285714,
+      0.5357142857142857,
+      0.5,
+      0.25,
+      0.21428571428571427,
+      0.17857142857142858,
+      0.14285714285714285,
+      0.10714285714285714,
+      0.07142857142857142,
+      0.03571428571428571,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "thresholds": [
+      0.00721475575119257,
+      0.011535374447703362,
+      0.012564119882881641,
+      0.012859497219324112,
+      0.013934395276010036,
+      0.01480074506253004,
+      0.01481282152235508,
+      0.017131567001342773,
+      0.01957973837852478,
+      0.020206650719046593,
+      0.02045540325343609,
+      0.029820948839187622,
+      0.030954932793974876,
+      0.031396303325891495,
+      0.043578773736953735,
+      0.05325876176357269,
+      0.060117270797491074,
+      0.0667998194694519,
+      0.06778533011674881,
+      0.07231754064559937,
+      0.07429995387792587,
+      0.08449207991361618,
+      0.40162393450737,
+      0.43734562397003174,
+      0.5054080486297607,
+      0.5334213972091675
+    ]
+  },
+  "confusion_matrix": [
+    [
+      2,
+      2
+    ],
+    [
+      28,
+      0
+    ]
+  ],
+  "metrics": {
+    "accuracy": 0.0625,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "total_utterances": 32,
+    "eot_ratio": 0.875
+  },
+  "latency": {
+    "mean": 1.106676459312439,
+    "median": 0.9870055913925171,
+    "min": 0.19219326972961426,
+    "max": 1.903921127319336,
+    "p95": 1.8173828363418578
+  },
+  "role_analysis": {
+    "Driver": {
+      "count": 14,
+      "accuracy": 0.14285714285714285,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "eot_ratio": 0.7857142857142857
+    },
+    "Assistant": {
+      "count": 3,
+      "accuracy": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "eot_ratio": 1.0
+    },
+    "Caller": {
+      "count": 15,
+      "accuracy": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "eot_ratio": 0.9333333333333333
+    }
+  },
+  "error_summary": {
+    "false_positives": 2,
+    "false_negatives": 28
+  }
+}

@@ -1,0 +1,14 @@
+{
+    "results": [
+        {
+            "Content": "voicemail",
+            "EndOfTurn": false,
+            "Role": "Virtual Assistant"
+        },
+        {
+            "Content": "to the tone.",
+            "EndOfTurn": true,
+            "Role": "Virtual Assistant"
+        }
+    ]
+}

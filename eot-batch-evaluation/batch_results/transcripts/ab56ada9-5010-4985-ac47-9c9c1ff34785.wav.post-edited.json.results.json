@@ -1,0 +1,219 @@
+{
+  "file_path": "transcripts/ab56ada9-5010-4985-ac47-9c9c1ff34785.wav.post-edited.json",
+  "file_name": "ab56ada9-5010-4985-ac47-9c9c1ff34785.wav.post-edited.json",
+  "utterance_analysis": [
+    {
+      "index": 0,
+      "content": "Hello. Mount Cars.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.0025951426941901445,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 1,
+      "content": "Hello?",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.04572419822216034,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 2,
+      "content": "Oh, hello. I can't hear you very well,",
+      "role": "Caller",
+      "ground_truth": 0,
+      "predicted_probability": 0.2681420147418976,
+      "predicted_label": 0,
+      "is_correct": true
+    },
+    {
+      "index": 3,
+      "content": "um",
+      "role": "Caller",
+      "ground_truth": 0,
+      "predicted_probability": 0.011020787991583347,
+      "predicted_label": 0,
+      "is_correct": true
+    },
+    {
+      "index": 4,
+      "content": "I need a cab to go to Chingford Hatch, please.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.02962253801524639,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 5,
+      "content": "What was your name?",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.06215998902916908,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 6,
+      "content": "Mavis.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.03126208856701851,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 7,
+      "content": "Yeah, that's about 5 minutes.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.013785259798169136,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 8,
+      "content": "Alright. Thank you.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.005881847348064184,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 9,
+      "content": "Alright.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.00749380886554718,
+      "predicted_label": 0,
+      "is_correct": false
+    }
+  ],
+  "f1_scores": {
+    "0.1": 0.0,
+    "0.2": 0.0,
+    "0.3": 0.0,
+    "0.4": 0.0,
+    "0.5": 0.0,
+    "0.6": 0.0,
+    "0.7": 0.0,
+    "0.8": 0.0,
+    "0.9": 0.0
+  },
+  "optimal_threshold": 0.5,
+  "roc": {
+    "fpr": [
+      0.0,
+      0.5,
+      0.5,
+      1.0,
+      1.0
+    ],
+    "tpr": [
+      0.0,
+      0.0,
+      0.625,
+      0.625,
+      1.0
+    ],
+    "thresholds": [
+      Infinity,
+      0.2681420147418976,
+      0.013785259798169136,
+      0.011020787991583347,
+      0.0025951426941901445
+    ],
+    "auc": 0.3125
+  },
+  "pr": {
+    "precision": [
+      0.8,
+      0.7777777777777778,
+      0.75,
+      0.7142857142857143,
+      0.8333333333333334,
+      0.8,
+      0.75,
+      0.6666666666666666,
+      0.5,
+      0.0,
+      1.0
+    ],
+    "recall": [
+      1.0,
+      0.875,
+      0.75,
+      0.625,
+      0.625,
+      0.5,
+      0.375,
+      0.25,
+      0.125,
+      0.0,
+      0.0
+    ],
+    "thresholds": [
+      0.0025951426941901445,
+      0.005881847348064184,
+      0.00749380886554718,
+      0.011020787991583347,
+      0.013785259798169136,
+      0.02962253801524639,
+      0.03126208856701851,
+      0.04572419822216034,
+      0.06215998902916908,
+      0.2681420147418976
+    ]
+  },
+  "confusion_matrix": [
+    [
+      2,
+      0
+    ],
+    [
+      8,
+      0
+    ]
+  ],
+  "metrics": {
+    "accuracy": 0.2,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "total_utterances": 10,
+    "eot_ratio": 0.8
+  },
+  "latency": {
+    "mean": 0.3214913845062256,
+    "median": 0.3339252471923828,
+    "min": 0.07531619071960449,
+    "max": 0.5767385959625244,
+    "p95": 0.5565251469612121
+  },
+  "role_analysis": {
+    "Assistant": {
+      "count": 5,
+      "accuracy": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "eot_ratio": 1.0
+    },
+    "Caller": {
+      "count": 5,
+      "accuracy": 0.4,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "eot_ratio": 0.6
+    }
+  },
+  "error_summary": {
+    "false_positives": 0,
+    "false_negatives": 8
+  }
+}

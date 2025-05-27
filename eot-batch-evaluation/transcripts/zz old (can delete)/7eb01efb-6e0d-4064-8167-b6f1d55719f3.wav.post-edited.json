@@ -1,0 +1,69 @@
+{
+    "results": [
+        {
+            "timestamp": "00:00:00",
+            "role": "Virtual Assistant",
+            "content": "You are at queue position one in the queue."
+        },
+        {
+            "timestamp": "00:00:07",
+            "role": "Assistant",
+            "content": "Emess Car. Good afternoon."
+        },
+        {
+            "timestamp": "00:00:09",
+            "role": "Caller",
+            "content": "Can I-- Can I have a yellow car?"
+        },
+        {
+            "timestamp": "00:00:12",
+            "role": "Assistant",
+            "content": "Within ten to fifteen minutes, ma'am."
+        },
+        {
+            "timestamp": "00:00:17",
+            "role": "Caller",
+            "content": "Can it come quicker?"
+        },
+        {
+            "timestamp": "00:00:19",
+            "role": "Assistant",
+            "content": "Within, ma'am. Within."
+        },
+        {
+            "timestamp": "00:00:22",
+            "role": "Caller",
+            "content": "What?"
+        },
+        {
+            "timestamp": "00:00:23",
+            "role": "Assistant",
+            "content": "Within fifteen minutes, ma'am."
+        },
+        {
+            "timestamp": "00:00:26",
+            "role": "Caller",
+            "content": "Okay. 43 Leweston Place. Please try urgent."
+        },
+        {
+            "timestamp": "00:00:28",
+            "role": "Assistant",
+            "content": "Go-- Going to?"
+        },
+        {
+            "timestamp": "00:00:30",
+            "role": "Caller",
+            "content": "To Timberwharf, Saw Mill Way."
+        },
+        {
+            "timestamp": "00:00:37",
+            "role": "Assistant",
+            "content": "Okay. See you as soon as possible. Yeah. Thank you."
+        },
+        {
+            "timestamp": "00:00:39",
+            "role": "Caller",
+            "content": "Yeah. Thank you."
+        }
+    ]
+}

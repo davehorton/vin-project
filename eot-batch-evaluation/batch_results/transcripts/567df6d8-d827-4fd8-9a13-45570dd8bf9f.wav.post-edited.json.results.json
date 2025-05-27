@@ -1,0 +1,354 @@
+{
+  "file_path": "transcripts/567df6d8-d827-4fd8-9a13-45570dd8bf9f.wav.post-edited.json",
+  "file_name": "567df6d8-d827-4fd8-9a13-45570dd8bf9f.wav.post-edited.json",
+  "utterance_analysis": [
+    {
+      "index": 0,
+      "content": "Hello. This is 3-3-4.",
+      "role": "Driver",
+      "ground_truth": 1,
+      "predicted_probability": 0.0010452300775796175,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 1,
+      "content": "Hello?",
+      "role": "Driver",
+      "ground_truth": 1,
+      "predicted_probability": 0.020842628553509712,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 2,
+      "content": "Hello, 3-3-4. Good afternoon.",
+      "role": "Dispatch",
+      "ground_truth": 1,
+      "predicted_probability": 0.00628017308190465,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 3,
+      "content": "Yes.",
+      "role": "Driver",
+      "ground_truth": 1,
+      "predicted_probability": 0.006552570499479771,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 4,
+      "content": "Hello?",
+      "role": "Dispatch",
+      "ground_truth": 1,
+      "predicted_probability": 0.031954023987054825,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 5,
+      "content": "The",
+      "role": "Driver",
+      "ground_truth": 0,
+      "predicted_probability": 0.004010066390037537,
+      "predicted_label": 0,
+      "is_correct": true
+    },
+    {
+      "index": 6,
+      "content": "Hi.",
+      "role": "Dispatch",
+      "ground_truth": 1,
+      "predicted_probability": 0.0077058314345777035,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 7,
+      "content": "The job is, they are in Lampard area. I'm on the Eggerton Railwaydale.",
+      "role": "Driver",
+      "ground_truth": 1,
+      "predicted_probability": 0.01972365938127041,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 8,
+      "content": "Okay. Let me see.",
+      "role": "Dispatch",
+      "ground_truth": 1,
+      "predicted_probability": 0.014757011085748672,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 9,
+      "content": "That's",
+      "role": "Driver",
+      "ground_truth": 0,
+      "predicted_probability": 0.39577797055244446,
+      "predicted_label": 0,
+      "is_correct": true
+    },
+    {
+      "index": 10,
+      "content": "Um.",
+      "role": "Dispatch",
+      "ground_truth": 0,
+      "predicted_probability": 0.008181128650903702,
+      "predicted_label": 0,
+      "is_correct": true
+    },
+    {
+      "index": 11,
+      "content": "17, near the X stores.",
+      "role": "Driver",
+      "ground_truth": 1,
+      "predicted_probability": 0.029946863651275635,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 12,
+      "content": "So",
+      "role": "Driver",
+      "ground_truth": 0,
+      "predicted_probability": 0.324030339717865,
+      "predicted_label": 0,
+      "is_correct": true
+    },
+    {
+      "index": 13,
+      "content": "Oh.",
+      "role": "Dispatch",
+      "ground_truth": 1,
+      "predicted_probability": 0.013556811027228832,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 14,
+      "content": "some might",
+      "role": "Driver",
+      "ground_truth": 0,
+      "predicted_probability": 0.18949879705905914,
+      "predicted_label": 0,
+      "is_correct": true
+    },
+    {
+      "index": 15,
+      "content": "Okay. [...]. Okay. Let me take it back. Hold on.",
+      "role": "Dispatch",
+      "ground_truth": 1,
+      "predicted_probability": 0.037079162895679474,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 16,
+      "content": "Um.",
+      "role": "Dispatch",
+      "ground_truth": 0,
+      "predicted_probability": 0.019120559096336365,
+      "predicted_label": 0,
+      "is_correct": true
+    },
+    {
+      "index": 17,
+      "content": "I'll pull it off your route plot.",
+      "role": "Dispatch",
+      "ground_truth": 1,
+      "predicted_probability": 0.01568782702088356,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 18,
+      "content": "Thank you, thank you. Bye.",
+      "role": "Dispatch",
+      "ground_truth": 1,
+      "predicted_probability": 0.03707139566540718,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 19,
+      "content": "Okay. Thanks.",
+      "role": "Driver",
+      "ground_truth": 1,
+      "predicted_probability": 0.01628735102713108,
+      "predicted_label": 0,
+      "is_correct": false
+    }
+  ],
+  "f1_scores": {
+    "0.1": 0.0,
+    "0.2": 0.0,
+    "0.3": 0.0,
+    "0.4": 0.0,
+    "0.5": 0.0,
+    "0.6": 0.0,
+    "0.7": 0.0,
+    "0.8": 0.0,
+    "0.9": 0.0
+  },
+  "optimal_threshold": 0.5,
+  "roc": {
+    "fpr": [
+      0.0,
+      0.16666666666666666,
+      0.5,
+      0.5,
+      0.6666666666666666,
+      0.6666666666666666,
+      0.8333333333333334,
+      0.8333333333333334,
+      1.0,
+      1.0
+    ],
+    "tpr": [
+      0.0,
+      0.0,
+      0.0,
+      0.42857142857142855,
+      0.42857142857142855,
+      0.7142857142857143,
+      0.7142857142857143,
+      0.9285714285714286,
+      0.9285714285714286,
+      1.0
+    ],
+    "thresholds": [
+      Infinity,
+      0.39577797055244446,
+      0.18949879705905914,
+      0.01972365938127041,
+      0.019120559096336365,
+      0.013556811027228832,
+      0.008181128650903702,
+      0.00628017308190465,
+      0.004010066390037537,
+      0.0010452300775796175
+    ],
+    "auc": 0.34523809523809523
+  },
+  "pr": {
+    "precision": [
+      0.7,
+      0.6842105263157895,
+      0.7222222222222222,
+      0.7058823529411765,
+      0.6875,
+      0.6666666666666666,
+      0.7142857142857143,
+      0.6923076923076923,
+      0.6666666666666666,
+      0.6363636363636364,
+      0.6,
+      0.6666666666666666,
+      0.625,
+      0.5714285714285714,
+      0.5,
+      0.4,
+      0.25,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "recall": [
+      1.0,
+      0.9285714285714286,
+      0.9285714285714286,
+      0.8571428571428571,
+      0.7857142857142857,
+      0.7142857142857143,
+      0.7142857142857143,
+      0.6428571428571429,
+      0.5714285714285714,
+      0.5,
+      0.42857142857142855,
+      0.42857142857142855,
+      0.35714285714285715,
+      0.2857142857142857,
+      0.21428571428571427,
+      0.14285714285714285,
+      0.07142857142857142,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "thresholds": [
+      0.0010452300775796175,
+      0.004010066390037537,
+      0.00628017308190465,
+      0.006552570499479771,
+      0.0077058314345777035,
+      0.008181128650903702,
+      0.013556811027228832,
+      0.014757011085748672,
+      0.01568782702088356,
+      0.01628735102713108,
+      0.019120559096336365,
+      0.01972365938127041,
+      0.020842628553509712,
+      0.029946863651275635,
+      0.031954023987054825,
+      0.03707139566540718,
+      0.037079162895679474,
+      0.18949879705905914,
+      0.324030339717865,
+      0.39577797055244446
+    ]
+  },
+  "confusion_matrix": [
+    [
+      6,
+      0
+    ],
+    [
+      14,
+      0
+    ]
+  ],
+  "metrics": {
+    "accuracy": 0.3,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "total_utterances": 20,
+    "eot_ratio": 0.7
+  },
+  "latency": {
+    "mean": 0.4443950653076172,
+    "median": 0.43753135204315186,
+    "min": 0.09598398208618164,
+    "max": 0.8186631202697754,
+    "p95": 0.8050490260124207
+  },
+  "role_analysis": {
+    "Dispatch": {
+      "count": 10,
+      "accuracy": 0.2,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "eot_ratio": 0.8
+    },
+    "Driver": {
+      "count": 10,
+      "accuracy": 0.4,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "eot_ratio": 0.6
+    }
+  },
+  "error_summary": {
+    "false_positives": 0,
+    "false_negatives": 14
+  }
+}

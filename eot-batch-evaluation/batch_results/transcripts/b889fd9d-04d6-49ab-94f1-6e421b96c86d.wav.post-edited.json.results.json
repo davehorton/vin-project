@@ -1,0 +1,79 @@
+{
+  "file_path": "transcripts/b889fd9d-04d6-49ab-94f1-6e421b96c86d.wav.post-edited.json",
+  "file_name": "b889fd9d-04d6-49ab-94f1-6e421b96c86d.wav.post-edited.json",
+  "utterance_analysis": [
+    {
+      "index": 0,
+      "content": "No. I know it's back. I know.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.0013723359443247318,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 1,
+      "content": "I just don't know what's there.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.01294022798538208,
+      "predicted_label": 0,
+      "is_correct": false
+    }
+  ],
+  "f1_scores": {
+    "0.1": 0.0,
+    "0.2": 0.0,
+    "0.3": 0.0,
+    "0.4": 0.0,
+    "0.5": 0.0,
+    "0.6": 0.0,
+    "0.7": 0.0,
+    "0.8": 0.0,
+    "0.9": 0.0
+  },
+  "optimal_threshold": 0.5,
+  "roc": {
+    "auc": 0.5
+  },
+  "pr": {},
+  "confusion_matrix": [
+    [
+      0,
+      0
+    ],
+    [
+      2,
+      0
+    ]
+  ],
+  "metrics": {
+    "accuracy": 0.0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "total_utterances": 2,
+    "eot_ratio": 1.0
+  },
+  "latency": {
+    "mean": 0.13086163997650146,
+    "median": 0.13086163997650146,
+    "min": 0.09964895248413086,
+    "max": 0.16207432746887207,
+    "p95": 0.158953058719635
+  },
+  "role_analysis": {
+    "Caller": {
+      "count": 2,
+      "accuracy": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "eot_ratio": 1.0
+    }
+  },
+  "error_summary": {
+    "false_positives": 0,
+    "false_negatives": 2
+  }
+}

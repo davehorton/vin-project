@@ -1,0 +1,44 @@
+{
+  "results": [
+    {
+      "timestamp": "00:00:01",
+      "role": "Speaker 0",
+      "content": "Good afternoon. Maryline. Diane speaking."
+    },
+    {
+      "timestamp": "00:00:03",
+      "role": "Speaker 1",
+      "content": "Hello. I'd like to order a taxi, please."
+    },
+    {
+      "timestamp": "00:00:06",
+      "role": "Speaker 0",
+      "content": "Where are you going?"
+    },
+    {
+      "timestamp": "00:00:08",
+      "role": "Speaker 1",
+      "content": "44 Sussex Road."
+    },
+    {
+      "timestamp": "00:00:10",
+      "role": "Speaker 0",
+      "content": "And what's the name? Joe. Yep. That's all done."
+    },
+    {
+      "timestamp": "00:00:15",
+      "role": "Speaker 1",
+      "content": "Alright. Thank you."
+    },
+    {
+      "timestamp": "00:00:16",
+      "role": "Speaker 0",
+      "content": "Bye bye."
+    },
+    {
+      "timestamp": "00:00:17",
+      "role": "Speaker 1",
+      "content": "Bye."
+    }
+  ]
+}

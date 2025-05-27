@@ -1,0 +1,89 @@
+{
+    "results": [
+        {
+            "Content": "Cannon Cars.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Hiya. Um, I'm just calling, um",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "on behalf of one of my clients. I'm basically a dog walker.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "And, talking with someone, sorry.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Um, and, basically,",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "one of my clients, she",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "she would like to get a cab over to my, um, my salon.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "And,",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "she's got quite a big dog, so I'm just",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "No, we only take lapdogs, I'm afraid.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "No worries. That's fine.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Sorry.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Thank you.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Thanks, bye. Thank you.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Bye.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Thanks, bye.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Bye.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        }
+    ]
+}

@@ -1,0 +1,89 @@
+{
+    "results": [
+        {
+            "Content": "Welcome to Falcon Taxis 24/7. Thank you for calling. One of our team members will be with you shortly to assist with your booking. With our reliable round the clock service, we're ready to get you where you need to be.",
+            "EndOfTurn": true,
+            "Role": "Virtual Assistant"
+        },
+        {
+            "Content": "Falcon Taxis.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Oh, yeah. Hi there. Can I book a taxi for 02:30, uh",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "At 50 Elsbury Road?",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "The pick-up is at what time? 2:30?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "2:30.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "2:30, alright.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "50 Elsbury Road. And you're going to?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "To, uh, Wing Flats, uh, um",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Wendover.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Sure. That's booked for you. Um.",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "See you at 50 Elsbury Road at 2:30.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Okay. Can I check the price on that?",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "$11.50.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Alright. Great. Thanks very much.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Alright. Thank you. Bye.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Bye.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        }
+    ]
+}

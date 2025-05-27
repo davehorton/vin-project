@@ -1,0 +1,74 @@
+{
+    "results": [
+        {
+            "timestamp": "00:00:00",
+            "role": "Caller",
+            "content": "[...]."
+        },
+        {
+            "timestamp": "00:00:01",
+            "role": "Virtual Assistant",
+            "content": "You are at queue position 1."
+        },
+        {
+            "timestamp": "00:00:05",
+            "role": "Assistant",
+            "content": "Happicab. Good afternoon."
+        },
+        {
+            "timestamp": "00:00:11",
+            "role": "Caller",
+            "content": "Hello?"
+        },
+        {
+            "timestamp": "00:00:13",
+            "role": "Assistant",
+            "content": "Yeah. Hiya. How can I help?"
+        },
+        {
+            "timestamp": "00:00:15",
+            "role": "Caller",
+            "content": "Can I have a taxi, please?"
+        },
+        {
+            "timestamp": "00:00:17",
+            "role": "Assistant",
+            "content": "Where from?"
+        },
+        {
+            "timestamp": "00:00:19",
+            "role": "Caller",
+            "content": "28 Shakespeare Drive."
+        },
+        {
+            "timestamp": "00:00:22",
+            "role": "Assistant",
+            "content": "Where are you going to?"
+        },
+        {
+            "timestamp": "00:00:24",
+            "role": "Caller",
+            "content": "West Station Yard, Maldon."
+        },
+        {
+            "timestamp": "00:00:28",
+            "role": "Assistant",
+            "content": "Okay. Is that for Muhammad?"
+        },
+        {
+            "timestamp": "00:00:32",
+            "role": "Caller",
+            "content": "Yep. Thank you."
+        },
+        {
+            "timestamp": "00:00:35",
+            "role": "Assistant",
+            "content": "Thank you, darling. All booked-in for you. See you in about ten minutes."
+        },
+        {
+            "timestamp": "00:00:38",
+            "role": "Caller",
+            "content": "Alright. Thank you."
+        }
+    ]
+}

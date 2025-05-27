@@ -1,0 +1,49 @@
+{
+    "results": [
+        {
+            "timestamp": "00:00:00",
+            "role": "Virtual Assistant",
+            "content": "You are at queue position--"
+        },
+        {
+            "timestamp": "00:00:03",
+            "role": "Assistant",
+            "content": "Hello, Emess Cars."
+        },
+        {
+            "timestamp": "00:00:05",
+            "role": "Caller",
+            "content": "Hi. Please can I have a car from 11 Clockhouse?"
+        },
+        {
+            "timestamp": "00:00:08",
+            "role": "Assistant",
+            "content": "Yes. Going to, please."
+        },
+        {
+            "timestamp": "00:00:10",
+            "role": "Caller",
+            "content": "To 94 Craven Park Road."
+        },
+        {
+            "timestamp": "00:00:16",
+            "role": "Assistant",
+            "content": "94 Craven Park Road. What time?"
+        },
+        {
+            "timestamp": "00:00:20",
+            "role": "Caller",
+            "content": "As soon as possible, please."
+        },
+        {
+            "timestamp": "00:00:23",
+            "role": "Assistant",
+            "content": "Yep. On his way now. Thank you."
+        },
+        {
+            "timestamp": "00:00:25",
+            "role": "Caller",
+            "content": "Thank you."
+        }
+    ]
+}

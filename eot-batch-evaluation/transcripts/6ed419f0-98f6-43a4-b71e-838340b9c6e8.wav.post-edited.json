@@ -1,0 +1,74 @@
+{
+    "results": [
+        {
+            "Content": "Welcome to Cary Worldwide Chauffeured Services.",
+            "EndOfTurn": true,
+            "Role": "Virtual Assistant"
+        },
+        {
+            "Content": "To help us direct your call, please choose one of the following opti--",
+            "EndOfTurn": false,
+            "Role": "Virtual Assistant"
+        },
+        {
+            "Content": "Hey.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Hello?",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "[...].",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "[...]. Sorry I missed your call.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "I was in the shower.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": " One second. Let me see.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "One sec.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "And maybe, Shanta, he's not here right now. He'll call you back later.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Okay. No problem. Thank",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Okay.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "you.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "You're welcome. Bye.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        }
+    ]
+}

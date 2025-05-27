@@ -1,0 +1,177 @@
+{
+  "file_path": "transcripts/66391b9d-8fe1-47f0-b553-fa36aaf14cc9.wav.post-edited.json",
+  "file_name": "66391b9d-8fe1-47f0-b553-fa36aaf14cc9.wav.post-edited.json",
+  "utterance_analysis": [
+    {
+      "index": 0,
+      "content": "Car service.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.0005765774403698742,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 1,
+      "content": "Oh, hello. Could I have a cab from Riley House Surgery, please? To go to 103 Addison Road?",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.019813671708106995,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 2,
+      "content": "Yep. So we're picking up from Riley House Surgery, and you're",
+      "role": "Assistant",
+      "ground_truth": 0,
+      "predicted_probability": 0.6306746006011963,
+      "predicted_label": 1,
+      "is_correct": false
+    },
+    {
+      "index": 3,
+      "content": "That's right.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.00535568268969655,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 4,
+      "content": "going back to Addison Road for Mrs. Stock, yeah?",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.046873774379491806,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 5,
+      "content": "Yeah. Yeah. Yeah. Thank you.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.009037686511874199,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 6,
+      "content": "That's okay. He's on the way. Bye.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.03239795193076134,
+      "predicted_label": 0,
+      "is_correct": false
+    }
+  ],
+  "f1_scores": {
+    "0.1": 0.0,
+    "0.2": 0.0,
+    "0.3": 0.0,
+    "0.4": 0.0,
+    "0.5": 0.0,
+    "0.6": 0.0,
+    "0.7": 0.0,
+    "0.8": 0.0,
+    "0.9": 0.0
+  },
+  "optimal_threshold": 0.5,
+  "roc": {
+    "fpr": [
+      0.0,
+      1.0,
+      1.0
+    ],
+    "tpr": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "thresholds": [
+      Infinity,
+      0.6306746006011963,
+      0.0005765774403698742
+    ],
+    "auc": 0.0
+  },
+  "pr": {
+    "precision": [
+      0.8571428571428571,
+      0.8333333333333334,
+      0.8,
+      0.75,
+      0.6666666666666666,
+      0.5,
+      0.0,
+      1.0
+    ],
+    "recall": [
+      1.0,
+      0.8333333333333334,
+      0.6666666666666666,
+      0.5,
+      0.3333333333333333,
+      0.16666666666666666,
+      0.0,
+      0.0
+    ],
+    "thresholds": [
+      0.0005765774403698742,
+      0.00535568268969655,
+      0.009037686511874199,
+      0.019813671708106995,
+      0.03239795193076134,
+      0.046873774379491806,
+      0.6306746006011963
+    ]
+  },
+  "confusion_matrix": [
+    [
+      0,
+      1
+    ],
+    [
+      6,
+      0
+    ]
+  ],
+  "metrics": {
+    "accuracy": 0.0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "total_utterances": 7,
+    "eot_ratio": 0.8571428571428571
+  },
+  "latency": {
+    "mean": 0.27124769347054617,
+    "median": 0.2633051872253418,
+    "min": 0.08980607986450195,
+    "max": 0.4273717403411865,
+    "p95": 0.4110390186309814
+  },
+  "role_analysis": {
+    "Assistant": {
+      "count": 4,
+      "accuracy": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "eot_ratio": 0.75
+    },
+    "Caller": {
+      "count": 3,
+      "accuracy": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "eot_ratio": 1.0
+    }
+  },
+  "error_summary": {
+    "false_positives": 1,
+    "false_negatives": 6
+  }
+}

@@ -1,0 +1,79 @@
+{
+    "results": [
+        {
+            "Content": "Cars.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Hello. I'm at, uh, Princess",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Princess Royal. And where do you wanna go to?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Yeah. I want to go to Sidcup.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "What",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Um,",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "road code?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "to 63 Langford Place.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "And what's your name?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Uh, it's Eydmann. E, Y, D, M, A, double-N.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "And for now, yeah, about five minutes for you.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "So, I'll wait at the main drop off point, yeah? I'm a tall man with gray hair. Yeah.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "No problem. All done for you.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Thank you.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "See-ya, bye.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        }
+    ]
+}

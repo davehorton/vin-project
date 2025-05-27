@@ -1,0 +1,987 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EOT Detection Evaluation - fff7cebe-e4ff-439e-a9cc-17088e4b20aa.wav.post-edited.json</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2, h3 {
+            color: #2c3e50;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #eee;
+        }
+        h2 {
+            margin-top: 30px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #eee;
+        }
+        .metrics-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .metric-card {
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-radius: 6px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+            flex: 1 1 200px;
+        }
+        .metric-value {
+            font-size: 24px;
+            font-weight: bold;
+            color: #3498db;
+            margin-top: 5px;
+        }
+        .conversation {
+            margin-top: 30px;
+            border: 1px solid #eee;
+            border-radius: 8px;
+        }
+        .utterance {
+            padding: 12px 15px;
+            margin: 8px 0;
+            border-radius: 6px;
+            position: relative;
+        }
+        .assistant {
+            background-color: #e3f2fd;
+            margin-right: 10%;
+            border-left: 5px solid #2196F3;
+        }
+        .caller {
+            background-color: #f1f8e9;
+            margin-left: 10%;
+            border-left: 5px solid #8bc34a;
+        }
+        .prediction-marker {
+            position: absolute;
+            right: 10px;
+            top: 10px;
+            padding: 3px 8px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: bold;
+        }
+        .eot-true {
+            border-right: 5px solid #4caf50;
+        }
+        .eot-false {
+            border-right: 5px solid #ff9800;
+        }
+        .pred-correct {
+            background-color: #e8f5e9;
+            color: #2e7d32;
+        }
+        .pred-incorrect {
+            background-color: #ffebee;
+            color: #c62828;
+        }
+        .truth-footer {
+            display: flex;
+            gap: 20px;
+            margin-top: 10px;
+            font-size: 14px;
+        }
+        .truth-indicator {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+        .indicator {
+            display: inline-block;
+            width: 15px;
+            height: 15px;
+            border-radius: 3px;
+        }
+        .legend {
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #f5f5f5;
+            border-radius: 6px;
+        }
+        .legend-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 8px;
+        }
+        .legend-color {
+            width: 20px;
+            height: 20px;
+            margin-right: 10px;
+            border-radius: 4px;
+        }
+        .error-analysis {
+            margin-top: 30px;
+        }
+        .error-chart {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 15px;
+        }
+        .error-bar {
+            height: 30px;
+            margin: 10px 0;
+            background-color: #ff5252;
+            color: white;
+            display: flex;
+            align-items: center;
+            padding-left: 10px;
+            border-radius: 4px;
+        }
+        .role-metrics {
+            display: flex;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .role-card {
+            flex: 1;
+            padding: 15px;
+            border-radius: 8px;
+            background-color: #f8f9fa;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+        .role-title {
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 10px;
+            font-size: 18px;
+        }
+        .metric-row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 5px;
+        }
+        .threshold-analysis {
+            margin-top: 30px;
+        }
+        .threshold-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+        .threshold-table th,
+        .threshold-table td {
+            padding: 10px;
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+        .threshold-table th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+        .threshold-table tr.optimal {
+            background-color: #e3f2fd;
+            font-weight: bold;
+        }
+        .file-info {
+            margin-top: 20px;
+            font-size: 12px;
+            color: #666;
+            text-align: right;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>End-of-Turn Detection Evaluation</h1>
+        
+        <h2>Performance Overview</h2>
+        <div class="metrics-container">
+            <div class="metric-card">
+                <div class="metric-name">Accuracy</div>
+                <div class="metric-value">28.4%</div>
+            </div>
+            <div class="metric-card">
+                <div class="metric-name">Precision</div>
+                <div class="metric-value">0.0%</div>
+            </div>
+            <div class="metric-card">
+                <div class="metric-name">Recall</div>
+                <div class="metric-value">0.0%</div>
+            </div>
+            <div class="metric-card">
+                <div class="metric-name">F1 Score</div>
+                <div class="metric-value">0.0%</div>
+            </div>
+            <div class="metric-card">
+                <div class="metric-name">AUC</div>
+                <div class="metric-value">0.46</div>
+            </div>
+            <div class="metric-card">
+                <div class="metric-name">EOT Ratio</div>
+                <div class="metric-value">71.6%</div>
+            </div>
+        </div>
+
+        <div class="legend">
+            <h3>Legend</h3>
+            <div class="legend-item">
+                <div class="legend-color" style="border-right: 5px solid #4caf50;"></div>
+                <div>Ground Truth: End-of-Turn = True</div>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color" style="border-right: 5px solid #ff9800;"></div>
+                <div>Ground Truth: End-of-Turn = False</div>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color" style="background-color: #e8f5e9;"></div>
+                <div>Correct Prediction</div>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color" style="background-color: #ffebee;"></div>
+                <div>Incorrect Prediction</div>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color" style="background-color: #e3f2fd; border-left: 5px solid #2196F3;"></div>
+                <div>Assistant</div>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color" style="background-color: #f1f8e9; border-left: 5px solid #8bc34a;"></div>
+                <div>Caller</div>
+            </div>
+        </div>
+
+        <h2>Conversation Transcript with Predictions</h2>
+        <div class="conversation">
+
+            <div class="utterance virtual assistant eot-false">
+                <div class="prediction-marker pred-correct">Prediction: 0.014</div>
+                <strong>Virtual Assistant:</strong> Welcome to Falcon Taxis Twenty F--
+            </div>
+            
+            <div class="utterance dispatch 1 eot-true">
+                <div class="prediction-marker pred-incorrect">Prediction: 0.002</div>
+                <strong>Dispatch 1:</strong> Falcon Taxis.
+            </div>
+            
+            <div class="utterance driver eot-false">
+                <div class="prediction-marker pred-correct">Prediction: 0.103</div>
+                <strong>Driver:</strong> Hi
+            </div>
+            
+            <div class="utterance dispatch 1 eot-true">
+                <div class="prediction-marker pred-incorrect">Prediction: 0.007</div>
+                <strong>Dispatch 1:</strong> Yeah.
+            </div>
+            
+            <div class="utterance driver eot-false">
+                <div class="prediction-marker pred-correct">Prediction: 0.437</div>
+                <strong>Driver:</strong> Uh, the customer, he already with online, uh, so I mean by the card, bank card,
+            </div>
+            
+            <div class="utterance dispatch 1 eot-true">
+                <div class="prediction-marker pred-incorrect">Prediction: 0.030</div>
+                <strong>Dispatch 1:</strong> Okay.
+            </div>
+            
+            <div class="utterance driver eot-true">
+                <div class="prediction-marker pred-incorrect">Prediction: 0.051</div>
+                <strong>Driver:</strong> but the transaction is got to getting through because of no signal. Can you see history he's got paid or not?
+            </div>
+            
+            <div class="utterance dispatch 1 eot-false">
+                <div class="prediction-marker pred-correct">Prediction: 0.240</div>
+                <strong>Dispatch 1:</strong> Mm, just,
+            </div>
+            
+            <div class="utterance driver eot-true">
+                <div class="prediction-marker pred-incorrect">Prediction: 0.011</div>
+                <strong>Driver:</strong> He paid already because I, I seen that he paid and the job coming back again.
+            </div>
+            
+            <div class="utterance dispatch 1 eot-true">
+                <div class="prediction-marker pred-incorrect">Prediction: 0.011</div>
+                <strong>Dispatch 1:</strong> Just a moment.
+            </div>
+            
+            <div class="utterance dispatch 1 eot-false">
+                <div class="prediction-marker pred-correct">Prediction: 0.377</div>
+                <strong>Dispatch 1:</strong> I'm just checking it. Yeah? Just a moment,
+            </div>
+            
+            <div class="utterance driver eot-true">
+                <div class="prediction-marker pred-incorrect">Prediction: 0.012</div>
+                <strong>Driver:</strong> Yeah.
+            </div>
+            
+            <div class="utterance dispatch 1 eot-true">
+                <div class="prediction-marker pred-incorrect">Prediction: 0.021</div>
+                <strong>Dispatch 1:</strong> please.
+            </div>
+            
+            <div class="utterance dispatch 1 eot-true">
+                <div class="prediction-marker pred-incorrect">Prediction: 0.021</div>
+                <strong>Dispatch 1:</strong> Hello?
+            </div>
+            
+            <div class="utterance driver eot-true">
+                <div class="prediction-marker pred-incorrect">Prediction: 0.013</div>
+                <strong>Driver:</strong> Yeah.
+            </div>
+            
+            <div class="utterance dispatch 1 eot-true">
+                <div class="prediction-marker pred-incorrect">Prediction: 0.068</div>
+                <strong>Dispatch 1:</strong> Yeah. Do you got your personal card reader?
+            </div>
+            
+            <div class="utterance driver eot-true">
+                <div class="prediction-marker pred-incorrect">Prediction: 0.026</div>
+                <strong>Driver:</strong> Yes.
+            </div>
+            
+            <div class="utterance dispatch 1 eot-true">
+                <div class="prediction-marker pred-incorrect">Prediction: 0.012</div>
+                <strong>Dispatch 1:</strong> Okay.
+            </div>
+            
+            <div class="utterance dispatch 1 eot-true">
+                <div class="prediction-marker pred-incorrect">Prediction: 0.017</div>
+                <strong>Dispatch 1:</strong> Just give me a moment.
+            </div>
+            
+            <div class="utterance dispatch 1 eot-true">
+                <div class="prediction-marker pred-incorrect">Prediction: 0.014</div>
+                <strong>Dispatch 1:</strong> Just a quick moment.
+            </div>
+            
+            <div class="utterance dispatch 1 eot-true">
+                <div class="prediction-marker pred-incorrect">Prediction: 0.023</div>
+                <strong>Dispatch 1:</strong> One second.
+            </div>
+            
+            <div class="utterance virtual assistant eot-false">
+                <div class="prediction-marker pred-correct">Prediction: 0.144</div>
+                <strong>Virtual Assistant:</strong> If you're heading to or from the airport, rest assured, we've got everything covered for a seamless journey. With our advanced flight tracker, we automatically stay updated on any changes to your flight schedule. So whether you land early or a bit later than expected,
+            </div>
+            
+            <div class="utterance virtual assistant eot-true">
+                <div class="prediction-marker pred-incorrect">Prediction: 0.003</div>
+                <strong>Virtual Assistant:</strong> Falcon Taxis 24/7 will be there waiting for you. Think taxi. Think Falcon.
+            </div>
+            
+            <div class="utterance virtual assistant eot-true">
+                <div class="prediction-marker pred-incorrect">Prediction: 0.006</div>
+                <strong>Virtual Assistant:</strong> 0-1-2-9-6-2-4-7-2-4-7.
+            </div>
+            
+            <div class="utterance virtual assistant eot-false">
+                <div class="prediction-marker pred-correct">Prediction: 0.149</div>
+                <strong>Virtual Assistant:</strong> From a luxury business saloon to 16 seat people carriers,
+            </div>
+            
+            <div class="utterance virtual assistant eot-true">
+                <div class="prediction-marker pred-incorrect">Prediction: 0.004</div>
+                <strong>Virtual Assistant:</strong> we've got you covered. Need wheelchair accessible options? We have e class and s class Mercedes available for you. Think taxi. Think Falcon.
+            </div>
+            
+            <div class="utterance virtual assistant eot-true">
+                <div class="prediction-marker pred-incorrect">Prediction: 0.004</div>
+                <strong>Virtual Assistant:</strong> 0-1-2-9-6-2-4-7-2-4-7.
+            </div>
+            
+            <div class="utterance virtual assistant eot-true">
+                <div class="prediction-marker pred-incorrect">Prediction: 0.004</div>
+                <strong>Virtual Assistant:</strong> Did you know that you can book your next ride with us in just a few taps? Download our app on Google Play or the App Store and book directly anytime.
+            </div>
+            
+            <div class="utterance virtual assistant eot-true">
+                <div class="prediction-marker pred-incorrect">Prediction: 0.004</div>
+                <strong>Virtual Assistant:</strong> You can also book via WhatsApp to save time and skip the wait for an operator. And right now, you can enjoy a 10% discount on all WhatsApp bookings.
+            </div>
+            
+            <div class="utterance virtual assistant eot-false">
+                <div class="prediction-marker pred-correct">Prediction: 0.004</div>
+                <strong>Virtual Assistant:</strong> If you're heading to or from the airport,
+            </div>
+            
+            <div class="utterance virtual assistant eot-true">
+                <div class="prediction-marker pred-incorrect">Prediction: 0.004</div>
+                <strong>Virtual Assistant:</strong> rest assured we've got everything covered for a seamless journey.
+            </div>
+            
+            <div class="utterance dispatch 1 eot-true">
+                <div class="prediction-marker pred-incorrect">Prediction: 0.004</div>
+                <strong>Dispatch 1:</strong> Hello.
+            </div>
+            
+            <div class="utterance driver eot-true">
+                <div class="prediction-marker pred-incorrect">Prediction: 0.004</div>
+                <strong>Driver:</strong> Yeah, hello?
+            </div>
+            
+            <div class="utterance dispatch 1 eot-true">
+                <div class="prediction-marker pred-incorrect">Prediction: 0.004</div>
+                <strong>Dispatch 1:</strong> Yeah. Did the customer pay in front of you?
+            </div>
+            
+            <div class="utterance driver eot-true">
+                <div class="prediction-marker pred-incorrect">Prediction: 0.004</div>
+                <strong>Driver:</strong> Sorry?
+            </div>
+            
+            <div class="utterance dispatch 1 eot-true">
+                <div class="prediction-marker pred-incorrect">Prediction: 0.004</div>
+                <strong>Dispatch 1:</strong> Did she pay it in front of you?
+            </div>
+            
+            <div class="utterance driver eot-true">
+                <div class="prediction-marker pred-incorrect">Prediction: 0.004</div>
+                <strong>Driver:</strong> Yes.
+            </div>
+            
+            <div class="utterance dispatch 1 eot-false">
+                <div class="prediction-marker pred-correct">Prediction: 0.004</div>
+                <strong>Dispatch 1:</strong> Okay. And
+            </div>
+            
+            <div class="utterance dispatch 1 eot-true">
+                <div class="prediction-marker pred-incorrect">Prediction: 0.004</div>
+                <strong>Dispatch 1:</strong> because I don't know for what some reason, it's not coming up in the system.
+            </div>
+            
+            <div class="utterance dispatch 1 eot-false">
+                <div class="prediction-marker pred-correct">Prediction: 0.004</div>
+                <strong>Dispatch 1:</strong> And my dispatch is busy right now. I'm trying calling her
+            </div>
+            
+            <div class="utterance dispatch 1 eot-false">
+                <div class="prediction-marker pred-correct">Prediction: 0.004</div>
+                <strong>Dispatch 1:</strong> to get into this. So
+            </div>
+            
+            <div class="utterance driver eot-true">
+                <div class="prediction-marker pred-incorrect">Prediction: 0.004</div>
+                <strong>Driver:</strong> Oh.
+            </div>
+            
+            <div class="utterance dispatch 1 eot-false">
+                <div class="prediction-marker pred-correct">Prediction: 0.004</div>
+                <strong>Dispatch 1:</strong> it is taking a while, but
+            </div>
+            
+            <div class="utterance dispatch 1 eot-false">
+                <div class="prediction-marker pred-correct">Prediction: 0.004</div>
+                <strong>Dispatch 1:</strong> I don't know how long will she take. So,
+            </div>
+            
+            <div class="utterance dispatch 1 eot-true">
+                <div class="prediction-marker pred-incorrect">Prediction: 0.004</div>
+                <strong>Dispatch 1:</strong> how long will you take to declare this job?
+            </div>
+            
+            <div class="utterance driver eot-true">
+                <div class="prediction-marker pred-incorrect">Prediction: 0.004</div>
+                <strong>Driver:</strong> Just for uh two, three minutes minutes now. Two, three minutes.
+            </div>
+            
+            <div class="utterance dispatch 1 eot-false">
+                <div class="prediction-marker pred-correct">Prediction: 0.004</div>
+                <strong>Dispatch 1:</strong> Two, three minutes? O--
+            </div>
+            
+            <div class="utterance driver eot-true">
+                <div class="prediction-marker pred-incorrect">Prediction: 0.004</div>
+                <strong>Driver:</strong> Yeah.
+            </div>
+            
+            <div class="utterance dispatch 1 eot-true">
+                <div class="prediction-marker pred-incorrect">Prediction: 0.004</div>
+                <strong>Dispatch 1:</strong> --kay.
+            </div>
+            
+            <div class="utterance dispatch 1 eot-true">
+                <div class="prediction-marker pred-incorrect">Prediction: 0.004</div>
+                <strong>Dispatch 1:</strong> I'm just trying calling her again and again.
+            </div>
+            
+            <div class="utterance dispatch 1 eot-true">
+                <div class="prediction-marker pred-incorrect">Prediction: 0.004</div>
+                <strong>Dispatch 1:</strong> You just be on the line. Yeah?
+            </div>
+            
+            <div class="utterance driver eot-false">
+                <div class="prediction-marker pred-correct">Prediction: 0.004</div>
+                <strong>Driver:</strong> Yeah. That's the boy paid,
+            </div>
+            
+            <div class="utterance driver eot-false">
+                <div class="prediction-marker pred-correct">Prediction: 0.004</div>
+                <strong>Driver:</strong> uh,
+            </div>
+            
+            <div class="utterance dispatch 1 eot-true">
+                <div class="prediction-marker pred-incorrect">Prediction: 0.004</div>
+                <strong>Dispatch 1:</strong> I'm sorry. You were saying something?
+            </div>
+            
+            <div class="utterance driver eot-false">
+                <div class="prediction-marker pred-correct">Prediction: 0.004</div>
+                <strong>Driver:</strong> That's the boy, the school boy paid,
+            </div>
+            
+            <div class="utterance driver eot-false">
+                <div class="prediction-marker pred-correct">Prediction: 0.004</div>
+                <strong>Driver:</strong> by the,
+            </div>
+            
+            <div class="utterance dispatch 1 eot-false">
+                <div class="prediction-marker pred-correct">Prediction: 0.004</div>
+                <strong>Dispatch 1:</strong> Yes. As we've done, my school is a firefroze meat, Halton. Yeah. No problem. I
+            </div>
+            
+            <div class="utterance driver eot-true">
+                <div class="prediction-marker pred-incorrect">Prediction: 0.004</div>
+                <strong>Driver:</strong> Yeah.
+            </div>
+            
+            <div class="utterance dispatch 1 eot-true">
+                <div class="prediction-marker pred-incorrect">Prediction: 0.004</div>
+                <strong>Dispatch 1:</strong> got this one here.
+            </div>
+            
+            <div class="utterance dispatch 1 eot-true">
+                <div class="prediction-marker pred-incorrect">Prediction: 0.004</div>
+                <strong>Dispatch 1:</strong> I'm looking in the system.
+            </div>
+            
+            <div class="utterance driver eot-false">
+                <div class="prediction-marker pred-correct">Prediction: 0.004</div>
+                <strong>Driver:</strong> Yeah, I'm not getting any
+            </div>
+            
+            <div class="utterance virtual assistant eot-true">
+                <div class="prediction-marker pred-incorrect">Prediction: 0.004</div>
+                <strong>Virtual Assistant:</strong> On WhatsApp in time and skip the wait for an operator. And right now, you can enjoy our 10% discount on all WhatsApp bookings.
+            </div>
+            
+            <div class="utterance virtual assistant eot-false">
+                <div class="prediction-marker pred-correct">Prediction: 0.004</div>
+                <strong>Virtual Assistant:</strong> If you're heading to or from the airport,
+            </div>
+            
+            <div class="utterance virtual assistant eot-false">
+                <div class="prediction-marker pred-correct">Prediction: 0.004</div>
+                <strong>Virtual Assistant:</strong> rest assured, we've got everything covered for a seamless journey. With our advanced flight tracker, we automatically stay updated on any changes to your flight schedule. So whether you land early or a bit later than expected,
+            </div>
+            
+            <div class="utterance virtual assistant eot-true">
+                <div class="prediction-marker pred-incorrect">Prediction: 0.004</div>
+                <strong>Virtual Assistant:</strong> Falcon taxes 24/7 will be there waiting for you. Think taxi. Think Falcon.
+            </div>
+            
+            <div class="utterance virtual assistant eot-true">
+                <div class="prediction-marker pred-incorrect">Prediction: 0.004</div>
+                <strong>Virtual Assistant:</strong> 0-1-2-9-6-2-4-7-2-4-7.
+            </div>
+            
+            <div class="utterance virtual assistant eot-true">
+                <div class="prediction-marker pred-incorrect">Prediction: 0.004</div>
+                <strong>Virtual Assistant:</strong> From luxury business saloon to 16 seat people carriers, we've got you covered. Need wheelchair accessible options? We have e class and s class Mercedes available for you. Think taxi. Think Falcon.
+            </div>
+            
+            <div class="utterance virtual assistant eot-true">
+                <div class="prediction-marker pred-incorrect">Prediction: 0.004</div>
+                <strong>Virtual Assistant:</strong> 0-1-2-9-6-2-4-7-2-4-7.
+            </div>
+            
+            <div class="utterance virtual assistant eot-false">
+                <div class="prediction-marker pred-correct">Prediction: 0.004</div>
+                <strong>Virtual Assistant:</strong> Did you know that you can book your next ride with us in just a few taps? Download our app on Google Play or the App Store and book directly
+            </div>
+            
+            <div class="utterance virtual assistant eot-false">
+                <div class="prediction-marker pred-correct">Prediction: 0.004</div>
+                <strong>Virtual Assistant:</strong> anytime. You can also book via WhatsApp to save time and skip the wait for an operator. And right now, you can enjoy our 10% discount
+            </div>
+            
+            <div class="utterance dispatch 2 eot-true">
+                <div class="prediction-marker pred-incorrect">Prediction: 0.004</div>
+                <strong>Dispatch 2:</strong> Hello, Taxis.
+            </div>
+            
+            <div class="utterance driver eot-true">
+                <div class="prediction-marker pred-incorrect">Prediction: 0.004</div>
+                <strong>Driver:</strong> Yes, hi.
+            </div>
+            
+            <div class="utterance dispatch 2 eot-true">
+                <div class="prediction-marker pred-incorrect">Prediction: 0.004</div>
+                <strong>Dispatch 2:</strong> Sorry, um, the operator just put you through to me. Can I help?
+            </div>
+            
+            <div class="utterance driver eot-false">
+                <div class="prediction-marker pred-correct">Prediction: 0.004</div>
+                <strong>Driver:</strong> Yep. Uh,
+            </div>
+            
+            <div class="utterance driver eot-true">
+                <div class="prediction-marker pred-incorrect">Prediction: 0.004</div>
+                <strong>Driver:</strong> the boy, he paid, on, uh, in front of me.
+            </div>
+            
+            <div class="utterance driver eot-false">
+                <div class="prediction-marker pred-correct">Prediction: 0.004</div>
+                <strong>Driver:</strong> And uh,
+            </div>
+            
+            <div class="utterance driver eot-true">
+                <div class="prediction-marker pred-incorrect">Prediction: 0.004</div>
+                <strong>Driver:</strong> still the job didn't complete it. I don't know why.
+            </div>
+            
+            <div class="utterance dispatch 2 eot-true">
+                <div class="prediction-marker pred-incorrect">Prediction: 0.004</div>
+                <strong>Dispatch 2:</strong> He paid you cash?
+            </div>
+            
+            <div class="utterance driver eot-true">
+                <div class="prediction-marker pred-incorrect">Prediction: 0.004</div>
+                <strong>Driver:</strong> Uh, no. By the payment.
+            </div>
+            
+            <div class="utterance driver eot-true">
+                <div class="prediction-marker pred-incorrect">Prediction: 0.004</div>
+                <strong>Driver:</strong> Uh, by the card.
+            </div>
+            
+            <div class="utterance dispatch 2 eot-true">
+                <div class="prediction-marker pred-incorrect">Prediction: 0.004</div>
+                <strong>Dispatch 2:</strong> Why did you pay you by card? It's on account.
+            </div>
+            
+            <div class="utterance driver eot-true">
+                <div class="prediction-marker pred-incorrect">Prediction: 0.004</div>
+                <strong>Driver:</strong> It's not the card. It's a cash table.
+            </div>
+            
+            <div class="utterance dispatch 2 eot-true">
+                <div class="prediction-marker pred-incorrect">Prediction: 0.004</div>
+                <strong>Dispatch 2:</strong> What driver are you? Sorry.
+            </div>
+            
+            <div class="utterance driver eot-true">
+                <div class="prediction-marker pred-incorrect">Prediction: 0.004</div>
+                <strong>Driver:</strong> 7-6-5.
+            </div>
+            
+            <div class="utterance dispatch 2 eot-true">
+                <div class="prediction-marker pred-incorrect">Prediction: 0.004</div>
+                <strong>Dispatch 2:</strong> 7-6-5?
+            </div>
+            
+            <div class="utterance driver eot-true">
+                <div class="prediction-marker pred-incorrect">Prediction: 0.004</div>
+                <strong>Driver:</strong> Yes.
+            </div>
+            
+            <div class="utterance dispatch 2 eot-true">
+                <div class="prediction-marker pred-incorrect">Prediction: 0.004</div>
+                <strong>Dispatch 2:</strong> Oh, sorry. I thought I got the wrong driver there. Just give me one second.
+            </div>
+            
+            <div class="utterance dispatch 2 eot-false">
+                <div class="prediction-marker pred-correct">Prediction: 0.004</div>
+                <strong>Dispatch 2:</strong> Boy's grammar school. So he's already paid you on the SumUp
+            </div>
+            
+            <div class="utterance driver eot-true">
+                <div class="prediction-marker pred-incorrect">Prediction: 0.004</div>
+                <strong>Driver:</strong> Yeah, he's paid.
+            </div>
+            
+            <div class="utterance dispatch 2 eot-true">
+                <div class="prediction-marker pred-incorrect">Prediction: 0.004</div>
+                <strong>Dispatch 2:</strong> machine?
+            </div>
+            
+            <div class="utterance dispatch 2 eot-true">
+                <div class="prediction-marker pred-incorrect">Prediction: 0.004</div>
+                <strong>Dispatch 2:</strong> Um, it doesn't look like it's gone through.
+            </div>
+            
+            <div class="utterance driver eot-false">
+                <div class="prediction-marker pred-correct">Prediction: 0.004</div>
+                <strong>Driver:</strong> It is gone through, because I recieved the, uh,
+            </div>
+            
+            <div class="utterance driver eot-true">
+                <div class="prediction-marker pred-incorrect">Prediction: 0.004</div>
+                <strong>Driver:</strong> the pings.
+            </div>
+            
+            <div class="utterance dispatch 2 eot-false">
+                <div class="prediction-marker pred-correct">Prediction: 0.004</div>
+                <strong>Dispatch 2:</strong> Okay. Shall I complete it
+            </div>
+            
+            <div class="utterance driver eot-true">
+                <div class="prediction-marker pred-incorrect">Prediction: 0.004</div>
+                <strong>Driver:</strong> Sorry, excuse me.
+            </div>
+            
+            <div class="utterance dispatch 2 eot-true">
+                <div class="prediction-marker pred-incorrect">Prediction: 0.004</div>
+                <strong>Dispatch 2:</strong> then?
+            </div>
+            
+            <div class="utterance driver eot-true">
+                <div class="prediction-marker pred-incorrect">Prediction: 0.004</div>
+                <strong>Driver:</strong> Sorry?
+            </div>
+            
+            <div class="utterance dispatch 2 eot-true">
+                <div class="prediction-marker pred-incorrect">Prediction: 0.004</div>
+                <strong>Dispatch 2:</strong> Shall I complete it?
+            </div>
+            
+            <div class="utterance dispatch 2 eot-true">
+                <div class="prediction-marker pred-incorrect">Prediction: 0.004</div>
+                <strong>Dispatch 2:</strong> Shall I complete the job for you?
+            </div>
+            
+            <div class="utterance dispatch 2 eot-true">
+                <div class="prediction-marker pred-incorrect">Prediction: 0.004</div>
+                <strong>Dispatch 2:</strong> I will complete the job for you then. Yeah?
+            </div>
+            
+            <div class="utterance driver eot-true">
+                <div class="prediction-marker pred-incorrect">Prediction: 0.004</div>
+                <strong>Driver:</strong> Okay.
+            </div>
+            
+            <div class="utterance dispatch 2 eot-true">
+                <div class="prediction-marker pred-incorrect">Prediction: 0.004</div>
+                <strong>Dispatch 2:</strong> Okay.
+            </div>
+            
+        </div>
+
+        <h2>Error Analysis</h2>
+        <div class="error-analysis">
+            <div class="metrics-container">
+                <div class="metric-card">
+                    <div class="metric-name">False Positives</div>
+                    <div class="metric-value">0</div>
+                    <div>Model incorrectly predicted EOT</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-name">False Negatives</div>
+                    <div class="metric-value">73</div>
+                    <div>Model missed actual EOT</div>
+                </div>
+            </div>
+            
+            <div class="error-chart">
+                <div>Error Distribution</div>
+                <div class="error-bar" style="width: 0.0%;">
+                    False Positives: 0 (0.0%)
+                </div>
+                <div class="error-bar" style="width: 100.0%; background-color: #ff9800;">
+                    False Negatives: 73 (100.0%)
+                </div>
+            </div>
+        </div>
+
+        <h2>Role-Based Performance</h2>
+        <div class="role-metrics">
+
+            <div class="role-card">
+                <div class="role-title">Virtual Assistant (Count: 20)</div>
+                <div class="metric-row">
+                    <div>Accuracy:</div>
+                    <div>40.0%</div>
+                </div>
+                <div class="metric-row">
+                    <div>Precision:</div>
+                    <div>0.0%</div>
+                </div>
+                <div class="metric-row">
+                    <div>Recall:</div>
+                    <div>0.0%</div>
+                </div>
+                <div class="metric-row">
+                    <div>F1 Score:</div>
+                    <div>0.0%</div>
+                </div>
+                <div class="metric-row">
+                    <div>EOT Ratio:</div>
+                    <div>60.0%</div>
+                </div>
+            </div>
+            
+            <div class="role-card">
+                <div class="role-title">Dispatch 1 (Count: 31)</div>
+                <div class="metric-row">
+                    <div>Accuracy:</div>
+                    <div>29.0%</div>
+                </div>
+                <div class="metric-row">
+                    <div>Precision:</div>
+                    <div>0.0%</div>
+                </div>
+                <div class="metric-row">
+                    <div>Recall:</div>
+                    <div>0.0%</div>
+                </div>
+                <div class="metric-row">
+                    <div>F1 Score:</div>
+                    <div>0.0%</div>
+                </div>
+                <div class="metric-row">
+                    <div>EOT Ratio:</div>
+                    <div>71.0%</div>
+                </div>
+            </div>
+            
+            <div class="role-card">
+                <div class="role-title">Dispatch 2 (Count: 16)</div>
+                <div class="metric-row">
+                    <div>Accuracy:</div>
+                    <div>12.5%</div>
+                </div>
+                <div class="metric-row">
+                    <div>Precision:</div>
+                    <div>0.0%</div>
+                </div>
+                <div class="metric-row">
+                    <div>Recall:</div>
+                    <div>0.0%</div>
+                </div>
+                <div class="metric-row">
+                    <div>F1 Score:</div>
+                    <div>0.0%</div>
+                </div>
+                <div class="metric-row">
+                    <div>EOT Ratio:</div>
+                    <div>87.5%</div>
+                </div>
+            </div>
+            
+            <div class="role-card">
+                <div class="role-title">Driver (Count: 35)</div>
+                <div class="metric-row">
+                    <div>Accuracy:</div>
+                    <div>28.6%</div>
+                </div>
+                <div class="metric-row">
+                    <div>Precision:</div>
+                    <div>0.0%</div>
+                </div>
+                <div class="metric-row">
+                    <div>Recall:</div>
+                    <div>0.0%</div>
+                </div>
+                <div class="metric-row">
+                    <div>F1 Score:</div>
+                    <div>0.0%</div>
+                </div>
+                <div class="metric-row">
+                    <div>EOT Ratio:</div>
+                    <div>71.4%</div>
+                </div>
+            </div>
+            
+        </div>
+
+        <h2>Threshold Analysis</h2>
+        <div class="threshold-analysis">
+            <p>The optimal threshold for this transcript was determined to be <strong>0.5</strong>, which yielded the highest F1 score.</p>
+            
+            <table class="threshold-table">
+                <thead>
+                    <tr>
+                        <th>Threshold</th>
+                        <th>F1 Score</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    <tr class="">
+                        <td>0.1</td>
+                        <td>0.000</td>
+                    </tr>
+        
+                    <tr class="">
+                        <td>0.2</td>
+                        <td>0.000</td>
+                    </tr>
+        
+                    <tr class="">
+                        <td>0.3</td>
+                        <td>0.000</td>
+                    </tr>
+        
+                    <tr class="">
+                        <td>0.4</td>
+                        <td>0.000</td>
+                    </tr>
+        
+                    <tr class="optimal">
+                        <td>0.5</td>
+                        <td>0.000</td>
+                    </tr>
+        
+                    <tr class="">
+                        <td>0.6</td>
+                        <td>0.000</td>
+                    </tr>
+        
+                    <tr class="">
+                        <td>0.7</td>
+                        <td>0.000</td>
+                    </tr>
+        
+                    <tr class="">
+                        <td>0.8</td>
+                        <td>0.000</td>
+                    </tr>
+        
+                    <tr class="">
+                        <td>0.9</td>
+                        <td>0.000</td>
+                    </tr>
+        
+                </tbody>
+            </table>
+        </div>
+
+        <h2>Summary</h2>
+        <div>
+            <p>This evaluation shows that the model struggled with this particular transcript, achieving an accuracy of 28.4% and an F1 score of 0.0%. The model particularly had difficulty with false negatives (73), meaning it frequently missed actual end-of-turn points.</p>
+
+            <p>The model performed better on Dispatch 1 utterances (F1: 0.0%) than on Virtual Assistant utterances (F1: 0.0%). The optimal threshold for this transcript was determined to be 0.5, which is close to the default of 0.5.</p>
+            
+            <p>The low AUC score (0.46) indicates that the model's ability to distinguish between end-of-turn and non-end-of-turn utterances in this transcript is poor. This may be due to the conversational style, the acoustic features not captured in the transcript, or the specific patterns of turn-taking in this conversation.</p>
+        </div>
+        
+        <div class="file-info">
+            Transcript: fff7cebe-e4ff-439e-a9cc-17088e4b20aa.wav.post-edited.json<br>
+            Generated: 2025-05-19 01:15:46
+        </div>
+    </div>
+</body>
+</html>

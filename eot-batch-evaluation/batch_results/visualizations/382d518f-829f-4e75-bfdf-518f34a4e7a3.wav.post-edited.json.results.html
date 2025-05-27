@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EOT Detection Evaluation - 382d518f-829f-4e75-bfdf-518f34a4e7a3.wav.post-edited.json</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2, h3 {
+            color: #2c3e50;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #eee;
+        }
+        h2 {
+            margin-top: 30px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #eee;
+        }
+        .metrics-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .metric-card {
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-radius: 6px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+            flex: 1 1 200px;
+        }
+        .metric-value {
+            font-size: 24px;
+            font-weight: bold;
+            color: #3498db;
+            margin-top: 5px;
+        }
+        .conversation {
+            margin-top: 30px;
+            border: 1px solid #eee;
+            border-radius: 8px;
+        }
+        .utterance {
+            padding: 12px 15px;
+            margin: 8px 0;
+            border-radius: 6px;
+            position: relative;
+        }
+        .assistant {
+            background-color: #e3f2fd;
+            margin-right: 10%;
+            border-left: 5px solid #2196F3;
+        }
+        .caller {
+            background-color: #f1f8e9;
+            margin-left: 10%;
+            border-left: 5px solid #8bc34a;
+        }
+        .prediction-marker {
+            position: absolute;
+            right: 10px;
+            top: 10px;
+            padding: 3px 8px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: bold;
+        }
+        .eot-true {
+            border-right: 5px solid #4caf50;
+        }
+        .eot-false {
+            border-right: 5px solid #ff9800;
+        }
+        .pred-correct {
+            background-color: #e8f5e9;
+            color: #2e7d32;
+        }
+        .pred-incorrect {
+            background-color: #ffebee;
+            color: #c62828;
+        }
+        .truth-footer {
+            display: flex;
+            gap: 20px;
+            margin-top: 10px;
+            font-size: 14px;
+        }
+        .truth-indicator {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+        .indicator {
+            display: inline-block;
+            width: 15px;
+            height: 15px;
+            border-radius: 3px;
+        }
+        .legend {
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #f5f5f5;
+            border-radius: 6px;
+        }
+        .legend-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 8px;
+        }
+        .legend-color {
+            width: 20px;
+            height: 20px;
+            margin-right: 10px;
+            border-radius: 4px;
+        }
+        .error-analysis {
+            margin-top: 30px;
+        }
+        .error-chart {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 15px;
+        }
+        .error-bar {
+            height: 30px;
+            margin: 10px 0;
+            background-color: #ff5252;
+            color: white;
+            display: flex;
+            align-items: center;
+            padding-left: 10px;
+            border-radius: 4px;
+        }
+        .role-metrics {
+            display: flex;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .role-card {
+            flex: 1;
+            padding: 15px;
+            border-radius: 8px;
+            background-color: #f8f9fa;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+        .role-title {
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 10px;
+            font-size: 18px;
+        }
+        .metric-row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 5px;
+        }
+        .threshold-analysis {
+            margin-top: 30px;
+        }
+        .threshold-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+        .threshold-table th,
+        .threshold-table td {
+            padding: 10px;
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+        .threshold-table th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+        .threshold-table tr.optimal {
+            background-color: #e3f2fd;
+            font-weight: bold;
+        }
+        .file-info {
+            margin-top: 20px;
+            font-size: 12px;
+            color: #666;
+            text-align: right;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>End-of-Turn Detection Evaluation</h1>
+        
+        <h2>Performance Overview</h2>
+        <div class="metrics-container">
+            <div class="metric-card">
+                <div class="metric-name">Accuracy</div>
+                <div class="metric-value">0.0%</div>
+            </div>
+            <div class="metric-card">
+                <div class="metric-name">Precision</div>
+                <div class="metric-value">0.0%</div>
+            </div>
+            <div class="metric-card">
+                <div class="metric-name">Recall</div>
+                <div class="metric-value">0.0%</div>
+            </div>
+            <div class="metric-card">
+                <div class="metric-name">F1 Score</div>
+                <div class="metric-value">0.0%</div>
+            </div>
+            <div class="metric-card">
+                <div class="metric-name">AUC</div>
+                <div class="metric-value">0.50</div>
+            </div>
+            <div class="metric-card">
+                <div class="metric-name">EOT Ratio</div>
+                <div class="metric-value">100.0%</div>
+            </div>
+        </div>
+
+        <div class="legend">
+            <h3>Legend</h3>
+            <div class="legend-item">
+                <div class="legend-color" style="border-right: 5px solid #4caf50;"></div>
+                <div>Ground Truth: End-of-Turn = True</div>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color" style="border-right: 5px solid #ff9800;"></div>
+                <div>Ground Truth: End-of-Turn = False</div>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color" style="background-color: #e8f5e9;"></div>
+                <div>Correct Prediction</div>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color" style="background-color: #ffebee;"></div>
+                <div>Incorrect Prediction</div>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color" style="background-color: #e3f2fd; border-left: 5px solid #2196F3;"></div>
+                <div>Assistant</div>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color" style="background-color: #f1f8e9; border-left: 5px solid #8bc34a;"></div>
+                <div>Caller</div>
+            </div>
+        </div>
+
+        <h2>Conversation Transcript with Predictions</h2>
+        <div class="conversation">
+
+            <div class="utterance virtual assistant eot-true">
+                <div class="prediction-marker pred-incorrect">Prediction: 0.000</div>
+                <strong>Virtual Assistant:</strong> All calls are recorded for training and quality purposes.
+            </div>
+            
+            <div class="utterance assistant eot-true">
+                <div class="prediction-marker pred-incorrect">Prediction: 0.006</div>
+                <strong>Assistant:</strong> Hello, Central.
+            </div>
+            
+            <div class="utterance caller eot-true">
+                <div class="prediction-marker pred-incorrect">Prediction: 0.061</div>
+                <strong>Caller:</strong> Hi there. Can get a black cab from Morrison's in Bindley, please?
+            </div>
+            
+            <div class="utterance assistant eot-true">
+                <div class="prediction-marker pred-incorrect">Prediction: 0.050</div>
+                <strong>Assistant:</strong> And where are you going?
+            </div>
+            
+            <div class="utterance caller eot-true">
+                <div class="prediction-marker pred-incorrect">Prediction: 0.019</div>
+                <strong>Caller:</strong> Up at Bailey Close.
+            </div>
+            
+            <div class="utterance assistant eot-true">
+                <div class="prediction-marker pred-incorrect">Prediction: 0.006</div>
+                <strong>Assistant:</strong> Okay then.
+            </div>
+            
+            <div class="utterance caller eot-true">
+                <div class="prediction-marker pred-incorrect">Prediction: 0.019</div>
+                <strong>Caller:</strong> Thank you. Bye.
+            </div>
+            
+            <div class="utterance assistant eot-true">
+                <div class="prediction-marker pred-incorrect">Prediction: 0.014</div>
+                <strong>Assistant:</strong> Goodbye.
+            </div>
+            
+        </div>
+
+        <h2>Error Analysis</h2>
+        <div class="error-analysis">
+            <div class="metrics-container">
+                <div class="metric-card">
+                    <div class="metric-name">False Positives</div>
+                    <div class="metric-value">0</div>
+                    <div>Model incorrectly predicted EOT</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-name">False Negatives</div>
+                    <div class="metric-value">8</div>
+                    <div>Model missed actual EOT</div>
+                </div>
+            </div>
+            
+            <div class="error-chart">
+                <div>Error Distribution</div>
+                <div class="error-bar" style="width: 0.0%;">
+                    False Positives: 0 (0.0%)
+                </div>
+                <div class="error-bar" style="width: 100.0%; background-color: #ff9800;">
+                    False Negatives: 8 (100.0%)
+                </div>
+            </div>
+        </div>
+
+        <h2>Role-Based Performance</h2>
+        <div class="role-metrics">
+
+            <div class="role-card">
+                <div class="role-title">Virtual Assistant (Count: 1)</div>
+                <div class="metric-row">
+                    <div>Accuracy:</div>
+                    <div>0.0%</div>
+                </div>
+                <div class="metric-row">
+                    <div>Precision:</div>
+                    <div>0.0%</div>
+                </div>
+                <div class="metric-row">
+                    <div>Recall:</div>
+                    <div>0.0%</div>
+                </div>
+                <div class="metric-row">
+                    <div>F1 Score:</div>
+                    <div>0.0%</div>
+                </div>
+                <div class="metric-row">
+                    <div>EOT Ratio:</div>
+                    <div>100.0%</div>
+                </div>
+            </div>
+            
+            <div class="role-card">
+                <div class="role-title">Assistant (Count: 4)</div>
+                <div class="metric-row">
+                    <div>Accuracy:</div>
+                    <div>0.0%</div>
+                </div>
+                <div class="metric-row">
+                    <div>Precision:</div>
+                    <div>0.0%</div>
+                </div>
+                <div class="metric-row">
+                    <div>Recall:</div>
+                    <div>0.0%</div>
+                </div>
+                <div class="metric-row">
+                    <div>F1 Score:</div>
+                    <div>0.0%</div>
+                </div>
+                <div class="metric-row">
+                    <div>EOT Ratio:</div>
+                    <div>100.0%</div>
+                </div>
+            </div>
+            
+            <div class="role-card">
+                <div class="role-title">Caller (Count: 3)</div>
+                <div class="metric-row">
+                    <div>Accuracy:</div>
+                    <div>0.0%</div>
+                </div>
+                <div class="metric-row">
+                    <div>Precision:</div>
+                    <div>0.0%</div>
+                </div>
+                <div class="metric-row">
+                    <div>Recall:</div>
+                    <div>0.0%</div>
+                </div>
+                <div class="metric-row">
+                    <div>F1 Score:</div>
+                    <div>0.0%</div>
+                </div>
+                <div class="metric-row">
+                    <div>EOT Ratio:</div>
+                    <div>100.0%</div>
+                </div>
+            </div>
+            
+        </div>
+
+        <h2>Threshold Analysis</h2>
+        <div class="threshold-analysis">
+            <p>The optimal threshold for this transcript was determined to be <strong>0.5</strong>, which yielded the highest F1 score.</p>
+            
+            <table class="threshold-table">
+                <thead>
+                    <tr>
+                        <th>Threshold</th>
+                        <th>F1 Score</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    <tr class="">
+                        <td>0.1</td>
+                        <td>0.000</td>
+                    </tr>
+        
+                    <tr class="">
+                        <td>0.2</td>
+                        <td>0.000</td>
+                    </tr>
+        
+                    <tr class="">
+                        <td>0.3</td>
+                        <td>0.000</td>
+                    </tr>
+        
+                    <tr class="">
+                        <td>0.4</td>
+                        <td>0.000</td>
+                    </tr>
+        
+                    <tr class="optimal">
+                        <td>0.5</td>
+                        <td>0.000</td>
+                    </tr>
+        
+                    <tr class="">
+                        <td>0.6</td>
+                        <td>0.000</td>
+                    </tr>
+        
+                    <tr class="">
+                        <td>0.7</td>
+                        <td>0.000</td>
+                    </tr>
+        
+                    <tr class="">
+                        <td>0.8</td>
+                        <td>0.000</td>
+                    </tr>
+        
+                    <tr class="">
+                        <td>0.9</td>
+                        <td>0.000</td>
+                    </tr>
+        
+                </tbody>
+            </table>
+        </div>
+
+        <h2>Summary</h2>
+        <div>
+            <p>This evaluation shows that the model struggled with this particular transcript, achieving an accuracy of 0.0% and an F1 score of 0.0%. The model particularly had difficulty with false negatives (8), meaning it frequently missed actual end-of-turn points.</p>
+
+            <p>The model performed better on Assistant utterances (F1: 0.0%) than on Virtual Assistant utterances (F1: 0.0%). The optimal threshold for this transcript was determined to be 0.5, which is close to the default of 0.5.</p>
+            
+            <p>The low AUC score (0.50) indicates that the model's ability to distinguish between end-of-turn and non-end-of-turn utterances in this transcript is poor. This may be due to the conversational style, the acoustic features not captured in the transcript, or the specific patterns of turn-taking in this conversation.</p>
+        </div>
+        
+        <div class="file-info">
+            Transcript: 382d518f-829f-4e75-bfdf-518f34a4e7a3.wav.post-edited.json<br>
+            Generated: 2025-05-19 01:15:46
+        </div>
+    </div>
+</body>
+</html>

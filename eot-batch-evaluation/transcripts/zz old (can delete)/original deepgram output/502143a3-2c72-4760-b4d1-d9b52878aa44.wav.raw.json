@@ -1,0 +1,922 @@
+{
+  "metadata": {
+    "transaction_key": "deprecated",
+    "request_id": "4cac3d78-b456-460a-a17b-c95549a8dafa",
+    "sha256": "61b7415665307f25e0261ca92764454171134b88e706e68609c249700363f0da",
+    "created": "2025-04-03T14:52:59.485Z",
+    "duration": 23.079937,
+    "channels": 1,
+    "models": [
+      "1abfe86b-e047-4eed-858a-35e5625b41ee"
+    ],
+    "model_info": {
+      "1abfe86b-e047-4eed-858a-35e5625b41ee": {
+        "name": "2-general-nova",
+        "version": "2024-01-06.5664",
+        "arch": "nova-2"
+      }
+    }
+  },
+  "results": {
+    "channels": [
+      {
+        "alternatives": [
+          {
+            "transcript": "Hi, Jimmy. Thanks for calling CityCabs. To book a taxi for now, press 1. To prebook a taxi, press 2. For account bookings, press 3. For a specialized vehicle taxi, press 4. To hold for an operator, press 5. To repeat this menu, press",
+            "confidence": 0.9991497,
+            "words": [
+              {
+                "word": "hi",
+                "start": 0.88,
+                "end": 1.12,
+                "confidence": 0.9949394,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "Hi,"
+              },
+              {
+                "word": "jimmy",
+                "start": 1.12,
+                "end": 1.62,
+                "confidence": 0.99272203,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "Jimmy."
+              },
+              {
+                "word": "thanks",
+                "start": 1.92,
+                "end": 2.24,
+                "confidence": 0.9990777,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "Thanks"
+              },
+              {
+                "word": "for",
+                "start": 2.24,
+                "end": 2.48,
+                "confidence": 0.99990714,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "for"
+              },
+              {
+                "word": "calling",
+                "start": 2.48,
+                "end": 2.96,
+                "confidence": 0.9987619,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "calling"
+              },
+              {
+                "word": "citycabs",
+                "start": 2.96,
+                "end": 3.46,
+                "confidence": 0.841664,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "CityCabs."
+              },
+              {
+                "word": "to",
+                "start": 4.08,
+                "end": 4.24,
+                "confidence": 0.9990181,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "To"
+              },
+              {
+                "word": "book",
+                "start": 4.24,
+                "end": 4.48,
+                "confidence": 0.9991431,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "book"
+              },
+              {
+                "word": "a",
+                "start": 4.48,
+                "end": 4.64,
+                "confidence": 0.9995946,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "a"
+              },
+              {
+                "word": "taxi",
+                "start": 4.64,
+                "end": 5.04,
+                "confidence": 0.99810445,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "taxi"
+              },
+              {
+                "word": "for",
+                "start": 5.04,
+                "end": 5.2,
+                "confidence": 0.9977083,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "for"
+              },
+              {
+                "word": "now",
+                "start": 5.2,
+                "end": 5.6,
+                "confidence": 0.99949086,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "now,"
+              },
+              {
+                "word": "press",
+                "start": 5.6,
+                "end": 6,
+                "confidence": 0.99986947,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "press"
+              },
+              {
+                "word": "1",
+                "start": 6,
+                "end": 6.48,
+                "confidence": 0.99964625,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "1."
+              },
+              {
+                "word": "to",
+                "start": 6.48,
+                "end": 6.72,
+                "confidence": 0.99843615,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "To"
+              },
+              {
+                "word": "prebook",
+                "start": 6.72,
+                "end": 7.12,
+                "confidence": 0.9396466,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "prebook"
+              },
+              {
+                "word": "a",
+                "start": 7.12,
+                "end": 7.2,
+                "confidence": 0.9991654,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "a"
+              },
+              {
+                "word": "taxi",
+                "start": 7.2,
+                "end": 7.7,
+                "confidence": 0.9959515,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "taxi,"
+              },
+              {
+                "word": "press",
+                "start": 7.9199996,
+                "end": 8.32,
+                "confidence": 0.9994498,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "press"
+              },
+              {
+                "word": "2",
+                "start": 8.32,
+                "end": 8.82,
+                "confidence": 0.9997692,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "2."
+              },
+              {
+                "word": "for",
+                "start": 8.88,
+                "end": 9.2,
+                "confidence": 0.9941718,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "For"
+              },
+              {
+                "word": "account",
+                "start": 9.2,
+                "end": 9.5199995,
+                "confidence": 0.90609956,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "account"
+              },
+              {
+                "word": "bookings",
+                "start": 9.5199995,
+                "end": 10.0199995,
+                "confidence": 0.9439945,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "bookings,"
+              },
+              {
+                "word": "press",
+                "start": 10.32,
+                "end": 10.719999,
+                "confidence": 0.99713576,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "press"
+              },
+              {
+                "word": "3",
+                "start": 10.719999,
+                "end": 11.219999,
+                "confidence": 0.9058955,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "3."
+              },
+              {
+                "word": "for",
+                "start": 11.384875,
+                "end": 11.704875,
+                "confidence": 0.99989665,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "For"
+              },
+              {
+                "word": "a",
+                "start": 11.704875,
+                "end": 11.784875,
+                "confidence": 0.99461186,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "a"
+              },
+              {
+                "word": "specialized",
+                "start": 11.784875,
+                "end": 12.284875,
+                "confidence": 0.9910424,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "specialized"
+              },
+              {
+                "word": "vehicle",
+                "start": 12.424875,
+                "end": 12.904875,
+                "confidence": 0.99962246,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "vehicle"
+              },
+              {
+                "word": "taxi",
+                "start": 12.904875,
+                "end": 13.404875,
+                "confidence": 0.9983653,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "taxi,"
+              },
+              {
+                "word": "press",
+                "start": 13.624875,
+                "end": 13.944876,
+                "confidence": 0.99989057,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "press"
+              },
+              {
+                "word": "4",
+                "start": 13.944876,
+                "end": 14.444876,
+                "confidence": 0.999887,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "4."
+              },
+              {
+                "word": "to",
+                "start": 14.584875,
+                "end": 14.744875,
+                "confidence": 0.9995276,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "To"
+              },
+              {
+                "word": "hold",
+                "start": 14.744875,
+                "end": 15.064876,
+                "confidence": 0.99916923,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "hold"
+              },
+              {
+                "word": "for",
+                "start": 15.064876,
+                "end": 15.224875,
+                "confidence": 0.96083957,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "for"
+              },
+              {
+                "word": "an",
+                "start": 15.224875,
+                "end": 15.464875,
+                "confidence": 0.998898,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "an"
+              },
+              {
+                "word": "operator",
+                "start": 15.464875,
+                "end": 15.964875,
+                "confidence": 0.99985063,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "operator,"
+              },
+              {
+                "word": "press",
+                "start": 16.184875,
+                "end": 16.664875,
+                "confidence": 0.9998735,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "press"
+              },
+              {
+                "word": "5",
+                "start": 16.664875,
+                "end": 17.164875,
+                "confidence": 0.9997863,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "5."
+              },
+              {
+                "word": "to",
+                "start": 17.304874,
+                "end": 17.464874,
+                "confidence": 0.9998317,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "To"
+              },
+              {
+                "word": "repeat",
+                "start": 17.464874,
+                "end": 17.864876,
+                "confidence": 0.9999522,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "repeat"
+              },
+              {
+                "word": "this",
+                "start": 17.864876,
+                "end": 18.104876,
+                "confidence": 0.99965215,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "this"
+              },
+              {
+                "word": "menu",
+                "start": 18.104876,
+                "end": 18.604876,
+                "confidence": 0.99962145,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "menu,"
+              },
+              {
+                "word": "press",
+                "start": 18.744875,
+                "end": 19.144875,
+                "confidence": 0.9998487,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "press"
+              }
+            ],
+            "paragraphs": {
+              "transcript": "\nSpeaker 0: Hi, Jimmy. Thanks for calling CityCabs. To book a taxi for now, press 1. To prebook a taxi, press 2. For account bookings, press 3.\n\nFor a specialized vehicle taxi, press 4. To hold for an operator, press 5. To repeat this menu, press",
+              "paragraphs": [
+                {
+                  "sentences": [
+                    {
+                      "text": "Hi, Jimmy.",
+                      "start": 0.88,
+                      "end": 1.62
+                    },
+                    {
+                      "text": "Thanks for calling CityCabs.",
+                      "start": 1.92,
+                      "end": 3.46
+                    },
+                    {
+                      "text": "To book a taxi for now, press 1.",
+                      "start": 4.08,
+                      "end": 6.48
+                    },
+                    {
+                      "text": "To prebook a taxi, press 2.",
+                      "start": 6.48,
+                      "end": 8.82
+                    },
+                    {
+                      "text": "For account bookings, press 3.",
+                      "start": 8.88,
+                      "end": 11.219999
+                    }
+                  ],
+                  "speaker": 0,
+                  "num_words": 25,
+                  "start": 0.88,
+                  "end": 11.219999
+                },
+                {
+                  "sentences": [
+                    {
+                      "text": "For a specialized vehicle taxi, press 4.",
+                      "start": 11.384875,
+                      "end": 14.444876
+                    },
+                    {
+                      "text": "To hold for an operator, press 5.",
+                      "start": 14.584875,
+                      "end": 17.164875
+                    },
+                    {
+                      "text": "To repeat this menu, press",
+                      "start": 17.304874,
+                      "end": 19.144875
+                    }
+                  ],
+                  "speaker": 0,
+                  "num_words": 19,
+                  "start": 11.384875,
+                  "end": 19.144875
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "utterances": [
+      {
+        "start": 0.88,
+        "end": 3.46,
+        "confidence": 0.9711786,
+        "channel": 0,
+        "transcript": "Hi, Jimmy. Thanks for calling CityCabs.",
+        "words": [
+          {
+            "word": "hi",
+            "start": 0.88,
+            "end": 1.12,
+            "confidence": 0.9949394,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "Hi,"
+          },
+          {
+            "word": "jimmy",
+            "start": 1.12,
+            "end": 1.62,
+            "confidence": 0.99272203,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "Jimmy."
+          },
+          {
+            "word": "thanks",
+            "start": 1.92,
+            "end": 2.24,
+            "confidence": 0.9990777,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "Thanks"
+          },
+          {
+            "word": "for",
+            "start": 2.24,
+            "end": 2.48,
+            "confidence": 0.99990714,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "for"
+          },
+          {
+            "word": "calling",
+            "start": 2.48,
+            "end": 2.96,
+            "confidence": 0.9987619,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "calling"
+          },
+          {
+            "word": "citycabs",
+            "start": 2.96,
+            "end": 3.46,
+            "confidence": 0.841664,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "CityCabs."
+          }
+        ],
+        "speaker": 0,
+        "id": "5009cbd0-25d4-48f6-83f5-04fbede398f4"
+      },
+      {
+        "start": 4.08,
+        "end": 10.0199995,
+        "confidence": 0.98642707,
+        "channel": 0,
+        "transcript": "To book a taxi for now, press 1. To prebook a taxi, press 2. For account bookings,",
+        "words": [
+          {
+            "word": "to",
+            "start": 4.08,
+            "end": 4.24,
+            "confidence": 0.9990181,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "To"
+          },
+          {
+            "word": "book",
+            "start": 4.24,
+            "end": 4.48,
+            "confidence": 0.9991431,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "book"
+          },
+          {
+            "word": "a",
+            "start": 4.48,
+            "end": 4.64,
+            "confidence": 0.9995946,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "a"
+          },
+          {
+            "word": "taxi",
+            "start": 4.64,
+            "end": 5.04,
+            "confidence": 0.99810445,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "taxi"
+          },
+          {
+            "word": "for",
+            "start": 5.04,
+            "end": 5.2,
+            "confidence": 0.9977083,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "for"
+          },
+          {
+            "word": "now",
+            "start": 5.2,
+            "end": 5.6,
+            "confidence": 0.99949086,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "now,"
+          },
+          {
+            "word": "press",
+            "start": 5.6,
+            "end": 6,
+            "confidence": 0.99986947,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "press"
+          },
+          {
+            "word": "1",
+            "start": 6,
+            "end": 6.48,
+            "confidence": 0.99964625,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "1."
+          },
+          {
+            "word": "to",
+            "start": 6.48,
+            "end": 6.72,
+            "confidence": 0.99843615,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "To"
+          },
+          {
+            "word": "prebook",
+            "start": 6.72,
+            "end": 7.12,
+            "confidence": 0.9396466,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "prebook"
+          },
+          {
+            "word": "a",
+            "start": 7.12,
+            "end": 7.2,
+            "confidence": 0.9991654,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "a"
+          },
+          {
+            "word": "taxi",
+            "start": 7.2,
+            "end": 7.7,
+            "confidence": 0.9959515,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "taxi,"
+          },
+          {
+            "word": "press",
+            "start": 7.9199996,
+            "end": 8.32,
+            "confidence": 0.9994498,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "press"
+          },
+          {
+            "word": "2",
+            "start": 8.32,
+            "end": 8.82,
+            "confidence": 0.9997692,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "2."
+          },
+          {
+            "word": "for",
+            "start": 8.88,
+            "end": 9.2,
+            "confidence": 0.9941718,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "For"
+          },
+          {
+            "word": "account",
+            "start": 9.2,
+            "end": 9.5199995,
+            "confidence": 0.90609956,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "account"
+          },
+          {
+            "word": "bookings",
+            "start": 9.5199995,
+            "end": 10.0199995,
+            "confidence": 0.9439945,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "bookings,"
+          }
+        ],
+        "speaker": 0,
+        "id": "8f22de07-4875-4f03-bb6d-3ecbc0fe734f"
+      },
+      {
+        "start": 10.32,
+        "end": 19.144875,
+        "confidence": 0.9925334,
+        "channel": 0,
+        "transcript": "press 3. For a specialized vehicle taxi, press 4. To hold for an operator, press 5. To repeat this menu, press",
+        "words": [
+          {
+            "word": "press",
+            "start": 10.32,
+            "end": 10.719999,
+            "confidence": 0.99713576,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "press"
+          },
+          {
+            "word": "3",
+            "start": 10.719999,
+            "end": 11.219999,
+            "confidence": 0.9058955,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "3."
+          },
+          {
+            "word": "for",
+            "start": 11.384875,
+            "end": 11.704875,
+            "confidence": 0.99989665,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "For"
+          },
+          {
+            "word": "a",
+            "start": 11.704875,
+            "end": 11.784875,
+            "confidence": 0.99461186,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "a"
+          },
+          {
+            "word": "specialized",
+            "start": 11.784875,
+            "end": 12.284875,
+            "confidence": 0.9910424,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "specialized"
+          },
+          {
+            "word": "vehicle",
+            "start": 12.424875,
+            "end": 12.904875,
+            "confidence": 0.99962246,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "vehicle"
+          },
+          {
+            "word": "taxi",
+            "start": 12.904875,
+            "end": 13.404875,
+            "confidence": 0.9983653,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "taxi,"
+          },
+          {
+            "word": "press",
+            "start": 13.624875,
+            "end": 13.944876,
+            "confidence": 0.99989057,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "press"
+          },
+          {
+            "word": "4",
+            "start": 13.944876,
+            "end": 14.444876,
+            "confidence": 0.999887,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "4."
+          },
+          {
+            "word": "to",
+            "start": 14.584875,
+            "end": 14.744875,
+            "confidence": 0.9995276,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "To"
+          },
+          {
+            "word": "hold",
+            "start": 14.744875,
+            "end": 15.064876,
+            "confidence": 0.99916923,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "hold"
+          },
+          {
+            "word": "for",
+            "start": 15.064876,
+            "end": 15.224875,
+            "confidence": 0.96083957,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "for"
+          },
+          {
+            "word": "an",
+            "start": 15.224875,
+            "end": 15.464875,
+            "confidence": 0.998898,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "an"
+          },
+          {
+            "word": "operator",
+            "start": 15.464875,
+            "end": 15.964875,
+            "confidence": 0.99985063,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "operator,"
+          },
+          {
+            "word": "press",
+            "start": 16.184875,
+            "end": 16.664875,
+            "confidence": 0.9998735,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "press"
+          },
+          {
+            "word": "5",
+            "start": 16.664875,
+            "end": 17.164875,
+            "confidence": 0.9997863,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "5."
+          },
+          {
+            "word": "to",
+            "start": 17.304874,
+            "end": 17.464874,
+            "confidence": 0.9998317,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "To"
+          },
+          {
+            "word": "repeat",
+            "start": 17.464874,
+            "end": 17.864876,
+            "confidence": 0.9999522,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "repeat"
+          },
+          {
+            "word": "this",
+            "start": 17.864876,
+            "end": 18.104876,
+            "confidence": 0.99965215,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "this"
+          },
+          {
+            "word": "menu",
+            "start": 18.104876,
+            "end": 18.604876,
+            "confidence": 0.99962145,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "menu,"
+          },
+          {
+            "word": "press",
+            "start": 18.744875,
+            "end": 19.144875,
+            "confidence": 0.9998487,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "press"
+          }
+        ],
+        "speaker": 0,
+        "id": "a8de52c3-3c42-4ede-8738-b976ecd5b508"
+      }
+    ]
+  }
+}

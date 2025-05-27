@@ -1,0 +1,109 @@
+{
+  "file_path": "transcripts/aecc92d3-cf62-42e5-8d5e-dde214263d99.wav.post-edited.json",
+  "file_name": "aecc92d3-cf62-42e5-8d5e-dde214263d99.wav.post-edited.json",
+  "utterance_analysis": [
+    {
+      "index": 0,
+      "content": "Hello, and welcome to Sunbeams.",
+      "role": "Virtual Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.001277188304811716,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 1,
+      "content": "For general inquiries",
+      "role": "Virtual Assistant",
+      "ground_truth": 0,
+      "predicted_probability": 0.08312303572893143,
+      "predicted_label": 0,
+      "is_correct": true
+    }
+  ],
+  "f1_scores": {
+    "0.1": 0.0,
+    "0.2": 0.0,
+    "0.3": 0.0,
+    "0.4": 0.0,
+    "0.5": 0.0,
+    "0.6": 0.0,
+    "0.7": 0.0,
+    "0.8": 0.0,
+    "0.9": 0.0
+  },
+  "optimal_threshold": 0.5,
+  "roc": {
+    "fpr": [
+      0.0,
+      1.0,
+      1.0
+    ],
+    "tpr": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "thresholds": [
+      Infinity,
+      0.08312303572893143,
+      0.001277188304811716
+    ],
+    "auc": 0.0
+  },
+  "pr": {
+    "precision": [
+      0.5,
+      0.0,
+      1.0
+    ],
+    "recall": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "thresholds": [
+      0.001277188304811716,
+      0.08312303572893143
+    ]
+  },
+  "confusion_matrix": [
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      0
+    ]
+  ],
+  "metrics": {
+    "accuracy": 0.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "total_utterances": 2,
+    "eot_ratio": 0.5
+  },
+  "latency": {
+    "mean": 0.1075812578201294,
+    "median": 0.1075812578201294,
+    "min": 0.08630633354187012,
+    "max": 0.12885618209838867,
+    "p95": 0.12672868967056275
+  },
+  "role_analysis": {
+    "Virtual Assistant": {
+      "count": 2,
+      "accuracy": 0.5,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "eot_ratio": 0.5
+    }
+  },
+  "error_summary": {
+    "false_positives": 0,
+    "false_negatives": 1
+  }
+}

@@ -1,0 +1,209 @@
+{
+  "file_path": "transcripts/5dcd871d-0eed-4328-b239-502cf6d5a533.wav.post-edited.json",
+  "file_name": "5dcd871d-0eed-4328-b239-502cf6d5a533.wav.post-edited.json",
+  "utterance_analysis": [
+    {
+      "index": 0,
+      "content": "Welcome to Falcon Taxis 24/7. Thank you for calling. One of our team members will be with you shortly to assist with your booking. With our reliable round-the-clock service, we're ready to get you where you need to be whenever you need us. Please hold, and one of our team members will be with you shortly.",
+      "role": "Virtual Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.0020987060852348804,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 1,
+      "content": "That was a busy day.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.0022858416195958853,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 2,
+      "content": "I didn't.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.003723367117345333,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 3,
+      "content": "Falcon. Can I help you?",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.010867751203477383,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 4,
+      "content": "Hello. Can I have taxi, please? 731.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.005161934066563845,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 5,
+      "content": "Say where",
+      "role": "Assistant",
+      "ground_truth": 0,
+      "predicted_probability": 0.09573163092136383,
+      "predicted_label": 0,
+      "is_correct": true
+    },
+    {
+      "index": 6,
+      "content": "Thank you.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.002050144597887993,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 7,
+      "content": "you are going to.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.006792218424379826,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 8,
+      "content": "Sorry, one second.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.007900083437561989,
+      "predicted_label": 0,
+      "is_correct": false
+    }
+  ],
+  "f1_scores": {
+    "0.1": 0.0,
+    "0.2": 0.0,
+    "0.3": 0.0,
+    "0.4": 0.0,
+    "0.5": 0.0,
+    "0.6": 0.0,
+    "0.7": 0.0,
+    "0.8": 0.0,
+    "0.9": 0.0
+  },
+  "optimal_threshold": 0.5,
+  "roc": {
+    "fpr": [
+      0.0,
+      1.0,
+      1.0
+    ],
+    "tpr": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "thresholds": [
+      Infinity,
+      0.09573163092136383,
+      0.002050144597887993
+    ],
+    "auc": 0.0
+  },
+  "pr": {
+    "precision": [
+      0.8888888888888888,
+      0.875,
+      0.8571428571428571,
+      0.8333333333333334,
+      0.8,
+      0.75,
+      0.6666666666666666,
+      0.5,
+      0.0,
+      1.0
+    ],
+    "recall": [
+      1.0,
+      0.875,
+      0.75,
+      0.625,
+      0.5,
+      0.375,
+      0.25,
+      0.125,
+      0.0,
+      0.0
+    ],
+    "thresholds": [
+      0.002050144597887993,
+      0.0020987060852348804,
+      0.0022858416195958853,
+      0.003723367117345333,
+      0.005161934066563845,
+      0.006792218424379826,
+      0.007900083437561989,
+      0.010867751203477383,
+      0.09573163092136383
+    ]
+  },
+  "confusion_matrix": [
+    [
+      1,
+      0
+    ],
+    [
+      8,
+      0
+    ]
+  ],
+  "metrics": {
+    "accuracy": 0.1111111111111111,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "total_utterances": 9,
+    "eot_ratio": 0.8888888888888888
+  },
+  "latency": {
+    "mean": 0.4305705229441325,
+    "median": 0.42441606521606445,
+    "min": 0.24708056449890137,
+    "max": 0.6260349750518799,
+    "p95": 0.5950482845306396
+  },
+  "role_analysis": {
+    "Virtual Assistant": {
+      "count": 1,
+      "accuracy": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "eot_ratio": 1.0
+    },
+    "Assistant": {
+      "count": 3,
+      "accuracy": 0.3333333333333333,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "eot_ratio": 0.6666666666666666
+    },
+    "Caller": {
+      "count": 5,
+      "accuracy": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "eot_ratio": 1.0
+    }
+  },
+  "error_summary": {
+    "false_positives": 0,
+    "false_negatives": 8
+  }
+}

@@ -1,0 +1,99 @@
+{
+    "results": [
+        {
+            "timestamp": "00:00:02",
+            "role": "Virtual Assistant",
+            "content": "Thank you for calling Greyhound Cars. Why not download our priority booking app? All cars are now fitted with contactless chip and pin devices."
+        },
+        {
+            "timestamp": "00:00:30",
+            "role": "Assistant",
+            "content": "[...]."
+        },
+        {
+            "timestamp": "00:00:31",
+            "role": "Caller",
+            "content": "Oh, sorry to bother you. I need your help. You see, I just bought a new phone."
+        },
+        {
+            "timestamp": "00:00:35",
+            "role": "Assistant",
+            "content": "Yeah."
+        },
+        {
+            "timestamp": "00:00:35",
+            "role": "Caller",
+            "content": "And this morning, I had to transfer to my old one because, there was a location issue-- since, weekend. But I'm not in the-- where I bought the phone from, and they've already reset it. So can I log off from this phone now so that I can--"
+        },
+        {
+            "timestamp": "00:00:50",
+            "role": "Assistant",
+            "content": "Try the other one again?"
+        },
+        {
+            "timestamp": "00:00:51",
+            "role": "Caller",
+            "content": "Yes. Yes, please. Please."
+        },
+        {
+            "timestamp": "00:00:52",
+            "role": "Unknown Speaker",
+            "content": "[...] will be left."
+        },
+        {
+            "timestamp": "00:00:54",
+            "role": "Caller",
+            "content": "Oh."
+        },
+        {
+            "timestamp": "00:00:55",
+            "role": "Assistant",
+            "content": "Hang on-- hang on a sec. Sorry."
+        },
+        {
+            "timestamp": "00:00:56",
+            "role": "Caller",
+            "content": "Thank you."
+        },
+        {
+            "timestamp": "00:00:58",
+            "role": "Unknown Speaker",
+            "content": "Hey."
+        },
+        {
+            "timestamp": "00:00:58",
+            "role": "Assistant",
+            "content": "Let me just do that for you."
+        },
+        {
+            "timestamp": "00:01:03",
+            "role": "Caller",
+            "content": "Hey. What? Thank you. Hello?"
+        },
+        {
+            "timestamp": "00:01:16",
+            "role": "Assistant",
+            "content": "Yeah. I'm just doing it now for you, sir."
+        },
+        {
+            "timestamp": "00:01:18",
+            "role": "Caller",
+            "content": "Oh, okay. Okay."
+        },
+        {
+            "timestamp": "00:01:23",
+            "role": "Assistant",
+            "content": "Okay. That's done. Try again."
+        },
+        {
+            "timestamp": "00:01:25",
+            "role": "Caller",
+            "content": "Thank you. Let me try again."
+        },
+        {
+            "timestamp": "00:01:26",
+            "role": "Assistant",
+            "content": "Alright. Thanks. Right. Bye."
+        }
+    ]
+}

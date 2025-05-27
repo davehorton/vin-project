@@ -1,0 +1,9 @@
+{
+    "results": [
+        {
+            "timestamp": "00:00:00",
+            "role": "Assistant",
+            "content": "Hi, [...]. Thanks for calling City Cabs. To book a taxi for now, press 1. To prebook a taxi, press 2. For account booking-- Great. If the pickup location is New Town Deli, 23 Henderson Row EH3. If the drop off location is New Town Deli, 42 Broughton Street EH1, press 1. Otherw-- Thanks. I have scheduled your booking. If you'd like to provide additional instructions for your driver, press 1. If you would like to schedule a return booking for later, press 2. Your driver will be on the way shortly to pick you up from New Town Deli. Goodbye, and see you soon."
+        }
+    ]
+}

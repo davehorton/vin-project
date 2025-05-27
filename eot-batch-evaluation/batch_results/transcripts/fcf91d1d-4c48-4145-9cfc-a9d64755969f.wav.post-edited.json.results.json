@@ -1,0 +1,141 @@
+{
+  "file_path": "transcripts/fcf91d1d-4c48-4145-9cfc-a9d64755969f.wav.post-edited.json",
+  "file_name": "fcf91d1d-4c48-4145-9cfc-a9d64755969f.wav.post-edited.json",
+  "utterance_analysis": [
+    {
+      "index": 0,
+      "content": "[...].",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.00015666593390051275,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 1,
+      "content": "Hello.",
+      "role": "Virtual Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.004509934224188328,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 2,
+      "content": "This call is from bank security department.",
+      "role": "Virtual Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.004641356877982616,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 3,
+      "content": "We have a",
+      "role": "Virtual Assistant",
+      "ground_truth": 0,
+      "predicted_probability": 0.07198761403560638,
+      "predicted_label": 0,
+      "is_correct": true
+    }
+  ],
+  "f1_scores": {
+    "0.1": 0.0,
+    "0.2": 0.0,
+    "0.3": 0.0,
+    "0.4": 0.0,
+    "0.5": 0.0,
+    "0.6": 0.0,
+    "0.7": 0.0,
+    "0.8": 0.0,
+    "0.9": 0.0
+  },
+  "optimal_threshold": 0.5,
+  "roc": {
+    "fpr": [
+      0.0,
+      1.0,
+      1.0
+    ],
+    "tpr": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "thresholds": [
+      Infinity,
+      0.07198761403560638,
+      0.00015666593390051275
+    ],
+    "auc": 0.0
+  },
+  "pr": {
+    "precision": [
+      0.75,
+      0.6666666666666666,
+      0.5,
+      0.0,
+      1.0
+    ],
+    "recall": [
+      1.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.0,
+      0.0
+    ],
+    "thresholds": [
+      0.00015666593390051275,
+      0.004509934224188328,
+      0.004641356877982616,
+      0.07198761403560638
+    ]
+  },
+  "confusion_matrix": [
+    [
+      1,
+      0
+    ],
+    [
+      3,
+      0
+    ]
+  ],
+  "metrics": {
+    "accuracy": 0.25,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "total_utterances": 4,
+    "eot_ratio": 0.75
+  },
+  "latency": {
+    "mean": 0.1237114667892456,
+    "median": 0.11999082565307617,
+    "min": 0.08188509941101074,
+    "max": 0.17297911643981934,
+    "p95": 0.16723328828811646
+  },
+  "role_analysis": {
+    "Virtual Assistant": {
+      "count": 3,
+      "accuracy": 0.3333333333333333,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "eot_ratio": 0.6666666666666666
+    },
+    "Caller": {
+      "count": 1,
+      "accuracy": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "eot_ratio": 1.0
+    }
+  },
+  "error_summary": {
+    "false_positives": 0,
+    "false_negatives": 3
+  }
+}

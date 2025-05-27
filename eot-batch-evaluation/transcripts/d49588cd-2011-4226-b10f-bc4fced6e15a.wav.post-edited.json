@@ -1,0 +1,129 @@
+{
+    "results": [
+        {
+            "Content": "All calls are recorded for training and quality purposes.",
+            "EndOfTurn": true,
+            "Role": "Virtual Assistant"
+        },
+        {
+            "Content": "It never recognizes what you say, you say, when you say, when you",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Central.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Hello. Hello",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Hello,",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "there.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Central.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Hi.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Right. Um,",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "can I have a pickup, please, from",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "um",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "EyeTech Opticians,",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "which is on Ansty Road, opposite the Pippin pub.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Ansty Road.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "What's the optician called?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "EyeTech.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "EyeTech Opticians. Okay. And where are you going to?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Westmoreland Road.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Black cab or car?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Ca--, anything.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Anything. Okay.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Get it straight over for you.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Thank you.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Thank you. Bye.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Bye.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        }
+    ]
+}

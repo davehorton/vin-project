@@ -1,0 +1,14 @@
+{
+    "results": [
+        {
+            "timestamp": "00:00:02",
+            "role": "Caller",
+            "content": "[...]."
+        },
+        {
+            "timestamp": "00:00:04",
+            "role": "Assistant",
+            "content": "Hello. This call is from bank security department. We have--"
+        }
+    ]
+}

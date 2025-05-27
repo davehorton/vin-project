@@ -1,0 +1,14 @@
+{
+    "results": [
+        {
+            "Content": "Hello, and welcome to Sunbeams.",
+            "EndOfTurn": true,
+            "Role": "Virtual Assistant"
+        },
+        {
+            "Content": "For general inquiries",
+            "EndOfTurn": false,
+            "Role": "Virtual Assistant"
+        }
+    ]
+}

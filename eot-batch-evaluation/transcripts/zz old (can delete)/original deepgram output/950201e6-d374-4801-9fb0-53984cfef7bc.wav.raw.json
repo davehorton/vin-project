@@ -1,0 +1,723 @@
+{
+  "metadata": {
+    "transaction_key": "deprecated",
+    "request_id": "9bb04310-8c90-4741-b1b9-4655ec005995",
+    "sha256": "2d0232c8ab5dbdefbe2f44200702be728e9f94cc5633e6eee773bb9d8108fd8c",
+    "created": "2025-04-03T14:55:06.178Z",
+    "duration": 13.599937,
+    "channels": 1,
+    "models": [
+      "1abfe86b-e047-4eed-858a-35e5625b41ee"
+    ],
+    "model_info": {
+      "1abfe86b-e047-4eed-858a-35e5625b41ee": {
+        "name": "2-general-nova",
+        "version": "2024-01-06.5664",
+        "arch": "nova-2"
+      }
+    }
+  },
+  "results": {
+    "channels": [
+      {
+        "alternatives": [
+          {
+            "transcript": "Afternoon. INBTACS. How may I help? Hi. Can you tell the taxi for 32 a 4? Just please hold just a few minutes. Bear with me. Yeah. Sure. Alright. Thank you. Bye.",
+            "confidence": 0.9834818,
+            "words": [
+              {
+                "word": "afternoon",
+                "start": 1.1999999,
+                "end": 1.6999999,
+                "confidence": 0.9867576,
+                "speaker": 0,
+                "speaker_confidence": 0.62398803,
+                "punctuated_word": "Afternoon."
+              },
+              {
+                "word": "inbtacs",
+                "start": 1.8399999,
+                "end": 2.34,
+                "confidence": 0.5127815,
+                "speaker": 0,
+                "speaker_confidence": 0.62398803,
+                "punctuated_word": "INBTACS."
+              },
+              {
+                "word": "how",
+                "start": 2.3999999,
+                "end": 2.56,
+                "confidence": 0.9973099,
+                "speaker": 0,
+                "speaker_confidence": 0.62398803,
+                "punctuated_word": "How"
+              },
+              {
+                "word": "may",
+                "start": 2.56,
+                "end": 2.6399999,
+                "confidence": 0.99796,
+                "speaker": 0,
+                "speaker_confidence": 0.62398803,
+                "punctuated_word": "may"
+              },
+              {
+                "word": "i",
+                "start": 2.6399999,
+                "end": 2.72,
+                "confidence": 0.99545705,
+                "speaker": 0,
+                "speaker_confidence": 0.62398803,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "help",
+                "start": 2.72,
+                "end": 3.22,
+                "confidence": 0.9996792,
+                "speaker": 0,
+                "speaker_confidence": 0.62398803,
+                "punctuated_word": "help?"
+              },
+              {
+                "word": "hi",
+                "start": 3.52,
+                "end": 3.76,
+                "confidence": 0.9928886,
+                "speaker": 0,
+                "speaker_confidence": 0.6566408,
+                "punctuated_word": "Hi."
+              },
+              {
+                "word": "can",
+                "start": 3.76,
+                "end": 3.9199998,
+                "confidence": 0.98579943,
+                "speaker": 0,
+                "speaker_confidence": 0.6566408,
+                "punctuated_word": "Can"
+              },
+              {
+                "word": "you",
+                "start": 3.9199998,
+                "end": 4.08,
+                "confidence": 0.99470866,
+                "speaker": 0,
+                "speaker_confidence": 0.6566408,
+                "punctuated_word": "you"
+              },
+              {
+                "word": "tell",
+                "start": 4.08,
+                "end": 4.4,
+                "confidence": 0.987748,
+                "speaker": 0,
+                "speaker_confidence": 0.6566408,
+                "punctuated_word": "tell"
+              },
+              {
+                "word": "the",
+                "start": 4.4,
+                "end": 4.48,
+                "confidence": 0.56810796,
+                "speaker": 0,
+                "speaker_confidence": 0.6566408,
+                "punctuated_word": "the"
+              },
+              {
+                "word": "taxi",
+                "start": 4.48,
+                "end": 4.88,
+                "confidence": 0.81978977,
+                "speaker": 0,
+                "speaker_confidence": 0.6566408,
+                "punctuated_word": "taxi"
+              },
+              {
+                "word": "for",
+                "start": 4.88,
+                "end": 5.12,
+                "confidence": 0.92210585,
+                "speaker": 0,
+                "speaker_confidence": 0.6566408,
+                "punctuated_word": "for"
+              },
+              {
+                "word": "32",
+                "start": 5.12,
+                "end": 5.68,
+                "confidence": 0.9658163,
+                "speaker": 0,
+                "speaker_confidence": 0.6566408,
+                "punctuated_word": "32"
+              },
+              {
+                "word": "a",
+                "start": 5.68,
+                "end": 5.8399997,
+                "confidence": 0.77364475,
+                "speaker": 0,
+                "speaker_confidence": 0.6566408,
+                "punctuated_word": "a"
+              },
+              {
+                "word": "4",
+                "start": 5.8399997,
+                "end": 6.08,
+                "confidence": 0.70872617,
+                "speaker": 0,
+                "speaker_confidence": 0.6566408,
+                "punctuated_word": "4?"
+              },
+              {
+                "word": "just",
+                "start": 6.08,
+                "end": 6.24,
+                "confidence": 0.5341872,
+                "speaker": 0,
+                "speaker_confidence": 0.6566408,
+                "punctuated_word": "Just"
+              },
+              {
+                "word": "please",
+                "start": 6.24,
+                "end": 6.48,
+                "confidence": 0.46579313,
+                "speaker": 0,
+                "speaker_confidence": 0.6566408,
+                "punctuated_word": "please"
+              },
+              {
+                "word": "hold",
+                "start": 6.48,
+                "end": 6.64,
+                "confidence": 0.910362,
+                "speaker": 0,
+                "speaker_confidence": 0.6566408,
+                "punctuated_word": "hold"
+              },
+              {
+                "word": "just",
+                "start": 6.64,
+                "end": 6.7999997,
+                "confidence": 0.63199145,
+                "speaker": 0,
+                "speaker_confidence": 0.6566408,
+                "punctuated_word": "just"
+              },
+              {
+                "word": "a",
+                "start": 6.7999997,
+                "end": 6.8799996,
+                "confidence": 0.83440405,
+                "speaker": 0,
+                "speaker_confidence": 0.6566408,
+                "punctuated_word": "a"
+              },
+              {
+                "word": "few",
+                "start": 6.8799996,
+                "end": 7.04,
+                "confidence": 0.5957593,
+                "speaker": 0,
+                "speaker_confidence": 0.6566408,
+                "punctuated_word": "few"
+              },
+              {
+                "word": "minutes",
+                "start": 7.04,
+                "end": 7.54,
+                "confidence": 0.9494077,
+                "speaker": 0,
+                "speaker_confidence": 0.6566408,
+                "punctuated_word": "minutes."
+              },
+              {
+                "word": "bear",
+                "start": 10,
+                "end": 10.32,
+                "confidence": 0.9702749,
+                "speaker": 0,
+                "speaker_confidence": 0.6475134,
+                "punctuated_word": "Bear"
+              },
+              {
+                "word": "with",
+                "start": 10.32,
+                "end": 10.48,
+                "confidence": 0.9998073,
+                "speaker": 0,
+                "speaker_confidence": 0.6475134,
+                "punctuated_word": "with"
+              },
+              {
+                "word": "me",
+                "start": 10.48,
+                "end": 10.8,
+                "confidence": 0.9992552,
+                "speaker": 0,
+                "speaker_confidence": 0.6475134,
+                "punctuated_word": "me."
+              },
+              {
+                "word": "yeah",
+                "start": 10.8,
+                "end": 11.12,
+                "confidence": 0.9937588,
+                "speaker": 0,
+                "speaker_confidence": 0.6475134,
+                "punctuated_word": "Yeah."
+              },
+              {
+                "word": "sure",
+                "start": 11.12,
+                "end": 11.62,
+                "confidence": 0.99957407,
+                "speaker": 0,
+                "speaker_confidence": 0.6475134,
+                "punctuated_word": "Sure."
+              },
+              {
+                "word": "alright",
+                "start": 11.84,
+                "end": 12.16,
+                "confidence": 0.65767443,
+                "speaker": 0,
+                "speaker_confidence": 0.6700981,
+                "punctuated_word": "Alright."
+              },
+              {
+                "word": "thank",
+                "start": 12.16,
+                "end": 12.4,
+                "confidence": 0.9954633,
+                "speaker": 0,
+                "speaker_confidence": 0.6700981,
+                "punctuated_word": "Thank"
+              },
+              {
+                "word": "you",
+                "start": 12.4,
+                "end": 12.639999,
+                "confidence": 0.99939466,
+                "speaker": 0,
+                "speaker_confidence": 0.6700981,
+                "punctuated_word": "you."
+              },
+              {
+                "word": "bye",
+                "start": 12.639999,
+                "end": 13.139999,
+                "confidence": 0.98528427,
+                "speaker": 0,
+                "speaker_confidence": 0.6700981,
+                "punctuated_word": "Bye."
+              }
+            ],
+            "paragraphs": {
+              "transcript": "\nSpeaker 0: Afternoon. INBTACS. How may I help? Hi. Can you tell the taxi for 32 a 4?\n\nJust please hold just a few minutes. Bear with me. Yeah. Sure. Alright.\n\nThank you. Bye.",
+              "paragraphs": [
+                {
+                  "sentences": [
+                    {
+                      "text": "Afternoon.",
+                      "start": 1.1999999,
+                      "end": 1.6999999
+                    },
+                    {
+                      "text": "INBTACS.",
+                      "start": 1.8399999,
+                      "end": 2.34
+                    },
+                    {
+                      "text": "How may I help?",
+                      "start": 2.3999999,
+                      "end": 3.22
+                    },
+                    {
+                      "text": "Hi.",
+                      "start": 3.52,
+                      "end": 3.76
+                    },
+                    {
+                      "text": "Can you tell the taxi for 32 a 4?",
+                      "start": 3.76,
+                      "end": 6.08
+                    }
+                  ],
+                  "speaker": 0,
+                  "num_words": 16,
+                  "start": 1.1999999,
+                  "end": 6.08
+                },
+                {
+                  "sentences": [
+                    {
+                      "text": "Just please hold just a few minutes.",
+                      "start": 6.08,
+                      "end": 7.54
+                    },
+                    {
+                      "text": "Bear with me.",
+                      "start": 10,
+                      "end": 10.8
+                    },
+                    {
+                      "text": "Yeah.",
+                      "start": 10.8,
+                      "end": 11.12
+                    },
+                    {
+                      "text": "Sure.",
+                      "start": 11.12,
+                      "end": 11.62
+                    },
+                    {
+                      "text": "Alright.",
+                      "start": 11.84,
+                      "end": 12.16
+                    }
+                  ],
+                  "speaker": 0,
+                  "num_words": 13,
+                  "start": 6.08,
+                  "end": 12.16
+                },
+                {
+                  "sentences": [
+                    {
+                      "text": "Thank you.",
+                      "start": 12.16,
+                      "end": 12.639999
+                    },
+                    {
+                      "text": "Bye.",
+                      "start": 12.639999,
+                      "end": 13.139999
+                    }
+                  ],
+                  "speaker": 0,
+                  "num_words": 3,
+                  "start": 12.16,
+                  "end": 13.139999
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "utterances": [
+      {
+        "start": 1.1999999,
+        "end": 7.54,
+        "confidence": 0.8317907,
+        "channel": 0,
+        "transcript": "Afternoon. INBTACS. How may I help? Hi. Can you tell the taxi for 32 a 4? Just please hold just a few minutes.",
+        "words": [
+          {
+            "word": "afternoon",
+            "start": 1.1999999,
+            "end": 1.6999999,
+            "confidence": 0.9867576,
+            "speaker": 0,
+            "speaker_confidence": 0.62398803,
+            "punctuated_word": "Afternoon."
+          },
+          {
+            "word": "inbtacs",
+            "start": 1.8399999,
+            "end": 2.34,
+            "confidence": 0.5127815,
+            "speaker": 0,
+            "speaker_confidence": 0.62398803,
+            "punctuated_word": "INBTACS."
+          },
+          {
+            "word": "how",
+            "start": 2.3999999,
+            "end": 2.56,
+            "confidence": 0.9973099,
+            "speaker": 0,
+            "speaker_confidence": 0.62398803,
+            "punctuated_word": "How"
+          },
+          {
+            "word": "may",
+            "start": 2.56,
+            "end": 2.6399999,
+            "confidence": 0.99796,
+            "speaker": 0,
+            "speaker_confidence": 0.62398803,
+            "punctuated_word": "may"
+          },
+          {
+            "word": "i",
+            "start": 2.6399999,
+            "end": 2.72,
+            "confidence": 0.99545705,
+            "speaker": 0,
+            "speaker_confidence": 0.62398803,
+            "punctuated_word": "I"
+          },
+          {
+            "word": "help",
+            "start": 2.72,
+            "end": 3.22,
+            "confidence": 0.9996792,
+            "speaker": 0,
+            "speaker_confidence": 0.62398803,
+            "punctuated_word": "help?"
+          },
+          {
+            "word": "hi",
+            "start": 3.52,
+            "end": 3.76,
+            "confidence": 0.9928886,
+            "speaker": 0,
+            "speaker_confidence": 0.6566408,
+            "punctuated_word": "Hi."
+          },
+          {
+            "word": "can",
+            "start": 3.76,
+            "end": 3.9199998,
+            "confidence": 0.98579943,
+            "speaker": 0,
+            "speaker_confidence": 0.6566408,
+            "punctuated_word": "Can"
+          },
+          {
+            "word": "you",
+            "start": 3.9199998,
+            "end": 4.08,
+            "confidence": 0.99470866,
+            "speaker": 0,
+            "speaker_confidence": 0.6566408,
+            "punctuated_word": "you"
+          },
+          {
+            "word": "tell",
+            "start": 4.08,
+            "end": 4.4,
+            "confidence": 0.987748,
+            "speaker": 0,
+            "speaker_confidence": 0.6566408,
+            "punctuated_word": "tell"
+          },
+          {
+            "word": "the",
+            "start": 4.4,
+            "end": 4.48,
+            "confidence": 0.56810796,
+            "speaker": 0,
+            "speaker_confidence": 0.6566408,
+            "punctuated_word": "the"
+          },
+          {
+            "word": "taxi",
+            "start": 4.48,
+            "end": 4.88,
+            "confidence": 0.81978977,
+            "speaker": 0,
+            "speaker_confidence": 0.6566408,
+            "punctuated_word": "taxi"
+          },
+          {
+            "word": "for",
+            "start": 4.88,
+            "end": 5.12,
+            "confidence": 0.92210585,
+            "speaker": 0,
+            "speaker_confidence": 0.6566408,
+            "punctuated_word": "for"
+          },
+          {
+            "word": "32",
+            "start": 5.12,
+            "end": 5.68,
+            "confidence": 0.9658163,
+            "speaker": 0,
+            "speaker_confidence": 0.6566408,
+            "punctuated_word": "32"
+          },
+          {
+            "word": "a",
+            "start": 5.68,
+            "end": 5.8399997,
+            "confidence": 0.77364475,
+            "speaker": 0,
+            "speaker_confidence": 0.6566408,
+            "punctuated_word": "a"
+          },
+          {
+            "word": "4",
+            "start": 5.8399997,
+            "end": 6.08,
+            "confidence": 0.70872617,
+            "speaker": 0,
+            "speaker_confidence": 0.6566408,
+            "punctuated_word": "4?"
+          },
+          {
+            "word": "just",
+            "start": 6.08,
+            "end": 6.24,
+            "confidence": 0.5341872,
+            "speaker": 0,
+            "speaker_confidence": 0.6566408,
+            "punctuated_word": "Just"
+          },
+          {
+            "word": "please",
+            "start": 6.24,
+            "end": 6.48,
+            "confidence": 0.46579313,
+            "speaker": 0,
+            "speaker_confidence": 0.6566408,
+            "punctuated_word": "please"
+          },
+          {
+            "word": "hold",
+            "start": 6.48,
+            "end": 6.64,
+            "confidence": 0.910362,
+            "speaker": 0,
+            "speaker_confidence": 0.6566408,
+            "punctuated_word": "hold"
+          },
+          {
+            "word": "just",
+            "start": 6.64,
+            "end": 6.7999997,
+            "confidence": 0.63199145,
+            "speaker": 0,
+            "speaker_confidence": 0.6566408,
+            "punctuated_word": "just"
+          },
+          {
+            "word": "a",
+            "start": 6.7999997,
+            "end": 6.8799996,
+            "confidence": 0.83440405,
+            "speaker": 0,
+            "speaker_confidence": 0.6566408,
+            "punctuated_word": "a"
+          },
+          {
+            "word": "few",
+            "start": 6.8799996,
+            "end": 7.04,
+            "confidence": 0.5957593,
+            "speaker": 0,
+            "speaker_confidence": 0.6566408,
+            "punctuated_word": "few"
+          },
+          {
+            "word": "minutes",
+            "start": 7.04,
+            "end": 7.54,
+            "confidence": 0.9494077,
+            "speaker": 0,
+            "speaker_confidence": 0.6566408,
+            "punctuated_word": "minutes."
+          }
+        ],
+        "speaker": 0,
+        "id": "862fa9d7-8ede-4e02-b01d-13557a59c79a"
+      },
+      {
+        "start": 10,
+        "end": 13.139999,
+        "confidence": 0.9556096,
+        "channel": 0,
+        "transcript": "Bear with me. Yeah. Sure. Alright. Thank you. Bye.",
+        "words": [
+          {
+            "word": "bear",
+            "start": 10,
+            "end": 10.32,
+            "confidence": 0.9702749,
+            "speaker": 0,
+            "speaker_confidence": 0.6475134,
+            "punctuated_word": "Bear"
+          },
+          {
+            "word": "with",
+            "start": 10.32,
+            "end": 10.48,
+            "confidence": 0.9998073,
+            "speaker": 0,
+            "speaker_confidence": 0.6475134,
+            "punctuated_word": "with"
+          },
+          {
+            "word": "me",
+            "start": 10.48,
+            "end": 10.8,
+            "confidence": 0.9992552,
+            "speaker": 0,
+            "speaker_confidence": 0.6475134,
+            "punctuated_word": "me."
+          },
+          {
+            "word": "yeah",
+            "start": 10.8,
+            "end": 11.12,
+            "confidence": 0.9937588,
+            "speaker": 0,
+            "speaker_confidence": 0.6475134,
+            "punctuated_word": "Yeah."
+          },
+          {
+            "word": "sure",
+            "start": 11.12,
+            "end": 11.62,
+            "confidence": 0.99957407,
+            "speaker": 0,
+            "speaker_confidence": 0.6475134,
+            "punctuated_word": "Sure."
+          },
+          {
+            "word": "alright",
+            "start": 11.84,
+            "end": 12.16,
+            "confidence": 0.65767443,
+            "speaker": 0,
+            "speaker_confidence": 0.6700981,
+            "punctuated_word": "Alright."
+          },
+          {
+            "word": "thank",
+            "start": 12.16,
+            "end": 12.4,
+            "confidence": 0.9954633,
+            "speaker": 0,
+            "speaker_confidence": 0.6700981,
+            "punctuated_word": "Thank"
+          },
+          {
+            "word": "you",
+            "start": 12.4,
+            "end": 12.639999,
+            "confidence": 0.99939466,
+            "speaker": 0,
+            "speaker_confidence": 0.6700981,
+            "punctuated_word": "you."
+          },
+          {
+            "word": "bye",
+            "start": 12.639999,
+            "end": 13.139999,
+            "confidence": 0.98528427,
+            "speaker": 0,
+            "speaker_confidence": 0.6700981,
+            "punctuated_word": "Bye."
+          }
+        ],
+        "speaker": 0,
+        "id": "435605f0-96b0-41e7-88d4-242830de2732"
+      }
+    ]
+  }
+}

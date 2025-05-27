@@ -1,0 +1,39 @@
+{
+    "results": [
+        {
+            "timestamp": "00:00:03",
+            "role": "Assistant",
+            "content": "United Cars."
+        },
+        {
+            "timestamp": "00:00:04",
+            "role": "Caller",
+            "content": "Could I have a taxi, please? On 72 Nixon Avenue."
+        },
+        {
+            "timestamp": "00:00:08",
+            "role": "Assistant",
+            "content": "Okay. Just bear with me. And Nixon Avenue, 72, going to?"
+        },
+        {
+            "timestamp": "00:00:19",
+            "role": "Caller",
+            "content": "Madison Court Road, Number 4."
+        },
+        {
+            "timestamp": "00:00:21",
+            "role": "Assistant",
+            "content": "Okay. It'll be five to ten minutes."
+        },
+        {
+            "timestamp": "00:00:24",
+            "role": "Caller",
+            "content": "Okay. Thank you."
+        },
+        {
+            "timestamp": "00:00:26",
+            "role": "Assistant",
+            "content": "Bye."
+        }
+    ]
+}

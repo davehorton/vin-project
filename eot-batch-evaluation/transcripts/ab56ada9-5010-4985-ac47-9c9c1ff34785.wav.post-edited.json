@@ -1,0 +1,54 @@
+{
+    "results": [
+        {
+            "Content": "Hello. Mount Cars.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Hello?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Oh, hello. I can't hear you very well,",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "um",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "I need a cab to go to Chingford Hatch, please.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "What was your name?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Mavis.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Yeah, that's about 5 minutes.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Alright. Thank you.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Alright.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        }
+    ]
+}

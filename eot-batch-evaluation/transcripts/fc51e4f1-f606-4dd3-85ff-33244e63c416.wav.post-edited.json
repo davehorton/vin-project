@@ -1,0 +1,279 @@
+{
+    "results": [
+        {
+            "Content": "Freddie speaking.",
+            "EndOfTurn": true,
+            "Role": "Passenger"
+        },
+        {
+            "Content": "Yeah. Hi. I'm calling from Alfacars. You booked a cab with us, sir, from Yatley, uh,",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Yeah.",
+            "EndOfTurn": true,
+            "Role": "Passenger"
+        },
+        {
+            "Content": "GU 46 to Terminal 4.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Yeah.",
+            "EndOfTurn": true,
+            "Role": "Passenger"
+        },
+        {
+            "Content": "How many passengers and luggage in total?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Uh, 1 passenger, uh,",
+            "EndOfTurn": false,
+            "Role": "Passenger"
+        },
+        {
+            "Content": "and",
+            "EndOfTurn": false,
+            "Role": "Passenger"
+        },
+        {
+            "Content": "3 bags.",
+            "EndOfTurn": true,
+            "Role": "Passenger"
+        },
+        {
+            "Content": "3 check-in bag, or 2 check and 1 hand luggage?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Uh,",
+            "EndOfTurn": false,
+            "Role": "Passenger"
+        },
+        {
+            "Content": "2 check-in, 1 hand luggage, I think.",
+            "EndOfTurn": true,
+            "Role": "Passenger"
+        },
+        {
+            "Content": "I just wanted to know because well, the normal car",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Yeah. Normal car is fine. Yeah.",
+            "EndOfTurn": true,
+            "Role": "Passenger"
+        },
+        {
+            "Content": "Yeah.",
+            "EndOfTurn": true,
+            "Role": "Passenger"
+        },
+        {
+            "Content": "Okay. Also wanted to know, sir, what is the name of the passenger? Is it, uh",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "D.A.?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "D.A., that's right, yeah.",
+            "EndOfTurn": true,
+            "Role": "Passenger"
+        },
+        {
+            "Content": "Okay.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "So we must enter, mm",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "number of the passenger in the booking, sir.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": " Yeah.",
+            "EndOfTurn": true,
+            "Role": "Passenger"
+        },
+        {
+            "Content": "Just bear with me.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "We have the price,",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "which is",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "updated in the booking.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Yeah.",
+            "EndOfTurn": true,
+            "Role": "Passenger"
+        },
+        {
+            "Content": "And you have already paid for it, sir.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Yeah.",
+            "EndOfTurn": true,
+            "Role": "Passenger"
+        },
+        {
+            "Content": "The travel gonna be there at 4:45",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Correct.",
+            "EndOfTurn": true,
+            "Role": "Passenger"
+        },
+        {
+            "Content": "PM?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Correct.",
+            "EndOfTurn": true,
+            "Role": "Passenger"
+        },
+        {
+            "Content": "All done for you.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Great.",
+            "EndOfTurn": true,
+            "Role": "Passenger"
+        },
+        {
+            "Content": "Thanks so much.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "You have his number. Right? You have his phone, his phone number?",
+            "EndOfTurn": true,
+            "Role": "Passenger"
+        },
+        {
+            "Content": "Yes.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "I wrote it",
+            "EndOfTurn": false,
+            "Role": "Passenger"
+        },
+        {
+            "Content": "0-7-7",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "1-0",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Yeah.",
+            "EndOfTurn": true,
+            "Role": "Passenger"
+        },
+        {
+            "Content": "4-6",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Yeah.",
+            "EndOfTurn": true,
+            "Role": "Passenger"
+        },
+        {
+            "Content": "0-3-1",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Correct.",
+            "EndOfTurn": true,
+            "Role": "Passenger"
+        },
+        {
+            "Content": "0-1-3-1?",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Correct.",
+            "EndOfTurn": true,
+            "Role": "Passenger"
+        },
+        {
+            "Content": "4-6-0",
+            "EndOfTurn": false,
+            "Role": "Passenger"
+        },
+        {
+            "Content": "Okay.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "1-3-1.",
+            "EndOfTurn": true,
+            "Role": "Passenger"
+        },
+        {
+            "Content": "Yeah.",
+            "EndOfTurn": true,
+            "Role": "Passenger"
+        },
+        {
+            "Content": "Got it. Thanks so much, sir.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Thanks a lot. Bye.",
+            "EndOfTurn": true,
+            "Role": "Passenger"
+        },
+        {
+            "Content": "Cheers.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        }
+    ]
+}

@@ -1,0 +1,59 @@
+{
+    "results": [
+        {
+            "Content": "Dreamline TeleCabs. Lisa speaking.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Hi. It's Mrs. Williams. We've got a taxi booked for 12:30. Is it",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "nearly here?",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "'Kay. So the driver is six minutes away.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "We've gotta be at Morley for 1 o'clock.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Alright",
+            "EndOfTurn": false,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "You",
+            "EndOfTurn": false,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Okay. So it's only twenty five past, so he'll only be about a minute or two late.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Okay. Thank you.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        },
+        {
+            "Content": "Thanks a lot. Bye.",
+            "EndOfTurn": true,
+            "Role": "Assistant"
+        },
+        {
+            "Content": "Bye.",
+            "EndOfTurn": true,
+            "Role": "Caller"
+        }
+    ]
+}

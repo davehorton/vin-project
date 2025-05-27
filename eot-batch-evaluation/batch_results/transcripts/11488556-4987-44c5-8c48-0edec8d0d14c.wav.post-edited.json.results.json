@@ -1,0 +1,201 @@
+{
+  "file_path": "transcripts/11488556-4987-44c5-8c48-0edec8d0d14c.wav.post-edited.json",
+  "file_name": "11488556-4987-44c5-8c48-0edec8d0d14c.wav.post-edited.json",
+  "utterance_analysis": [
+    {
+      "index": 0,
+      "content": "Abba Cars.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.0028632923495024443,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 1,
+      "content": "Hello, love. Can I have a taxi to Tesco, please? Going to Higham Avenue, Dallam. For Jo",
+      "role": "Caller",
+      "ground_truth": 0,
+      "predicted_probability": 0.7180410027503967,
+      "predicted_label": 1,
+      "is_correct": false
+    },
+    {
+      "index": 2,
+      "content": "Tesco's a big one. Five minutes. Thank you.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.009221683256328106,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 3,
+      "content": "From Tesco at Subway to Jarvis Close, right?",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.028336621820926666,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 4,
+      "content": "Yeah.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.009071803651750088,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 5,
+      "content": "5 minutes. Thank you.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.013744724914431572,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 6,
+      "content": "Thank you. Bye.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.01652499847114086,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 7,
+      "content": "Bye.",
+      "role": "Assistant",
+      "ground_truth": 1,
+      "predicted_probability": 0.010472826659679413,
+      "predicted_label": 0,
+      "is_correct": false
+    },
+    {
+      "index": 8,
+      "content": "Bye.",
+      "role": "Caller",
+      "ground_truth": 1,
+      "predicted_probability": 0.009184003807604313,
+      "predicted_label": 0,
+      "is_correct": false
+    }
+  ],
+  "f1_scores": {
+    "0.1": 0.0,
+    "0.2": 0.0,
+    "0.3": 0.0,
+    "0.4": 0.0,
+    "0.5": 0.0,
+    "0.6": 0.0,
+    "0.7": 0.0,
+    "0.8": 0.0,
+    "0.9": 0.0
+  },
+  "optimal_threshold": 0.5,
+  "roc": {
+    "fpr": [
+      0.0,
+      1.0,
+      1.0
+    ],
+    "tpr": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "thresholds": [
+      Infinity,
+      0.7180410027503967,
+      0.0028632923495024443
+    ],
+    "auc": 0.0
+  },
+  "pr": {
+    "precision": [
+      0.8888888888888888,
+      0.875,
+      0.8571428571428571,
+      0.8333333333333334,
+      0.8,
+      0.75,
+      0.6666666666666666,
+      0.5,
+      0.0,
+      1.0
+    ],
+    "recall": [
+      1.0,
+      0.875,
+      0.75,
+      0.625,
+      0.5,
+      0.375,
+      0.25,
+      0.125,
+      0.0,
+      0.0
+    ],
+    "thresholds": [
+      0.0028632923495024443,
+      0.009071803651750088,
+      0.009184003807604313,
+      0.009221683256328106,
+      0.010472826659679413,
+      0.013744724914431572,
+      0.01652499847114086,
+      0.028336621820926666,
+      0.7180410027503967
+    ]
+  },
+  "confusion_matrix": [
+    [
+      0,
+      1
+    ],
+    [
+      8,
+      0
+    ]
+  ],
+  "metrics": {
+    "accuracy": 0.0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "total_utterances": 9,
+    "eot_ratio": 0.8888888888888888
+  },
+  "latency": {
+    "mean": 0.29917677243550617,
+    "median": 0.3159642219543457,
+    "min": 0.08479881286621094,
+    "max": 0.4427926540374756,
+    "p95": 0.43199429512023924
+  },
+  "role_analysis": {
+    "Assistant": {
+      "count": 5,
+      "accuracy": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "eot_ratio": 1.0
+    },
+    "Caller": {
+      "count": 4,
+      "accuracy": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "eot_ratio": 0.75
+    }
+  },
+  "error_summary": {
+    "false_positives": 1,
+    "false_negatives": 8
+  }
+}

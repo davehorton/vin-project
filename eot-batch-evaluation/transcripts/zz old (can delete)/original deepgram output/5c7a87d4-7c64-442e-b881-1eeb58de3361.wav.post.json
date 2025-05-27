@@ -1,0 +1,159 @@
+{
+  "results": [
+    {
+      "timestamp": "00:00:03",
+      "role": "Speaker 0",
+      "content": "Good afternoon, Marie. Thank you for calling A and B taxis. The best way to book is by using our app. Your next booking is scheduled to arrive Wednesday, February 5 at 11:45AM to pick you up from three pintails. Are you calling about this booking?"
+    },
+    {
+      "timestamp": "00:00:20",
+      "role": "Speaker 1",
+      "content": "No. We are waiting at the DIPORT clinic to go to the three pintails. Put me through to an operator."
+    },
+    {
+      "timestamp": "00:00:32",
+      "role": "Speaker 0",
+      "content": "Let's schedule a booking. Would you like to be picked up from Dippel Medical Center East Wing, Wickford Avenue, Basildon?"
+    },
+    {
+      "timestamp": "00:00:41",
+      "role": "Speaker 1",
+      "content": "Put me through to a operator, please."
+    },
+    {
+      "timestamp": "00:00:46",
+      "role": "Speaker 0",
+      "content": "I'll forward you to an operator who will be able to assist you."
+    },
+    {
+      "timestamp": "00:00:54",
+      "role": "Speaker 2",
+      "content": "Good afternoon."
+    },
+    {
+      "timestamp": "00:00:56",
+      "role": "Speaker 1",
+      "content": "Hi. It's Maria again from, the DIPPLE clinic to go to three Pintails. Is there a problem with the taxi? It's taking so long."
+    },
+    {
+      "timestamp": "00:01:06",
+      "role": "Speaker 2",
+      "content": "Okay. You've ordered it from three pintails. No. No. But Yeah."
+    },
+    {
+      "timestamp": "00:01:11",
+      "role": "Speaker 2",
+      "content": "You have. Unfortunately, it's been ordered from three pintails."
+    },
+    {
+      "timestamp": "00:01:14",
+      "role": "Speaker 1",
+      "content": "No. No. From we"
+    },
+    {
+      "timestamp": "00:01:16",
+      "role": "Speaker 2",
+      "content": "are But it the computer said back to you, it said"
+    },
+    {
+      "timestamp": "00:01:21",
+      "role": "Speaker 1",
+      "content": "three Pintels. You must have missed it."
+    },
+    {
+      "timestamp": "00:01:22",
+      "role": "Speaker 2",
+      "content": "They're making mistakes. They're making mistakes. Made a mistake, madam, but I was just explaining why the reason we haven't turned up to you is because you've sent it to three Pintels by mistake."
+    },
+    {
+      "timestamp": "00:01:31",
+      "role": "Speaker 1",
+      "content": "Can we correct can we correct it now? I do that now for you. The full clinic."
+    },
+    {
+      "timestamp": "00:01:37",
+      "role": "Speaker 2",
+      "content": "Okay, Marie. Going to three pintails. Yeah?"
+    },
+    {
+      "timestamp": "00:01:40",
+      "role": "Speaker 1",
+      "content": "Yeah. From the dental clinic."
+    },
+    {
+      "timestamp": "00:01:43",
+      "role": "Speaker 2",
+      "content": "No problem. I'll do that for you now."
+    },
+    {
+      "timestamp": "00:01:45",
+      "role": "Speaker 1",
+      "content": "Okay. Listen. How long is it gonna take?"
+    },
+    {
+      "timestamp": "00:01:48",
+      "role": "Speaker 2",
+      "content": "I'm gonna send it straight away. So a few minutes."
+    },
+    {
+      "timestamp": "00:01:51",
+      "role": "Speaker 1",
+      "content": "Okay. Listen. And and the other thing is when I phone and the and and and the the recording, still got that booking for tomorrow, which is wrong. Can you cancel tomorrow's booking?"
+    },
+    {
+      "timestamp": "00:02:04",
+      "role": "Speaker 2",
+      "content": "Okay. Let me just have a look for you. One second. Okay. So you're not supposed to have one in for tomorrow?"
+    },
+    {
+      "timestamp": "00:02:13",
+      "role": "Speaker 2",
+      "content": "No. Right. Okay. No problem. I'll get that canceled out for you."
+    },
+    {
+      "timestamp": "00:02:19",
+      "role": "Speaker 1",
+      "content": "Okay. So Okay. Is it actually on its way?"
+    },
+    {
+      "timestamp": "00:02:22",
+      "role": "Speaker 2",
+      "content": "Yes. I'm sending it on its way now for you to the DIPL Center, and I can I'm gonna cancel the two that you have booked for tomorrow."
+    },
+    {
+      "timestamp": "00:02:29",
+      "role": "Speaker 1",
+      "content": "Yeah. At the DIPL clinic at the DIPL Medical Center."
+    },
+    {
+      "timestamp": "00:02:33",
+      "role": "Speaker 2",
+      "content": "Yes. No problem. They're canceled for you."
+    },
+    {
+      "timestamp": "00:02:36",
+      "role": "Speaker 1",
+      "content": "Okay. But but we are here at the DIPL clinic now."
+    },
+    {
+      "timestamp": "00:02:40",
+      "role": "Speaker 2",
+      "content": "Yes. I've sent it to the dental clinic now for you. I've updated it."
+    },
+    {
+      "timestamp": "00:02:44",
+      "role": "Speaker 1",
+      "content": "Okay. Thank"
+    },
+    {
+      "timestamp": "00:02:45",
+      "role": "Speaker 2",
+      "content": "you. You're welcome. Bye. Bye bye."
+    },
+    {
+      "timestamp": "00:02:47",
+      "role": "Speaker 1",
+      "content": "Bye bye."
+    }
+  ]
+}
